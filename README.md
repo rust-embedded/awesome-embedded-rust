@@ -5,16 +5,18 @@
 ## Table of contents
 
 * [Device crates](#device-crates)
-    * [STMicroelectronics](#stmicroelectronics)
     * [Nordic](#nordic)
+    * [NXP](#nxp)
+    * [STMicroelectronics](#stmicroelectronics)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [Nordic](#nordic-1)
-    * [NXP](#nxp)
+    * [NXP](#nxp-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments)
 * [Board support crates](#board-support-crates)
-    * [NXP](#nxp-1)
+    * [Nordic](#nordic-2)
+    * [NXP](#nxp-2)
     * [STMicroelectronics](#stmicroelectronics-2)
 * [Driver crates](#driver-crates)
     * [WIP](#wip)
@@ -32,14 +34,19 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
 
-### STMicroelectronics
-
-- [`stm32f103xx`](https://crates.io/crates/stm32f103xx)
-- [`stm32f30x`](https://crates.io/crates/stm32f30x)
-
 ### Nordic
 
 - [`nrf51`](https://crates.io/crates/nrf51)
+
+### NXP
+
+- [`mkw41z`](https://crates.io/crates/mkw41z)
+
+### STMicroelectronics
+
+- [`stm32f042`](https://crates.io/crates/stm32f042)
+- [`stm32f103xx`](https://crates.io/crates/stm32f103xx)
+- [`stm32f30x`](https://crates.io/crates/stm32f30x)
 
 ## HAL implementation crates
 
@@ -85,7 +92,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
 
 - [`stm32f103xx-hal`](https://github.com/japaric/stm32f103xx-hal)
-  - Has examples that can run on boards like the [Blue pill] and similar boards
+  - Has examples that can run on boards like the [Blue pill], [Nucleo-F103RB] and similar boards
+
+[Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
 - [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal)
 
@@ -101,6 +110,12 @@ Crates tailored for specific development boards.
 
 [STM32F3DISCOVERY]: http://www.st.com/en/evaluation-tools/stm32f3discovery.html
 
+### Nordic
+
+- [`microbit`](https://crates.io/crates/microbit) - [micro:bit]
+
+[micro:bit]: http://microbit.org/
+
 ### NXP
 
 - [`frdm-kw41z`](https://crates.io/crates/frdm-kw41z) - [FRDM-KW41Z]
@@ -109,6 +124,8 @@ Crates tailored for specific development boards.
 
 ### STMicroelectronics
 
+- [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
+- [`nucleo-f103rb`](https://github.com/therealprof/nucleo-f103rb.git) - [Nucleo-F103RB]
 - [`f3`](https://crates.io/crates/f3) - [STM32F3DISCOVERY]
 
 ## Driver crates
