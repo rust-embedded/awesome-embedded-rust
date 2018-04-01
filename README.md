@@ -192,7 +192,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [BH1750]: https://github.com/wose/bh1750
 [SHT2x]: https://github.com/dbrgn/sht2x-rs
 [INA260]: https://crates.io/crates/ina260
-[SSD1306]: https://github.com/EdgewaterDevelopment/rust-ssd1306
+[SSD1306]: https://github.com/jamwaffles/ssd1306
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [HD44780]: http://github.com/kunerd/clerk
 [HTS221]: https://github.com/danielgallagher0/hts221
