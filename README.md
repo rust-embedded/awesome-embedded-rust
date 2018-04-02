@@ -47,6 +47,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32f042`](https://crates.io/crates/stm32f042)
 - [`stm32f103xx`](https://crates.io/crates/stm32f103xx)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x)
+- [`stm32l151`](https://crates.io/crates/stm32l151)
 
 ## HAL implementation crates
 
@@ -97,6 +98,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
 - [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal)
+
+- [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal)
 
 ### Texas Instruments
 
@@ -232,10 +235,13 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 ## no-std crates
 
-`#![no_std]` crates designed to run on resource constrained devices.
+[`#![no_std]` crates][no-std-category] designed to run on resource constrained devices.
 
 *whoops* this list is currently empty. Want to help us write it? Leave a comment on issue [#2].
 
+- [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays
+
+[no-std-category]: https://crates.io/categories/no-std
 [#2]: https://github.com/rust-embedded/awesome-embedded-rust/issues/2
 
 ## License
