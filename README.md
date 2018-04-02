@@ -197,6 +197,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [SX1278] - SPI - Low range (LoRa) transceiver
 - [RFM69] - SPI - ISM radio transceiver
 - [LS010B7DH01] - SPI - Memory LCD
+- [MAX31855] - SPI - Thermocouple digital converter
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -223,6 +224,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SX1278]: https://github.com/susu/sx1278
 [RFM69]: https://github.com/lolzballs/rfm69
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
+[MAX31855]: https://github.com/mbacch/max31855
 
 ## no-std crates
 
