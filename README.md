@@ -147,6 +147,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 4. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4]
 5. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5]
 6. [SGP30] - I2C - Gas sensor - [Intro blog post][6]
+7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7]
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -162,6 +163,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [5]: https://blog.dbrgn.ch/2018/3/13/rust-mcp3425-driver/
 [SGP30]: https://crates.io/crates/sgp30
 [6]: https://blog.dbrgn.ch/2018/4/1/rust-sgp30-driver/
+
+[HTS221]: https://crates.io/crates/hts221
+[7]: https://medium.com/@pdanielgallagher/hts221-humidity-and-temperature-sensor-88056ea9e5fa
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -186,7 +190,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [SSD1306] - I2C - OLED display driver
 - [ILI9341] - SPI - TFT LCD display
 - [HD44780] - Parallel port - LCD controller
-- [HTS221] - I2C - Humidity and temperature sensor
 - [MCP9808] - I2C - Temperature sensor
 - [MMA7660FC] - I2C - 3-axis accelerometer
 - [AXP209] - I2C - Power management unit
@@ -214,7 +217,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SSD1306]: https://github.com/jamwaffles/ssd1306
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [HD44780]: http://github.com/kunerd/clerk
-[HTS221]: https://github.com/danielgallagher0/hts221
 [MCP9808]: https://crates.io/crates/mcp9808
 [MMA7660FC]: https://github.com/rahul-thakoor/mma7660fc
 [PCD8544]: https://github.com/pcein/pcd8544
