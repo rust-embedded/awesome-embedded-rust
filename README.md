@@ -198,6 +198,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [RFM69] - SPI - ISM radio transceiver
 - [LS010B7DH01] - SPI - Memory LCD
 - [MAX31855] - SPI - Thermocouple digital converter
+- [SHT3x] - I2C - Temperature / humidity sensors
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -225,6 +226,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [RFM69]: https://github.com/lolzballs/rfm69
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [MAX31855]: https://github.com/mbacch/max31855
+[SHT3x]: https://github.com/miek/sht3x-rs
 
 ## no-std crates
 
