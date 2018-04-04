@@ -200,7 +200,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [PCD8544] - SPI - 48x84 pixels matrix LCD controller
 - [HC-SR04] - DIO - Ultrasound sensor
 - [AFE4400] - SPI - Pulse oximeter
-- [SX1278] - SPI - Low range (LoRa) transceiver
+- [SX1278] - SPI - Long range (LoRa) transceiver
 - [RFM69] - SPI - ISM radio transceiver
 - [LS010B7DH01] - SPI - Memory LCD
 - [MAX31855] - SPI - Thermocouple digital converter
