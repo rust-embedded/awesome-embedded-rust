@@ -1,13 +1,22 @@
-# `awesome-embedded-rust`
+# Embedded Rust
 
-> A curated list of crates useful for embedded development.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+This is a curated list of resources related to embedded and low-level programming in the programming language Rust, including a list of useful crates.
+
+[<img src="https://rawgit.com/rust-embedded/awesome-embedded-rust/master/rust-embedded-logo-256x256.png" align="right" width="256">](http://www.rust-embedded.org)
 
 ## Table of contents
 
+* [Community](#community)
+* [Books, blogs and training materials](#books-blogs-and-training-materials)
+* [Tools](#tools)
 * [Device crates](#device-crates)
+    * [ARM](#arm)
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
+    * [MSP430](#msp430)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [Nordic](#nordic-1)
@@ -21,7 +30,41 @@
 * [Driver crates](#driver-crates)
     * [WIP](#wip)
 * [no-std crates](#no-std-crates)
+* [Rust forks](#rust-forks)
+    - [AVR](#avr)
 * [License](#license)
+
+## Community
+
+In 2018 Mozilla asked for creation of an embedded workgroup to help drive adoption in the Rust ecosystem.
+
+- [Embedded WG](https://github.com/rust-lang-nursery/embedded-wg/), including newsletters with progress updates.
+
+- [embedded.rs](https://t.me/embedded_rs) Telegram chat about Rust for microcontrollers in Russian language.
+
+## Books, blogs and training materials
+
+-   [Discovery](https://japaric.github.io/discovery/) by @japaric — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language.
+-   [Exploring Rust on Teensy](https://branan.github.io/teensy/) by @branan — Beginner set of articles on getting into embedded dev in Rust.
+-   [Pragmatic Bare Metal Rust](http://www.hashmismatch.net/pragmatic-bare-metal-rust/) A starter article about starting Rust development on STM32 microcontrollers (cubeMX + FFI).
+-   [Using Rust in an Embedded Project: A Simple Example](https://spin.atomicobject.com/2016/07/08/rust-embedded-project-example/#.V3-os-6qlZw.hackernews) Article and some links on setting up Rust cross-compiling.
+-   [Robigalia](https://robigalia.org) IoT operating system in Rust running on secure seL4 microkernel.
+-   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
+-   [intermezzOS](http://intermezzos.github.io) A small teaching operating system in Rust. A book with some explanations is also included.
+-   [Raspberry Pi Bare Metal Programming with Rust](https://medium.com/@thiagopnts/raspberry-pi-bare-metal-programming-with-rust-a6f145e84024) A starter article on OSdev with Rust on RPi (cross-compiler setup and a very basic LED-blinking kernel).
+-   [Fearless concurrency](http://blog.japaric.io/fearless-concurrency/) by @japaric — How to easily develop Rust programs for pretty much any ARM Cortex-M microcontroller with memory-safe concurrency.
+-   [RTFM v2](http://blog.japaric.io/rtfm-v2/) Real-Time For the Masses — Cortex-M programming framework for building concurrent applications.
+-   [cortex-m rtfm](https://github.com/japaric/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
+-   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
+-   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
+
+## Tools
+
+-   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build rust runtime for your own embedded system.
+-   [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
+-   [μtest](https://github.com/japaric/utest) unit testing for microcontrollers and other no-std systems.
+-   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries.
+-   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
 
 ## Device crates
 
@@ -34,9 +77,14 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
 
+### ARM
+
+- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
+
 ### Nordic
 
-- [`nrf51`](https://crates.io/crates/nrf51)
+- [`nrf51`](https://crates.io/crates/nrf51) Peripheral access API for nRF51 microcontrollers (generated using svd2rust)
+- [`nrf51822` playground](https://github.com/japaric/nrf51822) A crate to play with the nrf51822 module
 
 ### NXP
 
@@ -46,9 +94,15 @@ Register definition for microcontroller families. Usually generated using [`svd2
 ### STMicroelectronics
 
 - [`stm32f042`](https://crates.io/crates/stm32f042)
-- [`stm32f103xx`](https://crates.io/crates/stm32f103xx)
-- [`stm32f30x`](https://crates.io/crates/stm32f30x)
+- [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust)
+- [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust)
+- [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust)
 - [`stm32l151`](https://crates.io/crates/stm32l151)
+
+### MSP430
+-   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
+-   [rust on msp](https://github.com/japaric/rust_on_msp) Simple blinking LED example that runs on MSP430.
+-   [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
 
 ## HAL implementation crates
 
@@ -130,7 +184,8 @@ Crates tailored for specific development boards.
 
 - [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
 - [`nucleo-f103rb`](https://github.com/therealprof/nucleo-f103rb.git) - [Nucleo-F103RB]
-- [`f3`](https://crates.io/crates/f3) - [STM32F3DISCOVERY]
+- [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY]
+- [`blue-pill`](https://github.com/japaric/blue-pill) Board Support Crate for [Blue Pill].
 
 ## Driver crates
 
@@ -244,6 +299,11 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 [no-std-category]: https://crates.io/categories/no-std
 [#2]: https://github.com/rust-embedded/awesome-embedded-rust/issues/2
+
+## Rust forks
+
+### AVR
+-  [AVR Rust](https://github.com/avr-rust/rust) Fork of Rust with AVR support.
 
 ## License
 
