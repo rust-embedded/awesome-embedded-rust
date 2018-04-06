@@ -40,6 +40,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 ### NXP
 
+- [`lpc82x`](https://crates.io/crates/lpc82x)
 - [`mkw41z`](https://crates.io/crates/mkw41z)
 
 ### STMicroelectronics
