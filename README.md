@@ -94,8 +94,9 @@ Register definition for microcontroller families. Usually generated using [`svd2
 ### STMicroelectronics
 
 - [`stm32f042`](https://crates.io/crates/stm32f042)
-- [`stm32f103xx`](https://crates.io/crates/stm32f103xx)
-- [`stm32f30x`](https://crates.io/crates/stm32f30x)
+- [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust)
+- [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust)
+- [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust)
 - [`stm32l151`](https://crates.io/crates/stm32l151)
 
 ### MSP430
@@ -183,7 +184,8 @@ Crates tailored for specific development boards.
 
 - [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
 - [`nucleo-f103rb`](https://github.com/therealprof/nucleo-f103rb.git) - [Nucleo-F103RB]
-- [`f3`](https://crates.io/crates/f3) - [STM32F3DISCOVERY]
+- [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY]
+- [`blue-pill`](https://github.com/japaric/blue-pill) Board Support Crate for [Blue Pill].
 
 ## Driver crates
 
