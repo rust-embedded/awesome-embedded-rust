@@ -10,6 +10,7 @@ This is a curated list of resources related to embedded and low-level programmin
 
 * [Community](#community)
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
+* [Tools](#tools)
 * [Device crates](#device-crates)
     * [Nordic](#nordic)
     * [NXP](#nxp)
@@ -52,6 +53,14 @@ In 2018 Mozilla asked for creation of an embedded workgroup to help drive adopti
 -   [cortex-m rtfm](https://github.com/japaric/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
 -   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
 -   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
+
+## Tools
+
+-   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build rust runtime for your own embedded system.
+-   [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
+-   [μtest](https://github.com/japaric/utest) unit testing for microcontrollers and other no-std systems.
+-   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries.
+-   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
 
 ## Device crates
 
