@@ -83,7 +83,8 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 ### Nordic
 
-- [`nrf51`](https://crates.io/crates/nrf51)
+- [`nrf51`](https://crates.io/crates/nrf51) Peripheral access API for nRF51 microcontrollers (generated using svd2rust)
+- [`nrf51822` playground](https://github.com/japaric/nrf51822) A crate to play with the nrf51822 module
 
 ### NXP
 
