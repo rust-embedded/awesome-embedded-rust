@@ -16,6 +16,7 @@ This is a curated list of resources related to embedded and low-level programmin
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
+    * [MSP430](#msp430)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [Nordic](#nordic-1)
@@ -93,6 +94,11 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32f103xx`](https://crates.io/crates/stm32f103xx)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x)
 - [`stm32l151`](https://crates.io/crates/stm32l151)
+
+### MSP430
+-   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
+-   [rust on msp](https://github.com/japaric/rust_on_msp) Simple blinking LED example that runs on MSP430.
+-   [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
 
 ## HAL implementation crates
 
