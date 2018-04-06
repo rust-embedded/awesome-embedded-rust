@@ -9,6 +9,7 @@ This is a curated list of resources related to embedded and low-level programmin
 ## Table of contents
 
 * [Community](#community)
+* [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Device crates](#device-crates)
     * [Nordic](#nordic)
     * [NXP](#nxp)
@@ -35,6 +36,22 @@ In 2018 Mozilla asked for creation of an embedded workgroup to help drive adopti
 - [Embedded WG](https://github.com/rust-lang-nursery/embedded-wg/), including newsletters with progress updates.
 
 - [embedded.rs](https://t.me/embedded_rs) Telegram chat about Rust for microcontrollers in Russian language.
+
+## Books, blogs and training materials
+
+-   [Discovery](https://japaric.github.io/discovery/) by @japaric — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language.
+-   [Exploring Rust on Teensy](https://branan.github.io/teensy/) by @branan — Beginner set of articles on getting into embedded dev in Rust.
+-   [Pragmatic Bare Metal Rust](http://www.hashmismatch.net/pragmatic-bare-metal-rust/) A starter article about starting Rust development on STM32 microcontrollers (cubeMX + FFI).
+-   [Using Rust in an Embedded Project: A Simple Example](https://spin.atomicobject.com/2016/07/08/rust-embedded-project-example/#.V3-os-6qlZw.hackernews) Article and some links on setting up Rust cross-compiling.
+-   [Robigalia](https://robigalia.org) IoT operating system in Rust running on secure seL4 microkernel.
+-   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
+-   [intermezzOS](http://intermezzos.github.io) A small teaching operating system in Rust. A book with some explanations is also included.
+-   [Raspberry Pi Bare Metal Programming with Rust](https://medium.com/@thiagopnts/raspberry-pi-bare-metal-programming-with-rust-a6f145e84024) A starter article on OSdev with Rust on RPi (cross-compiler setup and a very basic LED-blinking kernel).
+-   [Fearless concurrency](http://blog.japaric.io/fearless-concurrency/) by @japaric — How to easily develop Rust programs for pretty much any ARM Cortex-M microcontroller with memory-safe concurrency.
+-   [RTFM v2](http://blog.japaric.io/rtfm-v2/) Real-Time For the Masses — Cortex-M programming framework for building concurrent applications.
+-   [cortex-m rtfm](https://github.com/japaric/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
+-   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
+-   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
 
 ## Device crates
 
