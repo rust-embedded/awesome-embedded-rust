@@ -8,6 +8,7 @@ This is a curated list of resources related to embedded and low-level programmin
 
 ## Table of contents
 
+* [Community](#community)
 * [Device crates](#device-crates)
     * [Nordic](#nordic)
     * [NXP](#nxp)
@@ -26,6 +27,12 @@ This is a curated list of resources related to embedded and low-level programmin
     * [WIP](#wip)
 * [no-std crates](#no-std-crates)
 * [License](#license)
+
+## Community
+
+In 2018 Mozilla asked for creation of an embedded workgroup to help drive adoption in the Rust ecosystem.
+
+- [Embedded WG](https://github.com/rust-lang-nursery/embedded-wg/), including newsletters with progress updates.
 
 ## Device crates
 
