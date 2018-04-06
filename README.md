@@ -1,5 +1,7 @@
 # Embedded Rust
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 This is a curated list of resources related to embedded and low-level programming in the programming language Rust, including a list of useful crates.
 
 [<img src="https://rawgit.com/rust-embedded/awesome-embedded-rust/master/rust-embedded-logo-256x256.png" align="right" width="256">](http://www.rust-embedded.org)
