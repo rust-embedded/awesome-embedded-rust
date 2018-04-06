@@ -2,6 +2,8 @@
 
 > A curated list of crates useful for embedded development.
 
+[<img src="https://rawgit.com/rust-embedded/awesome-embedded-rust/master/rust-embedded-logo-256x256.png" align="right" width="256">](http://www.rust-embedded.org)
+
 ## Table of contents
 
 * [Device crates](#device-crates)
