@@ -30,6 +30,8 @@ This is a curated list of resources related to embedded and low-level programmin
 * [Driver crates](#driver-crates)
     * [WIP](#wip)
 * [no-std crates](#no-std-crates)
+* [Rust forks](#rust-forks)
+    - [AVR](#avr)
 * [License](#license)
 
 ## Community
@@ -294,6 +296,11 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 [no-std-category]: https://crates.io/categories/no-std
 [#2]: https://github.com/rust-embedded/awesome-embedded-rust/issues/2
+
+## Rust forks
+
+### AVR
+-  [AVR Rust](https://github.com/avr-rust/rust) Fork of Rust with AVR support.
 
 ## License
 
