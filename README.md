@@ -34,6 +34,8 @@ In 2018 Mozilla asked for creation of an embedded workgroup to help drive adopti
 
 - [Embedded WG](https://github.com/rust-lang-nursery/embedded-wg/), including newsletters with progress updates.
 
+- [embedded.rs](https://t.me/embedded_rs) Telegram chat about Rust for microcontrollers in Russian language.
+
 ## Device crates
 
 Register definition for microcontroller families. Usually generated using [`svd2rust`].
