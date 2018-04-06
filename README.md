@@ -12,6 +12,7 @@ This is a curated list of resources related to embedded and low-level programmin
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Tools](#tools)
 * [Device crates](#device-crates)
+    * [ARM](#arm)
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
@@ -72,6 +73,10 @@ Register definition for microcontroller families. Usually generated using [`svd2
 [`svd2rust`][svd2rust-kw] keyword on crates.io!
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
+
+### ARM
+
+- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
 
 ### Nordic
 
