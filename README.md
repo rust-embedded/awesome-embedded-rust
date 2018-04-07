@@ -298,6 +298,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 *whoops* this list is currently empty. Want to help us write it? Leave a comment on issue [#2].
 
 - [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays
+- [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`
 
 [no-std-category]: https://crates.io/categories/no-std
 [#2]: https://github.com/rust-embedded/awesome-embedded-rust/issues/2
