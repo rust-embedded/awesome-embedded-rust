@@ -99,6 +99,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust)
 - [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust)
+- [`stm32f429`](https://crates.io/crates/stm32f429) Peripheral access API for STM32F429 microcontrollers (generated using svd2rust)
 - [`stm32l151`](https://crates.io/crates/stm32l151)
 
 ### MSP430
@@ -155,6 +156,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
 - [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal)
+
+- [`stm32f429-hal`](https://crates.io/crates/stm32f429-hal)
 
 - [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal)
 
