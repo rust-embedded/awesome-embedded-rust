@@ -298,6 +298,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 *whoops* this list is currently empty. Want to help us write it? Leave a comment on issue [#2].
 
 - [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays
+- [heapless](https://crates.io/crates/heapless): provides `Vec`, `String`, `LinearMap`, `RingBuffer` backed by fixed-size buffers
+- [managed](https://crates.io/crates/managed): provides `ManagedSlice`, `ManagedMap` backed by either their std counterparts or fixed-size buffers for `#![no_std]`.
 
 [no-std-category]: https://crates.io/categories/no-std
 [#2]: https://github.com/rust-embedded/awesome-embedded-rust/issues/2
