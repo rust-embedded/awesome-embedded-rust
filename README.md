@@ -65,14 +65,14 @@ In 2018 Mozilla asked for creation of an embedded workgroup to help drive adopti
 -   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build rust runtime for your own embedded system.
 -   [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
 -   [μtest](https://github.com/japaric/utest) unit testing for microcontrollers and other no-std systems.
--   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries.
+-   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries. - ![crates.io](https://img.shields.io/crates/v/bindgen.svg)
 -   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
 
 ## Device crates
 
-Register definition for microcontroller families. Usually generated using [`svd2rust`].
+Register definition for microcontroller families. Usually generated using [`svd2rust`]. - ![crates.io](https://img.shields.io/crates/v/svd2rust.svg)
 
-[`svd2rust`]: https://crates.io/crates/svd2rust
+[`svd2rust`]: https://crates.io/crates/svd2rust 
 
 *NOTE* You may be able to find even more device crates by searching for the
 [`svd2rust`][svd2rust-kw] keyword on crates.io!
@@ -85,22 +85,22 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 ### Nordic
 
-- [`nrf51`](https://crates.io/crates/nrf51) Peripheral access API for nRF51 microcontrollers (generated using svd2rust)
+- [`nrf51`](https://crates.io/crates/nrf51) Peripheral access API for nRF51 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/nrf51.svg)
 - [`nrf51822` playground](https://github.com/japaric/nrf51822) A crate to play with the nrf51822 module
 
 ### NXP
 
-- [`lpc82x`](https://crates.io/crates/lpc82x)
-- [`mkw41z`](https://crates.io/crates/mkw41z)
+- [`lpc82x`](https://crates.io/crates/lpc82x) - ![crates.io](https://img.shields.io/crates/v/lpc82x.svg)
+- [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 
 ### STMicroelectronics
 
-- [`stm32f042`](https://crates.io/crates/stm32f042)
-- [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust)
-- [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust)
-- [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust)
-- [`stm32f429`](https://crates.io/crates/stm32f429) Peripheral access API for STM32F429 microcontrollers (generated using svd2rust)
-- [`stm32l151`](https://crates.io/crates/stm32l151)
+- [`stm32f042`](https://crates.io/crates/stm32f042) - ![crates.io](https://img.shields.io/crates/v/stm32f042.svg)
+- [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f103xx.svg)
+- [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f100xx.svg)
+- [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f30x.svg)
+- [`stm32f429`](https://crates.io/crates/stm32f429) Peripheral access API for STM32F429 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f429.svg)
+- [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 
 ### MSP430
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
@@ -109,9 +109,9 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 ## HAL implementation crates
 
-Implementations of [`embedded-hal`] for microcontroller families and systems running some OS.
+Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
 
-[`embedded-hal`]: https://crates.io/crates/embedded-hal
+[`embedded-hal`]: https://crates.io/crates/embedded-hal 
 
 *NOTE* You may be able to find even more HAL implementation crates by searching for the
 [`embedded-hal-impl`] and [`embedded-hal`][embedded-hal-kw] keywords on crates.io!
@@ -121,13 +121,13 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 ### OS
 
-- [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi.
+- [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi. - ![crates.io](https://img.shields.io/crates/v/linux-embedded-hal.svg)
 
-[`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
+[`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal 
 
 ### Nordic
 
-- [`nrf51-hal`](https://crates.io/crates/nrf51-hal)
+- [`nrf51-hal`](https://crates.io/crates/nrf51-hal) - ![crates.io](https://img.shields.io/crates/v/nrf51-hal.svg)
 
 ### NXP
 
@@ -137,7 +137,7 @@ Also check the list of [NXP board support crates][nxp-bsc]!
 
 - [`lpc82x-hal`](https://github.com/braun-robotics/rust-lpc82x-hal)
 
-- [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal)
+- [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal) - ![crates.io](https://img.shields.io/crates/v/mkw41z-hal.svg)
 
 ### STMicroelectronics
 
@@ -145,7 +145,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [stm-bsc]: #stmicroelectronics-2
 
-- [`stm32f042-hal`](https://crates.io/crates/stm32f042-hal)
+- [`stm32f042-hal`](https://crates.io/crates/stm32f042-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f042-hal.svg)
   - Has examples that can run on boards like the [Nucleo-F042K6] and similar boards
 
 [Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
@@ -155,11 +155,11 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
-- [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal)
+- [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f30x-hal.svg)
 
-- [`stm32f429-hal`](https://crates.io/crates/stm32f429-hal)
+- [`stm32f429-hal`](https://crates.io/crates/stm32f429-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f429-hal.svg)
 
-- [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal)
+- [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l151-hal.svg)
 
 ### Texas Instruments
 
@@ -175,13 +175,13 @@ Crates tailored for specific development boards.
 
 ### Nordic
 
-- [`microbit`](https://crates.io/crates/microbit) - [micro:bit]
+- [`microbit`](https://crates.io/crates/microbit) - [micro:bit] - ![crates.io](https://img.shields.io/crates/v/microbit.svg)
 
 [micro:bit]: http://microbit.org/
 
 ### NXP
 
-- [`frdm-kw41z`](https://crates.io/crates/frdm-kw41z) - [FRDM-KW41Z]
+- [`frdm-kw41z`](https://crates.io/crates/frdm-kw41z) - [FRDM-KW41Z] - ![crates.io](https://img.shields.io/crates/v/frdm-kw41z.svg)
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
 
@@ -189,7 +189,7 @@ Crates tailored for specific development boards.
 
 - [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
 - [`nucleo-f103rb`](https://github.com/therealprof/nucleo-f103rb.git) - [Nucleo-F103RB]
-- [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY]
+- [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY] - ![crates.io](https://img.shields.io/crates/v/f3.svg)
 - [`blue-pill`](https://github.com/japaric/blue-pill) Board Support Crate for [Blue Pill].
 
 ## Driver crates
@@ -205,13 +205,13 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [wd]: https://github.com/rust-lang-nursery/embedded-wg/issues/39
 
-1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2]
-2. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2]
-3. [MCP3008] - SPI - 8 channel 10-bit ADC - [Intro blog post][3]
-4. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4]
-5. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5]
-6. [SGP30] - I2C - Gas sensor - [Intro blog post][6]
-7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7]
+1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
+2. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)
+3. [MCP3008] - SPI - 8 channel 10-bit ADC - [Intro blog post][3] - ![crates.io](https://img.shields.io/crates/v/adc-mcp3008.svg)
+4. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
+5. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5] - ![crates.io](https://img.shields.io/crates/v/mcp3425.svg)
+6. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
+7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -250,11 +250,11 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [DS3231] - I2C - real time clock
 - [BH1750] - I2C - ambient light sensor (lux meter)
 - [SHT2x] - I2C - temperature / humidity sensors
-- [INA260] - I2C - power monitor
+- [INA260] - I2C - power monitor - ![crates.io](https://img.shields.io/crates/v/ina260.svg)
 - [SSD1306] - I2C - OLED display driver
 - [ILI9341] - SPI - TFT LCD display
 - [HD44780] - Parallel port - LCD controller
-- [MCP9808] - I2C - Temperature sensor
+- [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
 - [MMA7660FC] - I2C - 3-axis accelerometer
 - [AXP209] - I2C - Power management unit
 - [DS3234] - SPI - Real time clock
@@ -300,10 +300,10 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 *whoops* this list is currently empty. Want to help us write it? Leave a comment on issue [#2].
 
-- [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays
-- [heapless](https://crates.io/crates/heapless): provides `Vec`, `String`, `LinearMap`, `RingBuffer` backed by fixed-size buffers
-- [managed](https://crates.io/crates/managed): provides `ManagedSlice`, `ManagedMap` backed by either their std counterparts or fixed-size buffers for `#![no_std]`.
-- [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`
+- [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays - ![crates.io](https://img.shields.io/crates/v/bit_field.svg)
+- [heapless](https://crates.io/crates/heapless): provides `Vec`, `String`, `LinearMap`, `RingBuffer` backed by fixed-size buffers  - ![crates.io](https://img.shields.io/crates/v/heapless.svg)
+- [managed](https://crates.io/crates/managed): provides `ManagedSlice`, `ManagedMap` backed by either their std counterparts or fixed-size buffers for `#![no_std]`. - ![crates.io](https://img.shields.io/crates/v/managed.svg)
+- [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc` 
 
 [no-std-category]: https://crates.io/categories/no-std
 [#2]: https://github.com/rust-embedded/awesome-embedded-rust/issues/2
