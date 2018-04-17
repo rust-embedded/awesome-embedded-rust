@@ -271,7 +271,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [LS010B7DH01] - SPI - Memory LCD
 - [MAX31855] - SPI - Thermocouple digital converter
 - [SHT3x] - I2C - Temperature / humidity sensors
-- [CC1101] - SPI - Sub-1GHz RF Transceiver
+- [CC1101] - SPI - Sub-1GHz RF Transceiver - ![crates.io](https://img.shields.io/crates/v/cc1101.svg) - ![Travis CI](https://travis-ci.org/chocol4te/cc1101.svg?branch=master)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
