@@ -271,6 +271,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [LS010B7DH01] - SPI - Memory LCD
 - [MAX31855] - SPI - Thermocouple digital converter
 - [SHT3x] - I2C - Temperature / humidity sensors
+- [CC1101] - SPI - Sub-1GHz RF Transceiver
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -298,6 +299,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [MAX31855]: https://github.com/mbacch/max31855
 [SHT3x]: https://github.com/miek/sht3x-rs
+[CC1101]: https://github.com/chocol4te/cc1101
 
 ## no-std crates
 
