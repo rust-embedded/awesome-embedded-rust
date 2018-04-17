@@ -100,7 +100,11 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f103xx.svg)
 - [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f100xx.svg)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f30x.svg)
+- [`stm32f411xx`](https://crates.io/crates/stm32f411xx) Peripheral access API for STM32F411XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f411xx.svg)
 - [`stm32f429`](https://crates.io/crates/stm32f429) Peripheral access API for STM32F429 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f429.svg)
+- [`stm32l0x1`]() Peripheral access API for STM32L0X1 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32l0x1.svg)
+- [`stm32l0x2`]() Peripheral access API for STM32L0X2 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32l0x2.svg)
+- [`stm32l0x3`]() Peripheral access API for STM32L0X3 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32l0x3.svg)
 - [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 
 ### MSP430
