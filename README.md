@@ -93,6 +93,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`lpc82x`](https://crates.io/crates/lpc82x) - ![crates.io](https://img.shields.io/crates/v/lpc82x.svg)
 - [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 - [`k64`](https://crates.io/crates/k64) - ![crates.io](https://img.shields.io/crates/v/k64.svg)
+- [`s32k144`](https://crates.io/crates/s32k144) - ![crates.io](https://img.shields.io/crates/v/s32k144.svg)
 
 ### STMicroelectronics
 
