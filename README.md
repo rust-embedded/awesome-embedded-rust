@@ -100,6 +100,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 
 ### MSP430
+
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
 -   [rust on msp](https://github.com/japaric/rust_on_msp) Simple blinking LED example that runs on MSP430.
 -   [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
