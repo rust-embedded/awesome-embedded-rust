@@ -12,7 +12,6 @@ This is a curated list of resources related to embedded and low-level programmin
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Tools](#tools)
 * [Device crates](#device-crates)
-    * [ARM](#arm)
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
@@ -23,6 +22,8 @@ This is a curated list of resources related to embedded and low-level programmin
     * [NXP](#nxp-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments)
+* [Architecture support crates](#architecture-support-crates)
+    * [ARM](#arm)
 * [Board support crates](#board-support-crates)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
@@ -36,9 +37,11 @@ This is a curated list of resources related to embedded and low-level programmin
 
 ## Community
 
-In 2018 Mozilla asked for creation of an embedded workgroup to help drive adoption in the Rust ecosystem.
+In 2018 Rust community has created an embedded workgroup to help drive adoption in the Rust ecosystem.
 
 - [Embedded WG](https://github.com/rust-lang-nursery/embedded-wg/), including newsletters with progress updates.
+
+- You can usually find the members of the embedded WG on the `#rust-embedded` channel (server: `irc.mozilla.org`).
 
 - [embedded.rs](https://t.me/embedded_rs) Telegram chat about Rust for microcontrollers in Russian language.
 
@@ -79,14 +82,9 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
 
-### ARM
-
-- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
-
 ### Nordic
 
 - [`nrf51`](https://crates.io/crates/nrf51) Peripheral access API for nRF51 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/nrf51.svg)
-- [`nrf51822` playground](https://github.com/japaric/nrf51822) A crate to play with the nrf51822 module
 
 ### NXP
 
@@ -104,6 +102,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 
 ### MSP430
+
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
 -   [rust on msp](https://github.com/japaric/rust_on_msp) Simple blinking LED example that runs on MSP430.
 -   [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
@@ -167,6 +166,14 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 - [`tm4c123x-hal`](https://github.com/thejpster/tm4c123x-hal)
 
 [Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
+
+## Architecture support crates
+
+Crates tailored for general CPU architectures.
+
+### ARM
+
+- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
 
 ## Board support crates
 
