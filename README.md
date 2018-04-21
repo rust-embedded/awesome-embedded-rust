@@ -83,9 +83,9 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 - [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
 
-### Atmel / Microchip
+### Microchip
 
-- [`atsamd21`](https://github.com/wez/atsamd21-rs) Peripheral access API for Atmel SAMD21 microcontrollers.  This git repo hosts both the device crate and the hal.
+- [`atsamd21`](https://github.com/wez/atsamd21-rs) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the device crate and the hal.
 
 ### Nordic
 
