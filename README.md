@@ -12,7 +12,6 @@ This is a curated list of resources related to embedded and low-level programmin
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Tools](#tools)
 * [Device crates](#device-crates)
-    * [ARM](#arm)
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
@@ -23,6 +22,8 @@ This is a curated list of resources related to embedded and low-level programmin
     * [NXP](#nxp-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments)
+* [Architecture support crates](#architecture-support-crates)
+    * [ARM](#arm)
 * [Board support crates](#board-support-crates)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
@@ -78,10 +79,6 @@ Register definition for microcontroller families. Usually generated using [`svd2
 [`svd2rust`][svd2rust-kw] keyword on crates.io!
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
-
-### ARM
-
-- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
 
 ### Nordic
 
@@ -167,6 +164,14 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 - [`tm4c123x-hal`](https://github.com/thejpster/tm4c123x-hal)
 
 [Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
+
+## Architecture support crates
+
+Crates tailored for general CPU architectures.
+
+### ARM
+
+- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
 
 ## Board support crates
 
