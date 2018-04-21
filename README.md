@@ -82,10 +82,6 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
 
-### ARM
-
-- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
-
 ### Microchip
 
 - [`atsamd21`](https://github.com/wez/atsamd21-rs) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the device crate and the hal.
