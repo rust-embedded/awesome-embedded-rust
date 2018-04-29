@@ -279,6 +279,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [MAX31855] - SPI - Thermocouple digital converter
 - [SHT3x] - I2C - Temperature / humidity sensors
 - [SX1509] - I2C - IO Expander / Keypad driver
+- [NRF24L01] - SPI - 2.4 GHz wireless communication
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -307,6 +308,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAX31855]: https://github.com/mbacch/max31855
 [SHT3x]: https://github.com/miek/sht3x-rs
 [SX1509]: https://github.com/wez/sx1509
+[NRF24L01]: https://github.com/maikelwever/nrf24l01
 
 ## no-std crates
 
