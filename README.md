@@ -224,6 +224,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 5. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5] - ![crates.io](https://img.shields.io/crates/v/mcp3425.svg)
 6. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
 7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
+8. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -242,6 +243,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [HTS221]: https://crates.io/crates/hts221
 [7]: https://medium.com/@pdanielgallagher/hts221-humidity-and-temperature-sensor-88056ea9e5fa
+
+[SSD1306]: https://crates.io/crates/ssd1306
+[8]: https://wapl.es/electronics/rust/2018/04/30/ssd1306-driver.html
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -263,7 +267,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [BH1750] - I2C - ambient light sensor (lux meter)
 - [SHT2x] - I2C - temperature / humidity sensors
 - [INA260] - I2C - power monitor - ![crates.io](https://img.shields.io/crates/v/ina260.svg)
-- [SSD1306] - I2C - OLED display driver
 - [ILI9341] - SPI - TFT LCD display
 - [HD44780] - Parallel port - LCD controller
 - [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
@@ -292,7 +295,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [BH1750]: https://github.com/wose/bh1750
 [SHT2x]: https://github.com/dbrgn/sht2x-rs
 [INA260]: https://crates.io/crates/ina260
-[SSD1306]: https://github.com/jamwaffles/ssd1306
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [HD44780]: http://github.com/kunerd/clerk
 [MCP9808]: https://crates.io/crates/mcp9808
