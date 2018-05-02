@@ -33,6 +33,7 @@ This is a curated list of resources related to embedded and low-level programmin
 * [no-std crates](#no-std-crates)
 * [Rust forks](#rust-forks)
     - [AVR](#avr)
+* [Firmware projects](#firmware-projects)
 * [License](#license)
 
 ## Community
@@ -331,6 +332,9 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 ### AVR
 -  [AVR Rust](https://github.com/avr-rust/rust) Fork of Rust with AVR support.
+
+## Firmware projects
+- [anne-key](https://github.com/ah-/anne-key): Alternate keyboard firmware for the Obins ANNE Pro
 
 ## License
 
