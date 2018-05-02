@@ -139,7 +139,7 @@ Also check the list of [NXP board support crates][nxp-bsc]!
 
 [nxp-bsc]: #nxp-1
 
-- [`lpc82x-hal`](https://github.com/braun-robotics/rust-lpc82x-hal)
+- [`lpc82x-hal`](https://crates.io/crates/lpc82x-hal) - [![crates.io](https://img.shields.io/crates/v/lpc82x-hal.svg)](https://crates.io/crates/lpc82x-hal)
 
 - [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal) - ![crates.io](https://img.shields.io/crates/v/mkw41z-hal.svg)
 
