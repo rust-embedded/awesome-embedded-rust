@@ -225,6 +225,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 6. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
 7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
 8. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
+9. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -246,6 +247,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [SSD1306]: https://crates.io/crates/ssd1306
 [8]: https://wapl.es/electronics/rust/2018/04/30/ssd1306-driver.html
+
+[MMA7660FC]: https://crates.io/crates/mma7660fc
+[9]: https://rahul-thakoor.github.io/an-i2c-rust-driver-for-mma7660fc-based-3-axis-digital-accelerometer/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -270,7 +274,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [ILI9341] - SPI - TFT LCD display
 - [HD44780] - Parallel port - LCD controller
 - [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
-- [MMA7660FC] - I2C - 3-axis accelerometer
 - [AXP209] - I2C - Power management unit
 - [DS3234] - SPI - Real time clock
 - [PCD8544] - SPI - 48x84 pixels matrix LCD controller
@@ -299,7 +302,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [HD44780]: http://github.com/kunerd/clerk
 [MCP9808]: https://crates.io/crates/mcp9808
-[MMA7660FC]: https://github.com/rahul-thakoor/mma7660fc
 [PCD8544]: https://github.com/pcein/pcd8544
 [AXP209]: https://github.com/RandomInsano/axp209-rs
 [DS3234]: https://github.com/rust-lang-nursery/embedded-wg/issues/39#issuecomment-375262785
