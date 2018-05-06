@@ -71,6 +71,7 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 -   [μtest](https://github.com/japaric/utest) unit testing for microcontrollers and other no-std systems.
 -   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries. - ![crates.io](https://img.shields.io/crates/v/bindgen.svg)
 -   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
+-   [bobbin-cli](https://github.com/bobbin-rs/bobbin-cli) A Rust command line tool to simplify embedded development and deployment.
 
 ## Device crates
 
