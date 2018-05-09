@@ -313,7 +313,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [RFM69]: https://github.com/lolzballs/rfm69
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [MAX31855]: https://github.com/mbacch/max31855
-[MAX31865]: https://github.com/rudihorn/max31865
+[MAX31865]: https://crates.io/crates/max31865
 [SHT3x]: https://github.com/miek/sht3x-rs
 [SX1509]: https://github.com/wez/sx1509
 [NRF24L01]: https://github.com/maikelwever/nrf24l01
