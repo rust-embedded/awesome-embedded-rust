@@ -285,7 +285,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [RFM69] - SPI - ISM radio transceiver
 - [LS010B7DH01] - SPI - Memory LCD
 - [MAX31855] - SPI - Thermocouple digital converter
-- [MAX31865] - SPI - RTD to Digital converter
+- [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
 - [SHT3x] - I2C - Temperature / humidity sensors
 - [SX1509] - I2C - IO Expander / Keypad driver
 - [NRF24L01] - SPI - 2.4 GHz wireless communication
