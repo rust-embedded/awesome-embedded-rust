@@ -105,6 +105,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f100xx.svg)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f30x.svg)
 - [`stm32f429`](https://crates.io/crates/stm32f429) Peripheral access API for STM32F429 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f429.svg)
+- [`stm32f469xx`](https://crates.io/crates/stm32f469xx) Peripheral access API for STM32f469XX microcontrollers (generated using svd2rust) -![crates.io](https://img.shields.io/crates/v/stm32f469xx.svg)
 - [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 
 ### MSP430
