@@ -334,6 +334,12 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [embedded-graphics](https://crates.io/crates/embedded-graphics): 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [scroll](https://crates.io/crates/scroll): extensible and endian-aware Read/Write traits for generic containers - ![crates.io](https://img.shields.io/crates/v/scroll.svg)
 
+### WIP
+
+Work in progress crates. Help the authors make these crates awesome!
+
+- [light-cli](https://github.com/rudihorn/light-cli): a lightweight heapless cli interface
+
 [no-std-category]: https://crates.io/categories/no-std
 
 ## Rust forks
