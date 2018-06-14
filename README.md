@@ -22,6 +22,7 @@ This is a curated list of resources related to embedded and low-level programmin
     * [NXP](#nxp-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments)
+    * [Espressif](#espressif)
 * [Architecture support crates](#architecture-support-crates)
     * [ARM](#arm)
 * [Board support crates](#board-support-crates)
