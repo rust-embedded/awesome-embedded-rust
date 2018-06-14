@@ -176,6 +176,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
 
+### Espressif
+
+- [`esp8266-hal`](https://github.com/emosenkis/esp8266-hal) ![crates.io](https://img.shields.io/crates/v/esp8266-hal.svg) (not supported by rustc, so must be built with [mrustc](https://github.com/thepowersgang/mrustc), typically via the [esp-rs](https://github.com/emosenkis/esp-rs) build script)
+
 ## Architecture support crates
 
 Crates tailored for general CPU architectures.
