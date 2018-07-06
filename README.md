@@ -236,6 +236,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
 8. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
 9. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
+10. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -260,6 +261,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [MMA7660FC]: https://crates.io/crates/mma7660fc
 [9]: https://rahul-thakoor.github.io/an-i2c-rust-driver-for-mma7660fc-based-3-axis-digital-accelerometer/
+
+[shift-register-driver]: https://crates.io/crates/shift-register-driver
+[10]: https://www.joshmcguigan.com/blog/shift-register-driver/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
