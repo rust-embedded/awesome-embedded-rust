@@ -214,6 +214,11 @@ Crates tailored for specific development boards.
 - [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY] - ![crates.io](https://img.shields.io/crates/v/f3.svg)
 - [`blue-pill`](https://github.com/japaric/blue-pill) Board Support Crate for [Blue Pill].
 
+### Texas Instruments
+
+- [`stellaris-launchpad`](https://crates.io/crates/stellaris-launchpad) - For the Texas Instruments Stellaris Launchpad and Tiva-C Launchpad ![crates.io](https://img.shields.io/crates/v/stellaris-launchpad.svg)
+- [`monotron`](https://github.com/thejpster/monotron) - A 1980s home-computer style application for the Texas Instruments Stellaris Launchpad. PS/2 keyboard input, text output on a bit-bashed 800x600 VGA signal. Uses [menu], [vga-framebuffer] and [pc-keyboard].
+
 ## Driver crates
 
 Platform agnostic crates to interface external components. These crates use the [`embedded-hal`]
@@ -344,6 +349,14 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`
 - [embedded-graphics](https://crates.io/crates/embedded-graphics): 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [scroll](https://crates.io/crates/scroll): extensible and endian-aware Read/Write traits for generic containers - ![crates.io](https://img.shields.io/crates/v/scroll.svg)
+- [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer.
+- [menu]: A basic command-line interface library. Has nested menus and basic help functionality.
+- [pc-keyboard]: A PS/2 keyboard protocol driver. Transport (bit-banging or SPI) agnostic, but can convert Set 2 Scancodes into Unicode.
+- [console-traits](https://github.com/thejpster/console-traits): Describes a basic text console. Used by [menu] and implemented by [vga-framebuffer].
+
+[pc-keyboard]: https://github.com/thejpster/pc-keyboard
+[vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
+[menu]: https://github.com/thejpster/menu
 
 ### WIP
 
