@@ -237,6 +237,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 8. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
 9. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 10. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
+11. [TSL256X] - I2C - Light Intensity Sensor - [Intro blog post][11] - ![crates.io](https://img.shields.io/crates/v/tsl256x.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -264,6 +265,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [shift-register-driver]: https://crates.io/crates/shift-register-driver
 [10]: https://www.joshmcguigan.com/blog/shift-register-driver/
+
+[TSL256X]: https://crates.io/crates/tsl256x
+[11]: https://www.joshmcguigan.com/blog/tsl256x-light-intensity-sensor-driver/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
