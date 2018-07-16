@@ -292,6 +292,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [AXP209] - I2C - Power management unit
 - [DS3234] - SPI - Real time clock
 - [PCD8544] - SPI - 48x84 pixels matrix LCD controller
+- [PCD8544_rich] - SPI - Rich driver for 48x84 pixels matrix LCD controller  - ![crates.io](https://img.shields.io/crates/v/pcd8544.svg)
 - [HC-SR04] - DIO - Ultrasound sensor
 - [AFE4400] - SPI - Pulse oximeter
 - [SX1278] - SPI - Long range (LoRa) transceiver
@@ -322,6 +323,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [HD44780]: http://github.com/kunerd/clerk
 [MCP9808]: https://crates.io/crates/mcp9808
 [PCD8544]: https://github.com/pcein/pcd8544
+[PCD8544_rich]: https://crates.io/crates/pcd8544
 [AXP209]: https://github.com/RandomInsano/axp209-rs
 [DS3234]: https://github.com/rust-lang-nursery/embedded-wg/issues/39#issuecomment-375262785
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
