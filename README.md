@@ -337,7 +337,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
 [stm32-eth]: https://github.com/astro/stm32-eth
 [bme680]: https://github.com/marcelbuesing/bme680
-[w5500]: https://github.com/kellerkindt/w5500
+[w5500]: https://github.com/kellerkindt/w5500 - ![crates.io](https://img.shields.io/crates/v/w5500.svg)
 
 ## no-std crates
 
