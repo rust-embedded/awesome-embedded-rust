@@ -305,6 +305,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [embedded-nrf24l01] - SPI+GPIO - 2.4 GHz radio
 - [stm32-eth] - MCU - Ethernet
 - [bme680] - I2C - Temperature / humidity / gas / pressure sensor - ![crates.io](https://img.shields.io/crates/v/bme680.svg)
+- [w5500] - SPI - Ethernet Module Driver with hardwired TCP/IP protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -336,6 +337,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
 [stm32-eth]: https://github.com/astro/stm32-eth
 [bme680]: https://github.com/marcelbuesing/bme680
+[w5500]: https://github.com/kellerkindt/w5500
 
 ## no-std crates
 
