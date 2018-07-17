@@ -241,6 +241,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 7. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
 8. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
 9. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
+10. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
+11. [TSL256X] - I2C - Light Intensity Sensor - [Intro blog post][11] - ![crates.io](https://img.shields.io/crates/v/tsl256x.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -265,6 +267,12 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [MMA7660FC]: https://crates.io/crates/mma7660fc
 [9]: https://rahul-thakoor.github.io/an-i2c-rust-driver-for-mma7660fc-based-3-axis-digital-accelerometer/
+
+[shift-register-driver]: https://crates.io/crates/shift-register-driver
+[10]: https://www.joshmcguigan.com/blog/shift-register-driver/
+
+[TSL256X]: https://crates.io/crates/tsl256x
+[11]: https://www.joshmcguigan.com/blog/tsl256x-light-intensity-sensor-driver/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -292,6 +300,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [AXP209] - I2C - Power management unit
 - [DS3234] - SPI - Real time clock
 - [PCD8544] - SPI - 48x84 pixels matrix LCD controller
+- [PCD8544_rich] - SPI - Rich driver for 48x84 pixels matrix LCD controller  - ![crates.io](https://img.shields.io/crates/v/pcd8544.svg)
 - [HC-SR04] - DIO - Ultrasound sensor
 - [AFE4400] - SPI - Pulse oximeter
 - [SX1278] - SPI - Long range (LoRa) transceiver
@@ -323,6 +332,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [HD44780]: http://github.com/kunerd/clerk
 [MCP9808]: https://crates.io/crates/mcp9808
 [PCD8544]: https://github.com/pcein/pcd8544
+[PCD8544_rich]: https://crates.io/crates/pcd8544
 [AXP209]: https://github.com/RandomInsano/axp209-rs
 [DS3234]: https://github.com/rust-lang-nursery/embedded-wg/issues/39#issuecomment-375262785
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
