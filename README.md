@@ -351,6 +351,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [bme680]: https://github.com/marcelbuesing/bme680
 [w5500]: https://crates.io/crates/w5500
 [OneWire]: https://crates.io/crates/onewire
+[GridEYE]: https://github.com/uwearzt/grideye
+
 
 ## no-std crates
 
