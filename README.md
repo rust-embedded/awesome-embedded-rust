@@ -317,6 +317,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [bme680] - I2C - Temperature / humidity / gas / pressure sensor - ![crates.io](https://img.shields.io/crates/v/bme680.svg)
 - [w5500] - SPI - Ethernet Module with hardwired protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE - ![crates.io](https://img.shields.io/crates/v/w5500.svg)
 - [OneWire] - 1wire - OneWire protocol implementation with drivers for devices such as [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) - ![crates.io](https://img.shields.io/crates/v/onewire.svg)
+- [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -351,6 +352,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [bme680]: https://github.com/marcelbuesing/bme680
 [w5500]: https://crates.io/crates/w5500
 [OneWire]: https://crates.io/crates/onewire
+[SSD1322]: https://crates.io/crates/ssd1322
 
 ## no-std crates
 
