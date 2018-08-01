@@ -192,7 +192,7 @@ Crates tailored for general CPU architectures.
 
 ## Board support crates
 
-Crates tailored for specific development boards.
+Crates tailored for specific boards.
 
 [STM32F3DISCOVERY]: http://www.st.com/en/evaluation-tools/stm32f3discovery.html
 
@@ -219,6 +219,10 @@ Crates tailored for specific development boards.
 
 - [`stellaris-launchpad`](https://crates.io/crates/stellaris-launchpad) - For the Texas Instruments Stellaris Launchpad and Tiva-C Launchpad ![crates.io](https://img.shields.io/crates/v/stellaris-launchpad.svg)
 - [`monotron`](https://github.com/thejpster/monotron) - A 1980s home-computer style application for the Texas Instruments Stellaris Launchpad. PS/2 keyboard input, text output on a bit-bashed 800x600 VGA signal. Uses [menu], [vga-framebuffer] and [pc-keyboard].
+
+### Special Purpose
+
+- [`betafpv-f3`](https://github.com/JoshMcguigan/betafpv-f3) - For the BetaFPV F3 drone flight controller
 
 ## Driver crates
 
