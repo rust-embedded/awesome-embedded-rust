@@ -6,6 +6,8 @@ This is a curated list of resources related to embedded and low-level programmin
 
 [<img src="https://rawgit.com/rust-embedded/awesome-embedded-rust/master/rust-embedded-logo-256x256.png" align="right" width="256">](http://www.rust-embedded.org)
 
+This project is developed and maintained by the [Resources team][team].
+
 ## Table of contents
 
 * [Community](#community)
@@ -80,7 +82,7 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 
 Register definition for microcontroller families. Usually generated using [`svd2rust`]. - ![crates.io](https://img.shields.io/crates/v/svd2rust.svg)
 
-[`svd2rust`]: https://crates.io/crates/svd2rust 
+[`svd2rust`]: https://crates.io/crates/svd2rust
 
 *NOTE* You may be able to find even more device crates by searching for the
 [`svd2rust`][svd2rust-kw] keyword on crates.io!
@@ -122,7 +124,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
 
-[`embedded-hal`]: https://crates.io/crates/embedded-hal 
+[`embedded-hal`]: https://crates.io/crates/embedded-hal
 
 *NOTE* You may be able to find even more HAL implementation crates by searching for the
 [`embedded-hal-impl`] and [`embedded-hal`][embedded-hal-kw] keywords on crates.io!
@@ -134,7 +136,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 - [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi. - ![crates.io](https://img.shields.io/crates/v/linux-embedded-hal.svg)
 
-[`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal 
+[`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
 
 ### Nordic
 
@@ -403,3 +405,12 @@ This list is licensed under
 
 - CC0 1.0 Universal License ([LICENSE-CC0](LICENSE-CC0) or
   https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+
+## Code of Conduct
+
+Contribution to this crate is organized under the terms of the [Rust Code of
+Conduct][CoC], the maintainer of this crate, the [HAL team][team], promises
+to intervene to uphold that code of conduct.
+
+[CoC]: CODE_OF_CONDUCT.md
+[team]: https://github.com/rust-embedded/wg#the-hal-team
