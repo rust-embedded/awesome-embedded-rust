@@ -303,7 +303,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [INA260] - I2C - power monitor - ![crates.io](https://img.shields.io/crates/v/ina260.svg)
 - [ILI9341] - SPI - TFT LCD display
 - [HD44780] - Parallel port - LCD controller
-- [HD44780-driver] - GPIO - LCD controller - ![crates.io](https://img.shields.io/crates/v/hd44780-driver)
+- [HD44780-driver] - GPIO - LCD controller - ![crates.io](https://img.shields.io/crates/v/hd44780-driver.svg)
 - [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
 - [AXP209] - I2C - Power management unit
 - [DS3234] - SPI - Real time clock
