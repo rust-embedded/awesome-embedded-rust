@@ -341,7 +341,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [INA260]: https://crates.io/crates/ina260
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [HD44780]: http://github.com/kunerd/clerk
-[HD44780-driver]: https://github.com/JohnDoneth/hd44780-driver
+[HD44780-driver]: https://crates.io/crates/hd44780-driver
 [MCP9808]: https://crates.io/crates/mcp9808
 [PCD8544]: https://github.com/pcein/pcd8544
 [PCD8544_rich]: https://crates.io/crates/pcd8544
