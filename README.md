@@ -195,7 +195,8 @@ Crates tailored for general CPU architectures.
 
 ### ARM
 
-- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors
+- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors - ![crates.io](https://img.shields.io/crates/v/cortex-m.svg)
+- [`cortex-a`](https://github.com/andre-richter/cortex-a) Low level access to Cortex-A processors (early state) - ![crates.io](https://img.shields.io/crates/v/cortex-a.svg)
 
 ## Board support crates
 
@@ -389,6 +390,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [menu]: A basic command-line interface library. Has nested menus and basic help functionality.
 - [pc-keyboard]: A PS/2 keyboard protocol driver. Transport (bit-banging or SPI) agnostic, but can convert Set 2 Scancodes into Unicode.
 - [console-traits](https://github.com/thejpster/console-traits): Describes a basic text console. Used by [menu] and implemented by [vga-framebuffer].
+- [register-rs](https://github.com/rust-osdev/register-rs): Unified interface for MMIO and CPU registers. Provides type-safe bitfield manipulation. - ![crates.io](https://img.shields.io/crates/v/register.svg)
 
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
