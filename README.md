@@ -333,7 +333,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
 - [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
 - [EEPROM24x] - I2C - 24x series serial EEPROM driver
-- [DS1307] - I2C - Real-time clock
+- [DS1307] - I2C - Real-time clock driver - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
