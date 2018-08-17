@@ -332,7 +332,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [OneWire] - 1wire - OneWire protocol implementation with drivers for devices such as [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) - ![crates.io](https://img.shields.io/crates/v/onewire.svg)
 - [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
 - [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
-- [AT24Cx] - I2C - Serial EEPROM
+- [EEPROM24x] - I2C - 24x series serial EEPROM driver
 - [DS1307] - I2C - Real-time clock
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -371,7 +371,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [OneWire]: https://crates.io/crates/onewire
 [SSD1322]: https://crates.io/crates/ssd1322
 [GridEYE]: https://github.com/uwearzt/grideye
-[AT24Cx]: https://github.com/eldruin/at24cx-rs
+[EEPROM24x]: https://github.com/eldruin/eeprom24x-rs
 [DS1307]: https://github.com/eldruin/ds1307-rs
 
 ## no-std crates
