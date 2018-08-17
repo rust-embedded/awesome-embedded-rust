@@ -372,7 +372,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SSD1322]: https://crates.io/crates/ssd1322
 [GridEYE]: https://github.com/uwearzt/grideye
 [EEPROM24x]: https://github.com/eldruin/eeprom24x-rs
-[DS1307]: https://github.com/eldruin/ds1307-rs
+[DS1307]: https://crates.io/crates/ds1307
 
 ## no-std crates
 
