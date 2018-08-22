@@ -334,7 +334,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
 - [EEPROM24x] - I2C - 24x series serial EEPROM driver ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 - [DS1307] - I2C - Real-time clock driver - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
-- [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575
+- [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -374,7 +374,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [GridEYE]: https://github.com/uwearzt/grideye
 [EEPROM24x]: https://crates.io/crates/eeprom24x
 [DS1307]: https://crates.io/crates/ds1307
-[PCF857x]: https://github.com/eldruin/pcf857x-rs
+[PCF857x]: https://crates.io/crates/pcf857x
 
 ## no-std crates
 
