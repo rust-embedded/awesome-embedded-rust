@@ -118,7 +118,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 ### Texas Instruments
 
 -   [`tm4c123x`](https://crates.io/crates/tm4c123x) Peripheral access API for TM4C123x microcontrollers (generated using svd2rust)
--   [`tm4c129x`](https://crates.io/crates/tm4c129x) Peripheral access API for TM4C123x microcontrollers (generated using svd2rust)
+-   [`tm4c129x`](https://crates.io/crates/tm4c129x) Peripheral access API for TM4C129x microcontrollers (generated using svd2rust)
 
 ### MSP430
 
