@@ -17,13 +17,14 @@ This project is developed and maintained by the [Resources team][team].
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
+    * [Texas Instruments](#texas-instruments)
     * [MSP430](#msp430)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [Nordic](#nordic-1)
     * [NXP](#nxp-1)
     * [STMicroelectronics](#stmicroelectronics-1)
-    * [Texas Instruments](#texas-instruments)
+    * [Texas Instruments](#texas-instruments-1)
     * [Espressif](#espressif)
 * [Architecture support crates](#architecture-support-crates)
     * [ARM](#arm)
@@ -113,6 +114,11 @@ Register definition for microcontroller families. Usually generated using [`svd2
 - [`stm32f469xx`](https://crates.io/crates/stm32f469xx) Peripheral access API for STM32f469XX microcontrollers (generated using svd2rust) -![crates.io](https://img.shields.io/crates/v/stm32f469xx.svg)
 - [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 * [`stm32-rs`](https://github.com/adamgreig/stm32-rs) Peripheral access API for most STM32 microcontrollers (generated using svd2rust): [stm32f0](https://crates.io/crates/stm32f0), [stm32f1](https://crates.io/crates/stm32f1), [stm32f2](https://crates.io/crates/stm32f2), [stm32f3](https://crates.io/crates/stm32f3), [stm32f4](https://crates.io/crates/stm32f4), [stm32f7](https://crates.io/crates/stm32f7), [stm32l0](https://crates.io/crates/stm32l0), [stm32l1](https://crates.io/crates/stm32l1), [stm32l4](https://crates.io/crates/stm32l4), [stm32h7](https://crates.io/crates/stm32h7)
+
+### Texas Instruments
+
+-   [`tm4c123x`](https://crates.io/crates/tm4c123x) Peripheral access API for TM4C123x microcontrollers (generated using svd2rust)
+-   [`tm4c129x`](https://crates.io/crates/tm4c129x) Peripheral access API for TM4C123x microcontrollers (generated using svd2rust)
 
 ### MSP430
 
