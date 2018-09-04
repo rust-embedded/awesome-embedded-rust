@@ -342,6 +342,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [DS1307] - I2C - Real-time clock driver - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 - [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 - [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
+- [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module. ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -383,6 +384,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [DS1307]: https://crates.io/crates/ds1307
 [PCF857x]: https://crates.io/crates/pcf857x
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
+[BlueNRG]: https://crates.io/crates/bluenrg
 
 ## no-std crates
 
@@ -411,6 +413,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 Work in progress crates. Help the authors make these crates awesome!
 
 - [light-cli](https://github.com/rudihorn/light-cli): a lightweight heapless cli interface
+- [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation.
 
 [no-std-category]: https://crates.io/categories/no-std
 
