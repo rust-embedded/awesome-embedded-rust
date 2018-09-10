@@ -262,6 +262,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 9. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 10. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
 11. [TSL256X] - I2C - Light Intensity Sensor - [Intro blog post][11] - ![crates.io](https://img.shields.io/crates/v/tsl256x.svg)
+12. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -292,6 +293,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [TSL256X]: https://crates.io/crates/tsl256x
 [11]: https://www.joshmcguigan.com/blog/tsl256x-light-intensity-sensor-driver/
+
+[EEPROM24x]: https://crates.io/crates/eeprom24x
+[12]: https://blog.eldruin.com/24x-serial-eeprom-driver-in-rust/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -338,7 +342,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [OneWire] - 1wire - OneWire protocol implementation with drivers for devices such as [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) - ![crates.io](https://img.shields.io/crates/v/onewire.svg)
 - [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
 - [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
-- [EEPROM24x] - I2C - 24x series serial EEPROM driver ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 - [DS1307] - I2C - Real-time clock driver - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 - [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 - [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
@@ -380,7 +383,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [OneWire]: https://crates.io/crates/onewire
 [SSD1322]: https://crates.io/crates/ssd1322
 [GridEYE]: https://github.com/uwearzt/grideye
-[EEPROM24x]: https://crates.io/crates/eeprom24x
 [DS1307]: https://crates.io/crates/ds1307
 [PCF857x]: https://crates.io/crates/pcf857x
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
