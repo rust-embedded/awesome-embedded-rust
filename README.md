@@ -98,6 +98,7 @@ Register definition for microcontroller families. Usually generated using [`svd2
 ### Nordic
 
 - [`nrf51`](https://crates.io/crates/nrf51) Peripheral access API for nRF51 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/nrf51.svg)
+- [`nrf52840`](https://crates.io/crates/nrf52840) Peripheral access API for nRF52840 microcontrollers 
 
 ### NXP
 
@@ -217,6 +218,8 @@ Crates tailored for specific boards.
 - [`microbit`](https://crates.io/crates/microbit) - [micro:bit] - ![crates.io](https://img.shields.io/crates/v/microbit.svg)
 
 [micro:bit]: http://microbit.org/
+
+- [`nrf52840-mdk`](https://github.com/nrf-rs/nrf52840-mdk-rs) - Git hub repo with rust support for the nrf52840-mdk development board
 
 ### NXP
 
