@@ -148,6 +148,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 ### Nordic
 
 - [`nrf51-hal`](https://crates.io/crates/nrf51-hal) - ![crates.io](https://img.shields.io/crates/v/nrf51-hal.svg)
+- [`nrf52-hal`](https://crates.io/crates/nrf52-hal) - ![crates.io](https://img.shields.io/crates/v/nrf52-hal.svg)
 
 ### NXP
 
