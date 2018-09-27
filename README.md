@@ -79,7 +79,7 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 -   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries. - ![crates.io](https://img.shields.io/crates/v/bindgen.svg)
 -   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
 -   [bobbin-cli](https://github.com/bobbin-rs/bobbin-cli) A Rust command line tool to simplify embedded development and deployment.
--   [cargo-fel4](https://github.com/jonlamb-gh/cargo-fel4) A Cargo subcommand for working with feL4 projects. - ![crates.io](https://img.shields.io/crates/v/cargo-fel4.svg)
+-   [cargo-fel4](https://github.com/maindotrs/cargo-fel4) A Cargo subcommand for working with feL4 projects. - ![crates.io](https://img.shields.io/crates/v/cargo-fel4.svg)
 
 ## Device crates
 
