@@ -419,6 +419,7 @@ Work in progress crates. Help the authors make these crates awesome!
 
 - [light-cli](https://github.com/rudihorn/light-cli): a lightweight heapless cli interface
 - [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation.
+- [OxCC](https://github.com/jonlamb-gh/oxcc): A port of Open Source Car Control written in Rust
 
 [no-std-category]: https://crates.io/categories/no-std
 
