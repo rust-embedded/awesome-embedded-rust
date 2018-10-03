@@ -267,6 +267,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 12. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 13. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 14. [keypad] - GPIO - Keypad matrix circuits - [Intro post][14] - ![crates.io](https://img.shields.io/crates/v/keypad.svg)
+15. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
+
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -306,6 +308,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [keypad]: https://crates.io/crates/keypad
 [14]: https://www.reddit.com/r/rust/comments/9j42o9/weekly_driver_keypad_matrix_circuits/
+
+[BlueNRG]: https://crates.io/crates/bluenrg
+[15]: https://www.219design.com/bluetooth-low-energy-with-rust/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -354,7 +359,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
 - [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 - [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
-- [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module. ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 - [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -395,7 +399,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [GridEYE]: https://github.com/uwearzt/grideye
 [PCF857x]: https://crates.io/crates/pcf857x
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
-[BlueNRG]: https://crates.io/crates/bluenrg
 [xCA9548A]: https://github.com/eldruin/xca9548a-rs
 
 ## no-std crates
@@ -415,6 +418,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [pc-keyboard]: A PS/2 keyboard protocol driver. Transport (bit-banging or SPI) agnostic, but can convert Set 2 Scancodes into Unicode.
 - [console-traits](https://github.com/thejpster/console-traits): Describes a basic text console. Used by [menu] and implemented by [vga-framebuffer].
 - [register-rs](https://github.com/rust-osdev/register-rs): Unified interface for MMIO and CPU registers. Provides type-safe bitfield manipulation. - ![crates.io](https://img.shields.io/crates/v/register.svg)
+- [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation. ![crates.io](https://img.shields.io/crates/v/bluetooth-hci.svg)
 
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
@@ -425,7 +429,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 Work in progress crates. Help the authors make these crates awesome!
 
 - [light-cli](https://github.com/rudihorn/light-cli): a lightweight heapless cli interface
-- [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation.
 - [OxCC](https://github.com/jonlamb-gh/oxcc): A port of Open Source Car Control written in Rust
 
 [no-std-category]: https://crates.io/categories/no-std
