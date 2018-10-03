@@ -180,6 +180,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`stm32f429-hal`](https://crates.io/crates/stm32f429-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f429-hal.svg)
 
+- [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)
+   - Generic hal support for stm32f4 devices, currently with support for stm32f407 and stm32f429 devices (WIP)
+
 - [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l151-hal.svg)
 
 - [`stm32l432xx-hal`](https://crates.io/crates/stm32l432xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l432xx-hal.svg)
@@ -211,6 +214,8 @@ Crates tailored for general CPU architectures.
 Crates tailored for specific boards.
 
 [STM32F3DISCOVERY]: http://www.st.com/en/evaluation-tools/stm32f3discovery.html
+[STM32F4DISCOVERY]: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+[STM32F429DISCOVERY]: https://www.st.com/en/evaluation-tools/32f429idiscovery.html
 
 ### Nordic
 
@@ -229,6 +234,8 @@ Crates tailored for specific boards.
 - [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
 - [`nucleo-f103rb`](https://github.com/therealprof/nucleo-f103rb.git) - [Nucleo-F103RB]
 - [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY] - ![crates.io](https://img.shields.io/crates/v/f3.svg)
+- [`stm32f407g-disc`](https://crates.io/crates/stm32f407g-disc) Board Support Crate for the [STM32F4DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f407g-disc.svg)
+- [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)
 - [`blue-pill`](https://github.com/japaric/blue-pill) Board Support Crate for [Blue Pill].
 
 ### Texas Instruments
