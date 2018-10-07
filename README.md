@@ -367,6 +367,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 - [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
 - [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A
+- [SSD1351] - SPI - 16bit colour OLED display driver - ![crates.io](https://img.shields.io/crates/v/ssd1351.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -407,6 +408,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [PCF857x]: https://crates.io/crates/pcf857x
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
 [xCA9548A]: https://github.com/eldruin/xca9548a-rs
+[SSD1351]: https://crates.io/crates/ssd1351
 
 ## no-std crates
 
