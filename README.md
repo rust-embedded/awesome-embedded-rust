@@ -366,7 +366,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
 - [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 - [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
-- [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A
+- [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
 - [SSD1351] - SPI - 16bit colour OLED display driver - ![crates.io](https://img.shields.io/crates/v/ssd1351.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -407,7 +407,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [GridEYE]: https://github.com/uwearzt/grideye
 [PCF857x]: https://crates.io/crates/pcf857x
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
-[xCA9548A]: https://github.com/eldruin/xca9548a-rs
+[xCA9548A]: https://crates.io/crates/xca9548a
 [SSD1351]: https://crates.io/crates/ssd1351
 
 ## no-std crates
