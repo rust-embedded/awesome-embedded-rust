@@ -275,6 +275,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 13. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 14. [keypad] - GPIO - Keypad matrix circuits - [Intro post][14] - ![crates.io](https://img.shields.io/crates/v/keypad.svg)
 15. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
+16. [shared-bus] - I2C - utility driver for sharing a bus between multiple devices - [Intro post][16] ![crates.io](https://img.shields.io/crates/v/shared-bus.svg)
 
 
 [L3GD20]: https://crates.io/crates/l3gd20
@@ -318,6 +319,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [BlueNRG]: https://crates.io/crates/bluenrg
 [15]: https://www.219design.com/bluetooth-low-energy-with-rust/
+
+[shared-bus]: https://github.com/Rahix/shared-bus
+[16]: https://blog.rahix.de/001-shared-bus/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
