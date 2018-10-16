@@ -432,7 +432,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [nalgebra](https://crates.io/crates/nalgebra): general-purpose and low-dimensional linear algebra library - ![crates.io](https://img.shields.io/crates/v/nalgebra.svg)
 - [nom](https://crates.io/crates/nom): parser combinator framework - ![crates.io](https://img.shields.io/crates/v/nom.svg)
 - [pc-keyboard]: A PS/2 keyboard protocol driver. Transport (bit-banging or SPI) agnostic, but can convert Set 2 Scancodes into Unicode.
-- [qei](https://crates.io/crates/qei) : A qei wrapper that allows you to extend your qei timers from a 16 bit integer to a 64 bit integer.
+- [qei](https://crates.io/crates/qei) : A qei wrapper that allows you to extend your qei timers from a 16 bit integer to a 64 bit integer. - ![crates.io](https://img.shields.io/crates/v/qei.svg)
 - [register-rs](https://github.com/rust-osdev/register-rs): Unified interface for MMIO and CPU registers. Provides type-safe bitfield manipulation. - ![crates.io](https://img.shields.io/crates/v/register.svg)
 - [scroll](https://crates.io/crates/scroll): extensible and endian-aware Read/Write traits for generic containers - ![crates.io](https://img.shields.io/crates/v/scroll.svg)
 - [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`
