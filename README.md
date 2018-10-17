@@ -373,6 +373,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
 - [SSD1351] - SPI - 16bit colour OLED display driver - ![crates.io](https://img.shields.io/crates/v/ssd1351.svg)
 - [VEML6070] - I2C - UVA light sensor - ![crates.io](https://img.shields.io/crates/v/veml6070.svg)
+- [VEML6075] - I2C - UVA and UVB light sensor - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 - [LM75] - I2C - Temperature sensor and thermal watchdog
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -416,6 +417,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [xCA9548A]: https://crates.io/crates/xca9548a
 [SSD1351]: https://crates.io/crates/ssd1351
 [VEML6070]: https://crates.io/crates/veml6070
+[VEML6075]: https://crates.io/crates/veml6075
 [LM75]: https://github.com/eldruin/lm75-rs
 
 ## no-std crates
