@@ -374,6 +374,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [SSD1351] - SPI - 16bit colour OLED display driver - ![crates.io](https://img.shields.io/crates/v/ssd1351.svg)
 - [VEML6070] - I2C - UVA light sensor - ![crates.io](https://img.shields.io/crates/v/veml6070.svg)
 - [VEML6075] - I2C - UVA and UVB light sensor - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
+- [LM75] - I2C - Temperature sensor and thermal watchdog
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -417,6 +418,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SSD1351]: https://crates.io/crates/ssd1351
 [VEML6070]: https://crates.io/crates/veml6070
 [VEML6075]: https://crates.io/crates/veml6075
+[LM75]: https://github.com/eldruin/lm75-rs
 
 ## no-std crates
 
