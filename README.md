@@ -375,6 +375,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [VEML6070] - I2C - UVA light sensor - ![crates.io](https://img.shields.io/crates/v/veml6070.svg)
 - [VEML6075] - I2C - UVA and UVB light sensor - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 - [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
+- [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -419,6 +420,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [VEML6070]: https://crates.io/crates/veml6070
 [VEML6075]: https://crates.io/crates/veml6075
 [LM75]: https://crates.io/crates/lm75
+[MAX44009]: https://crates.io/crates/max44009
 
 ## no-std crates
 
