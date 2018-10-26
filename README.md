@@ -146,6 +146,12 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 [`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
 
+### Testing
+
+- [`embedded-hal-mock`] mock implementation of `embedded-hal` traits for testing without accessing hardware. - ![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)
+
+[`embedded-hal-mock`]: https://crates.io/crates/embedded-hal-mock
+
 ### Nordic
 
 - [`nrf51-hal`](https://crates.io/crates/nrf51-hal) - ![crates.io](https://img.shields.io/crates/v/nrf51-hal.svg)
