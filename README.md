@@ -148,7 +148,8 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 ### Testing
 
-- [`embedded-hal-mock`] mock implementation of `embedded-hal` traits for testing without accessing hardware. - ![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)
+- [`embedded-hal-mock`] - ![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)
+  - Mock implementation of `embedded-hal` traits for testing without accessing real hardware.
 
 [`embedded-hal-mock`]: https://crates.io/crates/embedded-hal-mock
 
