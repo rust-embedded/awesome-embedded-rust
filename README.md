@@ -380,7 +380,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 - [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 - [TCS3472] - I2C - RGB color light sensor - ![crates.io](https://img.shields.io/crates/v/tcs3472.svg)
-- [TMP1x2] - I2C - Temperature sensors: TMP102, TMP112x
+- [TMP1x2] - I2C - Temperature sensors: TMP102, TMP112x - ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
 - [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -426,7 +426,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [VEML6070]: https://crates.io/crates/veml6070
 [VEML6075]: https://crates.io/crates/veml6075
 [LM75]: https://crates.io/crates/lm75
-[TMP1x2]: https://github.com/eldruin/tmp1x2-rs
+[TMP1x2]: https://crates.io/crates/tmp1x2
 [MAX44009]: https://crates.io/crates/max44009
 [TCS3472]: https://crates.io/crates/tcs3472
 [DS323x]: https://crates.io/crates/ds323x
