@@ -232,6 +232,10 @@ Crates tailored for specific boards.
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
 
+### Sony
+
+- [`prussia`](https://github.com/ZirconiumX/prussia) - SDK for the PlayStation 2.
+
 ### STMicroelectronics
 
 - [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
