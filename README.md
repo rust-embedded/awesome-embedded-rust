@@ -31,6 +31,7 @@ This project is developed and maintained by the [Resources team][team].
 * [Board support crates](#board-support-crates)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
+    * [Sony](#sony)
     * [STMicroelectronics](#stmicroelectronics-2)
 * [Driver crates](#driver-crates)
     * [WIP](#wip)
