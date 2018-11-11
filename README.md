@@ -387,6 +387,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [TCS3472] - I2C - RGB color light sensor - ![crates.io](https://img.shields.io/crates/v/tcs3472.svg)
 - [TMP1x2] - I2C - Temperature sensors: TMP102, TMP112x - ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
 - [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
+- [ADS1x1x] - I2C/SPI - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, ADS1118, etc.
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -435,6 +436,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAX44009]: https://crates.io/crates/max44009
 [TCS3472]: https://crates.io/crates/tcs3472
 [DS323x]: https://crates.io/crates/ds323x
+[ADS1x1x]: https://github.com/eldruin/ads1x1x-rs
 
 ## no-std crates
 
