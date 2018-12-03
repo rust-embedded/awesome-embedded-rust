@@ -26,6 +26,7 @@ This project is developed and maintained by the [Resources team][team].
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments-1)
     * [Espressif](#espressif)
+    * [Silicon Labs](#silicon-labs)
 * [Architecture support crates](#architecture-support-crates)
     * [ARM](#arm)
 * [Board support crates](#board-support-crates)
@@ -203,6 +204,14 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Espressif
 
 - [`esp8266-hal`](https://github.com/emosenkis/esp8266-hal) ![crates.io](https://img.shields.io/crates/v/esp8266-hal.svg) (not supported by rustc, so must be built with [mrustc](https://github.com/thepowersgang/mrustc), typically via the [esp-rs](https://github.com/emosenkis/esp-rs) build script)
+
+### Silicon Labs
+
+- [`tomu-hal`](https://github.com/fudanchii/imtomu-rs)
+   - HAL implementation targeted for [Tomu] USB board with EFM32HG309F64 ARMv6-M core. Has support to configure [tomu bootloader] directly from application via `toboot_config` macro.
+
+[Tomu]: https://tomu.im/
+[tomu bootloader]: https://github.com/im-tomu/tomu-bootloader
 
 ## Architecture support crates
 
