@@ -473,10 +473,12 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [scroll](https://crates.io/crates/scroll): extensible and endian-aware Read/Write traits for generic containers - ![crates.io](https://img.shields.io/crates/v/scroll.svg)
 - [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`
 - [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer.
+- [biquad]: A library for creating second order IIR filters for signal processing based on Biquads, where both a Direct Form 1 (DF1) and Direct Form 2 Transposed (DF2T) implementation is available.
 
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
 [menu]: https://github.com/thejpster/menu
+[biquad]: https://crates.io/crates/biquad
 
 ### WIP
 
