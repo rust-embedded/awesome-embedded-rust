@@ -439,7 +439,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [w5500]: https://crates.io/crates/w5500
 [OneWire]: https://crates.io/crates/onewire
 [SSD1322]: https://crates.io/crates/ssd1322
-[GridEYE]: https://github.com/uwearzt/grideye
+[GridEYE]: https://crates.io/crates/grideye
 [PCF857x]: https://crates.io/crates/pcf857x
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
 [xCA9548A]: https://crates.io/crates/xca9548a
