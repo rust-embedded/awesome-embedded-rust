@@ -387,7 +387,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [w5500] - SPI - Ethernet Module with hardwired protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE - ![crates.io](https://img.shields.io/crates/v/w5500.svg)
 - [OneWire] - 1wire - OneWire protocol implementation with drivers for devices such as [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) - ![crates.io](https://img.shields.io/crates/v/onewire.svg)
 - [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
-- [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33)
+- [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33) - ![crates.io](https://img.shields.io/crates/v/GridEYE.svg)
 - [PCF857x] - I2C - I/O expanders: PCF8574, PCF8574A, PCF8575 ![crates.io](https://img.shields.io/crates/v/pcf857x.svg)
 - [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
 - [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
@@ -401,6 +401,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
 - [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc.  - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 - [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
+- [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder 
+
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
@@ -451,6 +453,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [DS323x]: https://crates.io/crates/ds323x
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
+[AS5048A]: https://github.com/uwearzt/as5048a
 
 ## no-std crates
 
