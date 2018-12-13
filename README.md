@@ -402,6 +402,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc.  - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 - [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 - [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder 
+- [MAX17048/9] - I2C - LiPo Fuel guage, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
+- [HM11] - USART - HM-11 bluetooth module AT configuration crate - ![crates.io](https://img.shields.io/crates/v/hm11.svg)
 
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -454,6 +456,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [AS5048A]: https://github.com/uwearzt/as5048a
+[HM11]: https://crates.io/crates/hm11
+[MAX17048/9]: https://crates.io/crates/max17048
 
 ## no-std crates
 
