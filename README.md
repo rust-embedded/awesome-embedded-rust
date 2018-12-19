@@ -401,7 +401,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
 - [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc.  - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 - [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
-- [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder 
+- [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
+- [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor
 
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -454,6 +455,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [AS5048A]: https://github.com/uwearzt/as5048a
+[APDS9960]: https://github.com/eldruin/apds9960-rs
 
 ## no-std crates
 
