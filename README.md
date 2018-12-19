@@ -190,8 +190,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l151-hal.svg)
 
-- [`stm32l432xx-hal`](https://crates.io/crates/stm32l432xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l432xx-hal.svg)
-   - Has examples that can run on boards like the [Nucleo-L432KC] and similar boards
+- [`stm32l4xx-hal`](https://crates.io/crates/stm32l4xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l4xx-hal.svg)
+   - Generic hal support for stm32l4 devices, has examples that can run on boards like the [Nucleo-L432KC] and similar boards
 
 [Nucleo-L432KC]: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-l432kc.html
 
@@ -404,6 +404,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder 
 - [MAX17048/9] - I2C - LiPo Fuel guage, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 - [HM11] - USART - HM-11 bluetooth module AT configuration crate - ![crates.io](https://img.shields.io/crates/v/hm11.svg)
+- [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor
 
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -458,6 +459,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [AS5048A]: https://github.com/uwearzt/as5048a
 [HM11]: https://crates.io/crates/hm11
 [MAX17048/9]: https://crates.io/crates/max17048
+[APDS9960]: https://github.com/eldruin/apds9960-rs
 
 ## no-std crates
 
