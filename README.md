@@ -113,7 +113,6 @@ Register definition for microcontroller families. Usually generated using [`svd2
 
 ### STMicroelectronics
 
-- [`stm32f042`](https://crates.io/crates/stm32f042) - ![crates.io](https://img.shields.io/crates/v/stm32f042.svg)
 - [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f103xx.svg)
 - [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f100xx.svg)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f30x.svg)
@@ -171,7 +170,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [stm-bsc]: #stmicroelectronics-2
 
-- [`stm32f042-hal`](https://crates.io/crates/stm32f042-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f042-hal.svg)
+- [`stm32f0xx-hal`](https://crates.io/crates/stm32f0xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f0xx-hal.svg)
   - Has examples that can run on boards like the [Nucleo-F042K6] and similar boards
 
 [Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
