@@ -404,6 +404,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [MAX17048/9] - I2C - LiPo Fuel guage, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 - [HM11] - USART - HM-11 bluetooth module AT configuration crate - ![crates.io](https://img.shields.io/crates/v/hm11.svg)
 - [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
+- [SSD1675] - SPI - Tri-color ePaper display controller - ![crates.io](https://img.shields.io/crates/v/ssd1675.svg)
 
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -459,6 +460,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [HM11]: https://crates.io/crates/hm11
 [MAX17048/9]: https://crates.io/crates/max17048
 [APDS9960]: https://crates.io/crates/apds9960
+[SSD1675]: https://crates.io/crates/ssd1675
 
 ## no-std crates
 
