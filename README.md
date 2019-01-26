@@ -46,7 +46,7 @@ This project is developed and maintained by the [Resources team][team].
 
 In 2018 Rust community has created an embedded workgroup to help drive adoption in the Rust ecosystem.
 
-- [Embedded WG](https://github.com/rust-lang-nursery/embedded-wg/), including newsletters with progress updates.
+- [Embedded WG](https://github.com/rust-embedded/wg/), including newsletters with progress updates.
 
 - You can usually find the members of the embedded WG on the `#rust-embedded` channel (server: `irc.mozilla.org`).
 
@@ -279,7 +279,7 @@ traits][hal-impl].
 The list below contains drivers developed as part of the [Weekly Driver initiative][wd] and that
 have achieved the "released" status (published on crates.io + documentation / short blog post).
 
-[wd]: https://github.com/rust-lang-nursery/embedded-wg/issues/39
+[wd]: https://github.com/rust-embedded/wg/issues/39
 
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
 2. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)
@@ -430,7 +430,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [PCD8544]: https://github.com/pcein/pcd8544
 [PCD8544_rich]: https://crates.io/crates/pcd8544
 [AXP209]: https://github.com/RandomInsano/axp209-rs
-[DS3234]: https://github.com/rust-lang-nursery/embedded-wg/issues/39#issuecomment-375262785
+[DS3234]: https://github.com/rust-embedded/wg/issues/39#issuecomment-375262785
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
 [AFE4400]: https://github.com/ReeceStevens/afe4400
 [SX1278]: https://github.com/susu/sx1278
