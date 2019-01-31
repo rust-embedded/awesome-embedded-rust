@@ -13,7 +13,7 @@ This project is developed and maintained by the [Resources team][team].
 * [Community](#community)
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Tools](#tools)
-* [Device crates](#device-crates)
+* [Peripheral Access Crates](#peripheral-access-crates)
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [STMicroelectronics](#stmicroelectronics)
@@ -86,20 +86,22 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
-## Device crates
+## Peripheral Access Crates
 
 Register definition for microcontroller families. Usually generated using [`svd2rust`]. - ![crates.io](https://img.shields.io/crates/v/svd2rust.svg)
 
+Peripheral Access Crates were also called Device Crates.
+
 [`svd2rust`]: https://crates.io/crates/svd2rust
 
-*NOTE* You may be able to find even more device crates by searching for the
+*NOTE* You may be able to find even more peripheral access crates by searching for the
 [`svd2rust`][svd2rust-kw] keyword on crates.io!
 
 [svd2rust-kw]: https://crates.io/keywords/svd2rust
 
 ### Microchip
 
-- [`atsamd21`](https://github.com/wez/atsamd21-rs) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the device crate and the hal.
+- [`atsamd21`](https://github.com/wez/atsamd21-rs) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 
 ### Nordic
 
