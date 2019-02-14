@@ -482,7 +482,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [CC1101]: https://crates.io/crates/cc1101
 [MPU9250]: https://crates.io/crates/mpu9250
 [BMP280]: https://crates.io/crates/bmp280-ehal
-[LSM303C_2]: https://crates.io/crates/lsm303c
+[LSM303C]: https://crates.io/crates/lsm303c
 [VL53L0X]: https://crates.io/crates/vl53l0x
 
 ## no-std crates
