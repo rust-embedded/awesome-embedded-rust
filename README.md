@@ -137,8 +137,7 @@ Peripheral Access Crates were also called Device Crates.
 
 ## HAL implementation crates
 
-Implementations of [`embedded
-`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
+Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
 
 [`embedded-hal`]: https://crates.io/crates/embedded-hal
 
