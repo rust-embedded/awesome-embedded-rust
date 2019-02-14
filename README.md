@@ -425,7 +425,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [MPU9250_2] - no_std driver for the MPU9250 (and some MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
 - [BMP280] - A platform agnostic driver to interface with the BMP280 pressure sensor ![crates.io](https://img.shields.io/crates/v/bmp280-ehal.svg)
 - [LSM303C_2] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
-- [VL53L0X] - A platform agnostic driver to interface with the vl53l0x (time-to-flight sensor) ![crates.io](https://img.shields.io/crates/v/vl53l0x.svg)
+- [VL53L0X] - A platform agnostic driver to interface with the vl53l0x (time-of-flight sensor) ![crates.io](https://img.shields.io/crates/v/vl53l0x.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [MPU9250]: https://github.com/japaric/mpu9250
