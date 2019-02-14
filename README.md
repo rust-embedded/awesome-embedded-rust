@@ -483,8 +483,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SSD1675]: https://crates.io/crates/ssd1675
 [CC1101]: https://crates.io/crates/cc1101
 [MPU9250_2]: https://crates.io/crates/mpu9250
-[BMP280]: https://crates.io/crates/bmp820-ehal
-[LSM303C_2]: https://crates.io/crates/lsm303c.svg
+[BMP280]: https://crates.io/crates/bmp280-ehal
+[LSM303C_2]: https://crates.io/crates/lsm303c
 [VL53L0X]: https://crates.io/crates/vl53l0x
 
 ## no-std crates
