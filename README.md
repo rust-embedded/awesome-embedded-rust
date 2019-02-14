@@ -368,7 +368,6 @@ keyword on crates.io!
 Work in progress drivers. Help the authors make these crates awesome!
 
 - [MFRC522] - SPI - RFID tag reader/writer
-- [MPU9250] - SPI - Accelerometer + gyroscope + compass
 - [motor-driver] - Motor drivers: L298N, TB6612FNG, etc.
 - [MAG3110] - I2C - Magnetometer
 - [SI5351] - I2C - clock generator
@@ -422,13 +421,12 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 - [SSD1675] - SPI - Tri-color ePaper display controller - ![crates.io](https://img.shields.io/crates/v/ssd1675.svg)
 - [CC1101] - SPI - Sub-1GHz RF Transceiver - ![crates.io](https://img.shields.io/crates/v/cc1101.svg)
-- [MPU9250_2] - no_std driver for the MPU9250 (and some MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
+- [MPU9250] - no_std driver for the MPU9250 (and other MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
 - [BMP280] - A platform agnostic driver to interface with the BMP280 pressure sensor ![crates.io](https://img.shields.io/crates/v/bmp280-ehal.svg)
 - [LSM303C_2] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 - [VL53L0X] - A platform agnostic driver to interface with the vl53l0x (time-of-flight sensor) ![crates.io](https://img.shields.io/crates/v/vl53l0x.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
-[MPU9250]: https://github.com/japaric/mpu9250
 [motor-driver]: https://github.com/japaric/motor-driver
 [MAG3110]: https://github.com/therealprof/mag3110
 [SI5351]: https://github.com/ilya-epifanov/si5351
@@ -482,7 +480,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [APDS9960]: https://crates.io/crates/apds9960
 [SSD1675]: https://crates.io/crates/ssd1675
 [CC1101]: https://crates.io/crates/cc1101
-[MPU9250_2]: https://crates.io/crates/mpu9250
+[MPU9250]: https://crates.io/crates/mpu9250
 [BMP280]: https://crates.io/crates/bmp280-ehal
 [LSM303C_2]: https://crates.io/crates/lsm303c
 [VL53L0X]: https://crates.io/crates/vl53l0x
