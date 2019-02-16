@@ -180,8 +180,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
 
-- [`stm32f103xx-hal`](https://github.com/japaric/stm32f103xx-hal)
-  - Has examples that can run on boards like the [Blue pill], [Nucleo-F103RB] and similar boards
+- [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)
+  - Can be run on boards like the [Blue pill], [Nucleo-F103RB] and similar boards
 
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
