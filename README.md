@@ -303,6 +303,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 17. [TMP006] - I2C - Contact-less infrared (IR) thermopile temperature sensor driver - [Intro post][17] ![crates.io](https://img.shields.io/crates/v/tmp006.svg)
 18. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
 19. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
+20. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -357,6 +358,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [SH1106]: https://crates.io/crates/sh1106
 [19]: https://wapl.es/electronics/rust/2019/02/13/sh1106-driver.html
+
+[embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
+[20]: https://www.reddit.com/r/rust/comments/ascvls/introducing_embeddedsdmmc_a_purerust_no_std_sd/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
