@@ -183,6 +183,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 - [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)
   - Can be run on boards like the [Blue pill], [Nucleo-F103RB] and similar boards
 
+[Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
 - [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f30x-hal.svg)
@@ -198,14 +199,12 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
    - Generic hal support for stm32l4 devices, has examples that can run on boards like the [Nucleo-L432KC], [Solo], and similar boards
 
 [Nucleo-L432KC]: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-l432kc.html
-
 [Solo]: https://solokeys.com/
 
 ### Texas Instruments
 
 - [`tm4c123x-hal`](https://github.com/thejpster/tm4c123x-hal)
 
-[Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
 
 ### Espressif
 
@@ -259,7 +258,6 @@ Crates tailored for specific boards.
 - [`f3`](https://crates.io/crates/f3) Board Support Crate for the [STM32F3DISCOVERY] - ![crates.io](https://img.shields.io/crates/v/f3.svg)
 - [`stm32f407g-disc`](https://crates.io/crates/stm32f407g-disc) Board Support Crate for the [STM32F4DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f407g-disc.svg)
 - [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)
-- [`blue-pill`](https://github.com/japaric/blue-pill) Board Support Crate for [Blue Pill].
 - [`solo-bsp`](https://crates.io/crates/solo-bsp) Board Support Crate for [Solo], an open source security token (WIP) - ![crates.io](https://img.shields.io/crates/v/solo-bsp.svg)
 
 ### Texas Instruments
