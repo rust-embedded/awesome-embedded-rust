@@ -563,7 +563,7 @@ This list is licensed under
 ## Code of Conduct
 
 Contribution to this crate is organized under the terms of the [Rust Code of
-Conduct][CoC], the maintainer of this crate, the [HAL team][team], promises
+Conduct][CoC], the maintainer of this crate, the [Resources team][team], promises
 to intervene to uphold that code of conduct.
 
 [CoC]: CODE_OF_CONDUCT.md
