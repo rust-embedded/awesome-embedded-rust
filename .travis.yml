@@ -1,0 +1,14 @@
+language: rust
+
+script:
+  - true
+
+branches:
+  only:
+    - master
+    - staging
+    - trying
+
+notifications:
+  email:
+    on_success: never
