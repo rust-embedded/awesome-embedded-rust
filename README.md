@@ -447,6 +447,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [MCP49xx] - SPI - 8/10/12-bit DACs like MCP4921, MCP4922, MCP4801, etc. - ![crates.io](https://img.shields.io/crates/v/mcp49xx.svg)
 - [DW1000] - SPI - Radio transceiver for communication based on IEEE 802.15.4 and position tracking - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 - [radio-at86rf212] - SPI - Sub GHz 802.15.4 radio transceiver ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
+- [vesc-comm] - A driver for communicating with VESCs ![crates.io](https://img.shields.io/crates/v/vesc-comm.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -509,6 +510,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MCP49xx]: https://crates.io/crates/mcp49xx
 [DW1000]: https://crates.io/crates/dw1000
 [radio-at86rf212]: https://crates.io/crates/radio-at86rf212
+[vesc-comm]: https://github.com/chocol4te/vesc-comm
 
 ## no-std crates
 
