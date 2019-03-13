@@ -442,6 +442,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [CC1101] - SPI - Sub-1GHz RF Transceiver - ![crates.io](https://img.shields.io/crates/v/cc1101.svg)
 - [MPU9250] - no_std driver for the MPU9250 (and other MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
 - [BMP280] - A platform agnostic driver to interface with the BMP280 pressure sensor ![crates.io](https://img.shields.io/crates/v/bmp280-ehal.svg)
+- [BME280] - A rust device driver for the Bosch BME280 temperature, humidity, and atmospheric pressure sensor and the Bosch BMP280 temperature and atmospheric pressure sensor. ![crates.io](https://img.shields.io/crates/v/bme280.svg)
 - [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 - [VL53L0X] - A platform agnostic driver to interface with the vl53l0x (time-of-flight sensor) ![crates.io](https://img.shields.io/crates/v/vl53l0x.svg)
 - [MCP49xx] - SPI - 8/10/12-bit DACs like MCP4921, MCP4922, MCP4801, etc. - ![crates.io](https://img.shields.io/crates/v/mcp49xx.svg)
@@ -504,6 +505,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [CC1101]: https://crates.io/crates/cc1101
 [MPU9250]: https://crates.io/crates/mpu9250
 [BMP280]: https://crates.io/crates/bmp280-ehal
+[BME280]: https://crates.io/crates/bme280
 [LSM303C]: https://crates.io/crates/lsm303c
 [VL53L0X]: https://crates.io/crates/vl53l0x
 [MCP49xx]: https://crates.io/crates/mcp49xx
