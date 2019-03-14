@@ -477,7 +477,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SX1509]: https://github.com/wez/sx1509
 [NRF24L01]: https://github.com/maikelwever/nrf24l01
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
-[stm32-eth]: https://github.com/astro/stm32-eth
+[stm32-eth]: https://github.com/stm32-rs/stm32-eth
 [bme680]: https://github.com/marcelbuesing/bme680
 [w5500]: https://crates.io/crates/w5500
 [OneWire]: https://crates.io/crates/onewire
