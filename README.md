@@ -127,7 +127,6 @@ Peripheral Access Crates were also called Device Crates.
 - [`stm32f103xx`](https://crates.io/crates/stm32f103xx) Peripheral access API for STM32F103XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f103xx.svg)
 - [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f100xx.svg)
 - [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f30x.svg)
-- [`stm32f429`](https://crates.io/crates/stm32f429) Peripheral access API for STM32F429 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f429.svg)
 - [`stm32f469xx`](https://crates.io/crates/stm32f469xx) Peripheral access API for STM32f469XX microcontrollers (generated using svd2rust) -![crates.io](https://img.shields.io/crates/v/stm32f469xx.svg)
 - [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
 * [`stm32-rs`](https://github.com/adamgreig/stm32-rs) Peripheral access API for most STM32 microcontrollers (generated using svd2rust): [stm32f0](https://crates.io/crates/stm32f0), [stm32f1](https://crates.io/crates/stm32f1), [stm32f2](https://crates.io/crates/stm32f2), [stm32f3](https://crates.io/crates/stm32f3), [stm32f4](https://crates.io/crates/stm32f4), [stm32f7](https://crates.io/crates/stm32f7), [stm32l0](https://crates.io/crates/stm32l0), [stm32l1](https://crates.io/crates/stm32l1), [stm32l4](https://crates.io/crates/stm32l4), [stm32h7](https://crates.io/crates/stm32h7)
@@ -198,8 +197,6 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
 - [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f30x-hal.svg)
-
-- [`stm32f429-hal`](https://crates.io/crates/stm32f429-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f429-hal.svg)
 
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)
    - Generic hal support for stm32f4 devices, currently with support for stm32f407 and stm32f429 devices (WIP)
