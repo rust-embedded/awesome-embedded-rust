@@ -199,7 +199,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 - [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f30x-hal.svg)
 
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)
-   - Generic hal support for stm32f4 devices, currently with support for stm32f407 and stm32f429 devices (WIP)
+   - Generic HAL implementation for all MCUs of the stm32f4 series
 
 - [`stm32l1xx-hal`](https://crates.io/crates/stm32l1xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32l1xx-hal.svg)
 
