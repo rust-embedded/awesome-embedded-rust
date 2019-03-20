@@ -81,6 +81,7 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 ## Tools
 
 -   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build rust runtime for your own embedded system.
+    - xargo is great but it's in maintenance mode, [cargo-xbuild](https://github.com/rust-osdev/cargo-xbuild) is catching up as intended replacement.
 -   [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
 -   [μtest](https://github.com/japaric/utest) unit testing for microcontrollers and other no-std systems.
 -   [embedded-hal-mock] Mock implementation of `embedded-hal` traits for testing without accessing real hardware. - ![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)
