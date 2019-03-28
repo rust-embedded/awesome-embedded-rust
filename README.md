@@ -473,6 +473,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [DW1000] - SPI - Radio transceiver for communication based on IEEE 802.15.4 and position tracking - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 - [radio-at86rf212] - SPI - Sub GHz 802.15.4 radio transceiver ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 - [vesc-comm] - A driver for communicating with [VESC-compatible electronic speed controllers](http://vedder.se/2015/01/vesc-open-source-esc/) ![crates.io](https://img.shields.io/crates/v/vesc-comm.svg)
+- [VEML6040] - I2C - RGBW color light sensor - ![crates.io](https://img.shields.io/crates/v/veml6040.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -536,6 +537,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [DW1000]: https://crates.io/crates/dw1000
 [radio-at86rf212]: https://crates.io/crates/radio-at86rf212
 [vesc-comm]: https://github.com/chocol4te/vesc-comm
+[VEML6040]: https://crates.io/crates/veml6040
 
 ## no-std crates
 
