@@ -337,6 +337,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 19. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
 20. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 21. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
+22. [TMP1x2] - I2C - TMP102 and TMP112x temperature sensor driver - [Intro blog post][22] ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -397,6 +398,10 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [ADXL343]: https://crates.io/crates/adxl343
 
+[TMP1x2]: https://crates.io/crates/tmp1x2
+[22]: https://blog.eldruin.com/tmp1x2-temperature-sensor-driver-in-rust/
+
+
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
 
@@ -450,7 +455,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 - [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 - [TCS3472] - I2C - RGB color light sensor - ![crates.io](https://img.shields.io/crates/v/tcs3472.svg)
-- [TMP1x2] - I2C - Temperature sensors: TMP102, TMP112x - ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
 - [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
 - [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc.  - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 - [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
@@ -512,7 +516,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [VEML6070]: https://crates.io/crates/veml6070
 [VEML6075]: https://crates.io/crates/veml6075
 [LM75]: https://crates.io/crates/lm75
-[TMP1x2]: https://crates.io/crates/tmp1x2
 [MAX44009]: https://crates.io/crates/max44009
 [TCS3472]: https://crates.io/crates/tcs3472
 [DS323x]: https://crates.io/crates/ds323x
