@@ -251,6 +251,10 @@ Crates tailored for general CPU architectures.
 
 - [`riscv`](https://github.com/rust-embedded/riscv) Low level access to RISC-V processors - ![crates.io](https://img.shields.io/crates/v/riscv.svg)
 
+### MIPS
+
+- [`mips`](https://github.com/Harry-Chen/rust-mips) Low level access to MIPS32 processors - ![crates.io](https://img.shields.io/crates/v/mips.svg)
+
 ## Board support crates
 
 Crates tailored for specific boards.
