@@ -29,6 +29,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Texas Instruments](#texas-instruments-1)
     * [Espressif](#espressif)
     * [Silicon Labs](#silicon-labs)
+    * [XMC](#xmc)
 * [Architecture support crates](#architecture-support-crates)
     * [ARM](#arm)
 * [Board support crates](#board-support-crates)
@@ -237,6 +238,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [Tomu]: https://tomu.im/
 [tomu bootloader]: https://github.com/im-tomu/tomu-bootloader
+
+### XMC
+
+- [`xmc1100-hal`](https://github.com/david-sawatzke/xmc1100-hal) - ![crates.io](https://img.shields.io/crates/v/xmc1100-hal.svg)
 
 ## Architecture support crates
 
