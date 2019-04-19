@@ -544,7 +544,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [radio-at86rf212]: https://crates.io/crates/radio-at86rf212
 [vesc-comm]: https://github.com/chocol4te/vesc-comm
 [VEML6040]: https://crates.io/crates/veml6040
-[SCD30]: https://github.com/sinuss/scd30-rs
+[SCD30]: https://crates.io/crates/scd30
 
 ## no-std crates
 
