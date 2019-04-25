@@ -590,6 +590,7 @@ Work in progress crates. Help the authors make these crates awesome!
 
 - [light-cli](https://github.com/rudihorn/light-cli): a lightweight heapless cli interface ![crates.io](https://img.shields.io/crates/v/light_cli.svg)
 - [OxCC](https://github.com/jonlamb-gh/oxcc): A port of Open Source Car Control written in Rust
+- [Rubble](https://github.com/jonas-schievink/rubble): A pure-Rust embedded BLE stack ![crates.io](https://img.shields.io/crates/v/rubble.svg)
 
 [no-std-category]: https://crates.io/categories/no-std
 
