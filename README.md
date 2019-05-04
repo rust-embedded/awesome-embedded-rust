@@ -45,6 +45,7 @@ This project is developed and maintained by the [Resources team][team].
     * [STMicroelectronics](#stmicroelectronics-2)
     * [Texas Instruments](#texas-instruments-2)
     * [Special Purpose](#special-purpose)
+* [Component abstraction crates](#component-abstraction-crates)
 * [Driver crates](#driver-crates)
     * [WIP](#wip)
 * [no-std crates](#no-std-crates)
