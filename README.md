@@ -178,6 +178,10 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 [`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
 [`ftdi-embedded-hal`]: https://github.com/geomatsi/ftdi-embedded-hal
 
+### Microchip
+
+- [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD21 and SAMD51 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
+
 ### Nordic
 
 - [`nrf51-hal`](https://crates.io/crates/nrf51-hal) - ![crates.io](https://img.shields.io/crates/v/nrf51-hal.svg)
@@ -278,6 +282,12 @@ Crates tailored for specific boards.
 [STM32F3DISCOVERY]: http://www.st.com/en/evaluation-tools/stm32f3discovery.html
 [STM32F4DISCOVERY]: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
 [STM32F429DISCOVERY]: https://www.st.com/en/evaluation-tools/32f429idiscovery.html
+
+### Adafruit
+
+- [`metro_m4`](https://crates.io/crates/metro_m4) - ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
+- [`pyportal`](https://crates.io/crates/pyportal) - ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
+- [`trellis_m4`](https://crates.io/crates/trellis_m4) - ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
 
 ### Nordic
 
