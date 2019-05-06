@@ -515,6 +515,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [VEML6040] - I2C - RGBW color light sensor - ![crates.io](https://img.shields.io/crates/v/veml6040.svg)
 - [SCD30] - I2C - CO₂ sensor - ![crates.io](https://img.shields.io/crates/v/scd30.svg)
 - [KXCJ9] - I2C - Tri-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
+- [TPA2016D2] - I2C - A driver for interfacing with the Texas Instruments TPA2016D2 Class-D amplifier - ![crates.io](https://img.shields.io/crates/v/tpa2016d2.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -581,6 +582,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [VEML6040]: https://crates.io/crates/veml6040
 [SCD30]: https://crates.io/crates/scd30
 [KXCJ9]: https://crates.io/crates/kxcj9
+[TPA2016D2]: https://crates.io/crates/tpa2016d2
 
 ## no-std crates
 
