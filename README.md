@@ -374,6 +374,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 21. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
 22. [TMP1x2] - I2C - TMP102 and TMP112x temperature sensor driver - [Intro blog post][22] ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
 23. [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc. - [Intro blog post][23] - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
+24. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -439,6 +440,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [23]: https://blog.eldruin.com/ads1x1x-analog-to-digital-converter-driver-in-rust/
+
+[KXCJ9]: https://crates.io/crates/kxcj9
+[24]: https://blog.eldruin.com/kxcj9-kxcjb-tri-axis-mems-accelerator-driver-in-rust/
 
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
@@ -514,7 +518,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [vesc-comm] - A driver for communicating with [VESC-compatible electronic speed controllers](http://vedder.se/2015/01/vesc-open-source-esc/) ![crates.io](https://img.shields.io/crates/v/vesc-comm.svg)
 - [VEML6040] - I2C - RGBW color light sensor - ![crates.io](https://img.shields.io/crates/v/veml6040.svg)
 - [SCD30] - I2C - CO₂ sensor - ![crates.io](https://img.shields.io/crates/v/scd30.svg)
-- [KXCJ9] - I2C - Tri-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 - [TPA2016D2] - I2C - A driver for interfacing with the Texas Instruments TPA2016D2 Class-D amplifier - ![crates.io](https://img.shields.io/crates/v/tpa2016d2.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -581,7 +584,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [vesc-comm]: https://github.com/chocol4te/vesc-comm
 [VEML6040]: https://crates.io/crates/veml6040
 [SCD30]: https://crates.io/crates/scd30
-[KXCJ9]: https://crates.io/crates/kxcj9
 [TPA2016D2]: https://crates.io/crates/tpa2016d2
 
 ## no-std crates
