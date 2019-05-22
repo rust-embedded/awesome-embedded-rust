@@ -519,6 +519,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [VEML6040] - I2C - RGBW color light sensor - ![crates.io](https://img.shields.io/crates/v/veml6040.svg)
 - [SCD30] - I2C - CO₂ sensor - ![crates.io](https://img.shields.io/crates/v/scd30.svg)
 - [TPA2016D2] - I2C - A driver for interfacing with the Texas Instruments TPA2016D2 Class-D amplifier - ![crates.io](https://img.shields.io/crates/v/tpa2016d2.svg)
+- [RN2xx3] - Serial - A driver for the RN2483 / RN2903 LoRaWAN modems by Microchip
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -585,6 +586,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [VEML6040]: https://crates.io/crates/veml6040
 [SCD30]: https://crates.io/crates/scd30
 [TPA2016D2]: https://crates.io/crates/tpa2016d2
+[RN2xx3]: https://github.com/dbrgn/rn2xx3-rs/
 
 ## no-std crates
 
