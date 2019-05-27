@@ -132,6 +132,7 @@ Peripheral Access Crates were also called Device Crates.
 ### NXP
 
 - [`lpc82x`](https://crates.io/crates/lpc82x) - ![crates.io](https://img.shields.io/crates/v/lpc82x.svg)
+- [`lpc11uxx`](https://crates.io/crates/lpc11uxx) - ![crates.io](https://img.shields.io/crates/v/lpc11uxx.svg)
 - [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 - [`k64`](https://crates.io/crates/k64) - ![crates.io](https://img.shields.io/crates/v/k64.svg)
 
