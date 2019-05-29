@@ -379,6 +379,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 22. [TMP1x2] - I2C - TMP102 and TMP112x temperature sensor driver - [Intro blog post][22] ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
 23. [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc. - [Intro blog post][23] - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 24. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
+25. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -447,6 +448,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [KXCJ9]: https://crates.io/crates/kxcj9
 [24]: https://blog.eldruin.com/kxcj9-kxcjb-tri-axis-mems-accelerator-driver-in-rust/
+
+[AD983x]: https://crates.io/crates/ad983x
+[25]: https://blog.eldruin.com/ad983x-waveform-generator-dds-driver-in-rust/
 
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
