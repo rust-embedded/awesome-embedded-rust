@@ -175,9 +175,11 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 - [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi. - ![crates.io](https://img.shields.io/crates/v/linux-embedded-hal.svg)
 - [`ftdi-embedded-hal`] for FTDI FTx232H chips connected to Linux systems via USB
+- [`bitbang-hal`] software protocol implementations for microcontrollers with digital::OutputPin and digital::InputPin 
 
 [`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
 [`ftdi-embedded-hal`]: https://github.com/geomatsi/ftdi-embedded-hal
+[`bitbang-hal`]: https://crates.io/crates/bitbang-hal 
 
 ### Microchip
 
@@ -528,6 +530,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [SCD30] - I2C - CO₂ sensor - ![crates.io](https://img.shields.io/crates/v/scd30.svg)
 - [TPA2016D2] - I2C - A driver for interfacing with the Texas Instruments TPA2016D2 Class-D amplifier - ![crates.io](https://img.shields.io/crates/v/tpa2016d2.svg)
 - [RN2xx3] - Serial - A driver for the RN2483 / RN2903 LoRaWAN modems by Microchip
+- [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg) 
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -595,6 +598,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SCD30]: https://crates.io/crates/scd30
 [TPA2016D2]: https://crates.io/crates/tpa2016d2
 [RN2xx3]: https://github.com/dbrgn/rn2xx3-rs/
+[ST7735-lcd]: https://crates.io/crates/st7735-lcd
 
 ## no-std crates
 
