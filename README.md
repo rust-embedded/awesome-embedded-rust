@@ -469,7 +469,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [MAG3110] - I2C - Magnetometer
 - [SI5351] - I2C - clock generator
 - [SI7021] - I2C - Humidity and temperature sensor
-- [MAX7219] - SPI - LED display driver
+- [MAX7219] - SPI - LED display driver - ![crates.io](https://img.shields.io/crates/v/max7219.svg)
 - [DS3231] - I2C - real time clock
 - [BH1750] - I2C - ambient light sensor (lux meter)
 - [SHT2x] - I2C - temperature / humidity sensors
@@ -537,7 +537,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAG3110]: https://github.com/therealprof/mag3110
 [SI5351]: https://github.com/ilya-epifanov/si5351
 [SI7021]: https://github.com/wose/si7021
-[MAX7219]: https://github.com/maikelwever/max7219
+[MAX7219]: https://github.com/almindor/max7219
 [DS3231]: https://github.com/wose/ds3231
 [BH1750]: https://github.com/wose/bh1750
 [SHT2x]: https://github.com/dbrgn/sht2x-rs
