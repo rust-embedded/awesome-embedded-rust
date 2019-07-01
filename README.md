@@ -120,6 +120,7 @@ Peripheral Access Crates were also called Device Crates.
 
 - [`atsamd21`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsamd51`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD51 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
+- [`avr-device`](https://github.com/Rahix/avr-device) Peripheral access API for Microchip (formerly Atmel) AVR microcontroller family.
 - [`sam3x8e`](https://crates.io/crates/sam3x8e) Peripheral access API for Atmel SAMD3X8E microcontrollers (generated using svd2rust)  - ![crates.io](https://img.shields.io/crates/v/sam3x8e.svg)
 
 ### Nordic
@@ -184,6 +185,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 ### Microchip
 
 - [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD21 and SAMD51 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
+- ['avr-hal'](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
 
 ### Nordic
 
@@ -294,6 +296,10 @@ Crates tailored for specific boards.
 - [`metro_m4`](https://crates.io/crates/metro_m4) - ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
 - [`pyportal`](https://crates.io/crates/pyportal) - ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
 - [`trellis_m4`](https://crates.io/crates/trellis_m4) - ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
+
+### Arduino
+
+- [`avr-hal`](https://github.com/Rahix/avr-hal) - Board support crate for several AVR-based boards including the Arduino Uno and the Arduino Leonardo
 
 ### Nordic
 
