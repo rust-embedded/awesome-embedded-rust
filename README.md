@@ -536,7 +536,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [SCD30] - I2C - CO₂ sensor - ![crates.io](https://img.shields.io/crates/v/scd30.svg)
 - [TPA2016D2] - I2C - A driver for interfacing with the Texas Instruments TPA2016D2 Class-D amplifier - ![crates.io](https://img.shields.io/crates/v/tpa2016d2.svg)
 - [RN2xx3] - Serial - A driver for the RN2483 / RN2903 LoRaWAN modems by Microchip
-- [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg) 
+- [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg)
+- [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -605,6 +606,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [TPA2016D2]: https://crates.io/crates/tpa2016d2
 [RN2xx3]: https://github.com/dbrgn/rn2xx3-rs/
 [ST7735-lcd]: https://crates.io/crates/st7735-lcd
+[spi-memory]: https://github.com/jonas-schievink/spi-memory/
 
 ## no-std crates
 
