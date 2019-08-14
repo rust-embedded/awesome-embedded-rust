@@ -23,6 +23,7 @@ This project is developed and maintained by the [Resources team][team].
     * [STMicroelectronics](#stmicroelectronics)
     * [Texas Instruments](#texas-instruments)
     * [MSP430](#msp430)
+    * [Ambiq Micro](#ambiq-micro)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [Nordic](#nordic-1)
@@ -159,6 +160,10 @@ Peripheral Access Crates were also called Device Crates.
 
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
     - [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
+    
+### Ambiq Micro
+
+- [`ambiq-apollo3-pac`](https://crates.io/crates/ambiq-apollo3-pac) Peripheral access API for Ambiq Apollo3 microcontrollers (generated using svd2rust)
 
 ## HAL implementation crates
 
