@@ -310,9 +310,11 @@ Crates tailored for specific boards.
 
 - [`dwm1001`](https://crates.io/crates/dwm1001) - [Decawave DWM1001-DEV] - ![crates.io](https://img.shields.io/crates/v/dwm1001.svg)
 - [`microbit`](https://crates.io/crates/microbit) - [micro:bit] - ![crates.io](https://img.shields.io/crates/v/microbit.svg)
+- [`particle-xenon`](https://crates.io/crates/particle-xenon) - [Particle Xenon] - ![crates.io](https://img.shields.io/crates/v/particle-xenon.svg)
 
 [Decawave DWM1001-DEV]: https://www.decawave.com/product/dwm1001-development-board/
 [micro:bit]: http://microbit.org/
+[Particle Xenon]: https://docs.particle.io/xenon/
 
 ### NXP
 
