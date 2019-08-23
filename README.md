@@ -144,12 +144,20 @@ Peripheral Access Crates were also called Device Crates.
 
 ### STMicroelectronics
 
-- [`stm32f1`](https://crates.io/crates/stm32f1) Peripheral access API for STM32F1 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f1.svg)
-- [`stm32f100xx`](https://github.com/japaric/stm32f100xx) Peripheral access API for STM32F100XX microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f100xx.svg)
-- [`stm32f30x`](https://crates.io/crates/stm32f30x) Peripheral access API for STM32F30X microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/stm32f30x.svg)
-- [`stm32f469xx`](https://crates.io/crates/stm32f469xx) Peripheral access API for STM32f469XX microcontrollers (generated using svd2rust) -![crates.io](https://img.shields.io/crates/v/stm32f469xx.svg)
-- [`stm32l151`](https://crates.io/crates/stm32l151) - ![crates.io](https://img.shields.io/crates/v/stm32l151.svg)
-* [`stm32-rs`](https://github.com/adamgreig/stm32-rs) Peripheral access API for most STM32 microcontrollers (generated using svd2rust): [stm32f0](https://crates.io/crates/stm32f0), [stm32f1](https://crates.io/crates/stm32f1), [stm32f2](https://crates.io/crates/stm32f2), [stm32f3](https://crates.io/crates/stm32f3), [stm32f4](https://crates.io/crates/stm32f4), [stm32f7](https://crates.io/crates/stm32f7), [stm32l0](https://crates.io/crates/stm32l0), [stm32l1](https://crates.io/crates/stm32l1), [stm32l4](https://crates.io/crates/stm32l4), [stm32h7](https://crates.io/crates/stm32h7)
+The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral access APIs for most STM32 microcontrollers (generated using svd2rust):
+
+- [`stm32f0`](https://crates.io/crates/stm32f0) - ![crates.io](https://img.shields.io/crates/v/stm32f0.svg)
+- [`stm32f1`](https://crates.io/crates/stm32f1) - ![crates.io](https://img.shields.io/crates/v/stm32f1.svg)
+- [`stm32f2`](https://crates.io/crates/stm32f2) - ![crates.io](https://img.shields.io/crates/v/stm32f2.svg)
+- [`stm32f3`](https://crates.io/crates/stm32f3) - ![crates.io](https://img.shields.io/crates/v/stm32f3.svg)
+- [`stm32f4`](https://crates.io/crates/stm32f4) - ![crates.io](https://img.shields.io/crates/v/stm32f4.svg)
+- [`stm32f7`](https://crates.io/crates/stm32f7) - ![crates.io](https://img.shields.io/crates/v/stm32f7.svg)
+- [`stm32l0`](https://crates.io/crates/stm32l0) - ![crates.io](https://img.shields.io/crates/v/stm32l0.svg)
+- [`stm32l1`](https://crates.io/crates/stm32l1) - ![crates.io](https://img.shields.io/crates/v/stm32l1.svg)
+- [`stm32l4`](https://crates.io/crates/stm32l4) - ![crates.io](https://img.shields.io/crates/v/stm32l4.svg)
+- [`stm32h7`](https://crates.io/crates/stm32h7) - ![crates.io](https://img.shields.io/crates/v/stm32h7.svg)
+- [`stm32g0`](https://crates.io/crates/stm32g0) - ![crates.io](https://img.shields.io/crates/v/stm32g0.svg)
+- [`stm32g4`](https://crates.io/crates/stm32g4) - ![crates.io](https://img.shields.io/crates/v/stm32g4.svg)
 
 ### Texas Instruments
 
