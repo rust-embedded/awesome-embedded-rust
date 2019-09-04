@@ -133,10 +133,11 @@ Peripheral Access Crates were also called Device Crates.
 
 ### NXP
 
-- [`lpc82x`](https://crates.io/crates/lpc82x) - ![crates.io](https://img.shields.io/crates/v/lpc82x.svg)
+- [`lpc82x-pac`](https://crates.io/crates/lpc82x-pac) - ![crates.io](https://img.shields.io/crates/v/lpc82x-pac.svg)
 - [`lpc11uxx`](https://crates.io/crates/lpc11uxx) - ![crates.io](https://img.shields.io/crates/v/lpc11uxx.svg)
 - [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 - [`k64`](https://crates.io/crates/k64) - ![crates.io](https://img.shields.io/crates/v/k64.svg)
+- [`lpc55s6x-pac`](https://crates.io/crates/lpc55s6x-pac) - ![crates.io](https://img.shields.io/crates/v/lpc55s6x-pac.svg)
 
 ### SiFive
 
@@ -168,7 +169,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
     - [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
-    
+
 ### Ambiq Micro
 
 - [`ambiq-apollo3-pac`](https://crates.io/crates/ambiq-apollo3-pac) Peripheral access API for Ambiq Apollo3 microcontrollers (generated using svd2rust)
@@ -189,11 +190,11 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 - [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi. - ![crates.io](https://img.shields.io/crates/v/linux-embedded-hal.svg)
 - [`ftdi-embedded-hal`] for FTDI FTx232H chips connected to Linux systems via USB
-- [`bitbang-hal`] software protocol implementations for microcontrollers with digital::OutputPin and digital::InputPin 
+- [`bitbang-hal`] software protocol implementations for microcontrollers with digital::OutputPin and digital::InputPin
 
 [`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
 [`ftdi-embedded-hal`]: https://github.com/geomatsi/ftdi-embedded-hal
-[`bitbang-hal`]: https://crates.io/crates/bitbang-hal 
+[`bitbang-hal`]: https://crates.io/crates/bitbang-hal
 
 ### Microchip
 
@@ -216,6 +217,8 @@ Also check the list of [NXP board support crates][nxp-bsc]!
 - [`lpc82x-hal`](https://crates.io/crates/lpc82x-hal) - [![crates.io](https://img.shields.io/crates/v/lpc82x-hal.svg)](https://crates.io/crates/lpc82x-hal)
 
 - [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal) - ![crates.io](https://img.shields.io/crates/v/mkw41z-hal.svg)
+
+- [`lpc55s6x-hal`](https://crates.io/crates/lpc55s6x-hal) - [![crates.io](https://img.shields.io/crates/v/lpc55s6x-hal.svg)](https://crates.io/crates/lpc55s6x-hal)
 
 ### SiFive
 
