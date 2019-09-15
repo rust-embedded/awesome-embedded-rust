@@ -288,7 +288,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### GigaDevice
 
-- [`gd32vf103-hal`](https://https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg)
+- [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg)
 
 ## Architecture support crates
 
