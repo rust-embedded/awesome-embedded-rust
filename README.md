@@ -404,6 +404,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 23. [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc. - [Intro blog post][23] - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 24. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 25. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
+26. [MCP794xx] - I2C - Real-time clock / calendar driver compatible with the whole MCP794xx family - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -475,6 +476,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [AD983x]: https://crates.io/crates/ad983x
 [25]: https://blog.eldruin.com/ad983x-waveform-generator-dds-driver-in-rust/
+
+[MCP794xx]: https://crates.io/crates/mcp794xx
+[26]: https://blog.eldruin.com/mcp794xx-real-time-clock-rtc-driver-in-rust/
 
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
