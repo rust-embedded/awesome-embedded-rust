@@ -558,6 +558,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [RN2xx3] - Serial - A driver for the RN2483 / RN2903 LoRaWAN modems by Microchip
 - [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg)
 - [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
+- [OPT300x] - I2C - Ambient light sensors
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -627,6 +628,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [RN2xx3]: https://github.com/dbrgn/rn2xx3-rs/
 [ST7735-lcd]: https://crates.io/crates/st7735-lcd
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
+[OPT300x]: https://github.com/eldruin/opt300x-rs
 
 ## no-std crates
 
