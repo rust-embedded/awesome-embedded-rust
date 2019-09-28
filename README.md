@@ -405,6 +405,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 24. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 25. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
 26. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
+27. [VEML6075] - I2C - UVA and UVB light sensor - [Intro blog post][27] - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -480,6 +481,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [MCP794xx]: https://crates.io/crates/mcp794xx
 [26]: https://blog.eldruin.com/mcp794xx-real-time-clock-rtc-driver-in-rust/
 
+[VEML6075]: https://crates.io/crates/veml6075
+[27]: https://blog.eldruin.com/veml6075-uva-uvb-uv-index-light-sensor-driver-in-rust/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -530,7 +533,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
 - [SSD1351] - SPI - 16bit colour OLED display driver - ![crates.io](https://img.shields.io/crates/v/ssd1351.svg)
 - [VEML6070] - I2C - UVA light sensor - ![crates.io](https://img.shields.io/crates/v/veml6070.svg)
-- [VEML6075] - I2C - UVA and UVB light sensor - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 - [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 - [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 - [TCS3472] - I2C - RGB color light sensor - ![crates.io](https://img.shields.io/crates/v/tcs3472.svg)
@@ -600,7 +602,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [xCA9548A]: https://crates.io/crates/xca9548a
 [SSD1351]: https://crates.io/crates/ssd1351
 [VEML6070]: https://crates.io/crates/veml6070
-[VEML6075]: https://crates.io/crates/veml6075
 [LM75]: https://crates.io/crates/lm75
 [MAX44009]: https://crates.io/crates/max44009
 [TCS3472]: https://crates.io/crates/tcs3472
