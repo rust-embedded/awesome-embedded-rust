@@ -174,6 +174,10 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 - [`ambiq-apollo3-pac`](https://crates.io/crates/ambiq-apollo3-pac) Peripheral access API for Ambiq Apollo3 microcontrollers (generated using svd2rust)
 
+### GigaDevice
+
+- [`gd32vf103-pac`](https://github.com/riscv-rust/gd32vf103-pac) Peripheral access API for GD32VF103 RISC-V microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-pac.svg)
+
 ## HAL implementation crates
 
 Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
@@ -281,6 +285,11 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### XMC
 
 - [`xmc1100-hal`](https://github.com/david-sawatzke/xmc1100-hal) - ![crates.io](https://img.shields.io/crates/v/xmc1100-hal.svg)
+
+### GigaDevice
+
+- [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg) 
+  - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller 
 
 ## Architecture support crates
 
