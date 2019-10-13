@@ -564,6 +564,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg)
 - [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 - [OPT300x] - I2C - Ambient light sensors
+- [Si4703] - I2C - FM radio turners (receivers).
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -633,6 +634,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ST7735-lcd]: https://crates.io/crates/st7735-lcd
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [OPT300x]: https://github.com/eldruin/opt300x-rs
+[Si4703]: https://github.com/eldruin/si4703-rs
 
 ## no-std crates
 
