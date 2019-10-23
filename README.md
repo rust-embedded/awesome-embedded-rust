@@ -262,6 +262,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`stm32g0xx-hal`](https://crates.io/crates/stm32g0xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32g0xx-hal.svg)
 
+- [`stm32h7xx-hal`](https://crates.io/crates/stm32h7xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32h7xx-hal.svg)
+    - HAL implementation for the STMicro STM32H7xx family of microcontrollers
+
 [Nucleo-L432KC]: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-l432kc.html
 [Solo]: https://solokeys.com/
 
@@ -288,8 +291,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### GigaDevice
 
-- [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg) 
-  - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller 
+- [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg)
+  - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller
 
 ## Architecture support crates
 
