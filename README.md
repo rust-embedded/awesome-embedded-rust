@@ -577,6 +577,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 - [OPT300x] - I2C - Ambient light sensors
 - [Si4703] - I2C - FM radio turners (receivers).
+- [st7032i] - I2C - Dot Matrix LCD Controller driver (Sitronix ST7032i or similar). - ![crates.io](https://img.shields.io/crates/v/st7032i.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -647,6 +648,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [OPT300x]: https://github.com/eldruin/opt300x-rs
 [Si4703]: https://github.com/eldruin/si4703-rs
+[st7032i]: https://github.com/dotcypress/st7032i
 
 ## no-std crates
 
