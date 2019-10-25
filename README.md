@@ -62,7 +62,7 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 
 - [Embedded WG](https://github.com/rust-embedded/wg/), including newsletters with progress updates.
 
-- You can usually find the members of the embedded WG on the `#rust-embedded` channel (server: `irc.mozilla.org`).
+- You can usually find community members (including embedded WG members) in the [`#rust-embedded:matrix.org` Matrix room](https://matrix.to/#/#rust-embedded:matrix.org).
 
 - [embedded.rs](https://t.me/embedded_rs) Telegram chat about Rust for microcontrollers in Russian language.
 
