@@ -425,6 +425,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 26. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
 27. [VEML6075] - I2C - UVA and UVB light sensor - [Intro blog post][27] - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 28. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
+29. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -505,6 +506,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [rotary-encoder-hal]: https://crates.io/crates/rotary-encoder-hal
 [28]: https://leshow.github.io/post/rotary_encoder_hal/
+
+[adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
+[29]: https://learn.adafruit.com/adafruit-led-backpack/0-54-alphanumeric
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
