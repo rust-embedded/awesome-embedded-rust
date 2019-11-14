@@ -20,6 +20,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Nordic](#nordic)
     * [NXP](#nxp)
     * [SiFive](#sifive)
+    * [Silicon Labs](#silicon-labs)
     * [STMicroelectronics](#stmicroelectronics)
     * [Texas Instruments](#texas-instruments)
     * [MSP430](#msp430)
@@ -32,7 +33,7 @@ This project is developed and maintained by the [Resources team][team].
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments-1)
     * [Espressif](#espressif)
-    * [Silicon Labs](#silicon-labs)
+    * [Silicon Labs](#silicon-labs-1)
     * [XMC](#xmc)
 * [Architecture support crates](#architecture-support-crates)
     * [ARM](#arm)
@@ -143,6 +144,9 @@ Peripheral Access Crates were also called Device Crates.
 ### SiFive
 
 - [`e310x`](https://github.com/riscv-rust/e310x) - svd2rust generated interface to SiFive [Freedom E310](https://www.sifive.com/cores/e31) MCUs - ![crates.io](https://img.shields.io/crates/v/e310x.svg)
+
+### Silicon Labs
+- [`efm32pg12-pac`](https://crates.io/crates/efm32pg12-pac) - Peripheral access API for Silicon Labs EFM32PG12 microcontrollers - ![crates.io](https://img.shields.io/crates/v/efm32pg12-pac)
 
 ### STMicroelectronics
 
