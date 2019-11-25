@@ -80,7 +80,6 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 -   [intermezzOS](http://intermezzos.github.io) A small teaching operating system in Rust. A book with some explanations is also included.
 -   Raspberry Pi Bare Metal Programming with Rust
     -   [32-bit Version (most Pi1 and Pi2 variants)](https://medium.com/@thiagopnts/raspberry-pi-bare-metal-programming-with-rust-a6f145e84024) A starter article on OSdev with Rust on RPi (cross-compiler setup and a very basic LED-blinking kernel).
-    -   [64-bit Version (Pi2 Model B v1.2 and all Pi3)](https://github.com/andre-richter/rust-raspi3-tutorial) A growing collection of tutorials, from simple booting to interfacing components like UARTs or random number generators; Features a painless cross-toolchain setup.
 -   [Fearless concurrency](http://blog.japaric.io/fearless-concurrency/) by @japaric — How to easily develop Rust programs for pretty much any ARM Cortex-M microcontroller with memory-safe concurrency.
 -   [RTFM v0.5](https://rtfm.rs/0.5/book/en/) Real-Time For the Masses — A concurrency framework for building real time systems:
     -   [cortex-m rtfm](https://github.com/rtfm-rs/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
@@ -89,6 +88,7 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 -   [MicroRust](https://droogmic.github.io/microrust/) Introductory book for embedded development in Rust on the micro:bit.
 -   [Physical Computing With Rust](https://rahul-thakoor.github.io/physical-computing-rust/) A (WIP) guide to physical computing with Rust on the Raspberry Pi.
 -   [Internet of Streams](https://www.youtube.com/playlist?list=PLX44HkctSkTewrL9frlUz0yeKLKecebT1) A video series  by [@jamesmunns] building a bare metal IoT Sensor Node Platform from (nearly) scratch in Rust
+-   [Writing an embedded OS in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspi3-OS-tutorials) A set of tutorials that give a guided, step-by-step tour of how to write a monolithic Operating System kernel for an embedded system from scratch. Runs on the Raspberry Pi 3 and the Raspberry Pi 4.
 
 [@jamesmunns]: https://github.com/jamesmunns
 
