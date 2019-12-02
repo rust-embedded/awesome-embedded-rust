@@ -15,6 +15,9 @@ This project is developed and maintained by the [Resources team][team].
 * [Community](#community)
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Tools](#tools)
+* [Real-time](#real-time)
+    * [Real-time Operating System](#real-time-operating-system-rtos)
+    * [Real-time tools](#real-time-tools)
 * [Peripheral Access Crates](#peripheral-access-crates)
     * [Microchip](#microchip)
     * [Nordic](#nordic)
@@ -76,15 +79,10 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 -   [Pragmatic Bare Metal Rust](http://www.hashmismatch.net/pragmatic-bare-metal-rust/) A starter article about starting Rust development on STM32 microcontrollers (cubeMX + FFI).
 -   [Using Rust in an Embedded Project: A Simple Example](https://spin.atomicobject.com/2016/07/08/rust-embedded-project-example/#.V3-os-6qlZw.hackernews) Article and some links on setting up Rust cross-compiling.
 -   [Robigalia](https://robigalia.org) general purpose robust operating system in Rust running on secure seL4 microkernel.
--   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
 -   [intermezzOS](http://intermezzos.github.io) A small teaching operating system in Rust. A book with some explanations is also included.
 -   Raspberry Pi Bare Metal Programming with Rust
     -   [32-bit Version (most Pi1 and Pi2 variants)](https://medium.com/@thiagopnts/raspberry-pi-bare-metal-programming-with-rust-a6f145e84024) A starter article on OSdev with Rust on RPi (cross-compiler setup and a very basic LED-blinking kernel).
 -   [Fearless concurrency](http://blog.japaric.io/fearless-concurrency/) by @japaric — How to easily develop Rust programs for pretty much any ARM Cortex-M microcontroller with memory-safe concurrency.
--   [RTFM v0.5](https://rtfm.rs/0.5/book/en/) Real-Time For the Masses — A concurrency framework for building real time systems:
-    -   [cortex-m rtfm](https://github.com/rtfm-rs/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
-    -   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
--   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
 -   [MicroRust](https://droogmic.github.io/microrust/) Introductory book for embedded development in Rust on the micro:bit.
 -   [Physical Computing With Rust](https://rahul-thakoor.github.io/physical-computing-rust/) A (WIP) guide to physical computing with Rust on the Raspberry Pi.
 -   [Internet of Streams](https://www.youtube.com/playlist?list=PLX44HkctSkTewrL9frlUz0yeKLKecebT1) A video series  by [@jamesmunns] building a bare metal IoT Sensor Node Platform from (nearly) scratch in Rust
@@ -105,6 +103,20 @@ In 2018 Rust community has created an embedded workgroup to help drive adoption 
 -   [cargo-fel4](https://github.com/maindotrs/cargo-fel4) A Cargo subcommand for working with feL4 projects. - ![crates.io](https://img.shields.io/crates/v/cargo-fel4.svg)
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
+
+## Real-time
+
+### Real-time Operating System (RTOS)
+
+-   [Drone OS](https://drone-os.github.io) An Embedded Operating System for writing real-time applications in Rust.
+-   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
+-   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
+
+### Real-time tools
+
+-   [RTFM v0.5](https://rtfm.rs/0.5/book/en/) Real-Time For the Masses — A concurrency framework for building real time systems:
+    -   [cortex-m rtfm](https://github.com/rtfm-rs/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
+    -   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
 
 ## Peripheral Access Crates
 
