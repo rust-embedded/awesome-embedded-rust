@@ -446,6 +446,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 28. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
 29. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
 30. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
+31. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -533,6 +534,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [OPT300x]: https://github.com/eldruin/opt300x-rs
 [30]: https://blog.eldruin.com/opt300x-ambient-light-sensor-driver-in-rust/
 
+[Si4703]: https://crates.io/crates/si4703
+[31]: https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/
+
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
 
@@ -609,7 +613,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [RN2xx3] - Serial - A driver for the RN2483 / RN2903 LoRaWAN modems by Microchip
 - [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg)
 - [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
-- [Si4703] - I2C - FM radio turners (receivers).
 - [st7032i] - I2C - Dot Matrix LCD Controller driver (Sitronix ST7032i or similar). - ![crates.io](https://img.shields.io/crates/v/st7032i.svg)
 
 [MFRC522]: https://github.com/japaric/mfrc522
@@ -679,7 +682,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [RN2xx3]: https://github.com/dbrgn/rn2xx3-rs/
 [ST7735-lcd]: https://crates.io/crates/st7735-lcd
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
-[Si4703]: https://github.com/eldruin/si4703-rs
 [st7032i]: https://github.com/dotcypress/st7032i
 
 ## no-std crates
