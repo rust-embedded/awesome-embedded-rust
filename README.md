@@ -717,6 +717,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer. ![crates.io](https://img.shields.io/crates/v/vga-framebuffer.svg)
 - [dcmimu]: An algorithm for fusing low-cost triaxial MEMS gyroscope and accelerometer measurements ![crates.io](https://img.shields.io/crates/v/dcmimu.svg)
 - [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - ![crates.io](https://img.shields.io/crates/v/wyhash.svg)
+- [qemu-exit]: Quit a running QEMU session with user-defined exit code. Useful for unit or integration tests using QEMU. - ![crates.io](https://img.shields.io/crates/v/qemu-exit.svg)
 
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
@@ -726,6 +727,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [wyhash]: https://crates.io/crates/wyhash
 [`panic-persist`]: https://crates.io/crates/panic-persist
 [`cmim`]: https://crates.io/crates/cmim
+[qemu-exit]: https://crates.io/crates/qemu-exit
 
 ### WIP
 
