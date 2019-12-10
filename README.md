@@ -447,6 +447,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 29. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
 30. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
 31. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
+32. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -537,6 +538,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [Si4703]: https://crates.io/crates/si4703
 [31]: https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/
 
+[pwm-pca9685]: https://crates.io/crates/pwm-pca9685
+[32]: https://blog.eldruin.com/pca9685-pwm-led-servo-controller-driver-in-rust/
+
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
 
@@ -590,7 +594,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 - [TCS3472] - I2C - RGB color light sensor - ![crates.io](https://img.shields.io/crates/v/tcs3472.svg)
 - [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
-- [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 - [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
 - [MAX17048/9] - I2C - LiPo Fuel guage, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 - [HM11] - USART - HM-11 bluetooth module AT configuration crate - ![crates.io](https://img.shields.io/crates/v/hm11.svg)
@@ -659,7 +662,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAX44009]: https://crates.io/crates/max44009
 [TCS3472]: https://crates.io/crates/tcs3472
 [DS323x]: https://crates.io/crates/ds323x
-[pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [AS5048A]: https://github.com/uwearzt/as5048a
 [HM11]: https://crates.io/crates/hm11
 [MAX17048/9]: https://crates.io/crates/max17048
