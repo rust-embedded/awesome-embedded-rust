@@ -28,6 +28,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Texas Instruments](#texas-instruments)
     * [MSP430](#msp430)
     * [Ambiq Micro](#ambiq-micro)
+    * [XMC](#xmc)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [Nordic](#nordic-1)
@@ -195,6 +196,18 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 - [`gd32vf103-pac`](https://github.com/riscv-rust/gd32vf103-pac) Peripheral access API for GD32VF103 RISC-V microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-pac.svg)
 
+### XMC
+
+Peripheral access crates for the different XMC4xxx families of microcontrollers
+
+- [`xmc4100`](https://github.com/xmc-rs/xmc4100) - ![crates.io](https://img.shields.io/crates/v/xmc4100.svg)
+- [`xmc4200`](https://github.com/xmc-rs/xmc4200) - ![crates.io](https://img.shields.io/crates/v/xmc4200.svg)
+- [`xmc4300`](https://github.com/xmc-rs/xmc4300) - ![crates.io](https://img.shields.io/crates/v/xmc4300.svg)
+- [`xmc4400`](https://github.com/xmc-rs/xmc4400) - ![crates.io](https://img.shields.io/crates/v/xmc4400.svg)
+- [`xmc4500`](https://github.com/xmc-rs/xmc4500) - ![crates.io](https://img.shields.io/crates/v/xmc4500.svg)
+- [`xmc4700`](https://github.com/xmc-rs/xmc4700) - ![crates.io](https://img.shields.io/crates/v/xmc4700.svg)
+- [`xmc4800`](https://github.com/xmc-rs/xmc4800) - ![crates.io](https://img.shields.io/crates/v/xmc4800.svg)
+
 ## HAL implementation crates
 
 Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
@@ -310,6 +323,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### XMC
 
 - [`xmc1100-hal`](https://github.com/david-sawatzke/xmc1100-hal) - ![crates.io](https://img.shields.io/crates/v/xmc1100-hal.svg)
+- [`xmc4-hal`](https://github.com/xmc-rs/xmc4-hal) - ![crates.io](https://img.shields.io/crates/v/xmc4-hal.svg)
 
 ### GigaDevice
 
