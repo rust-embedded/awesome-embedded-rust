@@ -462,6 +462,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 30. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
 31. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
 32. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
+33. [VEML6030] - I2C - Ambient light sensor - [Intro blog post][33] - ![crates.io](https://img.shields.io/crates/v/veml6030.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -554,6 +555,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [32]: https://blog.eldruin.com/pca9685-pwm-led-servo-controller-driver-in-rust/
+
+[VEML6030]: https://crates.io/crates/veml6030
+[33]: https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
