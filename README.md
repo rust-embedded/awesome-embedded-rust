@@ -149,6 +149,7 @@ Peripheral Access Crates were also called Device Crates.
 ### NXP
 
 - [`lpc82x-pac`](https://crates.io/crates/lpc82x-pac) - ![crates.io](https://img.shields.io/crates/v/lpc82x-pac.svg)
+- [`lpc845-pac`](https://crates.io/crates/lpc485-pac) - ![crates.io](https://img.shields.io/crates/v/lpc845-pac.svg)
 - [`lpc11uxx`](https://crates.io/crates/lpc11uxx) - ![crates.io](https://img.shields.io/crates/v/lpc11uxx.svg)
 - [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 - [`k64`](https://crates.io/crates/k64) - ![crates.io](https://img.shields.io/crates/v/k64.svg)
@@ -248,7 +249,8 @@ Also check the list of [NXP board support crates][nxp-bsc]!
 
 [nxp-bsc]: #nxp-1
 
-- [`lpc82x-hal`](https://crates.io/crates/lpc82x-hal) - [![crates.io](https://img.shields.io/crates/v/lpc82x-hal.svg)](https://crates.io/crates/lpc82x-hal)
+- [`lpc8xx-hal`](https://crates.io/crates/lpc8xx-hal) - HAL for lpc82x and
+  lpc845 - [![crates.io](https://img.shields.io/crates/v/lpc8xx-hal.svg)](https://crates.io/crates/lpc8xx-hal)
 
 - [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal) - ![crates.io](https://img.shields.io/crates/v/mkw41z-hal.svg)
 
