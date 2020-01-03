@@ -247,7 +247,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 Also check the list of [NXP board support crates][nxp-bsc]!
 
-[nxp-bsc]: #nxp-1
+[nxp-bsc]: #nxp-2
 
 - [`lpc8xx-hal`](https://crates.io/crates/lpc8xx-hal) - HAL for lpc82x and
   lpc845 - [![crates.io](https://img.shields.io/crates/v/lpc8xx-hal.svg)](https://crates.io/crates/lpc8xx-hal)
