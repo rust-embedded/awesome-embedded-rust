@@ -275,7 +275,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
-- [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f30x-hal.svg)
+- [`stm32f3xx-hal`](https://crates.io/crates/stm32f3xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f3xx-hal.svg)
 
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)
    - Generic HAL implementation for all MCUs of the stm32f4 series
