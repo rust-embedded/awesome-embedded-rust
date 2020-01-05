@@ -416,6 +416,7 @@ devices which go beyond what is available in [`embedded-hal`]:
 - [`accelerometer`](https://github.com/NeoBirth/accelerometer.rs) - Generic accelerometer support, including traits and types for taking readings from 2 or 3-axis accelerometers and tracking device orientations - ![crates.io](https://img.shields.io/crates/v/accelerometer.svg)
 - [`embedded-graphics`](https://crates.io/crates/embedded-graphics): 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
+- [`radio`](https://github.com/ryankurte/rust-radio) - Generic radio transceiver traits, mocks, and helpers - ![crates.io](https://img.shields.io/crates/v/radio.svg)
 
 ## Driver crates
 
@@ -463,6 +464,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 31. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
 32. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 33. [VEML6030/VEML7700] - I2C - Ambient light sensors - [Intro blog post][33] - ![crates.io](https://img.shields.io/crates/v/veml6030.svg)
+34. [Sx127x] - SPI - Long Range Low Power Sub GHz (Gfsk, LoRa) RF Transceiver - [Intro blog post][34] - ![crates.io](https://img.shields.io/crates/v/radio-sx127x.svg)
+35. [Sx128x] - SPI - Long range, low power 2.4 GHz (Gfsk, Flrc, LoRa) RF Transceiver - [Intro blog post][35] - ![crates.io](https://img.shields.io/crates/v/radio-sx128x.svg)
+36. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -558,6 +562,15 @@ have achieved the "released" status (published on crates.io + documentation / sh
 
 [VEML6030/VEML7700]: https://crates.io/crates/veml6030
 [33]: https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/
+
+[Sx127x]: https://crates.io/crates/radio-sx127x
+[34]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+
+[Sx128x]: https://crates.io/crates/radio-sx128x
+[35]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+
+[at86rf212]: https://crates.io/crates/radio-at86rf212
+[36]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
