@@ -648,6 +648,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg)
 - [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 - [st7032i] - I2C - Dot Matrix LCD Controller driver (Sitronix ST7032i or similar). - ![crates.io](https://img.shields.io/crates/v/st7032i.svg)
+- [CCS811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality.
+- [iAQ-Core] - I2C - iAQ-Core-C/iAQ-Core-P Gas and VOC sensor driver for monitoring indoor air quality.
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -716,6 +718,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ST7735-lcd]: https://crates.io/crates/st7735-lcd
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [st7032i]: https://github.com/dotcypress/st7032i
+[CCS811]: https://github.com/eldruin/ccs811-rs
+[iAQ-Core]: https://github.com/eldruin/iaq-core-rs
 
 ## no-std crates
 
