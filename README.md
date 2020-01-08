@@ -591,7 +591,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel guage, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
-1. [MAX31855] - SPI - Thermocouple digital converter
+1. [MAX31855] - SPI - Thermocouple digital converter -![crates.io](https://img.shields.io/crates/v/max31855.svg)
 1. [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
 1. [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 1. [MAX7219] - SPI - LED display driver - ![crates.io](https://img.shields.io/crates/v/max7219.svg)
@@ -663,7 +663,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LSM303C]: https://crates.io/crates/lsm303c
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
-[MAX31855]: https://github.com/mbacch/max31855
+[MAX31855]: https://github.com/cs2dsb/max31855.rs
 [MAX31865]: https://crates.io/crates/max31865
 [MAX44009]: https://crates.io/crates/max44009
 [MAX7219]: https://github.com/almindor/max7219
