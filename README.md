@@ -136,6 +136,7 @@ Peripheral Access Crates were also called Device Crates.
 
 - [`atsamd21`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsamd51`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD51 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
+- [`atsame54`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAME54 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`avr-device`](https://github.com/Rahix/avr-device) Peripheral access API for Microchip (formerly Atmel) AVR microcontroller family.
 - [`sam3x8e`](https://crates.io/crates/sam3x8e) Peripheral access API for Atmel SAMD3X8E microcontrollers (generated using svd2rust)  - ![crates.io](https://img.shields.io/crates/v/sam3x8e.svg)
 
@@ -149,6 +150,7 @@ Peripheral Access Crates were also called Device Crates.
 ### NXP
 
 - [`lpc82x-pac`](https://crates.io/crates/lpc82x-pac) - ![crates.io](https://img.shields.io/crates/v/lpc82x-pac.svg)
+- [`lpc845-pac`](https://crates.io/crates/lpc485-pac) - ![crates.io](https://img.shields.io/crates/v/lpc845-pac.svg)
 - [`lpc11uxx`](https://crates.io/crates/lpc11uxx) - ![crates.io](https://img.shields.io/crates/v/lpc11uxx.svg)
 - [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 - [`k64`](https://crates.io/crates/k64) - ![crates.io](https://img.shields.io/crates/v/k64.svg)
@@ -232,7 +234,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 ### Microchip
 
-- [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD21 and SAMD51 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
+- [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
 - ['avr-hal'](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
 
 ### Nordic
@@ -246,9 +248,10 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 Also check the list of [NXP board support crates][nxp-bsc]!
 
-[nxp-bsc]: #nxp-1
+[nxp-bsc]: #nxp-2
 
-- [`lpc82x-hal`](https://crates.io/crates/lpc82x-hal) - [![crates.io](https://img.shields.io/crates/v/lpc82x-hal.svg)](https://crates.io/crates/lpc82x-hal)
+- [`lpc8xx-hal`](https://crates.io/crates/lpc8xx-hal) - HAL for lpc82x and
+  lpc845 - [![crates.io](https://img.shields.io/crates/v/lpc8xx-hal.svg)](https://crates.io/crates/lpc8xx-hal)
 
 - [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal) - ![crates.io](https://img.shields.io/crates/v/mkw41z-hal.svg)
 
@@ -275,7 +278,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
-- [`stm32f30x-hal`](https://crates.io/crates/stm32f30x-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f30x-hal.svg)
+- [`stm32f3xx-hal`](https://crates.io/crates/stm32f3xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f3xx-hal.svg)
 
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)
    - Generic HAL implementation for all MCUs of the stm32f4 series
@@ -416,6 +419,7 @@ devices which go beyond what is available in [`embedded-hal`]:
 - [`accelerometer`](https://github.com/NeoBirth/accelerometer.rs) - Generic accelerometer support, including traits and types for taking readings from 2 or 3-axis accelerometers and tracking device orientations - ![crates.io](https://img.shields.io/crates/v/accelerometer.svg)
 - [`embedded-graphics`](https://crates.io/crates/embedded-graphics): 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
+- [`radio`](https://github.com/ryankurte/rust-radio) - Generic radio transceiver traits, mocks, and helpers - ![crates.io](https://img.shields.io/crates/v/radio.svg)
 
 ## Driver crates
 
@@ -463,6 +467,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 31. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
 32. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 33. [VEML6030/VEML7700] - I2C - Ambient light sensors - [Intro blog post][33] - ![crates.io](https://img.shields.io/crates/v/veml6030.svg)
+34. [Sx127x] - SPI - Long Range Low Power Sub GHz (Gfsk, LoRa) RF Transceiver - [Intro blog post][34] - ![crates.io](https://img.shields.io/crates/v/radio-sx127x.svg)
+35. [Sx128x] - SPI - Long range, low power 2.4 GHz (Gfsk, Flrc, LoRa) RF Transceiver - [Intro blog post][35] - ![crates.io](https://img.shields.io/crates/v/radio-sx128x.svg)
+36. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
@@ -559,6 +566,15 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [VEML6030/VEML7700]: https://crates.io/crates/veml6030
 [33]: https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/
 
+[Sx127x]: https://crates.io/crates/radio-sx127x
+[34]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+
+[Sx128x]: https://crates.io/crates/radio-sx128x
+[35]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+
+[at86rf212]: https://crates.io/crates/radio-at86rf212
+[36]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
 
@@ -636,6 +652,9 @@ Work in progress drivers. Help the authors make these crates awesome!
 - [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 - [st7032i] - I2C - Dot Matrix LCD Controller driver (Sitronix ST7032i or similar). - ![crates.io](https://img.shields.io/crates/v/st7032i.svg)
 - [hub75] - A driver for rgb led matrices with the hub75 interface  - ![crates.io](https://img.shields.io/crates/v/hub75.svg)
+- [hzgrow-r502] - UART capacitive fingerprint reader - ![crates.io](https://img.shields.io/crates/v/hzgrow-r502.svg)
+- [CCS811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality.
+- [iAQ-Core] - I2C - iAQ-Core-C/iAQ-Core-P Gas and VOC sensor driver for monitoring indoor air quality.
 
 [MFRC522]: https://github.com/japaric/mfrc522
 [motor-driver]: https://github.com/japaric/motor-driver
@@ -705,6 +724,9 @@ Work in progress drivers. Help the authors make these crates awesome!
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [st7032i]: https://github.com/dotcypress/st7032i
 [hub75]: https://github.com/david-sawatzke/hub75-rs
+[hzgrow-r502]: https://crates.io/crates/hzgrow-r502
+[CCS811]: https://github.com/eldruin/ccs811-rs
+[iAQ-Core]: https://github.com/eldruin/iaq-core-rs
 
 ## no-std crates
 
