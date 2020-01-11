@@ -134,6 +134,7 @@ Peripheral Access Crates were also called Device Crates.
 
 ### Microchip
 
+- [`atsamd11`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD11 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsamd21`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD21 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsamd51`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD51 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsame54`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAME54 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
@@ -235,7 +236,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 ### Microchip
 
-- [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
+- [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD11, SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
 - ['avr-hal'](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
 
 ### Nordic
