@@ -692,6 +692,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 1. [atomic](https://crates.io/crates/atomic): Generic Atomic<T> wrapper type. ![crates.io](https://img.shields.io/crates/v/atomic.svg)
 1. [bbqueue](https://crates.io/crates/bbqueue): A SPSC, statically allocatable queue based on BipBuffers suitable for DMA transfers - ![crates.io](https://img.shields.io/crates/v/bbqueue.svg)
+1. [bitmatch]: A crate that allows you to match, bind, and pack the individual bits of integers. - ![crates.io](https://img.shields.io/crates/v/bitmatch.svg)
 1. [biquad]: A library for creating second order IIR filters for signal processing based on Biquads, where both a Direct Form 1 (DF1) and Direct Form 2 Transposed (DF2T) implementation is available. ![crates.io](https://img.shields.io/crates/v/biquad.svg)
 1. [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays - ![crates.io](https://img.shields.io/crates/v/bit_field.svg)
 1. [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation. ![crates.io](https://img.shields.io/crates/v/bluetooth-hci.svg)
@@ -725,6 +726,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
+[bitmatch]: https://crates.io/crates/bitmatch
 [biquad]: https://crates.io/crates/biquad
 [dcmimu]: https://crates.io/crates/dcmimu
 [menu]: https://github.com/thejpster/menu
