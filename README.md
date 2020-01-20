@@ -726,6 +726,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
+[bitmatch]: https://crates.io/crates/bitmatch
 [biquad]: https://crates.io/crates/biquad
 [dcmimu]: https://crates.io/crates/dcmimu
 [menu]: https://github.com/thejpster/menu
