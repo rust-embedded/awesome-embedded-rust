@@ -320,6 +320,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### GigaDevice
 
+- [`gd32vf103xx-hal`](https://github.com/riscv-rust/gd32vf103xx-hal) - ![cratex.io](https://img.shields.io/crates/v/gd32vf103xx-hal.svg)
+  - HAL for GD32VF103xx microcontrollers
 - [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg)
   - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller
 
@@ -372,9 +374,21 @@ Crates tailored for specific boards.
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
 
+### SeeedStudio
+
+- [`seedstudio-gd32v`](https://github.com/riscv-rust/seedstudio-gd32v) - Board support crate for the [GD32 RISC-V Dev Board](https://www.seeedstudio.com/SeeedStudio-GD32-RISC-V-Dev-Board-p-4302.html)
+  ![crates.io](https://img.shields.io/crates/v/seedstudio-gd32v.svg)
+  - Contains runnable examples for this board
+
 ### SiFive
 
 - [`hifive1`](https://github.com/riscv-rust/hifive1) - Board support crate for [HiFive1](https://www.sifive.com/boards/hifive1) and [LoFive](https://hackaday.io/project/26909-lofive) boards - ![crates.io](https://img.shields.io/crates/v/hifive.svg)
+
+### Sipeed
+
+- [`longan-nano`](https://github.com/riscv-rust/longan-nano) - Board support package for the [Longan Nano board](https://www.seeedstudio.com/Sipeed-Longan-Nano-RISC-V-GD32VF103CBT6-Development-Board-p-4205.html)
+  ![crates.io](https://img.shields.io/crates/v/longan-nano.svg)
+  - Contains runnable examples for this board
 
 ### Sony
 
