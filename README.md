@@ -428,6 +428,7 @@ devices which go beyond what is available in [`embedded-hal`]:
 - [`embedded-graphics`](https://crates.io/crates/embedded-graphics): 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [`radio`](https://github.com/ryankurte/rust-radio) - Generic radio transceiver traits, mocks, and helpers - ![crates.io](https://img.shields.io/crates/v/radio.svg)
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
+- [`usb-device`](https://github.com/mvirkkunen/usb-device): Abstraction layer between USB peripheral crates & USB class crates - ![crates.io](https://img.shields.io/crates/v/usb-device.svg)
 
 ## Driver crates
 
@@ -478,6 +479,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [TSL256X] - I2C - Light Intensity Sensor - [Intro blog post][11] - ![crates.io](https://img.shields.io/crates/v/tsl256x.svg)
 1. [VEML6030/VEML7700] - I2C - Ambient light sensors - [Intro blog post][33] - ![crates.io](https://img.shields.io/crates/v/veml6030.svg)
 1. [VEML6075] - I2C - UVA and UVB light sensor - [Intro blog post][27] - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
+1. [usbd-serial] - USB CDC-ACM class (serial) implementation - [github][37] - ![crates.io](https://img.shields.io/crates/v/usbd-serial.svg)
+1. [usbd-hid] - USB HID class implementation - [github][38] - ![crates.io](https://img.shields.io/crates/v/usbd-hid.svg)
+1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -513,6 +517,9 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [34]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
 [35]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
 [36]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[37]: https://github.com/mvirkkunen/usbd-serial
+[38]: https://github.com/twitchyliquid64/usbd-hid
+[39]: https://github.com/redpfire/usbd-webusb
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
