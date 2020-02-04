@@ -582,6 +582,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
 1. [DW1000] - SPI - Radio transceiver for communication based on IEEE 802.15.4 and position tracking - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 1. [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
+1. [embedded-morse] - Output morse messages - ![crates.io](https://img.shields.io/crates/v/embedded-morse.svg)
 1. [embedded-nrf24l01] - SPI+GPIO - 2.4 GHz radio
 1. [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33) - ![crates.io](https://img.shields.io/crates/v/GridEYE.svg)
 1. [HC-SR04] - DIO - Ultrasound sensor
@@ -654,6 +655,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [DS323x]: https://crates.io/crates/ds323x
 [DW1000]: https://crates.io/crates/dw1000
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
+[embedded-morse]: https://crates.io/crates/embedded-morse
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
 [GridEYE]: https://crates.io/crates/grideye
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
