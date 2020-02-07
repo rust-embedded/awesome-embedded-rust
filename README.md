@@ -241,7 +241,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 ### Microchip
 
 - [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD11, SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
-- ['avr-hal'](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
+- [`avr-hal`](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
 
 ### Nordic
 
@@ -481,6 +481,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [VEML6075] - I2C - UVA and UVB light sensor - [Intro blog post][27] - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 1. [usbd-serial] - USB CDC-ACM class (serial) implementation - [github][37] - ![crates.io](https://img.shields.io/crates/v/usbd-serial.svg)
 1. [usbd-hid] - USB HID class implementation - [github][38] - ![crates.io](https://img.shields.io/crates/v/usbd-hid.svg)
+1. [usbd-hid-device] - USB HID class implementation without `unsafe` - [github][40] - ![crates.io](https://img.shields.io/crates/v/usbd-hid-device.svg)
+1. [usbd-midi] - USB MIDI class implementation - [github][41] - ![crates.io](https://img.shields.io/crates/v/usbd-midi.svg)
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
@@ -520,6 +522,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [37]: https://github.com/mvirkkunen/usbd-serial
 [38]: https://github.com/twitchyliquid64/usbd-hid
 [39]: https://github.com/redpfire/usbd-webusb
+[40]: https://github.com/agalakhov/usbd-hid-device
+[41]: https://github.com/btrepp/usbd-midi
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -557,6 +561,11 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [TSL256X]: https://crates.io/crates/tsl256x
 [VEML6030/VEML7700]: https://crates.io/crates/veml6030
 [VEML6075]: https://crates.io/crates/veml6075
+[usbd-serial]: http://crates.io/crates/usbd-serial
+[usbd-hid]: http://crates.io/crates/usbd-hid
+[usbd-hid-device]: http://crates.io/crates/usbd-hid-device
+[usbd-midi]: http://crates.io/crates/usbd-midi
+[usbd-webusb]: http://crates.io/crates/usbd-webusb
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
