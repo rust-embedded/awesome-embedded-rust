@@ -561,6 +561,11 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [TSL256X]: https://crates.io/crates/tsl256x
 [VEML6030/VEML7700]: https://crates.io/crates/veml6030
 [VEML6075]: https://crates.io/crates/veml6075
+[usbd-serial]: http://crates.io/crates/usbd-serial
+[usbd-hid]: http://crates.io/crates/usbd-hid
+[usbd-hid-device]: http://crates.io/crates/usbd-hid-device
+[usbd-midi]: http://crates.io/crates/usbd-midi
+[usbd-webusb]: http://crates.io/crates/usbd-webusb
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
