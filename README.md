@@ -241,7 +241,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 ### Microchip
 
 - [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD11, SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
-- ['avr-hal'](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
+- [`avr-hal`](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
 
 ### Nordic
 
