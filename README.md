@@ -481,6 +481,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [VEML6075] - I2C - UVA and UVB light sensor - [Intro blog post][27] - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
 1. [usbd-serial] - USB CDC-ACM class (serial) implementation - [github][37] - ![crates.io](https://img.shields.io/crates/v/usbd-serial.svg)
 1. [usbd-hid] - USB HID class implementation - [github][38] - ![crates.io](https://img.shields.io/crates/v/usbd-hid.svg)
+1. [usbd-hid-device] - USB HID class implementation without `unsafe` - [github][40] - ![crates.io](https://img.shields.io/crates/v/usbd-hid-device.svg)
+1. [usbd-midi] - USB MIDI class implementation - [github][41] - ![crates.io](https://img.shields.io/crates/v/usbd-midi.svg)
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
@@ -520,6 +522,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [37]: https://github.com/mvirkkunen/usbd-serial
 [38]: https://github.com/twitchyliquid64/usbd-hid
 [39]: https://github.com/redpfire/usbd-webusb
+[40]: https://github.com/agalakhov/usbd-hid-device
+[41]: https://github.com/btrepp/usbd-midi
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
