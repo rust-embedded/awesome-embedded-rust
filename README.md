@@ -484,6 +484,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [usbd-hid-device] - USB HID class implementation without `unsafe` - [github][40] - ![crates.io](https://img.shields.io/crates/v/usbd-hid-device.svg)
 1. [usbd-midi] - USB MIDI class implementation - [github][41] - ![crates.io](https://img.shields.io/crates/v/usbd-midi.svg)
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
+1. [SHTCx] - I2C - Temperature / humidity sensors - [github][42] - ![crates.io](https://img.shields.io/crates/v/shtcx.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -524,6 +525,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [39]: https://github.com/redpfire/usbd-webusb
 [40]: https://github.com/agalakhov/usbd-hid-device
 [41]: https://github.com/btrepp/usbd-midi
+[42]: https://github.com/dbrgn/shtcx-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -566,6 +568,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [usbd-hid-device]: http://crates.io/crates/usbd-hid-device
 [usbd-midi]: http://crates.io/crates/usbd-midi
 [usbd-webusb]: http://crates.io/crates/usbd-webusb
+[SHTCx]: http://crates.io/crates/shtcx
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
