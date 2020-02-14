@@ -447,6 +447,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
 1. [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc. - [Intro blog post][23] - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 1. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
+1. [ADXL355] - SPI - 3-axis accelerometer - [Intro blog post][43] - ![crates.io](https://img.shields.io/crates/v/adxl355.svg)
 1. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
@@ -526,11 +527,13 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [40]: https://github.com/agalakhov/usbd-hid-device
 [41]: https://github.com/btrepp/usbd-midi
 [42]: https://github.com/dbrgn/shtcx-rs
+[43]: https://jitter.company/blog/2020/02/14/adxl355-embedded-hal-driver-crate/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [ADXL343]: https://crates.io/crates/adxl343
+[ADXL355]: https://crates.io/crates/adxl355
 [at86rf212]: https://crates.io/crates/radio-at86rf212
 [BlueNRG]: https://crates.io/crates/bluenrg
 [BNO055]: https://crates.io/crates/bno055
