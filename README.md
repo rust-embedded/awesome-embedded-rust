@@ -13,6 +13,7 @@ This project is developed and maintained by the [Resources team][team].
 ## Table of contents
 
 * [Community](#community)
+    * [Community Chat Rooms](#community-chat-rooms)
 * [Books, blogs and training materials](#books-blogs-and-training-materials)
 * [Tools](#tools)
 * [Real-time](#real-time)
@@ -67,13 +68,28 @@ This project is developed and maintained by the [Resources team][team].
 
 ## Community
 
-In 2018 Rust community has created an embedded workgroup to help drive adoption in the Rust ecosystem.
+In 2018 the Rust community created an embedded working group to help drive adoption in the Rust ecosystem.
 
 - [Embedded WG](https://github.com/rust-embedded/wg/), including newsletters with progress updates.
 
-- You can usually find community members (including embedded WG members) in the [`#rust-embedded:matrix.org` Matrix room](https://matrix.to/#/#rust-embedded:matrix.org).
+### Community Chat Rooms
 
-- [embedded.rs](https://t.me/embedded_rs) Telegram chat about Rust for microcontrollers in Russian language.
+- You can usually find community members (including embedded WG members) in the official [`#rust-embedded:matrix.org` Matrix room].
+- [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language.
+- [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
+- [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
+- [#probe-rs:matrix.org] - For discussion of the Probe-rs debugging toolkit
+- [#rtfm-rs:matrix.org] - For discussion of the Real Time for The Masses concurrency framework
+- [#rust-embedded-graphics:matrix.org] - For discussion of the [`embedded-graphics`] crate and ecosystem
+
+[#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
+[#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
+[`#rust-embedded:matrix.org` Matrix room]: https://matrix.to/#/#rust-embedded:matrix.org
+[embedded.rs]: https://t.me/embedded_rs
+[#rtfm-rs:matrix.org]: https://matrix.to/#/#rtfm-rs:matrix.org
+[#nrf-rs:matrix.org]: https://matrix.to/#/#nrf-rs:matrix.org
+[#probe-rs:matrix.org]: https://matrix.to/#/#probe-rs:matrix.org
+[`embedded-graphics`]: https://crates.io/crates/embedded-graphics
 
 ## Books, blogs and training materials
 
@@ -425,7 +441,7 @@ The following crates provide HAL-like abstractions for subcomponents of embedded
 devices which go beyond what is available in [`embedded-hal`]:
 
 - [`accelerometer`](https://github.com/NeoBirth/accelerometer.rs) - Generic accelerometer support, including traits and types for taking readings from 2 or 3-axis accelerometers and tracking device orientations - ![crates.io](https://img.shields.io/crates/v/accelerometer.svg)
-- [`embedded-graphics`](https://crates.io/crates/embedded-graphics): 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
+- [`embedded-graphics`]: 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [`radio`](https://github.com/ryankurte/rust-radio) - Generic radio transceiver traits, mocks, and helpers - ![crates.io](https://img.shields.io/crates/v/radio.svg)
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
 - [`usb-device`](https://github.com/mvirkkunen/usb-device): Abstraction layer between USB peripheral crates & USB class crates - ![crates.io](https://img.shields.io/crates/v/usb-device.svg)
