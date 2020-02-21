@@ -659,6 +659,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [SSD1675] - SPI - Tri-color ePaper display controller - ![crates.io](https://img.shields.io/crates/v/ssd1675.svg)
 1. [st7032i] - I2C - Dot Matrix LCD Controller driver (Sitronix ST7032i or similar). - ![crates.io](https://img.shields.io/crates/v/st7032i.svg)
 1. [ST7735-lcd] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix ![crates.io](https://img.shields.io/crates/v/st7735-lcd.svg)
+1. [ST7920] - SPI - LCD displays using the ST7920 controller
 1. [stm32-eth] - MCU - Ethernet
 1. [SX1278] - SPI - Long range (LoRa) transceiver
 1. [SX1509] - I2C - IO Expander / Keypad driver
@@ -732,6 +733,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SSD1675]: https://crates.io/crates/ssd1675
 [st7032i]: https://github.com/dotcypress/st7032i
 [ST7735-lcd]: https://crates.io/crates/st7735-lcd
+[ST7920]: https://crates.io/crates/st7920
 [stm32-eth]: https://github.com/stm32-rs/stm32-eth
 [SX1278]: https://github.com/susu/sx1278
 [SX1509]: https://github.com/wez/sx1509
