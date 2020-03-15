@@ -506,6 +506,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [usbd-midi] - USB MIDI class implementation - [github][41] - ![crates.io](https://img.shields.io/crates/v/usbd-midi.svg)
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 1. [SHTCx] - I2C - Temperature / humidity sensors - [github][42] - ![crates.io](https://img.shields.io/crates/v/shtcx.svg)
+1. [ST7789] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix used in the PineTime watch [github][44] ![crates.io](https://img.shields.io/crates/v/st7789.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -548,6 +549,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [41]: https://github.com/btrepp/usbd-midi
 [42]: https://github.com/dbrgn/shtcx-rs
 [43]: https://jitter.company/blog/2020/02/14/adxl355-embedded-hal-driver-crate/
+[44]: https://github.com/almindor/st7789
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -592,6 +594,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [usbd-midi]: http://crates.io/crates/usbd-midi
 [usbd-webusb]: http://crates.io/crates/usbd-webusb
 [SHTCx]: http://crates.io/crates/shtcx
+[ST7789]: http://crates.io/crates/st7789
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
