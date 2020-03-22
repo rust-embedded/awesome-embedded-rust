@@ -39,6 +39,7 @@ This project is developed and maintained by the [Resources team][team].
     * [SiFive](#sifive-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments-1)
+    * [MSP430](#msp430-1)
     * [Espressif](#espressif)
     * [Silicon Labs](#silicon-labs-1)
     * [XMC](#xmc)
@@ -213,6 +214,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
     - [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
+-   [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 
 ### Ambiq Micro
 
@@ -322,6 +324,11 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Texas Instruments
 
 - [`tm4c123x-hal`](https://github.com/thejpster/tm4c123x-hal)
+
+### MSP430
+
+- [`msp430fr2x5x-hal`](https://crates.io/crates/msp430fr2x5x-hal)
+    - HAL implementation for the MSP430FR2x5x family of microcontrollers
 
 ### Espressif
 
