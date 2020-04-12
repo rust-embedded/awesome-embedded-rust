@@ -39,6 +39,7 @@ This project is developed and maintained by the [Resources team][team].
     * [SiFive](#sifive-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments-1)
+    * [MSP430](#msp430-1)
     * [Espressif](#espressif)
     * [Silicon Labs](#silicon-labs-1)
     * [XMC](#xmc)
@@ -213,6 +214,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
     - [msp430 quickstart](https://github.com/japaric/msp430-quickstart) some examples for msp430
+-   [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 
 ### Ambiq Micro
 
@@ -322,6 +324,11 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Texas Instruments
 
 - [`tm4c123x-hal`](https://github.com/thejpster/tm4c123x-hal)
+
+### MSP430
+
+- [`msp430fr2x5x-hal`](https://crates.io/crates/msp430fr2x5x-hal)
+    - HAL implementation for the MSP430FR2x5x family of microcontrollers
 
 ### Espressif
 
@@ -507,6 +514,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 1. [SHTCx] - I2C - Temperature / humidity sensors - [github][42] - ![crates.io](https://img.shields.io/crates/v/shtcx.svg)
 1. [ST7789] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix used in the PineTime watch [github][44] ![crates.io](https://img.shields.io/crates/v/st7789.svg)
+1. [DW1000] - SPI - Radio transceiver (IEEE 802.15.4 and position tracking) - [Article][45] - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -550,6 +558,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [42]: https://github.com/dbrgn/shtcx-rs
 [43]: https://jitter.company/blog/2020/02/14/adxl355-embedded-hal-driver-crate/
 [44]: https://github.com/almindor/st7789
+[45]: https://braun-embedded.com/dw1000/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -595,6 +604,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [usbd-webusb]: http://crates.io/crates/usbd-webusb
 [SHTCx]: http://crates.io/crates/shtcx
 [ST7789]: http://crates.io/crates/st7789
+[DW1000]: https://crates.io/crates/dw1000
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -618,7 +628,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [DS3231] - I2C - real time clock
 1. [DS3234] - SPI - Real time clock
 1. [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
-1. [DW1000] - SPI - Radio transceiver for communication based on IEEE 802.15.4 and position tracking - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 1. [eink-waveshare] - SPI - driver for E-Paper Modules from Waveshare
 1. [embedded-morse] - Output morse messages - ![crates.io](https://img.shields.io/crates/v/embedded-morse.svg)
 1. [embedded-nrf24l01] - SPI+GPIO - 2.4 GHz radio
@@ -693,7 +702,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [DS3231]: https://github.com/wose/ds3231
 [DS3234]: https://github.com/rust-embedded/wg/issues/39#issuecomment-375262785
 [DS323x]: https://crates.io/crates/ds323x
-[DW1000]: https://crates.io/crates/dw1000
 [eink-waveshare]: https://crates.io/crates/eink_waveshare_rs
 [embedded-morse]: https://crates.io/crates/embedded-morse
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
