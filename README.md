@@ -781,6 +781,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [console-traits](https://github.com/thejpster/console-traits): Describes a basic text console. Used by [menu] and implemented by [vga-framebuffer]. ![crates.io](https://img.shields.io/crates/v/console-tratis.svg)
 1. [`cmim`], or Cortex-M Interrupt Move: A crate for Cortex-M devices to move data to interrupt context, without needing a critical section to access the data within an interrupt, and to remove the need for the "mutex dance" - ![crates.io](https://img.shields.io/crates/v/cmim.svg)
 1. [dcmimu]: An algorithm for fusing low-cost triaxial MEMS gyroscope and accelerometer measurements ![crates.io](https://img.shields.io/crates/v/dcmimu.svg)
+1. [endian_codec]: (En/De)code rust types as packed bytes with specific order (endian). Supports derive. - [![crates.io](https://img.shields.io/crates/v/endian_codec.svg)](https://crates.io/crates/endian_codec)
 1. [gcode](https://github.com/Michael-F-Bryan/gcode-rs): A gcode parser for no-std applications - [![crates.io](https://img.shields.io/crates/v/gcode.svg)](https://crates.io/crates/gcode)
 1. [heapless](https://crates.io/crates/heapless): provides `Vec`, `String`, `LinearMap`, `RingBuffer` backed by fixed-size buffers  - ![crates.io](https://img.shields.io/crates/v/heapless.svg)
 1. [ieee802154](https://crates.io/crates/ieee802154): Partial implementation of the IEEE 802.15.4 standard - ![crates.io](https://img.shields.io/crates/v/ieee802154.svg)
@@ -811,6 +812,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [bitmatch]: https://crates.io/crates/bitmatch
 [biquad]: https://crates.io/crates/biquad
 [dcmimu]: https://crates.io/crates/dcmimu
+[endian_codec]: https://crates.io/crates/endian_codec
 [menu]: https://github.com/thejpster/menu
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
 [qemu-exit]: https://crates.io/crates/qemu-exit
