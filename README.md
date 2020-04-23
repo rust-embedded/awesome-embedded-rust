@@ -650,6 +650,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 1. [LS010B7DH01] - SPI - Memory LCD
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
+1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel guage, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 1. [MAX31855] - SPI - Thermocouple digital converter -![crates.io](https://img.shields.io/crates/v/max31855.svg)
@@ -724,6 +725,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LM75]: https://crates.io/crates/lm75
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [LSM303C]: https://crates.io/crates/lsm303c
+[LSM9DS1]: https://crates.io/crates/lsm9ds1
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
 [MAX31855]: https://github.com/cs2dsb/max31855.rs
