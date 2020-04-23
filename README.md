@@ -490,6 +490,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
 1. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)
+1. [MAX6955] - I2C - Driver for Alphanumeric LED display driver - [Intro blog post][46] - ![crates.io](https://img.shields.io/crates/v/max6955.svg)
 1. [MCP3008] - SPI - 8 channel 10-bit ADC - [Intro blog post][3] - ![crates.io](https://img.shields.io/crates/v/adc-mcp3008.svg)
 1. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5] - ![crates.io](https://img.shields.io/crates/v/mcp3425.svg)
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
@@ -562,6 +563,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [43]: https://jitter.company/blog/2020/02/14/adxl355-embedded-hal-driver-crate/
 [44]: https://github.com/almindor/st7789
 [45]: https://braun-embedded.com/dw1000/
+[46]: https://lonesometraveler.github.io/2020/03/20/max6955.html
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -580,6 +582,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [KXCJ9]: https://crates.io/crates/kxcj9
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
+[MAX6955]: https://crates.io/crates/max6955
 [MCP3008]: https://crates.io/crates/adc-mcp3008
 [MCP3425]: https://crates.io/crates/mcp3425
 [MCP794xx]: https://crates.io/crates/mcp794xx
