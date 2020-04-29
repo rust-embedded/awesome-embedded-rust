@@ -123,6 +123,8 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
 -   [bobbin-cli](https://github.com/bobbin-rs/bobbin-cli) A Rust command line tool to simplify embedded development and deployment.
 -   [cargo-fel4](https://github.com/maindotrs/cargo-fel4) A Cargo subcommand for working with feL4 projects. - ![crates.io](https://img.shields.io/crates/v/cargo-fel4.svg)
+-   [cargo-flash](https://probe.rs/guide/tools/cargo-flash) A small cargo subcommand to download your binary to your target chip. - ![crages.io](https://img.shields.io/crates/v/cargo-flash.svg)
+-   [cargo-embed](https://probe.rs/guide/tools/cargo-embed) A superset of cargo-flash with additional useful features like configuration file support, a RTT terminal or a GDB server. - ![crages.io](https://img.shields.io/crates/v/cargo-embed.svg)
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
