@@ -660,6 +660,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel gauge, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 1. [MAX170xx] - I2C - LiPo Fuel gauge, battery monitoring ICs compatible with MAX17043/4, MAX17048/9, MAX17058/9.
+1. [MAX3010x] - I2C - Pulse oximeter and heart-rate sensor. ATM Compatible with MAX30102. -![crates.io](https://img.shields.io/crates/v/max3010x.svg)
 1. [MAX31855] - SPI - Thermocouple digital converter -![crates.io](https://img.shields.io/crates/v/max31855.svg)
 1. [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
 1. [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
@@ -740,6 +741,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
 [MAX170xx]: https://github.com/eldruin/max170xx-rs
+[MAX3010x]: https://crates.io/crates/max3010x
 [MAX31855]: https://github.com/cs2dsb/max31855.rs
 [MAX31865]: https://crates.io/crates/max31865
 [MAX44009]: https://crates.io/crates/max44009
