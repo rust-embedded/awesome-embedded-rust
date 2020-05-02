@@ -630,6 +630,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [BH1750] - I2C - ambient light sensor (lux meter)
 1. [BME280] - A rust device driver for the Bosch BME280 temperature, humidity, and atmospheric pressure sensor and the Bosch BMP280 temperature and atmospheric pressure sensor. ![crates.io](https://img.shields.io/crates/v/bme280.svg)
 1. [bme680] - I2C - Temperature / humidity / gas / pressure sensor - ![crates.io](https://img.shields.io/crates/v/bme680.svg)
+1. [BMI160] - I2C / SPI - Inertial Measurement Unit - ![crates.io](https://img.shields.io/crates/v/bmi160.svg)
 1. [BMP280] - A platform agnostic driver to interface with the BMP280 pressure sensor ![crates.io](https://img.shields.io/crates/v/bmp280-ehal.svg)
 1. [CC1101] - SPI - Sub-1GHz RF Transceiver - ![crates.io](https://img.shields.io/crates/v/cc1101.svg)
 1. [CCS811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality.
@@ -644,17 +645,22 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [HD44780-driver] - GPIO - LCD controller - ![crates.io](https://img.shields.io/crates/v/hd44780-driver.svg)
 1. [HD44780] - Parallel port - LCD controller
 1. [HM11] - USART - HM-11 bluetooth module AT configuration crate - ![crates.io](https://img.shields.io/crates/v/hm11.svg)
+1. [HRS3300] - I2C - Heart rate sensor / monitor used in the PineTime smartwatch, for example. - ![crates.io](https://img.shields.io/crates/v/hrs3300.svg)
+1. [HDC20xx] - I2C - Temperature and humidity sensor compatible with HDC2080, HDC2021 and HDC2010. - ![crates.io](https://img.shields.io/crates/v/hdc20xx.svg)
 1. [hub75] - A driver for rgb led matrices with the hub75 interface  - ![crates.io](https://img.shields.io/crates/v/hub75.svg)
 1. [hzgrow-r502] - UART capacitive fingerprint reader - ![crates.io](https://img.shields.io/crates/v/hzgrow-r502.svg)
 1. [iAQ-Core] - I2C - iAQ-Core-C/iAQ-Core-P Gas and VOC sensor driver for monitoring indoor air quality.
 1. [ILI9341] - SPI - TFT LCD display
 1. [INA260] - I2C - power monitor - ![crates.io](https://img.shields.io/crates/v/ina260.svg)
+1. [ISL29125] - I2C - RGB Color Light Sensor with IR Blocking Filter - ![crates.io](https://img.shields.io/crates/v/isl29125.svg)
 1. [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 1. [LS010B7DH01] - SPI - Memory LCD
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel gauge, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
+1. [MAX170xx] - I2C - LiPo Fuel gauge, battery monitoring ICs compatible with MAX17043/4, MAX17048/9, MAX17058/9.
+1. [MAX3010x] - I2C - Pulse oximeter and heart-rate sensor. ATM Compatible with MAX30102. -![crates.io](https://img.shields.io/crates/v/max3010x.svg)
 1. [MAX31855] - SPI - Thermocouple digital converter -![crates.io](https://img.shields.io/crates/v/max31855.svg)
 1. [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
 1. [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
@@ -705,6 +711,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [BH1750]: https://github.com/wose/bh1750
 [BME280]: https://crates.io/crates/bme280
 [bme680]: https://github.com/marcelbuesing/bme680
+[BMI160]: https://crates.io/crates/bmi160
 [BMP280]: https://crates.io/crates/bmp280-ehal
 [CC1101]: https://crates.io/crates/cc1101
 [CCS811]: https://github.com/eldruin/ccs811-rs
@@ -718,18 +725,23 @@ Work in progress drivers. Help the authors make these crates awesome!
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
 [HD44780-driver]: https://crates.io/crates/hd44780-driver
 [HD44780]: http://github.com/kunerd/clerk
+[HDC20xx]: https://crates.io/crates/hdc20xx
 [HM11]: https://crates.io/crates/hm11
+[HRS3300]: https://crates.io/crates/hrs3300
 [hub75]: https://github.com/david-sawatzke/hub75-rs
 [hzgrow-r502]: https://crates.io/crates/hzgrow-r502
 [iAQ-Core]: https://github.com/eldruin/iaq-core-rs
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [INA260]: https://crates.io/crates/ina260
+[ISL29125]: https://crates.io/crates/isl29125
 [LM75]: https://crates.io/crates/lm75
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [LSM303C]: https://crates.io/crates/lsm303c
 [LSM9DS1]: https://crates.io/crates/lsm9ds1
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
+[MAX170xx]: https://github.com/eldruin/max170xx-rs
+[MAX3010x]: https://crates.io/crates/max3010x
 [MAX31855]: https://github.com/cs2dsb/max31855.rs
 [MAX31865]: https://crates.io/crates/max31865
 [MAX44009]: https://crates.io/crates/max44009
