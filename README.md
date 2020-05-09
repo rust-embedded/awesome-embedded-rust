@@ -665,6 +665,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
 1. [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
 1. [MAX7219] - SPI - LED display driver - ![crates.io](https://img.shields.io/crates/v/max7219.svg)
+1. [MCP4725] - I2C - 12-bit DAC - ![crates.io](https://img.shields.io/crates/v/mcp4725)
 1. [MCP49xx] - SPI - 8/10/12-bit DACs like MCP4921, MCP4922, MCP4801, etc. - ![crates.io](https://img.shields.io/crates/v/mcp49xx.svg)
 1. [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
 1. [MFRC522] - SPI - RFID tag reader/writer
@@ -746,6 +747,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAX31865]: https://crates.io/crates/max31865
 [MAX44009]: https://crates.io/crates/max44009
 [MAX7219]: https://github.com/almindor/max7219
+[MCP4725]: https://crates.io/crates/mcp4725
 [MCP49xx]: https://crates.io/crates/mcp49xx
 [MCP9808]: https://crates.io/crates/mcp9808
 [MFRC522]: https://github.com/japaric/mfrc522
