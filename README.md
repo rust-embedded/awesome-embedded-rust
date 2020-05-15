@@ -134,6 +134,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 
 -   [Drone OS](https://drone-os.github.io) An Embedded Operating System for writing real-time applications in Rust.
 -   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
+-   [FreeRTOS-rust](https://github.com/lobaro/FreeRTOS-rust) Rust interface for FreeRTOS with Rust entry point and build support crate.
 -   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
 
 ### Real-time tools
