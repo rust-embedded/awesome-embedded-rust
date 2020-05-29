@@ -387,6 +387,12 @@ Crates tailored for specific boards.
 [STM32F4DISCOVERY]: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
 [STM32F429DISCOVERY]: https://www.st.com/en/evaluation-tools/32f429idiscovery.html
 
+### 1BitSquared
+
+- [`onebitsy`](https://crates.io/crates/onebitsy) - Board support crate for the [1bitsy] STM32F4-based board - ![crates.io](https://img.shields.io/crates/v/onebitsy.svg)
+
+[1bitsy]: https://1bitsy.org/
+
 ### Adafruit
 
 - [`metro_m4`](https://crates.io/crates/metro_m4) - ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
