@@ -398,6 +398,7 @@ Crates tailored for specific boards.
 - [`metro_m4`](https://crates.io/crates/metro_m4) - ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
 - [`pyportal`](https://crates.io/crates/pyportal) - ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
 - [`trellis_m4`](https://crates.io/crates/trellis_m4) - ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
+- [`feather-f405`](https://crates.io/crates/feather-f405) - ![crates.io](https://img.shields.io/crates/v/feather-f405.svg)
 
 ### Arduino
 
