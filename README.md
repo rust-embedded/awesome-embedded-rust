@@ -48,8 +48,12 @@ This project is developed and maintained by the [Resources team][team].
     * [RISC-V](#risc-v)
     * [MIPS](#mips)
 * [Board support crates](#board-support-crates)
+    * [1BitSquared](#1bitsquared)
+    * [Adafruit](#adafruit)
+    * [Arduino](#arduino)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
+    * [Sparkfun](#sparkfun)
     * [SeeedStudio](#seeedstudio)
     * [SiFive](#sifive-2)
     * [Sipeed](#sipeed)
@@ -395,14 +399,38 @@ Crates tailored for specific boards.
 
 ### Adafruit
 
-- [`metro_m4`](https://crates.io/crates/metro_m4) - ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
-- [`pyportal`](https://crates.io/crates/pyportal) - ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
-- [`trellis_m4`](https://crates.io/crates/trellis_m4) - ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
-- [`feather-f405`](https://crates.io/crates/feather-f405) - ![crates.io](https://img.shields.io/crates/v/feather-f405.svg)
+- [`metro_m0`](https://crates.io/crates/metro_m0) - Board support for the [Metro M0 board](https://www.adafruit.com/product/3505)
+ ![crates.io](https://img.shields.io/crates/v/metro_m0.svg)
+- [`metro_m4`](https://crates.io/crates/metro_m4) - Board support for the [Metro M4 board](https://www.adafruit.com/product/3382)
+ ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
+- [`pyportal`](https://crates.io/crates/pyportal) - Board support for the [PyPortal board](https://www.adafruit.com/product/4116)
+ ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
+- [`pygamer`](https://crates.io/crates/pygamer) - Board support for the [PyGamer board](https://www.adafruit.com/product/4242)
+ ![crates.io](https://img.shields.io/crates/v/pygamer.svg)
+- [`trellis_m4`](https://crates.io/crates/trellis_m4) - Board support for the [NeoTrellis M4 board](https://www.adafruit.com/product/3938)
+ ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
+- [`feather-f405`](https://crates.io/crates/feather-f405) - Board support for the [Feather STM32F405 Express](https://www.adafruit.com/product/4382) ![crates.io](https://img.shields.io/crates/v/feather-f405.svg)
+- [`feather_m0`](https://crates.io/crates/feather_m0) - Board support for the [Feather M0 board](https://www.adafruit.com/product/2772) ![crates.io](https://img.shields.io/crates/v/feather_m0.svg)
+- [`feather_m4`](https://crates.io/crates/feather_m4) - Board support for the [Feather M4 board](https://www.adafruit.com/product/3857)
+ ![crates.io](https://img.shields.io/crates/v/feather_m4.svg)
+- [`circuit_playground_express`](https://crates.io/crates/circuit_playground_express) - Board support for the [Circuit Playground Express board](https://www.adafruit.com/product/3333)
+ ![crates.io](https://img.shields.io/crates/v/circuit_playground_express.svg)
+- [`edgebadge`](https://crates.io/crates/edgebadge) - Board support for the [EdgeBadge board](https://www.adafruit.com/product/4400)
+ ![crates.io](https://img.shields.io/crates/v/edgebadge.svg)
+- [`gemma_m0`](https://crates.io/crates/gemma_m0) - Board support for the [Gemma M0 board](https://www.adafruit.com/product/3501)
+ ![crates.io](https://img.shields.io/crates/v/gemma_m0.svg)
+- [`itsybitsy_m0`](https://crates.io/crates/itsybitsy_m0) - Board support for the [ItsyBitsy M0 board](https://www.adafruit.com/product/3727)
+ ![crates.io](https://img.shields.io/crates/v/itsybitsy_m0.svg)
+- [`itsybitsy_m4`](https://crates.io/crates/itsybitsy_m4) - Board support for the [ItsyBitsy M4 Express board](https://www.adafruit.com/product/3800)
+ ![crates.io](https://img.shields.io/crates/v/itsybitsy_m4.svg)
+- [`trinket_m0`](https://crates.io/crates/trinket_m0) - Board support for the [Trinket M0 board](https://www.adafruit.com/product/3500)
+ ![crates.io](https://img.shields.io/crates/v/trinket_m0.svg)
 
 ### Arduino
 
 - [`avr-hal`](https://github.com/Rahix/avr-hal) - Board support crate for several AVR-based boards including the Arduino Uno and the Arduino Leonardo
+- [`arduino_mkrvidor4000`](https://crates.io/crates/arduino_mkrvidor4000) - Board support for the [MKR Vidor board](https://store.arduino.cc/usa/mkr-vidor-4000) ![crates.io](https://img.shields.io/crates/v/arduino_mkrvidor4000.svg)
+- [`arduino_mkrzero`](https://crates.io/crates/arduino_mkrzero) - Board support for the [mkrzero board](https://store.arduino.cc/arduino-mkrzero) ![crates.io](https://img.shields.io/crates/v/arduino_mkrzero.svg)
 
 ### Nordic
 
@@ -418,11 +446,16 @@ Crates tailored for specific boards.
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
 
+### Sparkfun
+
+- [`samd21_mini`](https://crates.io/crates/samd21_mini) - Board support for the [SAMD21 Mini Breakout](https://www.sparkfun.com/products/13664) ![crates.io](https://img.shields.io/crates/v/samd21_mini.svg)
+
 ### SeeedStudio
 
 - [`seedstudio-gd32v`](https://github.com/riscv-rust/seedstudio-gd32v) - Board support crate for the [GD32 RISC-V Dev Board](https://www.seeedstudio.com/SeeedStudio-GD32-RISC-V-Dev-Board-p-4302.html)
   ![crates.io](https://img.shields.io/crates/v/seedstudio-gd32v.svg)
   - Contains runnable examples for this board
+- [`xiao_m0`](https://crates.io/crates/xiao_m0) - Board support for the [Seeed Studio Seeeduino XIAO](http://wiki.seeedstudio.com/Seeeduino-XIAO/) ![crates.io](https://img.shields.io/crates/v/xiao_m0.svg)
 
 ### SiFive
 
