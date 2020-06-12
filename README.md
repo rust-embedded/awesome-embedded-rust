@@ -84,14 +84,14 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 - [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
 - [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
 - [#probe-rs:matrix.org] - For discussion of the Probe-rs debugging toolkit
-- [#rtfm-rs:matrix.org] - For discussion of the Real Time for The Masses concurrency framework
+- [#rtic-rs:matrix.org] - For discussion of the Real-Time Interrupt-driven Concurrency framework
 - [#rust-embedded-graphics:matrix.org] - For discussion of the [`embedded-graphics`] crate and ecosystem
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
 [`#rust-embedded:matrix.org` Matrix room]: https://matrix.to/#/#rust-embedded:matrix.org
 [embedded.rs]: https://t.me/embedded_rs
-[#rtfm-rs:matrix.org]: https://matrix.to/#/#rtfm-rs:matrix.org
+[#rtic-rs:matrix.org]: https://matrix.to/#/#rtic-rs:matrix.org
 [#nrf-rs:matrix.org]: https://matrix.to/#/#nrf-rs:matrix.org
 [#probe-rs:matrix.org]: https://matrix.to/#/#probe-rs:matrix.org
 [`embedded-graphics`]: https://crates.io/crates/embedded-graphics
@@ -145,8 +145,8 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 
 ### Real-time tools
 
--   [RTFM v0.5](https://rtfm.rs/0.5/book/en/) Real-Time For the Masses — A concurrency framework for building real time systems:
-    -   [cortex-m rtfm](https://github.com/rtfm-rs/cortex-m-rtfm) RTFM framework for ARM Cortex-M microcontrollers
+-   [RTIC v0.5](https://rtic.rs/0.5/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real time systems:
+    -   [cortex-m rtic](https://github.com/rtic-rs/cortex-m-rtic) RTIC framework for ARM Cortex-M microcontrollers
     -   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
 
 ## Peripheral Access Crates
