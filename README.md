@@ -906,7 +906,6 @@ Work in progress crates. Help the authors make these crates awesome!
 
 ## Rust forks
 
-
 ### AVR
 
 -  [AVR Rust](https://github.com/avr-rust/rust) Fork of Rust with AVR support.
