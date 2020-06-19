@@ -616,7 +616,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [ADXL343]: https://crates.io/crates/adxl343
 [ADXL355]: https://crates.io/crates/adxl355
-[AnyLeaf]: https://cratse.io/crates/anyleaf
+[AnyLeaf]: https://crates.io/crates/anyleaf
 [at86rf212]: https://crates.io/crates/radio-at86rf212
 [BlueNRG]: https://crates.io/crates/bluenrg
 [BNO055]: https://crates.io/crates/bno055
