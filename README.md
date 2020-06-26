@@ -504,6 +504,7 @@ devices which go beyond what is available in [`embedded-hal`]:
 - [`radio`](https://github.com/ryankurte/rust-radio) - Generic radio transceiver traits, mocks, and helpers - ![crates.io](https://img.shields.io/crates/v/radio.svg)
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
 - [`usb-device`](https://github.com/mvirkkunen/usb-device): Abstraction layer between USB peripheral crates & USB class crates - ![crates.io](https://img.shields.io/crates/v/usb-device.svg)
+- [`atat`](https://github.com/BlackbirdHQ/atat): Abstraction crate to ease writting AT based driver crates - ![crates.io](https://img.shields.io/crates/v/atat.svg)
 
 ## Driver crates
 
@@ -754,6 +755,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [VL53L0X] - A platform agnostic driver to interface with the vl53l0x (time-of-flight sensor) ![crates.io](https://img.shields.io/crates/v/vl53l0x.svg)
 1. [w5500] - SPI - Ethernet Module with hardwired protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE - ![crates.io](https://img.shields.io/crates/v/w5500.svg)
 1. [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
+1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
 
 [AFE4400]: https://github.com/ReeceStevens/afe4400
 [APDS9960]: https://crates.io/crates/apds9960
@@ -837,6 +839,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [VL53L0X]: https://crates.io/crates/vl53l0x
 [w5500]: https://crates.io/crates/w5500
 [xCA9548A]: https://crates.io/crates/xca9548a
+[ublox-cellular-rs]: https://github.com/BlackbirdHQ/ublox-cellular-rs
 
 ## no-std crates
 
