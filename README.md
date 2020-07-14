@@ -530,6 +530,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
+
 1. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
@@ -539,6 +540,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
 1. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)
 1. [MAX6955] - I2C - Driver for Alphanumeric LED display driver - [Intro blog post][46] - ![crates.io](https://img.shields.io/crates/v/max6955.svg)
+1. [MCP25LCXX] - SPI - Driver for Microchip's 25LC series of EEPROMs - ![crates.io](https://img.shields.io/crates/v/microchip-eeprom-25lcxx.svg)
 1. [MCP3008] - SPI - 8 channel 10-bit ADC - [Intro blog post][3] - ![crates.io](https://img.shields.io/crates/v/adc-mcp3008.svg)
 1. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5] - ![crates.io](https://img.shields.io/crates/v/mcp3425.svg)
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
@@ -634,6 +636,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
 [MAX6955]: https://crates.io/crates/max6955
+[MCP25LCXX]: https://crates.io/crates/microchip-eeprom-25lcxx
 [MCP3008]: https://crates.io/crates/adc-mcp3008
 [MCP3425]: https://crates.io/crates/mcp3425
 [MCP794xx]: https://crates.io/crates/mcp794xx
