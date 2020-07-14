@@ -530,7 +530,6 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
-
 1. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
