@@ -184,7 +184,7 @@ Peripheral Access Crates were also called Device Crates.
 - [`lpc11uxx`](https://crates.io/crates/lpc11uxx) - ![crates.io](https://img.shields.io/crates/v/lpc11uxx.svg)
 - [`lpc55s6x-pac`](https://crates.io/crates/lpc55s6x-pac) - ![crates.io](https://img.shields.io/crates/v/lpc55s6x-pac.svg)
 - [`lpc82x-pac`](https://crates.io/crates/lpc82x-pac) - ![crates.io](https://img.shields.io/crates/v/lpc82x-pac.svg)
-- [`lpc845-pac`](https://crates.io/crates/lpc485-pac) - ![crates.io](https://img.shields.io/crates/v/lpc845-pac.svg)
+- [`lpc845-pac`](https://crates.io/crates/lpc845-pac) - ![crates.io](https://img.shields.io/crates/v/lpc845-pac.svg)
 - [`mkw41z`](https://crates.io/crates/mkw41z) - ![crates.io](https://img.shields.io/crates/v/mkw41z.svg)
 - [`imxrt-ral`](https://github.com/imxrt-rs/imxrt-rs) Register access layer for i.MX RT series. -  ![crates.io](https://img.shields.io/crates/v/imxrt-ral.svg)
 
