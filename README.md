@@ -917,6 +917,7 @@ Work in progress crates. Help the authors make these crates awesome!
 
 ## Old books, blogs and training materials
 
+These materials may be outdated and reflect earlier practices, but might still be useful for reference.
 
 -   [Exploring Rust on Teensy](https://branan.github.io/teensy/) by @branan — Beginner set of articles on getting into embedded dev in Rust.
 -   [Pragmatic Bare Metal Rust](http://www.hashmismatch.net/pragmatic-bare-metal-rust/) A starter article about starting Rust development on STM32 microcontrollers (cubeMX + FFI).
