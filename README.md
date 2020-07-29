@@ -718,6 +718,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
 1. [MFRC522] - SPI - RFID tag reader/writer
 1. [midi-port] - UART - MIDI input - ![crates.io](https://img.shields.io/crates/v/midi-port.svg)
+1. [MLX9061x] - I2C - MLX90614/MLX90615 Contact-less infrared (IR) temperature sensor driver. - ![crates.io](https://img.shields.io/crates/v/mlx9061x.svg)
 1. [motor-driver] - Motor drivers: L298N, TB6612FNG, etc.
 1. [MPU6050] - I2C - no_std driver for the MPU6050 ![crates.io](https://img.shields.io/crates/v/mpu6050.svg)
 1. [MPU9250] - no_std driver for the MPU9250 (and other MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
@@ -802,6 +803,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MCP9808]: https://crates.io/crates/mcp9808
 [MFRC522]: https://github.com/japaric/mfrc522
 [midi-port]: https://crates.io/crates/midi-port
+[MLX9061x]: https://crates.io/crates/mlx9061x
 [motor-driver]: https://github.com/japaric/motor-driver
 [MPU6050]: https://crates.io/crates/mpu6050
 [MPU9250]: https://crates.io/crates/mpu9250
