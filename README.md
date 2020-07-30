@@ -704,6 +704,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [LS010B7DH01] - SPI - Memory LCD
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
+1. [ltr-559] - I2C - Ambient Light Sensor and Proximity sensor ![crates.io](https://img.shields.io/crates/v/ltr-559.svg)
 1. [lvgl] - no_std [LittleVGL](https://github.com/littlevgl/lvgl) port - ![crates.io](https://img.shields.io/crates/v/lvgl.svg)
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel gauge, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
@@ -789,6 +790,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [LSM303C]: https://crates.io/crates/lsm303c
 [LSM9DS1]: https://crates.io/crates/lsm9ds1
+[ltr-559]: https://crates.io/crates/ltr-559
 [lvgl]: https://github.com/rafaelcaricio/lvgl-rs
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
