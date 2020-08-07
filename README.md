@@ -684,7 +684,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [DS3231] - I2C - real time clock
 1. [DS3234] - SPI - Real time clock
 1. [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
-1. [epd-waveshare] - SPI - driver for E-Paper Modules from Waveshare
+1. [epd-waveshare] - SPI - driver for E-Paper Modules from Waveshare ![crates.io](https://img.shields.io/crates/v/epd-waveshare.svg)
 1. [embedded-morse] - Output morse messages - ![crates.io](https://img.shields.io/crates/v/embedded-morse.svg)
 1. [embedded-nrf24l01] - SPI+GPIO - 2.4 GHz radio
 1. [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33) - ![crates.io](https://img.shields.io/crates/v/GridEYE.svg)
