@@ -524,6 +524,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
+1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 1. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
@@ -611,6 +612,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [45]: https://braun-embedded.com/dw1000/
 [46]: https://lonesometraveler.github.io/2020/03/20/max6955.html
 [47]: https://github.com/kallemooo/adafruit-7segment
+[48]: https://github.com/michaelbeaumont/dht-sensor
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -622,6 +624,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [at86rf212]: https://crates.io/crates/radio-at86rf212
 [BlueNRG]: https://crates.io/crates/bluenrg
 [BNO055]: https://crates.io/crates/bno055
+[dht-sensor]: https://crates.io/crates/dht-sensor
 [DS1307]: https://crates.io/crates/ds1307
 [EEPROM24x]: https://crates.io/crates/eeprom24x
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
