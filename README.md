@@ -520,6 +520,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [ADXL313] - SPI - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl313.svg)
 1. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
 1. [ADXL355] - SPI - 3-axis accelerometer - [Intro blog post][43] - ![crates.io](https://img.shields.io/crates/v/adxl355.svg)
+1. [AHT20] - I2C - Humidity and temperature sensor - [github](https://github.com/chocol4te/aht20) - ![crates.io](https://img.shields.io/crates/v/aht20.svg)
 1. [AnyLeaf] - I2C - pH sensor module - [github](https://github.com/AnyLeaf/ph-rust) - ![crates.io](https://img.shields.io/crates/v/anyleaf.svg)
 1. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
@@ -620,6 +621,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [ADXL313]: https://crates.io/crates/adxl313
 [ADXL343]: https://crates.io/crates/adxl343
 [ADXL355]: https://crates.io/crates/adxl355
+[AHT20]: https://crates.io/crates/aht20
 [AnyLeaf]: https://crates.io/crates/anyleaf
 [at86rf212]: https://crates.io/crates/radio-at86rf212
 [BlueNRG]: https://crates.io/crates/bluenrg
