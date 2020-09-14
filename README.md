@@ -528,6 +528,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 1. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
+1. [embedded-ccs811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality - [Intro blog post][49] - ![crates.io](https://img.shields.io/crates/v/embedded-ccs811.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
 1. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
@@ -614,6 +615,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [46]: https://lonesometraveler.github.io/2020/03/20/max6955.html
 [47]: https://github.com/kallemooo/adafruit-7segment
 [48]: https://github.com/michaelbeaumont/dht-sensor
+[49]: https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -629,6 +631,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [dht-sensor]: https://crates.io/crates/dht-sensor
 [DS1307]: https://crates.io/crates/ds1307
 [EEPROM24x]: https://crates.io/crates/eeprom24x
+[embedded-ccs811]: https://crates.io/crates/embedded-ccs811
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
 [ENC28J60]: https://crates.io/crates/enc28j60
 [HTS221]: https://crates.io/crates/hts221
@@ -688,7 +691,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [BMI160] - I2C / SPI - Inertial Measurement Unit - ![crates.io](https://img.shields.io/crates/v/bmi160.svg)
 1. [BMP280] - A platform agnostic driver to interface with the BMP280 pressure sensor ![crates.io](https://img.shields.io/crates/v/bmp280-ehal.svg)
 1. [CC1101] - SPI - Sub-1GHz RF Transceiver - ![crates.io](https://img.shields.io/crates/v/cc1101.svg)
-1. [CCS811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality.
 1. [DS3231] - I2C - real time clock
 1. [DS3234] - SPI - Real time clock
 1. [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
@@ -774,7 +776,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [BMI160]: https://crates.io/crates/bmi160
 [BMP280]: https://crates.io/crates/bmp280-ehal
 [CC1101]: https://crates.io/crates/cc1101
-[CCS811]: https://github.com/eldruin/ccs811-rs
 [DS3231]: https://github.com/wose/ds3231
 [DS3234]: https://github.com/rust-embedded/wg/issues/39#issuecomment-375262785
 [DS323x]: https://crates.io/crates/ds323x
