@@ -556,6 +556,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [TC72] - SPI - Microchip TC72 temperature sensor - ![crates.io](https://img.shields.io/crates/v/microchip-tc72r-rs.svg)
 1. [TMP006] - I2C - Contact-less infrared (IR) thermopile temperature sensor driver - [Intro post][17] ![crates.io](https://img.shields.io/crates/v/tmp006.svg)
 1. [TMP1x2] - I2C - TMP102 and TMP112x temperature sensor driver - [Intro blog post][22] ![crates.io](https://img.shields.io/crates/v/tmp1x2.svg)
+1. [TSIC] - GPIO - TSIC 306 temperature sensor driver - [Intro blog post][50] ![crates.io](https://img.shields.io/crates/v/tsic.svg)
 1. [TSL256X] - I2C - Light Intensity Sensor - [Intro blog post][11] - ![crates.io](https://img.shields.io/crates/v/tsl256x.svg)
 1. [VEML6030/VEML7700] - I2C - Ambient light sensors - [Intro blog post][33] - ![crates.io](https://img.shields.io/crates/v/veml6030.svg)
 1. [VEML6075] - I2C - UVA and UVB light sensor - [Intro blog post][27] - ![crates.io](https://img.shields.io/crates/v/veml6075.svg)
@@ -616,6 +617,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [47]: https://github.com/kallemooo/adafruit-7segment
 [48]: https://github.com/michaelbeaumont/dht-sensor
 [49]: https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/
+[50]: https://nitschinger.at/Rusty-PID-Porting-the-TSic-sensor-from-C-to-Rust/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -659,6 +661,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [TC72]: https://crates.io/crates/microchip-tc72r-rs
 [TMP006]: https://crates.io/crates/tmp006
 [TMP1x2]: https://crates.io/crates/tmp1x2
+[TSIC]: https://crates.io/crates/tsic
 [TSL256X]: https://crates.io/crates/tsl256x
 [VEML6030/VEML7700]: https://crates.io/crates/veml6030
 [VEML6075]: https://crates.io/crates/veml6075
