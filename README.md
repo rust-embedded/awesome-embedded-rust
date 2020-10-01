@@ -60,6 +60,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Sony](#sony)
     * [STMicroelectronics](#stmicroelectronics-2)
     * [Texas Instruments](#texas-instruments-2)
+    * [Teensy](#teensy)
     * [Special Purpose](#special-purpose)
 * [Component abstraction crates](#component-abstraction-crates)
 * [Driver crates](#driver-crates)
@@ -479,6 +480,9 @@ Crates tailored for specific boards.
 - [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)
 
 [Nucleo-F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
+
+### Teensy
+- [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs) Board Support create for the [Teensy 4.0]
 
 ### Texas Instruments
 
