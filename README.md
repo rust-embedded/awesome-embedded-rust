@@ -482,7 +482,7 @@ Crates tailored for specific boards.
 [Nucleo-F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
 
 ### Teensy
-- [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs)
+- [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs) Board Support create for the [Teensy 4.0]
 
 ### Texas Instruments
 
