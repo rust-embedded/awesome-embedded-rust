@@ -308,7 +308,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 - [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)
   - Can be run on boards like the [Blue pill], [Nucleo-F103RB] and similar boards
 
-[Blue pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
+[Blue pill]: https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
 
 - [`stm32f3xx-hal`](https://crates.io/crates/stm32f3xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f3xx-hal.svg)
