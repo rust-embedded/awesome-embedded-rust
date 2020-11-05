@@ -703,6 +703,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
 1. [SRAM23x] - SPI - Microchip 23x series serial SRAM/NVSRAM driver - [Intro blog post][51] - ![crates.io](https://img.shields.io/crates/v/sram23x.svg)
 1. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
+1. [SSD1309] - I2C/SPI - OLED display controller - [Intro blog post][60] - ![crates.io](https://img.shields.io/crates/v/ssd1309.svg)
 1. [STSPIN220] - STSPIN220 Stepper Motor Driver (based on [Stepper]) - [Intro blog post][52] - ![crates.io](https://img.shields.io/crates/v/stspin220.svg)
 1. [Sx127x] - SPI - Long Range Low Power Sub GHz (Gfsk, LoRa) RF Transceiver - [Intro blog post][34] - ![crates.io](https://img.shields.io/crates/v/radio-sx127x.svg)
 1. [Sx128x] - SPI - Long range, low power 2.4 GHz (Gfsk, Flrc, LoRa) RF Transceiver - [Intro blog post][35] - ![crates.io](https://img.shields.io/crates/v/radio-sx128x.svg)
@@ -781,6 +782,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [57]: https://github.com/yannart/rainbow-hat-rs
 [58]: https://blog.rahix.de/port-expander/
 [59]: https://robamu.github.io/post/max11619-driver-rust/
+[60]: https://antonok.com/projects/ssd1309
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -826,7 +828,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [Si4703]: https://crates.io/crates/si4703
 [SRAM23x]: https://crates.io/crates/sram23x
 [SSD1306]: https://crates.io/crates/ssd1306
-[STSPIN220]: https://crates.io/crates/stspin220
+[SSD1309]: https://crates.io/crates/ssd1309
 [Sx127x]: https://crates.io/crates/radio-sx127x
 [Sx128x]: https://crates.io/crates/radio-sx128x
 [TC72]: https://crates.io/crates/microchip-tc72r-rs
