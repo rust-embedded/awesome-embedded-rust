@@ -67,8 +67,6 @@ This project is developed and maintained by the [Resources team][team].
     * [WIP](#wip)
 * [no-std crates](#no-std-crates)
     * [WIP](#wip-1)
-* [Rust forks](#rust-forks)
-    * [AVR](#avr)
 * [Firmware projects](#firmware-projects)
 * [Old books, blogs and training materials](#old-books-blogs-and-training-materials)
 * [License](#license)
@@ -927,12 +925,6 @@ Work in progress crates. Help the authors make these crates awesome!
 - [Rubble](https://github.com/jonas-schievink/rubble): A pure-Rust embedded BLE stack ![crates.io](https://img.shields.io/crates/v/rubble.svg)
 
 [no-std-category]: https://crates.io/categories/no-std
-
-## Rust forks
-
-### AVR
-
--  [AVR Rust](https://github.com/avr-rust/rust) Fork of Rust with AVR support.
 
 ## Firmware projects
 
