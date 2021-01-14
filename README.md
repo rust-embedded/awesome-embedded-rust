@@ -502,6 +502,8 @@ devices which go beyond what is available in [`embedded-hal`]:
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
 - [`usb-device`](https://github.com/mvirkkunen/usb-device): Abstraction layer between USB peripheral crates & USB class crates - ![crates.io](https://img.shields.io/crates/v/usb-device.svg)
 - [`atat`](https://github.com/BlackbirdHQ/atat): Abstraction crate to ease writting AT based driver crates - ![crates.io](https://img.shields.io/crates/v/atat.svg)
+- [`embedded-nal`](https://github.com/rust-embedded-community/embedded-nal): An Embedded Network Abstraction Layer - ![crates.io](https://img.shields.io/crates/v/embedded-nal.svg)
+- [`embedded-storage`](https://github.com/rust-embedded-community/embedded-storage): An Embedded Storage Abstraction Layer
 
 ## Driver crates
 
