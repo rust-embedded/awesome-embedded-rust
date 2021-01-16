@@ -555,6 +555,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
 1. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - ![crates.io](https://img.shields.io/crates/v/si4703.svg)
 1. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - ![crates.io](https://img.shields.io/crates/v/ssd1306.svg)
+1. [SSD1309] - I2C/SPI - OLED display controller - [github][51] - ![crates.io](https://img.shields.io/crates/v/ssd1309.svg)
 1. [Sx127x] - SPI - Long Range Low Power Sub GHz (Gfsk, LoRa) RF Transceiver - [Intro blog post][34] - ![crates.io](https://img.shields.io/crates/v/radio-sx127x.svg)
 1. [Sx128x] - SPI - Long range, low power 2.4 GHz (Gfsk, Flrc, LoRa) RF Transceiver - [Intro blog post][35] - ![crates.io](https://img.shields.io/crates/v/radio-sx128x.svg)
 1. [TC72] - SPI - Microchip TC72 temperature sensor - ![crates.io](https://img.shields.io/crates/v/microchip-tc72r-rs.svg)
@@ -622,6 +623,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [48]: https://github.com/michaelbeaumont/dht-sensor
 [49]: https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/
 [50]: https://nitschinger.at/Rusty-PID-Porting-the-TSic-sensor-from-C-to-Rust/
+[51]: https://github.com/antonok-edm/ssd1309
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -660,6 +662,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [shift-register-driver]: https://crates.io/crates/shift-register-driver
 [Si4703]: https://crates.io/crates/si4703
 [SSD1306]: https://crates.io/crates/ssd1306
+[SSD1309]: https://crates.io/crates/ssd1309
 [Sx127x]: https://crates.io/crates/radio-sx127x
 [Sx128x]: https://crates.io/crates/radio-sx128x
 [TC72]: https://crates.io/crates/microchip-tc72r-rs
