@@ -878,6 +878,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [dcmimu]: An algorithm for fusing low-cost triaxial MEMS gyroscope and accelerometer measurements ![crates.io](https://img.shields.io/crates/v/dcmimu.svg)
 1. [debouncr]: A simple no-std input debouncer to detect rising/falling edges with minimal RAM requirements. ![crates.io](https://img.shields.io/crates/v/debouncr.svg)
 1. [device-driver]: A toolkit to write better device drivers, faster. ![crates.io](https://img.shields.io/crates/v/device-driver.svg)
+1. [embassy]: A set of embedded async tools to make async/await a first-class option for embedded development
 1. [embedded-crc-macros](https://crates.io/crates/embedded-crc-macros): Macros implementing portable CRC algorithms and build-time lookup table generation. ![crates.io](https://img.shields.io/crates/v/embedded-crc-macros.svg)
 1. [embedded-websocket](https://crates.io/crates/embedded-websocket): A lightweight server and client websocket library for embedded systems. ![crates.io](https://img.shields.io/crates/v/embedded-websocket.svg)
 1. [endian_codec]: (En/De)code rust types as packed bytes with specific order (endian). Supports derive. - [![crates.io](https://img.shields.io/crates/v/endian_codec.svg)](https://crates.io/crates/endian_codec)
@@ -913,6 +914,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [`panic-persist`]: https://crates.io/crates/panic-persist
 [bitmatch]: https://crates.io/crates/bitmatch
 [biquad]: https://crates.io/crates/biquad
+[embassy]: https://github.com/akiles/embassy
 [dcmimu]: https://crates.io/crates/dcmimu
 [debouncr]: https://crates.io/crates/debouncr
 [device-driver]: https://crates.io/crates/device-driver
