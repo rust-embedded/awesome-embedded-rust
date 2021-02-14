@@ -476,6 +476,8 @@ Crates tailored for specific boards.
 - [`solo-bsp`](https://crates.io/crates/solo-bsp) Board Support Crate for [Solo], an open source security token (WIP) - ![crates.io](https://img.shields.io/crates/v/solo-bsp.svg)
 - [`stm32f407g-disc`](https://crates.io/crates/stm32f407g-disc) Board Support Crate for the [STM32F4DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f407g-disc.svg)
 - [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)
+- [`stm32f3-discovery`](https://crates.io/crates/stm32f3-discovery) Board Support Crate for the [STM32F3DISCOVERY] used in [Rust Embedded Discovery book](https://rust-embedded.github.io/discovery/index.html) - ![crates.io](https://img.shields.io/crates/v/stm32f3-discovery)
+
 
 [Nucleo-F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
 
