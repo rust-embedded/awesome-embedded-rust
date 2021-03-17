@@ -547,6 +547,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
 1. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
+1. [IIS2MDC] - I2C - ST's High accuracy, ultra-low-power, 3-axis digital output magnetometer - ![crates.io](https://img.shields.io/crates/v/iis2mdc.svg)
+1. [ISM330DHCX] - I2C - ST's IMU with 3D accelerometer, 3D gyroscope, ML core and more - ![crates.io](https://img.shields.io/crates/v/ism330dhcx.svg)
 1. [keypad] - GPIO - Keypad matrix circuits - [Intro post][14] - ![crates.io](https://img.shields.io/crates/v/keypad.svg)
 1. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
@@ -657,6 +659,8 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
 [ENC28J60]: https://crates.io/crates/enc28j60
 [HTS221]: https://crates.io/crates/hts221
+[IIS2MDC]: https://crates.io/crates/iis2mdc
+[ISM330DHCX]: https://crates.io/crates/ism330dhcx
 [keypad]: https://crates.io/crates/keypad
 [KXCJ9]: https://crates.io/crates/kxcj9
 [L3GD20]: https://crates.io/crates/l3gd20
