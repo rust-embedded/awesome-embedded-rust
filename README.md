@@ -240,6 +240,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 ### GigaDevice
 
 - [`gd32vf103-pac`](https://github.com/riscv-rust/gd32vf103-pac) Peripheral access API for GD32VF103 RISC-V microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-pac.svg)
+- [`gd32f1`](https://crates.io/crates/gd32f1) Peripheral access API for GD32F1x0 Cortex-M3 microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/gd32f1.svg)
 
 ### XMC
 
@@ -376,6 +377,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
   - HAL for GD32VF103xx microcontrollers
 - [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg)
   - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller
+- [`gd32f1x0-hal`](https://crates.io/crates/gd32f1x0-hal) - ![crates.io](https://img.shields.io/crates/v/gd32f1x0-hal.svg)
+  - HAL implementation for GD32F1x0 microcontrollers
 
 ## Architecture support crates
 
