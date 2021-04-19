@@ -229,6 +229,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 -   [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
     - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 -   [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
+- [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - ![Crates.io](https://img.shields.io/crates/v/msp430fr6972)
 
 ### Ambiq Micro
 
@@ -986,7 +987,7 @@ These materials may be outdated and reflect earlier practices, but might still b
 -   [intermezzOS](http://intermezzos.github.io) A small teaching operating system in Rust. A book with some explanations is also included.
 -   [Fearless concurrency](http://blog.japaric.io/fearless-concurrency/) by @japaric — How to easily develop Rust programs for pretty much any ARM Cortex-M microcontroller with memory-safe concurrency.
 -   [Internet of Streams](https://www.youtube.com/playlist?list=PLX44HkctSkTewrL9frlUz0yeKLKecebT1) A video series  by [@jamesmunns] building a bare metal IoT Sensor Node Platform from (nearly) scratch in Rust
--   [Ferrous Systems' Embedded Training Courses: 2019 edition](https://github.com/ferrous-systems/embedded-trainings/) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52 and Decawave's DWM1001-DEV harware. This training was given at Oxidize Conferences and by Ferrous Systems to corporate customers. 
+-   [Ferrous Systems' Embedded Training Courses: 2019 edition](https://github.com/ferrous-systems/embedded-trainings/) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52 and Decawave's DWM1001-DEV harware. This training was given at Oxidize Conferences and by Ferrous Systems to corporate customers.
 
 [@jamesmunns]: https://github.com/jamesmunns
 
