@@ -559,6 +559,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [embedded-ccs811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality - [Intro blog post][49] - ![crates.io](https://img.shields.io/crates/v/embedded-ccs811.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
+1. [HC-12] - SERIAL - Wireless serial transceiver module - ![crates.io](https://img.shields.io/crates/v/hc12-at.svg)
 1. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
 1. [IIS2MDC] - I2C - ST's High accuracy, ultra-low-power, 3-axis digital output magnetometer - ![crates.io](https://img.shields.io/crates/v/iis2mdc.svg)
 1. [ISM330DHCX] - I2C - ST's IMU with 3D accelerometer, 3D gyroscope, ML core and more - ![crates.io](https://img.shields.io/crates/v/ism330dhcx.svg)
@@ -825,6 +826,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [embedded-morse]: https://crates.io/crates/embedded-morse
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
 [GridEYE]: https://crates.io/crates/grideye
+[HC-12]: https://crates.io/crates/hc12-at
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
 [HD44780-driver]: https://crates.io/crates/hd44780-driver
 [HD44780]: http://github.com/kunerd/clerk
