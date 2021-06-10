@@ -552,6 +552,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
+1. [CD74HC4067] - GPIO - 16-channel digital and analog multiplexer - [Intro blog post][55] - [github][54] - ![crates.io](https://img.shields.io/crates/v/cd74hc4067.svg)
 1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
 1. [DRV8825] - DRV8825 Stepper Motor Driver (based on [Stepper]) - [Intro blog post][52] - ![crates.io](https://img.shields.io/crates/v/drv8825.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
@@ -559,7 +560,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [embedded-ccs811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality - [Intro blog post][49] - ![crates.io](https://img.shields.io/crates/v/embedded-ccs811.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - ![crates.io](https://img.shields.io/crates/v/enc28j60.svg)
-1. [HC-12] - SERIAL - Wireless serial transceiver module - ![crates.io](https://img.shields.io/crates/v/hc12-at.svg)
+1. [HC-12] - SERIAL - Wireless serial transceiver module - [Intro blog post][56] - [github][53] - ![crates.io](https://img.shields.io/crates/v/hc12-at.svg)
 1. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - ![crates.io](https://img.shields.io/crates/v/hts221.svg)
 1. [IIS2MDC] - I2C - ST's High accuracy, ultra-low-power, 3-axis digital output magnetometer - ![crates.io](https://img.shields.io/crates/v/iis2mdc.svg)
 1. [ISM330DHCX] - I2C - ST's IMU with 3D accelerometer, 3D gyroscope, ML core and more - ![crates.io](https://img.shields.io/crates/v/ism330dhcx.svg)
@@ -653,6 +654,10 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [50]: https://nitschinger.at/Rusty-PID-Porting-the-TSic-sensor-from-C-to-Rust/
 [51]: https://blog.a1w.ca/p/rust-embedded-driver-microchip-23x-sram
 [52]: https://flott-motion.org/news/announcing-step-dir/
+[53]: https://github.com/barafael/hc12-at-rs
+[54]: https://github.com/barafael/cd74hc4067-rs
+[55]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-CD74HC4067
+[56]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-HC12-serial-radio-module/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -819,6 +824,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [BMI160]: https://crates.io/crates/bmi160
 [BMP280]: https://crates.io/crates/bmp280-ehal
 [CC1101]: https://crates.io/crates/cc1101
+[CD74HC4067]: https://crates.io/crates/cd74hc4067
 [DS3231]: https://github.com/wose/ds3231
 [DS3234]: https://github.com/rust-embedded/wg/issues/39#issuecomment-375262785
 [DS323x]: https://crates.io/crates/ds323x
