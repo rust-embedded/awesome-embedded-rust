@@ -762,6 +762,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [ILI9341] - SPI - TFT LCD display
 1. [INA260] - I2C - power monitor - ![crates.io](https://img.shields.io/crates/v/ina260.svg)
 1. [ISL29125] - I2C - RGB Color Light Sensor with IR Blocking Filter - ![crates.io](https://img.shields.io/crates/v/isl29125.svg)
+1. [IST7920] - SPI monochrome LCD display - ![crates.io](https://img.shields.io/crates/v/ist7920.svg)
 1. [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 1. [LS010B7DH01] - SPI - Memory LCD
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
@@ -850,6 +851,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ILI9341]: https://github.com/yuri91/ili9341-rs
 [INA260]: https://crates.io/crates/ina260
 [ISL29125]: https://crates.io/crates/isl29125
+[IST7920]: https://crates.io/crates/ist7920
 [LM75]: https://crates.io/crates/lm75
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [LSM303C]: https://crates.io/crates/lsm303c
