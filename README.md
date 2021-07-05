@@ -117,6 +117,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build rust runtime for your own embedded system.
     - xargo is great but it's in maintenance mode, [cargo-xbuild](https://github.com/rust-osdev/cargo-xbuild) is catching up as intended replacement.
 -   [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
+-   [edc2svd](https://github.com/kiffie/edc2svd) Generate SVD files for PIC32 devies from EDC files. - ![crates.io](https://img.shields.io/crates/v/edc2svd.svg)
 -   [embedded-hal-mock] Mock implementation of `embedded-hal` traits for testing without accessing real hardware. - ![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)
 -   [bindgen](https://crates.io/crates/bindgen) Automatically generates Rust FFI bindings to C and C++ libraries. - ![crates.io](https://img.shields.io/crates/v/bindgen.svg)
 -   [cortex-m semihosting](https://github.com/japaric/cortex-m-semihosting) Semihosting for ARM Cortex-M processors
@@ -172,6 +173,7 @@ Peripheral Access Crates were also called Device Crates.
 - [`atsame54`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAME54 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`avr-device`](https://github.com/Rahix/avr-device) Peripheral access API for Microchip (formerly Atmel) AVR microcontroller family.
 - [`sam3x8e`](https://crates.io/crates/sam3x8e) Peripheral access API for Atmel SAMD3X8E microcontrollers (generated using svd2rust)  - ![crates.io](https://img.shields.io/crates/v/sam3x8e.svg)
+- [`pic32-pac`](https://github.com/kiffie/pic32-pac) Peripheral access API for PIC32MX1xx, PIC32MX2xx, PIC32MX274 XLP
 
 ### Nordic
 
@@ -284,6 +286,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 - [`atsam4-hal`](https://crates.io/crates/atsam4-hal) - HAL for SAM4E, SAM4N and SAM4S - ![crates.io](https://img.shields.io/crates/v/atsam4-hal.svg)
 - [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD11, SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
 - [`avr-hal`](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
+- [`pic32-hal`](https://github.com/kiffie/pic32-rs) - HAL for PIC32MX
 
 ### Nordic
 
@@ -400,6 +403,7 @@ Crates tailored for general CPU architectures.
 ### MIPS
 
 - [`mips`](https://github.com/Harry-Chen/rust-mips) Low level access to MIPS32 processors - ![crates.io](https://img.shields.io/crates/v/mips.svg)
+- [`mips-mcu`](https://github.com/kiffie/pic32-rs/tree/master/mips-mcu) Low level access to MIPS MCU cores - ![crates.io](https://img.shields.io/crates/v/mips-mcu.svg)
 
 ## Board support crates
 
