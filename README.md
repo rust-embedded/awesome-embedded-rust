@@ -820,6 +820,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [TPA2016D2] - I2C - A driver for interfacing with the Texas Instruments TPA2016D2 Class-D amplifier - ![crates.io](https://img.shields.io/crates/v/tpa2016d2.svg)
 1. [VEML6040] - I2C - RGBW color light sensor - ![crates.io](https://img.shields.io/crates/v/veml6040.svg)
 1. [VEML6070] - I2C - UVA light sensor - ![crates.io](https://img.shields.io/crates/v/veml6070.svg)
+1. [VEML7700] - I2C - Ambient light sensors - ![crates.io](https://img.shields.io/crates/v/veml7700.svg)
 1. [vesc-comm] - A driver for communicating with [VESC-compatible electronic speed controllers](http://vedder.se/2015/01/vesc-open-source-esc/) ![crates.io](https://img.shields.io/crates/v/vesc-comm.svg)
 1. [VL53L0X] - A platform agnostic driver to interface with the vl53l0x (time-of-flight sensor) ![crates.io](https://img.shields.io/crates/v/vl53l0x.svg)
 1. [w5500] - SPI - Ethernet Module with hardwired protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE - ![crates.io](https://img.shields.io/crates/v/w5500.svg)
@@ -909,6 +910,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [TPA2016D2]: https://crates.io/crates/tpa2016d2
 [VEML6040]: https://crates.io/crates/veml6040
 [VEML6070]: https://crates.io/crates/veml6070
+[VEML7700]: https://crates.io/crates/veml7700
 [vesc-comm]: https://github.com/chocol4te/vesc-comm
 [VL53L0X]: https://crates.io/crates/vl53l0x
 [w5500]: https://crates.io/crates/w5500
