@@ -53,6 +53,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Arduino](#arduino)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
+    * [Pimoroni](#pimoroni)
     * [Sparkfun](#sparkfun)
     * [SeeedStudio](#seeedstudio)
     * [SiFive](#sifive-2)
@@ -470,6 +471,11 @@ Crates tailored for specific boards.
 - [`frdm-kw41z`](https://crates.io/crates/frdm-kw41z) - [FRDM-KW41Z] - ![crates.io](https://img.shields.io/crates/v/frdm-kw41z.svg)
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
+
+### Pimoroni
+
+- [`rainbow-hat-rs`](https://crates.io/crates/rainbow-hat-rs) - Board support for the [Pimoroni Rainbow HAT](https://shop.pimoroni.com/products/rainbow-hat-for-android-things) for Raspberry Pi ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
+  - Contains runnable examples for this board
 
 ### Sparkfun
 
