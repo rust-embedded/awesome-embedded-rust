@@ -53,7 +53,6 @@ This project is developed and maintained by the [Resources team][team].
     * [Arduino](#arduino)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
-    * [Pimoroni](#pimoroni)
     * [Sparkfun](#sparkfun)
     * [SeeedStudio](#seeedstudio)
     * [SiFive](#sifive-2)
@@ -472,11 +471,6 @@ Crates tailored for specific boards.
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
 
-### Pimoroni
-
-- [`rainbow-hat-rs`](https://crates.io/crates/rainbow-hat-rs) - Board support for the [Pimoroni Rainbow HAT](https://shop.pimoroni.com/products/rainbow-hat-for-android-things) for Raspberry Pi ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
-  - Contains runnable examples for this board
-
 ### Sparkfun
 
 - [`samd21_mini`](https://crates.io/crates/samd21_mini) - Board support for the [SAMD21 Mini Breakout](https://www.sparkfun.com/products/13664) ![crates.io](https://img.shields.io/crates/v/samd21_mini.svg)
@@ -590,6 +584,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 1. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
+1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
 1. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
 1. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
@@ -673,6 +668,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [54]: https://github.com/barafael/cd74hc4067-rs
 [55]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-CD74HC4067
 [56]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-HC12-serial-radio-module/
+[57]: https://github.com/yannart/rainbow-hat-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -707,6 +703,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [MMA7660FC]: https://crates.io/crates/mma7660fc
 [OPT300x]: https://github.com/eldruin/opt300x-rs
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
+[rainbow-hat-rs]: https://crates.io/crates/rainbow-hat-rs
 [rotary-encoder-hal]: https://crates.io/crates/rotary-encoder-hal
 [SGP30]: https://crates.io/crates/sgp30
 [SH1106]: https://crates.io/crates/sh1106
