@@ -81,11 +81,13 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 
 - You can usually find community members (including embedded WG members) in the official [`#rust-embedded:matrix.org` Matrix room].
 - [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language.
+- [#avr-rust:gitter.im] - For discussion of using Embedded Rust on AVR devices
 - [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
 - [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
 - [#probe-rs:matrix.org] - For discussion of the Probe-rs debugging toolkit
 - [#rtic-rs:matrix.org] - For discussion of the Real-Time Interrupt-driven Concurrency framework
 - [#rust-embedded-graphics:matrix.org] - For discussion of the [`embedded-graphics`] crate and ecosystem
+- [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
@@ -95,6 +97,8 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 [#nrf-rs:matrix.org]: https://matrix.to/#/#nrf-rs:matrix.org
 [#probe-rs:matrix.org]: https://matrix.to/#/#probe-rs:matrix.org
 [`embedded-graphics`]: https://crates.io/crates/embedded-graphics
+[#stm32-rs:matrix.org]: https://matrix.to/#/#stm32-rs:matrix.org
+[#avr-rust:gitter.im]: https://matrix.to/#/#avr-rust_Lobby:gitter.im
 
 ## Books, blogs and training materials
 
