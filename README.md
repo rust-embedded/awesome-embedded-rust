@@ -86,7 +86,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 - [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
 - [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
 - [#probe-rs:matrix.org] - For discussion of the Probe-rs debugging toolkit
-- [#pr-rs:matrix.org] - For discussion of using Embedded Rust on RP2040 based devices
+- [#rp-rs:matrix.org] - For discussion of using Embedded Rust on RP2040 based devices
 - [#rtic-rs:matrix.org] - For discussion of the Real-Time Interrupt-driven Concurrency framework
 - [#rust-embedded-graphics:matrix.org] - For discussion of the [`embedded-graphics`] crate and ecosystem
 - [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
