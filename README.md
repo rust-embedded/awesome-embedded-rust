@@ -102,7 +102,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 [`embedded-graphics`]: https://crates.io/crates/embedded-graphics
 [#stm32-rs:matrix.org]: https://matrix.to/#/#stm32-rs:matrix.org
 [#avr-rust:gitter.im]: https://matrix.to/#/#avr-rust_Lobby:gitter.im
-[#pr-rs:matrix.org]: https://matrix.to/#/#rp-rs:matrix.org
+[#rp-rs:matrix.org]: https://matrix.to/#/#rp-rs:matrix.org
 
 ## Books, blogs and training materials
 
