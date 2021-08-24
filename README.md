@@ -80,6 +80,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 ### Community Chat Rooms
 
 - You can usually find community members (including embedded WG members) in the official [`#rust-embedded:matrix.org` Matrix room].
+- [embedded.rs-wasm-iot] - English Telegram chat about Rust and WASM for microcontrollers and IoT
 - [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language.
 - [#avr-rust:gitter.im] - For discussion of using Embedded Rust on AVR devices
 - [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
@@ -92,6 +93,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
 [`#rust-embedded:matrix.org` Matrix room]: https://matrix.to/#/#rust-embedded:matrix.org
+[embedded.rs-wasm-iot]: https://t.me/embeddedrust
 [embedded.rs]: https://t.me/embedded_rs
 [#rtic-rs:matrix.org]: https://matrix.to/#/#rtic-rs:matrix.org
 [#nrf-rs:matrix.org]: https://matrix.to/#/#nrf-rs:matrix.org
