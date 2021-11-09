@@ -984,6 +984,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [tinybmp](https://crates.io/crates/tinybmp): No-std, no-alloc BMP parser for embedded systems. [Introductory blog post](https://wapl.es/rust/2019/03/04/embedded-graphics-0.4.7-bmp-support.html) - ![crates.io](https://img.shields.io/crates/v/tinybmp.svg)
 1. [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer. ![crates.io](https://img.shields.io/crates/v/vga-framebuffer.svg)
 1. [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - ![crates.io](https://img.shields.io/crates/v/wyhash.svg)
+1. [sntpc]: Rust SNTP client to get a timestamp from NTP servers. - ![crates.io](https://img.shields.io/crates/v/sntpc)
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
@@ -1000,6 +1001,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [Stepper]: https://crates.io/crates/stepper
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
 [wyhash]: https://crates.io/crates/wyhash
+[sntpc]: https://crates.io/crates/sntpc
 
 ### WIP
 
