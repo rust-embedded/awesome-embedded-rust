@@ -979,12 +979,12 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [scroll](https://crates.io/crates/scroll): extensible and endian-aware Read/Write traits for generic containers - ![crates.io](https://img.shields.io/crates/v/scroll.svg)
 1. [smbus-pec](https://crates.io/crates/smbus-pec): Minimal portable System Management Bus Packet Error Code calculation algorithm. ![crates.io](https://img.shields.io/crates/v/smbus-pec.svg)
 1. [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`. ![crates.io](https://img.shields.io/crates/v/smoltcp.svg)
+1. [sntpc]: Rust SNTP client to get a timestamp from NTP servers. - ![crates.io](https://img.shields.io/crates/v/sntpc)
 1. [static-bytes](https://github.com/xoac/static-bytes): Help work with buffers without dynamic allocation. Implement traits from bytes crate. [![crate.io](https://img.shields.io/crates/v/static-bytes.svg)](https://crates.io/crates/static-bytes)
 1. [Stepper]: Universal Stepper Motor Interface - ![crates.io](https://img.shields.io/crates/v/stepper.svg)
 1. [tinybmp](https://crates.io/crates/tinybmp): No-std, no-alloc BMP parser for embedded systems. [Introductory blog post](https://wapl.es/rust/2019/03/04/embedded-graphics-0.4.7-bmp-support.html) - ![crates.io](https://img.shields.io/crates/v/tinybmp.svg)
 1. [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer. ![crates.io](https://img.shields.io/crates/v/vga-framebuffer.svg)
 1. [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - ![crates.io](https://img.shields.io/crates/v/wyhash.svg)
-1. [sntpc]: Rust SNTP client to get a timestamp from NTP servers. - ![crates.io](https://img.shields.io/crates/v/sntpc)
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
@@ -998,10 +998,10 @@ Work in progress drivers. Help the authors make these crates awesome!
 [menu]: https://github.com/thejpster/menu
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
 [qemu-exit]: https://crates.io/crates/qemu-exit
+[sntpc]: https://crates.io/crates/sntpc
 [Stepper]: https://crates.io/crates/stepper
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
 [wyhash]: https://crates.io/crates/wyhash
-[sntpc]: https://crates.io/crates/sntpc
 
 ### WIP
 
