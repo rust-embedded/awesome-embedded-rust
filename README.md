@@ -287,7 +287,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 - [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi. - ![crates.io](https://img.shields.io/crates/v/linux-embedded-hal.svg)
 
 [`bitbang-hal`]: https://crates.io/crates/bitbang-hal
-[`ftdi-embedded-hal`]: https://github.com/geomatsi/ftdi-embedded-hal
+[`ftdi-embedded-hal`]: https://crates.io/crates/ftdi-embedded-hal
 [`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
 
 ### Microchip
