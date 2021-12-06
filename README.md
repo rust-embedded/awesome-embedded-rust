@@ -468,10 +468,12 @@ Crates tailored for specific boards.
 
 - [`dwm1001`](https://crates.io/crates/dwm1001) - [Decawave DWM1001-DEV] - ![crates.io](https://img.shields.io/crates/v/dwm1001.svg)
 - [`microbit`](https://crates.io/crates/microbit) - [micro:bit] - ![crates.io](https://img.shields.io/crates/v/microbit.svg)
+- [`nrf52840-dk-bsp`](https://crates.io/crates/nrf52840-dk-bsp) - [nrf52840-dk] - ![crates.io](https://img.shields.io/crates/v/nrf52840-dk-bsp.svg)
 - [`Thingy:91-nrf9160`](https://crates.io/crates/thingy-91-nrf9160-bsp) - [thingy:91] - ![crates.io](https://img.shields.io/crates/v/thingy-91-nrf9160-bsp.svg)
 
 [Decawave DWM1001-DEV]: https://www.decawave.com/product/dwm1001-development-board/
 [micro:bit]: http://microbit.org/
+[nrf52840-dk]: https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk
 [thingy:91]: https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91
 
 ### NXP
