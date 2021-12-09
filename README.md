@@ -31,6 +31,7 @@ This project is developed and maintained by the [Resources team][team].
     * [MSP430](#msp430)
     * [Ambiq Micro](#ambiq-micro)
     * [XMC](#xmc)
+    * [Vorago](#vorago)
 * [HAL implementation crates](#hal-implementation-crates)
     * [OS](#os)
     * [GigaDevice](#gigadevice-1)
@@ -43,6 +44,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Espressif](#espressif)
     * [Silicon Labs](#silicon-labs-1)
     * [XMC](#xmc)
+    * [Vorago](#vorago-1)
 * [Architecture support crates](#architecture-support-crates)
     * [ARM](#arm)
     * [RISC-V](#risc-v)
@@ -268,6 +270,10 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 - [`xmc4700`](https://github.com/xmc-rs/xmc4700) - ![crates.io](https://img.shields.io/crates/v/xmc4700.svg)
 - [`xmc4800`](https://github.com/xmc-rs/xmc4800) - ![crates.io](https://img.shields.io/crates/v/xmc4800.svg)
 
+### Vorago
+
+- [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx) - ![crates.io](https://img.shields.io/crates/v/va108xx.svg)
+
 ## HAL implementation crates
 
 Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
@@ -389,12 +395,16 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### GigaDevice
 
-- [`gd32vf103xx-hal`](https://github.com/riscv-rust/gd32vf103xx-hal) - ![cratex.io](https://img.shields.io/crates/v/gd32vf103xx-hal.svg)
+- [`gd32vf103xx-hal`](https://github.com/riscv-rust/gd32vf103xx-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103xx-hal.svg)
   - HAL for GD32VF103xx microcontrollers
 - [`gd32vf103-hal`](https://github.com/luojia65/gd32vf103-hal) - ![crates.io](https://img.shields.io/crates/v/gd32vf103-hal.svg)
   - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller
 - [`gd32f1x0-hal`](https://crates.io/crates/gd32f1x0-hal) - ![crates.io](https://img.shields.io/crates/v/gd32f1x0-hal.svg)
   - HAL implementation for GD32F1x0 microcontrollers
+
+### Vorago
+
+- [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-hal) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
 
 ## Architecture support crates
 
