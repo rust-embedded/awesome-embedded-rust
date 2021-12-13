@@ -63,6 +63,7 @@ This project is developed and maintained by the [Resources team][team].
     * [STMicroelectronics](#stmicroelectronics-2)
     * [Texas Instruments](#texas-instruments-2)
     * [Teensy](#teensy)
+    * [Vorago](#vorago-2)
     * [Special Purpose](#special-purpose)
 * [Component abstraction crates](#component-abstraction-crates)
 * [Driver crates](#driver-crates)
@@ -273,6 +274,7 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 ### Vorago
 
 - [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx) - ![crates.io](https://img.shields.io/crates/v/va108xx.svg)
+- [`va416xx`](https://egit.irs.uni-stuttgart.de/rust/va416xx) - ![crates.io](https://img.shields.io/crates/v/va416xx.svg)
 
 ## HAL implementation crates
 
@@ -533,6 +535,10 @@ Crates tailored for specific boards.
 
 ### Teensy
 - [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs) Board Support create for the [Teensy 4.0]
+
+### Vorago
+
+- [`vorago-reb1`](https://egit.irs.uni-stuttgart.de/rust/vorago-reb1) - ![crates.io](https://img.shields.io/crates/v/vorago-reb1.svg)
 
 ### Texas Instruments
 
