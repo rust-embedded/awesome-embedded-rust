@@ -899,6 +899,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
 [MAX170xx]: https://github.com/eldruin/max170xx-rs
+[MAX116xx-10bit]: https://egit.irs.uni-stuttgart.de/rust/max116xx-10bit
 [MAX3010x]: https://crates.io/crates/max3010x
 [MAX31855]: https://github.com/cs2dsb/max31855.rs
 [MAX31865]: https://crates.io/crates/max31865
