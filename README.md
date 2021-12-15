@@ -610,6 +610,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
 1. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 1. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
+1. [port-expander] - I2C - Driver for I2C port expanders (supports `PCA95xx`, `PCF85xx`) - [Intro blog post][58] - ![crates.io](https://img.shields.io/crates/v/port-expander.svg)
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
@@ -696,6 +697,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [55]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-CD74HC4067
 [56]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-HC12-serial-radio-module/
 [57]: https://github.com/yannart/rainbow-hat-rs
+[58]: https://blog.rahix.de/port-expander/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -729,6 +731,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [MCP794xx]: https://crates.io/crates/mcp794xx
 [MMA7660FC]: https://crates.io/crates/mma7660fc
 [OPT300x]: https://github.com/eldruin/opt300x-rs
+[port-expander]: https://crates.io/crates/port-expander
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [rainbow-hat-rs]: https://crates.io/crates/rainbow-hat-rs
 [rotary-encoder-hal]: https://crates.io/crates/rotary-encoder-hal
