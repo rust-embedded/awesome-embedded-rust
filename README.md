@@ -408,6 +408,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-hal) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+
 ## Architecture support crates
 
 Crates tailored for general CPU architectures.
@@ -539,7 +540,7 @@ Crates tailored for specific boards.
 ### Vorago
 
 - [`vorago-reb1`](https://egit.irs.uni-stuttgart.de/rust/vorago-reb1) - ![crates.io](https://img.shields.io/crates/v/vorago-reb1.svg)
-   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+  - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Texas Instruments
 
