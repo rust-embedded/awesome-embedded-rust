@@ -407,6 +407,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Vorago
 
 - [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-hal) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
+  - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
 
 ## Architecture support crates
 
@@ -539,6 +540,7 @@ Crates tailored for specific boards.
 ### Vorago
 
 - [`vorago-reb1`](https://egit.irs.uni-stuttgart.de/rust/vorago-reb1) - ![crates.io](https://img.shields.io/crates/v/vorago-reb1.svg)
+  - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Texas Instruments
 
@@ -604,6 +606,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
 1. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)
 1. [MAX6955] - I2C - Driver for Alphanumeric LED display driver - [Intro blog post][46] - ![crates.io](https://img.shields.io/crates/v/max6955.svg)
+1. [MAX116xx-10bit] - SPI - Driver for the MAX11619-MAX11621, MAX11624 and MAX11625 10-bit ADCs - [Intro blog post][59] - ![crates.io](https://img.shields.io/crates/v/max116xx-10bit.svg)
 1. [MCP25LCXX] - SPI - Driver for Microchip's 25LC series of EEPROMs - ![crates.io](https://img.shields.io/crates/v/microchip-eeprom-25lcxx.svg)
 1. [MCP3008] - SPI - 8 channel 10-bit ADC - [Intro blog post][3] - ![crates.io](https://img.shields.io/crates/v/adc-mcp3008.svg)
 1. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5] - ![crates.io](https://img.shields.io/crates/v/mcp3425.svg)
@@ -698,6 +701,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [56]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-HC12-serial-radio-module/
 [57]: https://github.com/yannart/rainbow-hat-rs
 [58]: https://blog.rahix.de/port-expander/
+[59]: https://robamu.github.io/post/max11619-driver-rust/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -725,6 +729,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
 [MAX6955]: https://crates.io/crates/max6955
+[MAX116xx-10bit]: https://crates.io/crates/max116xx-10bit
 [MCP25LCXX]: https://crates.io/crates/microchip-eeprom-25lcxx
 [MCP3008]: https://crates.io/crates/adc-mcp3008
 [MCP3425]: https://crates.io/crates/mcp3425
@@ -811,7 +816,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel gauge, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 1. [MAX170xx] - I2C - LiPo Fuel gauge, battery monitoring ICs compatible with MAX17043/4, MAX17048/9, MAX17058/9.
-1. [MAX116xx-10bit] - SPI - Driver for the MAX11619-MAX11621, MAX11624 and MAX11625 10-bit ADCs - ![crates.io](https://img.shields.io/crates/v/max116xx-10bit.svg)
 1. [MAX3010x] - I2C - Pulse oximeter and heart-rate sensor. ATM Compatible with MAX30102. -![crates.io](https://img.shields.io/crates/v/max3010x.svg)
 1. [MAX31855] - SPI - Thermocouple digital converter -![crates.io](https://img.shields.io/crates/v/max31855.svg)
 1. [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
@@ -902,7 +906,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
 [MAX170xx]: https://github.com/eldruin/max170xx-rs
-[MAX116xx-10bit]: https://egit.irs.uni-stuttgart.de/rust/max116xx-10bit
 [MAX3010x]: https://crates.io/crates/max3010x
 [MAX31855]: https://github.com/cs2dsb/max31855.rs
 [MAX31865]: https://crates.io/crates/max31865
