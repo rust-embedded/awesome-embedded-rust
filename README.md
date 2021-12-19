@@ -120,8 +120,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [Ferrous Systems' Embedded Training Courses: 2020-current edition](https://github.com/ferrous-systems/embedded-trainings-2020) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52840 harware. This training was given at Oxidize Conferences and by [Ferrous Systems] to corporate customers.
 -   [Ferrous Systems' Knurling Sessions](https://knurling.ferrous-systems.com/sessions/) are hands-on embedded projects that explore specific concepts using generally available hardware, building full systems and components using microcontrollers, sensors, and actuators.
 -   [DSP on STM32F407G-DISC1](https://github.com/jacobrosenthal/dsp-discoveryf4-rust/) Unofficial oxidization of the [Digital Signal Processing using Arm Cortex-M based Microcontrollers: Theory and Practice](https://www.amazon.com/Digital-Signal-Processing-Cortex-M-Microcontrollers/dp/1911531166) book. The book isn't necessary to enjoy the examples and learn a functional DSP Rust coding style.
--   [Embassy start](https://github.com/titanclass/embassy-start) is a GitHub repo template for setting up async embedded Rust projects that use [Embassy](https://github.com/embassy-rs/embassy) with production in mind. The template has been derived from a number of projects that are targeting the real-world.
--   
+
 [Ferrous Systems]: https://ferrous-systems.com
 
 ## Tools
@@ -146,6 +145,8 @@ In 2018 the Rust community created an embedded working group to help drive adopt
     - [app-template](https://github.com/knurling-rs/app-template), a `cargo-generate` powered project template for quickly setting up new projects using the Knurling Tools.
     - [defmt-test](https://github.com/knurling-rs/defmt-test), an embedded test harness that lets you write and run unit tests as if you were using the built-in `#[test]` attribute, but will run on an embedded target
 - [embedded-hal-compat](https://github.com/ryankurte/embedded-hal-compat), a compatibility layer to provide interoperability between `v0.2.x` and `v1.x.x` hal implementations and drivers
+-   [Embassy start](https://github.com/titanclass/embassy-start) is a GitHub repo template for setting up async embedded Rust projects that use [Embassy](https://github.com/embassy-rs/embassy) with production in mind. The template has been derived from a number of projects that are targeting the real-world. This particular template targets nRF hardware and networking using the Uarte for the purposes of illustration only.
+
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
