@@ -24,6 +24,7 @@ This project is developed and maintained by the [Resources team][team].
     * [Microchip](#microchip)
     * [Nordic](#nordic)
     * [NXP](#nxp)
+    * [Raspberry Pi Silicon](#raspberry-pi-silicon)
     * [SiFive](#sifive)
     * [Silicon Labs](#silicon-labs)
     * [STMicroelectronics](#stmicroelectronics)
@@ -37,6 +38,7 @@ This project is developed and maintained by the [Resources team][team].
     * [GigaDevice](#gigadevice-1)
     * [Nordic](#nordic-1)
     * [NXP](#nxp-1)
+    * [Raspberry Pi Silicon](#raspberry-pi-silicon-1)
     * [SiFive](#sifive-1)
     * [STMicroelectronics](#stmicroelectronics-1)
     * [Texas Instruments](#texas-instruments-1)
@@ -55,6 +57,8 @@ This project is developed and maintained by the [Resources team][team].
     * [Arduino](#arduino)
     * [Nordic](#nordic-2)
     * [NXP](#nxp-2)
+    * [Pimoroni](#pimoroni)
+    * [Raspberry Pi](#raspberry-pi)
     * [Sparkfun](#sparkfun)
     * [SeeedStudio](#seeedstudio)
     * [SiFive](#sifive-2)
@@ -158,10 +162,11 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
 -   [FreeRTOS-rust](https://github.com/lobaro/FreeRTOS-rust) Rust interface for FreeRTOS with Rust entry point and build support crate.
 -   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
+-   [Hubris](https://github.com/oxidecomputer/hubris) A real-time operating systems built by Oxide Computer to run the Service Controller processor in the mainboards of their rack-mount servers.
 
 ### Real-time tools
 
--   [RTIC v0.5](https://rtic.rs/0.5/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real time systems:
+-   [RTIC v1.0](https://rtic.rs/1.0/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real time systems:
     -   [cortex-m rtic](https://github.com/rtic-rs/cortex-m-rtic) RTIC framework for ARM Cortex-M microcontrollers
     -   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
 
@@ -211,6 +216,9 @@ Peripheral Access Crates were also called Device Crates.
 - [`imxrt-ral`](https://github.com/imxrt-rs/imxrt-rs) Register access layer for i.MX RT series. -  ![crates.io](https://img.shields.io/crates/v/imxrt-ral.svg)
 - [`SKEAZN642`](https://crates.io/crates/SKEAZN642) Peripheral access API for KEA64 family microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/SKEAZN642.svg)
 
+### Raspberry Pi Silicon
+
+- [`rp2040-pac`](https://crates.io/crates/rp2040-pac) - Peripheral access API for the RP2040 dual-core system-on-chip (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/rp2040-pac.svg)
 
 ### SiFive
 
@@ -328,6 +336,9 @@ Also check the list of [NXP board support crates][nxp-bsc]!
 - [`mkw41z-hal`](https://crates.io/crates/mkw41z-hal) - ![crates.io](https://img.shields.io/crates/v/mkw41z-hal.svg)
 - [`imxrt-hal`](https://github.com/imxrt-rs/imxrt-rs) - HAL for i.MX RT series. -  ![crates.io](https://img.shields.io/crates/v/imxrt-hal.svg)
 
+### Raspberry Pi Silicon
+
+- [`rp2040-hal`](https://crates.io/crates/rp2040-hal) - HAL for the RP2040 dual-core system-on-chip - ![crates.io](https://img.shields.io/crates/v/rp2040-hal.svg)
 
 ### SiFive
 
@@ -372,7 +383,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### Texas Instruments
 
-- [`tm4c123x-hal`](https://github.com/thejpster/tm4c123x-hal)
+- [`tm4c123x-hal`](https://github.com/rust-embedded-community/tm4c-hal/)
 
 ### MSP430
 
@@ -471,6 +482,17 @@ Crates tailored for specific boards.
  ![crates.io](https://img.shields.io/crates/v/itsybitsy_m4.svg)
 - [`trinket_m0`](https://crates.io/crates/trinket_m0) - Board support for the [Trinket M0 board](https://www.adafruit.com/product/3500)
  ![crates.io](https://img.shields.io/crates/v/trinket_m0.svg)
+- [`adafruit-feather-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit Feather RP2040].
+- [`adafruit-itsy-bitsy-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit Itsy Bitsy RP2040].
+- [`adafruit-kb2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit KB2040].
+- [`adafruit-macropad`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit Macropad].
+- [`adafruit-qt-py-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit QT Py RP2040].
+
+[Adafruit Feather RP2040]: https://www.adafruit.com/product/4884
+[Adafruit ItsyBitsy RP2040]: https://www.adafruit.com/product/4888
+[Adafruit KB2040]: https://www.adafruit.com/product/5302
+[Adafruit Macropad]: https://www.adafruit.com/product/5128
+[Adafruit QT Py RP2040]: https://www.adafruit.com/product/4900
 
 ### Arduino
 
@@ -497,9 +519,22 @@ Crates tailored for specific boards.
 
 [FRDM-KW41Z]: https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/w-serieswireless-conn.m0-plus-m4/freedom-development-kit-for-kinetis-kw41z-31z-21z-mcus:FRDM-KW41Z
 
+### Pimoroni
+
+- [`pimoroni-pico-explorer`](https://github.com/rp-rs/rp-hal) - Board Support for the [Pimoroni Pico Explorer]
+- [`pimoroni-pico-lipo-16mb`](https://github.com/rp-rs/rp-hal) - Board Support for the [Pimoroni Pico Lipo 16MB]
+
+[Pimoroni Pico Lipo 16MB]: https://shop.pimoroni.com/products/pimoroni-pico-lipo?variant=39335427080275
+[pimoroni-pico-lipo-16mb]: https://github.com/rp-rs/rp-hal/tree/main/boards/pimoroni_pico_lipo_16mb
+
+### Raspberry Pi
+
+- [`rp-pico`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040 based Raspberry Pi Pico.
+
 ### Sparkfun
 
 - [`samd21_mini`](https://crates.io/crates/samd21_mini) - Board support for the [SAMD21 Mini Breakout](https://www.sparkfun.com/products/13664) ![crates.io](https://img.shields.io/crates/v/samd21_mini.svg)
+- [`sparkfun-pro-micro-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040 based Sparkfun Pro Micro.
 
 ### SeeedStudio
 
