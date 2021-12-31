@@ -303,10 +303,12 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 - [`bitbang-hal`] software protocol implementations for microcontrollers with digital::OutputPin and digital::InputPin
 - [`ftdi-embedded-hal`] for FTDI FTx232H chips connected to Linux systems via USB
 - [`linux-embedded-hal`] for embedded Linux systems like the Raspberry Pi. - ![crates.io](https://img.shields.io/crates/v/linux-embedded-hal.svg)
+- [`freebsd-embedded-hal`] for embedded (or [not](https://www.freebsd.org/cgi/man.cgi?query=cp2112&sektion=4)) FreeBSD systems. - ![crates.io](https://img.shields.io/crates/v/freebsd-embedded-hal.svg)
 
 [`bitbang-hal`]: https://crates.io/crates/bitbang-hal
 [`ftdi-embedded-hal`]: https://crates.io/crates/ftdi-embedded-hal
 [`linux-embedded-hal`]: https://crates.io/crates/linux-embedded-hal
+[`freebsd-embedded-hal`]: https://crates.io/crates/freebsd-embedded-hal
 
 ### Microchip
 
