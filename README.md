@@ -102,6 +102,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 - [#rtic-rs:matrix.org] - For discussion of the Real-Time Interrupt-driven Concurrency framework
 - [#rust-embedded-graphics:matrix.org] - For discussion of the [`embedded-graphics`] crate and ecosystem
 - [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
+- [#atsamd-rs:gitter.im] - For discussions of using Embedded Rust on ATSAMD devices
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
@@ -115,6 +116,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 [#stm32-rs:matrix.org]: https://matrix.to/#/#stm32-rs:matrix.org
 [#avr-rust:gitter.im]: https://matrix.to/#/#avr-rust_Lobby:gitter.im
 [#rp-rs:matrix.org]: https://matrix.to/#/#rp-rs:matrix.org
+[#atsamd-rs:gitter.im]: https://matrix.to/#/#atsamd-rs_community:gitter.im
 
 ## Books, blogs and training materials
 
