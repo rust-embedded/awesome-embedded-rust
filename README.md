@@ -469,24 +469,24 @@ Crates tailored for specific boards.
 
 ### Adafruit
 
-- [`metro_m0`](https://crates.io/crates/metro_m0) - Board support for the [Metro M0 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 1 support] support board. ![crates.io](https://img.shields.io/crates/v/metro_m0.svg)
-- [`metro_m4`](https://crates.io/crates/metro_m4) - Board support for the [Metro M4 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 1 support] support board. ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
-- [`pyportal`](https://crates.io/crates/pyportal) - Board support for the [PyPortal board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
-- [`pygamer`](https://crates.io/crates/pygamer) - Board support for the [PyGamer board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 1 support] support board. ![crates.io](https://img.shields.io/crates/v/pygamer.svg)
-- [`trellis_m4`](https://crates.io/crates/trellis_m4) - Board support for the [NeoTrellis M4 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
+- [`metro_m0`](https://crates.io/crates/metro_m0) - Board support for the [Metro M0 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board. ![crates.io](https://img.shields.io/crates/v/metro_m0.svg)
+- [`metro_m4`](https://crates.io/crates/metro_m4) - Board support for the [Metro M4 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board. ![crates.io](https://img.shields.io/crates/v/metro_m4.svg)
+- [`pyportal`](https://crates.io/crates/pyportal) - Board support for the [PyPortal board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/pyportal.svg)
+- [`pygamer`](https://crates.io/crates/pygamer) - Board support for the [PyGamer board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board. ![crates.io](https://img.shields.io/crates/v/pygamer.svg)
+- [`trellis_m4`](https://crates.io/crates/trellis_m4) - Board support for the [NeoTrellis M4 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/trellis_m4.svg)
 - [`feather-f405`](https://crates.io/crates/feather-f405) - Board support for the [Feather STM32F405 Express]. ![crates.io](https://img.shields.io/crates/v/feather-f405.svg)
-- [`feather_m0`](https://crates.io/crates/feather_m0) - Board support for the [Feather M0 board], and some variants in the [atsamd-rs] repo. It is a [atsamd-rs tier 1 support] support board. ![crates.io](https://img.shields.io/crates/v/feather_m0.svg)
-- [`feather_m4`](https://crates.io/crates/feather_m4) - Board support for the [Feather M4 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 1 support] support board. ![crates.io](https://img.shields.io/crates/v/feather_m4.svg)
-- [`circuit_playground_express`](https://crates.io/crates/circuit_playground_express) - Board support for the [Circuit Playground Express board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/circuit_playground_express.svg)
-- [`edgebadge`](https://crates.io/crates/edgebadge) - Board support for the [EdgeBadge board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/edgebadge.svg)
-- [`gemma_m0`](https://crates.io/crates/gemma_m0) - Board support for the [Gemma M0 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/gemma_m0.svg)
-- [`itsybitsy_m0`](https://crates.io/crates/itsybitsy_m0) - Board support for the [ItsyBitsy M0 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/itsybitsy_m0.svg)
-- [`itsybitsy_m4`](https://crates.io/crates/itsybitsy_m4) - Board support for the [ItsyBitsy M4 Express board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/itsybitsy_m4.svg)
-- [`trinket_m0`](https://crates.io/crates/trinket_m0) - Board support for the [Trinket M0 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/trinket_m0.svg)
-- [`neo_trinkey`](https://crates.io/crates/neo_trinkey) - Board support for the [neo trinkey board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/neo_trinkey.svg)
-- [`neokey_trinkey`](https://crates.io/crates/neokey_trinkey) - Board support for the [neokey trinkey board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/neokey_trinkey.svg)
-- [`grand_central_m4`](https://crates.io/crates/grand_central_m4) - Board support for the [grand central m4 board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/grand_central_m4.svg)
-- [`qt_py_m0`](https://crates.io/crates/qt_py_m0) - Board support for the [QT Py board] in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] support board. ![crates.io](https://img.shields.io/crates/v/qt_py_m0.svg)
+- [`feather_m0`](https://crates.io/crates/feather_m0) - Board support for the [Feather M0 board], and some variants in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board. ![crates.io](https://img.shields.io/crates/v/feather_m0.svg)
+- [`feather_m4`](https://crates.io/crates/feather_m4) - Board support for the [Feather M4 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board. ![crates.io](https://img.shields.io/crates/v/feather_m4.svg)
+- [`circuit_playground_express`](https://crates.io/crates/circuit_playground_express) - Board support for the [Circuit Playground Express board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/circuit_playground_express.svg)
+- [`edgebadge`](https://crates.io/crates/edgebadge) - Board support for the [EdgeBadge board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/edgebadge.svg)
+- [`gemma_m0`](https://crates.io/crates/gemma_m0) - Board support for the [Gemma M0 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/gemma_m0.svg)
+- [`itsybitsy_m0`](https://crates.io/crates/itsybitsy_m0) - Board support for the [ItsyBitsy M0 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/itsybitsy_m0.svg)
+- [`itsybitsy_m4`](https://crates.io/crates/itsybitsy_m4) - Board support for the [ItsyBitsy M4 Express board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/itsybitsy_m4.svg)
+- [`trinket_m0`](https://crates.io/crates/trinket_m0) - Board support for the [Trinket M0 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/trinket_m0.svg)
+- [`neo_trinkey`](https://crates.io/crates/neo_trinkey) - Board support for the [neo trinkey board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/neo_trinkey.svg)
+- [`neokey_trinkey`](https://crates.io/crates/neokey_trinkey) - Board support for the [neokey trinkey board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/neokey_trinkey.svg)
+- [`grand_central_m4`](https://crates.io/crates/grand_central_m4) - Board support for the [grand central m4 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/grand_central_m4.svg)
+- [`qt_py_m0`](https://crates.io/crates/qt_py_m0) - Board support for the [QT Py board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/qt_py_m0.svg)
 - [`adafruit-feather-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit Feather RP2040] ![crates.io](https://img.shields.io/crates/v/adafruit-feather-rp2040.svg)
 - [`adafruit-itsy-bitsy-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit ItsyBitsy RP2040] ![crates.io](https://img.shields.io/crates/v/adafruit-itsy-bitsy-rp2040.svg)
 - [`adafruit-kb2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit KB2040] ![crates.io](https://img.shields.io/crates/v/adafruit-kb2040.svg)
@@ -520,10 +520,10 @@ Crates tailored for specific boards.
 ### Arduino
 
 - [`avr-hal`](https://github.com/Rahix/avr-hal) - Board support crate for several AVR-based boards including the Arduino Uno and the Arduino Leonardo
-- [`arduino_mkr1000`](https://crates.io/crates/arduino_mkr1000) - Board support for the [MKR 1000 WiFi board](https://docs.arduino.cc/hardware/mkr-1000-wifi) ![crates.io](https://img.shields.io/crates/v/arduino_mkr1000.svg)
-- [`arduino_mkrvidor4000`](https://crates.io/crates/arduino_mkrvidor4000) - Board support for the [MKR Vidor board](https://store.arduino.cc/usa/mkr-vidor-4000) ![crates.io](https://img.shields.io/crates/v/arduino_mkrvidor4000.svg)
-- [`arduino_mkrzero`](https://crates.io/crates/arduino_mkrzero) - Board support for the [mkrzero board](https://store.arduino.cc/arduino-mkrzero) ![crates.io](https://img.shields.io/crates/v/arduino_mkrzero.svg)
-- [`arduino_nano33iot`](https://crates.io/crates/arduino_nano33iot) - Board support for the [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) ![crates.io](https://img.shields.io/crates/v/arduino_nano33iot.svg)
+- [`arduino_mkr1000`](https://crates.io/crates/arduino_mkr1000) - Board support for the [MKR 1000 WiFi board](https://docs.arduino.cc/hardware/mkr-1000-wifi) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/arduino_mkr1000.svg)
+- [`arduino_mkrvidor4000`](https://crates.io/crates/arduino_mkrvidor4000) - Board support for the [MKR Vidor board](https://store.arduino.cc/usa/mkr-vidor-4000) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/arduino_mkrvidor4000.svg)
+- [`arduino_mkrzero`](https://crates.io/crates/arduino_mkrzero) - Board support for the [mkrzero board](https://store.arduino.cc/arduino-mkrzero) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/arduino_mkrzero.svg)
+- [`arduino_nano33iot`](https://crates.io/crates/arduino_nano33iot) - Board support for the [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/arduino_nano33iot.svg)
 
 ### Nordic
 
@@ -559,7 +559,7 @@ Crates tailored for specific boards.
 
 ### Sparkfun
 
-- [`samd21_mini`](https://crates.io/crates/samd21_mini) - Board support for the [SAMD21 Mini Breakout](https://www.sparkfun.com/products/13664) ![crates.io](https://img.shields.io/crates/v/samd21_mini.svg)
+- [`samd21_mini`](https://crates.io/crates/samd21_mini) - Board support for the [SAMD21 Mini Breakout](https://www.sparkfun.com/products/13664) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/samd21_mini.svg)
 - [`sparkfun-pro-micro-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040 based Sparkfun Pro Micro.
 
 ### SeeedStudio
@@ -567,10 +567,10 @@ Crates tailored for specific boards.
 - [`seedstudio-gd32v`](https://github.com/riscv-rust/seedstudio-gd32v) - Board support crate for the [GD32 RISC-V Dev Board](https://www.seeedstudio.com/SeeedStudio-GD32-RISC-V-Dev-Board-p-4302.html)
   ![crates.io](https://img.shields.io/crates/v/seedstudio-gd32v.svg)
   - Contains runnable examples for this board
-- [`xiao_m0`](https://crates.io/crates/xiao_m0) - Board support for the [Seeed Studio Seeeduino XIAO](http://wiki.seeedstudio.com/Seeeduino-XIAO/) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io/crates/v/xiao_m0.svg)
-- [`wio_lite_mg126`](https://crates.io/crates/wio_lite_mg126) - Board support for the [Seeed Studio wio_lite_mg126](https://wiki.seeedstudio.com/Wio-Lite-MG126) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io.crates/v/wio_lite_mg126.svg)
-- [`wio_lite_w600`](https://crates.io/crates/wio_lite_w600) - Board support for the [Seeed Studio wio_lite_w600](https://wiki.seeedstudio.com/Wio-Lite-W600/) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io.crates/v/wio_lite_w600.svg)
-- [`wio_terminal`](https://crates.io/crates/wio_terminal) - Board support for the [Seeed Studio wio_terminal](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/) in the [atsamd-rs] repo. It is a [atsamd-rs tier 1 support] board ![crates.io](https://img.shields.io.crates/v/wio_terminal.svg)
+- [`xiao_m0`](https://crates.io/crates/xiao_m0) - Board support for the [Seeed Studio Seeeduino XIAO](http://wiki.seeedstudio.com/Seeeduino-XIAO/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/xiao_m0.svg)
+- [`wio_lite_mg126`](https://crates.io/crates/wio_lite_mg126) - Board support for the [Seeed Studio wio_lite_mg126](https://wiki.seeedstudio.com/Wio-Lite-MG126) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io.crates/v/wio_lite_mg126.svg)
+- [`wio_lite_w600`](https://crates.io/crates/wio_lite_w600) - Board support for the [Seeed Studio wio_lite_w600](https://wiki.seeedstudio.com/Wio-Lite-W600/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io.crates/v/wio_lite_w600.svg)
+- [`wio_terminal`](https://crates.io/crates/wio_terminal) - Board support for the [Seeed Studio wio_terminal](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board ![crates.io](https://img.shields.io.crates/v/wio_terminal.svg)
 
 ### SiFive
 
@@ -619,13 +619,13 @@ Crates tailored for specific boards.
 
 ### Sodaq
 
-- [`sodaq_one`](https://crates.io/crates/sodaq_one) - Board support for the [Sodaq one board](https://shop.sodaq.com/sodaq-one-eu-rn2483-v3.html) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io/crates/v/sodaq_one.svg)
-- [`sodaq_sara_aff`](https://crates.io/crates/sodaq_sara_aff) - Board support for the [Sodaq sara aff board](https://shop.sodaq.com/sodaq-sara-sff-r410m.html) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io/crates/v/sodaq_sara_aff.svg)
+- [`sodaq_one`](https://crates.io/crates/sodaq_one) - Board support for the [Sodaq one board](https://shop.sodaq.com/sodaq-one-eu-rn2483-v3.html) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/sodaq_one.svg)
+- [`sodaq_sara_aff`](https://crates.io/crates/sodaq_sara_aff) - Board support for the [Sodaq sara aff board](https://shop.sodaq.com/sodaq-sara-sff-r410m.html) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/sodaq_sara_aff.svg)
 
 ### Other
 
-- [`serpente`](https://crates.io/crates/serpente) - Board support for the [serpente board](https://www.solder.party/docs/serpente/) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io/crates/v/serpente.svg)
-- [`p1am_100`](https://crates.io/crates/p1am_100) - Board support for the [p1am_100 board](https://facts-engineering.github.io) in the [atsamd-rs] repo. It is a [atsamd-rs tier 2 support] board ![crates.io](https://img.shields.io/crates/v/p1am_100.svg)
+- [`serpente`](https://crates.io/crates/serpente) - Board support for the [serpente board](https://www.solder.party/docs/serpente/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/serpente.svg)
+- [`p1am_100`](https://crates.io/crates/p1am_100) - Board support for the [p1am_100 board](https://facts-engineering.github.io) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io/crates/v/p1am_100.svg)
 
 ## Component abstraction crates
 
