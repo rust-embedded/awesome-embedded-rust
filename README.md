@@ -168,6 +168,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [Drone OS](https://drone-os.github.io) An Embedded Operating System for writing real-time applications in Rust.
 -   [FreeRTOS.rs](https://github.com/hashmismatch/freertos.rs) Rust interface for the FreeRTOS API
 -   [FreeRTOS-rust](https://github.com/lobaro/FreeRTOS-rust) Rust interface for FreeRTOS with Rust entry point and build support crate.
+-   [RIOT-OS](https://doc.riot-os.org/using-rust.html) directly supports applications written in Rust, both in terms of build system integration and by having safe and idiomatic wrappers.
 -   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
 -   [Hubris](https://github.com/oxidecomputer/hubris) A real-time operating systems built by Oxide Computer to run the Service Controller processor in the mainboards of their rack-mount servers.
 
