@@ -1052,6 +1052,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [dcmimu]: An algorithm for fusing low-cost triaxial MEMS gyroscope and accelerometer measurements ![crates.io](https://img.shields.io/crates/v/dcmimu.svg)
 1. [debouncr]: A simple no-std input debouncer to detect rising/falling edges with minimal RAM requirements. ![crates.io](https://img.shields.io/crates/v/debouncr.svg)
 1. [device-driver]: A toolkit to write better device drivers, faster. ![crates.io](https://img.shields.io/crates/v/device-driver.svg)
+1. [drogue-device](https://github.com/drogue-iot/drogue-device): An async actor framework for embedded, based on embassy.
+1. [drogue-tls](https://github.com/drogue-iot/drogue-tls): A TLS 1.3 implementation that runs in a no-std environment.
 1. [embassy]: A set of embedded async tools to make async/await a first-class option for embedded development
 1. [embedded-crc-macros](https://crates.io/crates/embedded-crc-macros): Macros implementing portable CRC algorithms and build-time lookup table generation. ![crates.io](https://img.shields.io/crates/v/embedded-crc-macros.svg)
 1. [embedded-websocket](https://crates.io/crates/embedded-websocket): A lightweight server and client websocket library for embedded systems. ![crates.io](https://img.shields.io/crates/v/embedded-websocket.svg)
@@ -1064,6 +1066,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [infrared](https://crates.io/crates/infrared): infrared remote control library for embedded rust - ![crates.io](https://img.shields.io/crates/v/infrared.svg)
 1. [intrusive-collections](https://crates.io/crates/intrusive-collections): intrusive (non-allocating) singly/doubly linked lists and red-black trees - ![crates.io](https://img.shields.io/crates/v/intrusive-collections.svg)
 1. [irq](https://crates.io/crates/irq): utilities for writing interrupt handlers (allows moving data into interrupts, and sharing data between them) - ![crates.io](https://img.shields.io/crates/v/irq.svg)
+1. [lorawan-encoding](https://github.com/ivajloip/rust-lorawan/tree/master/encoding): A LoRaWAN packet codec.
+1. [lorawan-device](https://github.com/ivajloip/rust-lorawan/tree/master/device): A LoRaWAN MAC implementation supporting both event driven and async mode.
 1. [managed](https://crates.io/crates/managed): provides `ManagedSlice`, `ManagedMap` backed by either their std counterparts or fixed-size buffers for `#![no_std]`. - ![crates.io](https://img.shields.io/crates/v/managed.svg)
 1. [menu]: A basic command-line interface library. Has nested menus and basic help functionality. ![crates.io](https://img.shields.io/crates/v/menu.svg)
 1. [mqtt-sn](https://crates.io/crates/mqtt-sn): Implementation of the MQTT-SN protocol - ![crates.io](https://img.shields.io/crates/v/mqtt-sn.svg)
