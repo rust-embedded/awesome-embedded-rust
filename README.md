@@ -721,6 +721,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 1. [ST7789] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix used in the PineTime watch [github][44] ![crates.io](https://img.shields.io/crates/v/st7789.svg)
 1. [DW1000] - SPI - Radio transceiver (IEEE 802.15.4 and position tracking) - [Article][45] - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 1. [Adafruit-7segment] - I2C - Driver for Adafruit 7-segment LED Numeric Backpack based on the ht16k33 chip - [github][47] - ![crates.io](https://img.shields.io/crates/v/adafruit-7segment.svg)
+1. [LDC1x1x] - I2C - TI LDC1312/LDC1314/LDC1612/LDC1614 Inductance-to-Digital converters - [github][60] - ![crates.io](https://img.shields.io/crates/v/ldc1x1x.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -779,6 +780,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [57]: https://github.com/yannart/rainbow-hat-rs
 [58]: https://blog.rahix.de/port-expander/
 [59]: https://robamu.github.io/post/max11619-driver-rust/
+[60]: https://github.com/unrelentingtech/ldc1x1x
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -844,6 +846,7 @@ have achieved the "released" status (published on crates.io + documentation / sh
 [ST7789]: http://crates.io/crates/st7789
 [DW1000]: https://crates.io/crates/dw1000
 [Adafruit-7segment]: https://crates.io/crates/adafruit-7segment
+[LDC1x1x]: https://crates.io/crates/ldc1x1x
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
