@@ -650,10 +650,11 @@ traits][hal-impl].
 
 [hal-impl]: #hal-implementation-crates
 
-The list below contains drivers developed as part of the [Weekly Driver initiative][wd] and that
-have achieved the "released" status (published on crates.io + documentation / short blog post).
-
-[wd]: https://github.com/rust-embedded/wg/issues/39
+The list below contains drivers that have achieved the "released" status. In order to add a driver
+to this list, please ensure that your driver has a short blog post, article or sufficiently
+explanatory README showing an example of its use. Ideally this post would demonstrate using the
+device in a small project so that a Rust and/or embedded newcomer can also understand it.
+Otherwise please add it to the [WIP section][#WIP] below.
 
 1. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
 1. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
