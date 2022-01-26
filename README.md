@@ -829,6 +829,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [SRAM23x]: https://crates.io/crates/sram23x
 [SSD1306]: https://crates.io/crates/ssd1306
 [SSD1309]: https://crates.io/crates/ssd1309
+[STSPIN220]: https://crates.io/crates/stspin220
 [Sx127x]: https://crates.io/crates/radio-sx127x
 [Sx128x]: https://crates.io/crates/radio-sx128x
 [TC72]: https://crates.io/crates/microchip-tc72r-rs
