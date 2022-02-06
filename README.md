@@ -664,6 +664,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
 1. [ADXL355] - SPI - 3-axis accelerometer - [Intro blog post][43] - ![crates.io](https://img.shields.io/crates/v/adxl355.svg)
 1. [AHT20] - I2C - Humidity and temperature sensor - [github](https://github.com/chocol4te/aht20) - ![crates.io](https://img.shields.io/crates/v/aht20.svg)
+1. [AHT20-driver] - I2C - Humidity and temperature sensor - [Intro blog post][61] - [github][62] - ![crates.io](https://img.shields.io/crates/v/aht20-driver.svg)
 1. [AnyLeaf] - I2C - pH sensor module - [github](https://github.com/AnyLeaf/ph-rust) - ![crates.io](https://img.shields.io/crates/v/anyleaf.svg)
 1. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
@@ -783,6 +784,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [58]: https://blog.rahix.de/port-expander/
 [59]: https://robamu.github.io/post/max11619-driver-rust/
 [60]: https://antonok.com/projects/ssd1309
+[61]: http://www.rawmeat.org/code/20220130-aht20_driver/
+[62]: https://github.com/anglerud/aht20-driver
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -791,6 +794,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [ADXL343]: https://crates.io/crates/adxl343
 [ADXL355]: https://crates.io/crates/adxl355
 [AHT20]: https://crates.io/crates/aht20
+[AHT20-driver]: https://crates.io/crates/aht20-driver
 [AnyLeaf]: https://crates.io/crates/anyleaf
 [at86rf212]: https://crates.io/crates/radio-at86rf212
 [BlueNRG]: https://crates.io/crates/bluenrg
