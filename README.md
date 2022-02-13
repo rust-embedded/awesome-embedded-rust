@@ -1082,6 +1082,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [mqtt-sn](https://crates.io/crates/mqtt-sn): Implementation of the MQTT-SN protocol - ![crates.io](https://img.shields.io/crates/v/mqtt-sn.svg)
 1. [microfft](https://crates.io/crates/microfft): Embedded-friendly (`no_std`, no-`alloc`) fast fourier transforms - ![crates.io](https://img.shields.io/crates/v/microfft.svg)
 1. [micromath](https://github.com/NeoBirth/micromath): Embedded Rust math library featuring fast, safe floating point approximations for common arithmetic operations, 2D and 3D vector types, and statistical analysis - ![crates.io](https://img.shields.io/crates/v/micromath.svg)
+1. [minimq](https://crates.io/crates/minimq): A minimal MQTT5 client designed for no_std platforms - ![crates.io](https://img.shields.io/crates/v/minimq.svg)
 1. [nalgebra](https://crates.io/crates/nalgebra): general-purpose and low-dimensional linear algebra library - ![crates.io](https://img.shields.io/crates/v/nalgebra.svg)
 1. [nom](https://crates.io/crates/nom): parser combinator framework - ![crates.io](https://img.shields.io/crates/v/nom.svg)
 1. [null-terminated](https://crates.io/crates/null-terminated): generic null-terminated arrays - ![crates.io](https://img.shields.io/crates/v/null-terminated.svg)
