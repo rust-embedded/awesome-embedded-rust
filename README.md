@@ -879,6 +879,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [epd-waveshare] - SPI - driver for E-Paper Modules from Waveshare ![crates.io](https://img.shields.io/crates/v/epd-waveshare.svg)
 1. [embedded-morse] - Output morse messages - ![crates.io](https://img.shields.io/crates/v/embedded-morse.svg)
 1. [embedded-nrf24l01] - SPI+GPIO - 2.4 GHz radio
+1. [Ft6x36] - I2C - Rust driver for focal tech touch screen FT6236, FT6336 - ![crates.io](https://img.shields.io/crates/v/ft6x36.svg)
 1. [GridEYE] - I2C - Rust driver for Grid-EYE / Panasonic AMG88(33) - ![crates.io](https://img.shields.io/crates/v/GridEYE.svg)
 1. [HC-SR04] - DIO - Ultrasound sensor
 1. [HD44780-driver] - GPIO - LCD controller - ![crates.io](https://img.shields.io/crates/v/hd44780-driver.svg)
@@ -968,6 +969,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [epd-waveshare]: https://crates.io/crates/epd-waveshare
 [embedded-morse]: https://crates.io/crates/embedded-morse
 [embedded-nrf24l01]: https://crates.io/crates/embedded-nrf24l01
+[Ft6x36]: https://crates.io/crates/ft6x36
 [GridEYE]: https://crates.io/crates/grideye
 [HC-12]: https://crates.io/crates/hc12-at
 [HC-SR04]: https://github.com/nordmoen/hc-sr04
