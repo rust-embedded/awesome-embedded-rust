@@ -1067,6 +1067,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [device-driver]: A toolkit to write better device drivers, faster. ![crates.io](https://img.shields.io/crates/v/device-driver.svg)
 1. [drogue-device](https://github.com/drogue-iot/drogue-device): An async actor framework for embedded, based on embassy.
 1. [drogue-tls](https://github.com/drogue-iot/drogue-tls): A TLS 1.3 implementation that runs in a no-std environment.
+1. [dummy-pin](https://crates.io/crates/dummy-pin): Dummy implementations of the input/output pin traits. ![crates.io](https://img.shields.io/crates/v/dummy-pin.svg)
 1. [embassy]: A set of embedded async tools to make async/await a first-class option for embedded development
 1. [embedded-crc-macros](https://crates.io/crates/embedded-crc-macros): Macros implementing portable CRC algorithms and build-time lookup table generation. ![crates.io](https://img.shields.io/crates/v/embedded-crc-macros.svg)
 1. [embedded-websocket](https://crates.io/crates/embedded-websocket): A lightweight server and client websocket library for embedded systems. ![crates.io](https://img.shields.io/crates/v/embedded-websocket.svg)
@@ -1078,6 +1079,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [ieee802154](https://crates.io/crates/ieee802154): Partial implementation of the IEEE 802.15.4 standard - ![crates.io](https://img.shields.io/crates/v/ieee802154.svg)
 1. [infrared](https://crates.io/crates/infrared): infrared remote control library for embedded rust - ![crates.io](https://img.shields.io/crates/v/infrared.svg)
 1. [intrusive-collections](https://crates.io/crates/intrusive-collections): intrusive (non-allocating) singly/doubly linked lists and red-black trees - ![crates.io](https://img.shields.io/crates/v/intrusive-collections.svg)
+1. [inverted-pin](https://crates.io/crates/inverted-pin): Implementations of the input/output pin traits with inverted logic. ![crates.io](https://img.shields.io/crates/v/inverted-pin.svg)
 1. [irq](https://crates.io/crates/irq): utilities for writing interrupt handlers (allows moving data into interrupts, and sharing data between them) - ![crates.io](https://img.shields.io/crates/v/irq.svg)
 1. [lorawan-encoding](https://github.com/ivajloip/rust-lorawan/tree/master/encoding): A LoRaWAN packet codec.
 1. [lorawan-device](https://github.com/ivajloip/rust-lorawan/tree/master/device): A LoRaWAN MAC implementation supporting both event driven and async mode.
