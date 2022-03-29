@@ -31,6 +31,7 @@ This project is developed and maintained by the [Resources team][team].
     - [STMicroelectronics](#stmicroelectronics)
     - [Texas Instruments](#texas-instruments)
     - [MSP430](#msp430)
+    - [Espressif](#espressif)
     - [Ambiq Micro](#ambiq-micro)
     - [GigaDevice](#gigadevice)
     - [XMC](#xmc)
@@ -45,7 +46,7 @@ This project is developed and maintained by the [Resources team][team].
     - [STMicroelectronics](#stmicroelectronics-1)
     - [Texas Instruments](#texas-instruments-1)
     - [MSP430](#msp430-1)
-    - [Espressif](#espressif)
+    - [Espressif](#espressif-1)
     - [Silicon Labs](#silicon-labs-1)
     - [XMC](#xmc-1)
     - [GigaDevice](#gigadevice-1)
@@ -96,7 +97,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 - [embedded.rs-wasm-iot] - English Telegram chat about Rust and WASM for microcontrollers and IoT
 - [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language.
 - [#avr-rust:gitter.im] - For discussion of using Embedded Rust on AVR devices
-- [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
+- [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Espressif devices
 - [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
 - [#probe-rs:matrix.org] - For discussion of the Probe-rs debugging toolkit
 - [#rp-rs:matrix.org] - For discussion of using Embedded Rust on RP2040 based devices
@@ -122,6 +123,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 ## Books, blogs and training materials
 
 -   [The Embedded Rust Book](https://rust-embedded.github.io/book/) - An introductory book about using the Rust Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
+-   [The Rust on ESP Book](https://esp-rs.github.io/book/) - The goal of this book is to provide a comprehensive guide on using the Rust programming language with Espressif SoCs and modules.
 -   [Discovery](https://rust-embedded.github.io/discovery) by @rust-embedded — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language. Original author: @japaric
 -   [Cortex-M Quickstart](https://docs.rs/cortex-m-quickstart/0.3.1/cortex_m_quickstart/) by @japaric – a template and introduction to embedded Rust, suitable for developers familiar to embedded development but new to embedded Rust.
 - [Writing an OS in rust](https://os.phil-opp.com/) A blog series creating a small operating system in Rust
@@ -131,6 +133,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [Writing embedded drivers in Rust isn't that hard](https://hboeving.dev/blog/rust-2c-driver-p1/) A guide to building an embedded-hal driver. [Part 2](https://hboeving.dev/blog/rust-i2c-driver-p2/)
 -   [Ferrous Systems' Embedded Training Courses: 2020-current edition](https://github.com/ferrous-systems/embedded-trainings-2020) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52840 harware. This training was given at Oxidize Conferences and by [Ferrous Systems] to corporate customers.
 -   [Ferrous Systems' Knurling Sessions](https://knurling.ferrous-systems.com/sessions/) are hands-on embedded projects that explore specific concepts using generally available hardware, building full systems and components using microcontrollers, sensors, and actuators.
+-   [Ferrous Systems' Embedded Rust on Espressif](https://espressif-trainings.ferrous-systems.com/) - Training Material for learning to use Embedded Rust with the Espressif ESP32-C3.
 -   [DSP on STM32F407G-DISC1](https://github.com/jacobrosenthal/dsp-discoveryf4-rust/) Unofficial oxidization of the [Digital Signal Processing using Arm Cortex-M based Microcontrollers: Theory and Practice](https://www.amazon.com/Digital-Signal-Processing-Cortex-M-Microcontrollers/dp/1911531166) book. The book isn't necessary to enjoy the examples and learn a functional DSP Rust coding style.
 
 [Ferrous Systems]: https://ferrous-systems.com
@@ -266,6 +269,14 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
     - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 -   [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 - [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - ![Crates.io](https://img.shields.io/crates/v/msp430fr6972)
+
+### Espressif
+
+- [`esp32`](https://github.com/esp-rs/esp-pacs/tree/main/esp32) - ![crates.io](https://img.shields.io/crates/v/esp32.svg)
+- [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c3) - ![crates.io](https://img.shields.io/crates/v/esp32c3.svg)
+- [`esp32s2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s2) - ![crates.io](https://img.shields.io/crates/v/esp32s2.svg)
+- [`esp32s3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s3) - ![crates.io](https://img.shields.io/crates/v/esp32s3.svg)
+- [`esp8266`](https://github.com/esp-rs/esp-pacs/tree/main/esp8266) - ![crates.io](https://img.shields.io/crates/v/esp8266.svg)
 
 ### Ambiq Micro
 
@@ -406,6 +417,11 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`rust-xtensa`](https://github.com/MabezDev/rust-xtensa)
   - rust fork enables projects to be built for the ESP32 and ESP8266. ([quick start repo](https://github.com/MabezDev/xtensa-rust-quickstart)).
+- [`esp-idf-hal`](https://github.com/esp-rs/esp-idf-hal)
+  - An embedded-hal implementation for ESP32[-XX] + ESP-IDF
+- [`esp-hal`](https://github.com/esp-rs/esp-hal)
+  - An _extremely experimental_ attempt at writing a HAL which targets the ESP32, ESP32-C3, ESP32-S2, and ESP32-S3.
+
 
 ### Silicon Labs
 
