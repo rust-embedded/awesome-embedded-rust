@@ -710,6 +710,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
 1. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 1. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
+1. [PAC194X] - I2C - Single/multi channel power monitor - [Intro blog post][63] - ![crates.io](https://img.shields.io/crates/v/pac194x)
 1. [port-expander] - I2C - Driver for I2C port expanders (supports `PCA95xx`, `PCF85xx`) - [Intro blog post][58] - ![crates.io](https://img.shields.io/crates/v/port-expander.svg)
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
@@ -803,6 +804,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [60]: https://antonok.com/projects/ssd1309
 [61]: http://www.rawmeat.org/code/20220130-aht20_driver/
 [62]: https://github.com/anglerud/aht20-driver
+[63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -838,6 +840,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [MCP794xx]: https://crates.io/crates/mcp794xx
 [MMA7660FC]: https://crates.io/crates/mma7660fc
 [OPT300x]: https://github.com/eldruin/opt300x-rs
+[PAC194X]: https://github.com/kiranshila/pac194x
 [port-expander]: https://crates.io/crates/port-expander
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [rainbow-hat-rs]: https://crates.io/crates/rainbow-hat-rs
