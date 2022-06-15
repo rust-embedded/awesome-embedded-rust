@@ -31,6 +31,7 @@ This project is developed and maintained by the [Resources team][team].
     - [STMicroelectronics](#stmicroelectronics)
     - [Texas Instruments](#texas-instruments)
     - [MSP430](#msp430)
+    - [Espressif](#espressif)
     - [Ambiq Micro](#ambiq-micro)
     - [GigaDevice](#gigadevice)
     - [XMC](#xmc)
@@ -45,7 +46,7 @@ This project is developed and maintained by the [Resources team][team].
     - [STMicroelectronics](#stmicroelectronics-1)
     - [Texas Instruments](#texas-instruments-1)
     - [MSP430](#msp430-1)
-    - [Espressif](#espressif)
+    - [Espressif](#espressif-1)
     - [Silicon Labs](#silicon-labs-1)
     - [XMC](#xmc-1)
     - [GigaDevice](#gigadevice-1)
@@ -96,7 +97,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 - [embedded.rs-wasm-iot] - English Telegram chat about Rust and WASM for microcontrollers and IoT
 - [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language.
 - [#avr-rust:gitter.im] - For discussion of using Embedded Rust on AVR devices
-- [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Xtensa devices
+- [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Espressif devices
 - [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
 - [#probe-rs:matrix.org] - For discussion of the Probe-rs debugging toolkit
 - [#rp-rs:matrix.org] - For discussion of using Embedded Rust on RP2040 based devices
@@ -122,6 +123,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 ## Books, blogs and training materials
 
 -   [The Embedded Rust Book](https://rust-embedded.github.io/book/) - An introductory book about using the Rust Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
+-   [The Rust on ESP Book](https://esp-rs.github.io/book/) - The goal of this book is to provide a comprehensive guide on using the Rust programming language with Espressif SoCs and modules.
 -   [Discovery](https://rust-embedded.github.io/discovery) by @rust-embedded — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language. Original author: @japaric
 -   [Cortex-M Quickstart](https://docs.rs/cortex-m-quickstart/0.3.1/cortex_m_quickstart/) by @japaric – a template and introduction to embedded Rust, suitable for developers familiar to embedded development but new to embedded Rust.
 - [Writing an OS in rust](https://os.phil-opp.com/) A blog series creating a small operating system in Rust
@@ -129,9 +131,11 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [Physical Computing With Rust](https://rahul-thakoor.github.io/physical-computing-rust/) A (WIP) guide to physical computing with Rust on the Raspberry Pi.
 -   [Writing an embedded OS in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspi3-OS-tutorials) A set of tutorials that give a guided, step-by-step tour of how to write a monolithic Operating System kernel for an embedded system from scratch. Runs on the Raspberry Pi 3 and the Raspberry Pi 4.
 -   [Writing embedded drivers in Rust isn't that hard](https://hboeving.dev/blog/rust-2c-driver-p1/) A guide to building an embedded-hal driver. [Part 2](https://hboeving.dev/blog/rust-i2c-driver-p2/)
--   [Ferrous Systems' Embedded Training Courses: 2020-current edition](https://github.com/ferrous-systems/embedded-trainings-2020) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52840 harware. This training was given at Oxidize Conferences and by [Ferrous Systems] to corporate customers.
+-   [Ferrous Systems' Embedded Training Courses: 2020-current edition](https://github.com/ferrous-systems/embedded-trainings-2020) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52840 hardware. This training was given at Oxidize Conferences and by [Ferrous Systems] to corporate customers.
 -   [Ferrous Systems' Knurling Sessions](https://knurling.ferrous-systems.com/sessions/) are hands-on embedded projects that explore specific concepts using generally available hardware, building full systems and components using microcontrollers, sensors, and actuators.
+-   [Ferrous Systems' Embedded Rust on Espressif](https://espressif-trainings.ferrous-systems.com/) - Training Material for learning to use Embedded Rust with the Espressif ESP32-C3.
 -   [DSP on STM32F407G-DISC1](https://github.com/jacobrosenthal/dsp-discoveryf4-rust/) Unofficial oxidization of the [Digital Signal Processing using Arm Cortex-M based Microcontrollers: Theory and Practice](https://www.amazon.com/Digital-Signal-Processing-Cortex-M-Microcontrollers/dp/1911531166) book. The book isn't necessary to enjoy the examples and learn a functional DSP Rust coding style.
+-   [Building a sailing starter board with Rust (RTIC)](https://gill.net.in/posts/stm32-pcb-sailing-and-rust/) A step by step story/guide to build STM32 based PCB and program it with rust for fun and games.
 -   [Embedded Rust programming playlist](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU) Various livestreams with Embedded Rust live coding
 
 [Ferrous Systems]: https://ferrous-systems.com
@@ -267,6 +271,14 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
     - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 -   [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 - [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - ![Crates.io](https://img.shields.io/crates/v/msp430fr6972)
+
+### Espressif
+
+- [`esp32`](https://github.com/esp-rs/esp-pacs/tree/main/esp32) - ![crates.io](https://img.shields.io/crates/v/esp32.svg)
+- [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c3) - ![crates.io](https://img.shields.io/crates/v/esp32c3.svg)
+- [`esp32s2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s2) - ![crates.io](https://img.shields.io/crates/v/esp32s2.svg)
+- [`esp32s3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s3) - ![crates.io](https://img.shields.io/crates/v/esp32s3.svg)
+- [`esp8266`](https://github.com/esp-rs/esp-pacs/tree/main/esp8266) - ![crates.io](https://img.shields.io/crates/v/esp8266.svg)
 
 ### Ambiq Micro
 
@@ -407,6 +419,11 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`rust-xtensa`](https://github.com/MabezDev/rust-xtensa)
   - rust fork enables projects to be built for the ESP32 and ESP8266. ([quick start repo](https://github.com/MabezDev/xtensa-rust-quickstart)).
+- [`esp-idf-hal`](https://github.com/esp-rs/esp-idf-hal)
+  - An embedded-hal implementation for ESP32[-XX] + ESP-IDF
+- [`esp-hal`](https://github.com/esp-rs/esp-hal)
+  - An _extremely experimental_ attempt at writing a HAL which targets the ESP32, ESP32-C3, ESP32-S2, and ESP32-S3.
+
 
 ### Silicon Labs
 
@@ -595,6 +612,7 @@ Crates tailored for specific boards.
 - [`nucleo-f042k6`](https://github.com/therealprof/nucleo-f042k6.git) - [Nucleo-F042K6]
 - [`nucleo-f103rb`](https://github.com/therealprof/nucleo-f103rb.git) - [Nucleo-F103RB]
 - [`nucleo-f401re`](https://github.com/jkristell/nucleo-f401re.git) - [Nucleo-F401RE] ![crates.io](https://img.shields.io/crates/v/nucleo-f401re.svg)
+- [`nucleo-h743zi`](https://github.com/astraw/nucleo-h743zi) Beginner-oriented support crate for the Nucleo H743ZI and Nucleo H743ZI2
 - [`solo-bsp`](https://crates.io/crates/solo-bsp) Board Support Crate for [Solo], an open source security token (WIP) - ![crates.io](https://img.shields.io/crates/v/solo-bsp.svg)
 - [`stm32f407g-disc`](https://crates.io/crates/stm32f407g-disc) Board Support Crate for the [STM32F4DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f407g-disc.svg)
 - [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - ![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)
@@ -694,6 +712,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
 1. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 1. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
+1. [PAC194X] - I2C - Single/multi channel power monitor - [Intro blog post][63] - ![crates.io](https://img.shields.io/crates/v/pac194x)
 1. [port-expander] - I2C - Driver for I2C port expanders (supports `PCA95xx`, `PCF85xx`) - [Intro blog post][58] - ![crates.io](https://img.shields.io/crates/v/port-expander.svg)
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
@@ -787,6 +806,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [60]: https://antonok.com/projects/ssd1309
 [61]: http://www.rawmeat.org/code/20220130-aht20_driver/
 [62]: https://github.com/anglerud/aht20-driver
+[63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -822,6 +842,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [MCP794xx]: https://crates.io/crates/mcp794xx
 [MMA7660FC]: https://crates.io/crates/mma7660fc
 [OPT300x]: https://github.com/eldruin/opt300x-rs
+[PAC194X]: https://github.com/kiranshila/pac194x
 [port-expander]: https://crates.io/crates/port-expander
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [rainbow-hat-rs]: https://crates.io/crates/rainbow-hat-rs
@@ -1066,11 +1087,13 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [dcmimu]: An algorithm for fusing low-cost triaxial MEMS gyroscope and accelerometer measurements ![crates.io](https://img.shields.io/crates/v/dcmimu.svg)
 1. [debouncr]: A simple no-std input debouncer to detect rising/falling edges with minimal RAM requirements. ![crates.io](https://img.shields.io/crates/v/debouncr.svg)
 1. [device-driver]: A toolkit to write better device drivers, faster. ![crates.io](https://img.shields.io/crates/v/device-driver.svg)
-1. [drogue-device](https://github.com/drogue-iot/drogue-device): An async actor framework for embedded, based on embassy.
-1. [drogue-tls](https://github.com/drogue-iot/drogue-tls): A TLS 1.3 implementation that runs in a no-std environment.
+1. [drogue-device](https://github.com/drogue-iot/drogue-device): A distribution of tools and examples for building embedded applications in Rust.
 1. [dummy-pin](https://crates.io/crates/dummy-pin): Dummy implementations of the input/output pin traits. ![crates.io](https://img.shields.io/crates/v/dummy-pin.svg)
+1. [ector](https://github.com/drogue-iot/ector): An async actor framework for embedded, based on embassy.
 1. [embassy]: A set of embedded async tools to make async/await a first-class option for embedded development
 1. [embedded-crc-macros](https://crates.io/crates/embedded-crc-macros): Macros implementing portable CRC algorithms and build-time lookup table generation. ![crates.io](https://img.shields.io/crates/v/embedded-crc-macros.svg)
+1. [embedded-update](https://github.com/drogue-iot/embedded-update): Pluggable firmware update protocol for embedded devices.
+1. [embedded-tls](https://github.com/drogue-iot/embedded-tls): A TLS 1.3 implementation that runs in a no-std environment.
 1. [embedded-websocket](https://crates.io/crates/embedded-websocket): A lightweight server and client websocket library for embedded systems. ![crates.io](https://img.shields.io/crates/v/embedded-websocket.svg)
 1. [endian_codec]: (En/De)code rust types as packed bytes with specific order (endian). Supports derive. - [![crates.io](https://img.shields.io/crates/v/endian_codec.svg)](https://crates.io/crates/endian_codec)
 1. [fixed-fft](https://crates.io/crates/fixed-fft): Fixed-point Fast Fourier Transform - [![Crates.io](https://img.shields.io/crates/v/fixed-fft.svg)](https://crates.io/crates/fixed-fft)
@@ -1153,7 +1176,7 @@ These materials may be outdated and reflect earlier practices, but might still b
 -   [intermezzOS](http://intermezzos.github.io) A small teaching operating system in Rust. A book with some explanations is also included.
 -   [Fearless concurrency](http://blog.japaric.io/fearless-concurrency/) by @japaric — How to easily develop Rust programs for pretty much any ARM Cortex-M microcontroller with memory-safe concurrency.
 -   [Internet of Streams](https://www.youtube.com/playlist?list=PLX44HkctSkTewrL9frlUz0yeKLKecebT1) A video series  by [@jamesmunns] building a bare metal IoT Sensor Node Platform from (nearly) scratch in Rust
--   [Ferrous Systems' Embedded Training Courses: 2019 edition](https://github.com/ferrous-systems/embedded-trainings/) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52 and Decawave's DWM1001-DEV harware. This training was given at Oxidize Conferences and by Ferrous Systems to corporate customers.
+-   [Ferrous Systems' Embedded Training Courses: 2019 edition](https://github.com/ferrous-systems/embedded-trainings/) A hands-on training course for beginner and advanced learners of Embedded Rust, based on Nordic Semiconductor's nRF52 and Decawave's DWM1001-DEV hardware. This training was given at Oxidize Conferences and by Ferrous Systems to corporate customers.
 
 [@jamesmunns]: https://github.com/jamesmunns
 
