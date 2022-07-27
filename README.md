@@ -243,6 +243,24 @@ Peripheral Access Crates were also called Device Crates.
 
 - [`efm32pg12-pac`](https://crates.io/crates/efm32pg12-pac) - Peripheral access API for Silicon Labs EFM32PG12 microcontrollers - ![crates.io](https://img.shields.io/crates/v/efm32pg12-pac)
 
+The [`efm32-rs`](https://github.com/efm32-rs) project has peripheral access APIs for most EFM32 microcontrollers (generated using svd2rust):
+
+- [`efm32g-pac`](https://crates.io/crates/efm32g-pac) - ![crates.io](https://img.shields.io/crates/v/efm32g-pac)
+- [`efm32gg-pac`](https://crates.io/crates/efm32gg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32gg-pac)
+- [`efm32gg11b-pac`](https://crates.io/crates/efm32gg11b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32gg11b-pac)
+- [`efm32gg12b-pac`](https://crates.io/crates/efm32gg12b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32gg12b-pac)
+- [`efm32hg-pac`](https://crates.io/crates/efm32hg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32hg-pac)
+- [`efm32jg1b-pac`](https://crates.io/crates/efm32jg1b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32jg1b-pac)
+- [`efm32jg12b-pac`](https://crates.io/crates/efm32jg12b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32jg12b-pac)
+- [`efm32lg-pac`](https://crates.io/crates/efm32lg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32lg-pac)
+- [`efm32pg-pac`](https://crates.io/crates/efm32pg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32pg-pac)
+- [`efm32pg22-pac`](https://crates.io/crates/efm32pg22-pac) - ![crates.io](https://img.shields.io/crates/v/efm32pg22-pac)
+- [`efm32pg23-pac`](https://crates.io/crates/efm32pg23-pac) - ![crates.io](https://img.shields.io/crates/v/efm32pg23-pac)
+- [`efm32tg-pac`](https://crates.io/crates/efm32tg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32tg-pac)
+- [`efm32tg11b-pac`](https://crates.io/crates/efm32tg11b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32tg11b-pac)
+- [`efm32wg-pac`](https://crates.io/crates/efm32wg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32wg-pac)
+- [`efm32zg-pac`](https://crates.io/crates/efm32zg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32zg-pac)
+
 ### STMicroelectronics
 
 The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral access APIs for most STM32 microcontrollers (generated using svd2rust):
