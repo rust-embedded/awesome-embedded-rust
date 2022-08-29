@@ -762,9 +762,10 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [usbd-midi] - USB MIDI class implementation - [github][41] - ![crates.io](https://img.shields.io/crates/v/usbd-midi.svg)
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 1. [SHTCx] - I2C - Temperature / humidity sensors - [github][42] - ![crates.io](https://img.shields.io/crates/v/shtcx.svg)
-1. [ST7789] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix used in the PineTime watch [github][44] ![crates.io](https://img.shields.io/crates/v/st7789.svg)
+1. [ST7789] - SPI - An embedded-graphics compatible driver for the popular lcd family from Sitronix used in the PineTime watch - [github][44] - ![crates.io](https://img.shields.io/crates/v/st7789.svg)
 1. [DW1000] - SPI - Radio transceiver (IEEE 802.15.4 and position tracking) - [Article][45] - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 1. [Adafruit-7segment] - I2C - Driver for Adafruit 7-segment LED Numeric Backpack based on the ht16k33 chip - [github][47] - ![crates.io](https://img.shields.io/crates/v/adafruit-7segment.svg)
+1. [ST7565] - SPI - An embedded-graphics compatible driver for LCD displays based on the ST7565 chip - [github][64] - ![crates.io](https://img.shields.io/crates/v/st7565.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -827,6 +828,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [61]: http://www.rawmeat.org/code/20220130-aht20_driver/
 [62]: https://github.com/anglerud/aht20-driver
 [63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
+[64]: https://github.com/Finomnis/st7565
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -895,6 +897,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [ST7789]: http://crates.io/crates/st7789
 [DW1000]: https://crates.io/crates/dw1000
 [Adafruit-7segment]: https://crates.io/crates/adafruit-7segment
+[ST7565]: http://crates.io/crates/st7565
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
