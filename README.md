@@ -759,6 +759,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [usbd-serial] - USB CDC-ACM class (serial) implementation - [github][37] - ![crates.io](https://img.shields.io/crates/v/usbd-serial.svg)
 1. [usbd-hid] - USB HID class implementation - [github][38] - ![crates.io](https://img.shields.io/crates/v/usbd-hid.svg)
 1. [usbd-hid-device] - USB HID class implementation without `unsafe` - [github][40] - ![crates.io](https://img.shields.io/crates/v/usbd-hid-device.svg)
+1. [usbd-human-interface-device] - Batteries included embedded USB HID library for `usb-device`. Includes concrete Keyboard (boot and NKRO), Mouse and Consumer Control implementations as well as support for building your own HID classes - [github][65] - ![crates.io](https://img.shields.io/crates/v/usbd-human-interface-device.svg)
 1. [usbd-midi] - USB MIDI class implementation - [github][41] - ![crates.io](https://img.shields.io/crates/v/usbd-midi.svg)
 1. [usbd-webusb] - USB webUSB class implementation - [github][39] - ![crates.io](https://img.shields.io/crates/v/usbd-webusb.svg)
 1. [SHTCx] - I2C - Temperature / humidity sensors - [github][42] - ![crates.io](https://img.shields.io/crates/v/shtcx.svg)
@@ -829,6 +830,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [62]: https://github.com/anglerud/aht20-driver
 [63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
 [64]: https://github.com/Finomnis/st7565
+[65]: https://github.com/dlkj/usbd-human-interface-device
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -891,6 +893,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [usbd-serial]: http://crates.io/crates/usbd-serial
 [usbd-hid]: http://crates.io/crates/usbd-hid
 [usbd-hid-device]: http://crates.io/crates/usbd-hid-device
+[usbd-human-interface-device]: https://github.com/dlkj/usbd-human-interface-device
 [usbd-midi]: http://crates.io/crates/usbd-midi
 [usbd-webusb]: http://crates.io/crates/usbd-webusb
 [SHTCx]: http://crates.io/crates/shtcx
