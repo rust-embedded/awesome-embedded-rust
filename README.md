@@ -949,6 +949,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
 1. [ltr-559] - I2C - Ambient Light Sensor and Proximity sensor ![crates.io](https://img.shields.io/crates/v/ltr-559.svg)
 1. [lvgl] - no_std [LittleVGL](https://github.com/littlevgl/lvgl) port - ![crates.io](https://img.shields.io/crates/v/lvgl.svg)
+1. [M95320] - SPI - STMicroelectronics Serial flash EEPROM - ![crates.io](https://img.shields.io/crates/v/m95320.svg)
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel gauge, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
 1. [MAX170xx] - I2C - LiPo Fuel gauge, battery monitoring ICs compatible with MAX17043/4, MAX17048/9, MAX17058/9.
@@ -1041,6 +1042,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LSM9DS1]: https://crates.io/crates/lsm9ds1
 [ltr-559]: https://crates.io/crates/ltr-559
 [lvgl]: https://github.com/rafaelcaricio/lvgl-rs
+[M95320]: https://crates.io/crates/m95320
 [MAG3110]: https://github.com/therealprof/mag3110
 [MAX17048/9]: https://crates.io/crates/max17048
 [MAX170xx]: https://github.com/eldruin/max170xx-rs
