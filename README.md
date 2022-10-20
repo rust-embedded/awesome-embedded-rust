@@ -1002,6 +1002,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [w5500] - SPI - Ethernet Module with hardwired protocols : TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE - ![crates.io](https://img.shields.io/crates/v/w5500.svg)
 1. [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
 1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
+1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 
 [AFE4400]: https://github.com/ReeceStevens/afe4400
 [APDS9960]: https://crates.io/crates/apds9960
@@ -1095,6 +1096,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [w5500]: https://crates.io/crates/w5500
 [xCA9548A]: https://crates.io/crates/xca9548a
 [ublox-cellular-rs]: https://github.com/BlackbirdHQ/ublox-cellular-rs
+[atwinc1500-rs]: https://crates.io/crates/atwinc1500
 
 ## no-std crates
 
