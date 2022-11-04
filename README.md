@@ -738,6 +738,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
+1. [sega-controller] - GPIO - Sega controller input - [github][66] - ![crates.io](https://img.shields.io/crates/v/sega-controller.svg)
 1. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
 1. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
 1. [shared-bus] - I2C - utility driver for sharing a bus between multiple devices - [Intro post][16] ![crates.io](https://img.shields.io/crates/v/shared-bus.svg)
@@ -832,6 +833,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
 [64]: https://github.com/Finomnis/st7565
 [65]: https://github.com/dlkj/usbd-human-interface-device
+[66]: https://github.com/UnderLogic/sega-controller
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
