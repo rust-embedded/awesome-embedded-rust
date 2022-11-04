@@ -874,6 +874,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [pwm-pca9685]: https://crates.io/crates/pwm-pca9685
 [rainbow-hat-rs]: https://crates.io/crates/rainbow-hat-rs
 [rotary-encoder-hal]: https://crates.io/crates/rotary-encoder-hal
+[sega-controller]: https://crates.io/crates/sega-controller
 [SGP30]: https://crates.io/crates/sgp30
 [SH1106]: https://crates.io/crates/sh1106
 [shared-bus]: https://github.com/Rahix/shared-bus
