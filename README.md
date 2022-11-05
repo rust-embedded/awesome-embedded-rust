@@ -36,6 +36,7 @@ This project is developed and maintained by the [Resources team][team].
     - [GigaDevice](#gigadevice)
     - [XMC](#xmc)
     - [Vorago](#vorago)
+    - [Wiznet](#wiznet)
   - [HAL implementation crates](#hal-implementation-crates)
     - [OS](#os)
     - [Microchip](#microchip-1)
@@ -329,6 +330,10 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 
 - [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx) - ![crates.io](https://img.shields.io/crates/v/va108xx.svg)
 - [`va416xx`](https://egit.irs.uni-stuttgart.de/rust/va416xx) - ![crates.io](https://img.shields.io/crates/v/va416xx.svg)
+
+### Wiznet
+
+- [`w7500x-pac`](https://crates.io/crates/w7500x-pac) Peripheral Access Crate for Wiznet's W7500x microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/w7500x-pac.svg)
 
 ## HAL implementation crates
 
