@@ -732,6 +732,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
 1. [DRV8825] - DRV8825 Stepper Motor Driver (based on [Stepper]) - [Intro blog post][52] - ![crates.io](https://img.shields.io/crates/v/drv8825.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
+1. [ebyte-e32] - SERIAL - Ebyte E32 LoRa module driver - [Intro blog post][67] - ![crates.io](https://img.shields.io/crates/v/ebyte-e32.svg)
 1. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 1. [embedded-ccs811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality - [Intro blog post][49] - ![crates.io](https://img.shields.io/crates/v/embedded-ccs811.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
@@ -852,6 +853,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [64]: https://github.com/Finomnis/st7565
 [65]: https://github.com/dlkj/usbd-human-interface-device
 [66]: https://github.com/GrepitAB/ade791x-rs
+[67]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-EBYTE-E32-LoRa-Modules/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -869,6 +871,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [dht-sensor]: https://crates.io/crates/dht-sensor
 [DRV8825]: https://crates.io/crates/drv8825
 [DS1307]: https://crates.io/crates/ds1307
+[ebyte-e32]: https://crates.io/crates/ebyte-e32
 [EEPROM24x]: https://crates.io/crates/eeprom24x
 [embedded-ccs811]: https://crates.io/crates/embedded-ccs811
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
