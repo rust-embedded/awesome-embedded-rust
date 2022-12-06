@@ -662,6 +662,7 @@ Crates tailored for specific boards.
 
 - [`monotron`](https://github.com/thejpster/monotron) - A 1980s home-computer style application for the Texas Instruments Stellaris Launchpad. PS/2 keyboard input, text output on a bit-bashed 800x600 VGA signal. Uses [menu], [vga-framebuffer] and [pc-keyboard].
 - [`stellaris-launchpad`](https://crates.io/crates/stellaris-launchpad) - For the Texas Instruments Stellaris Launchpad and Tiva-C Launchpad ![crates.io](https://img.shields.io/crates/v/stellaris-launchpad.svg)
+- [`tm4c129-launchpad`](https://github.com/jlogan03/tm4c129-launchpad) - For the Texas Instruments TM4C129-XL Launchpad board
 
 ### Special Purpose
 
