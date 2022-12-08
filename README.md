@@ -707,6 +707,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 
 1. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
 1. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
+1. [ADE791x] - SPI - ADE7912/ADE7913 3-Channel, Isolated, Sigma-Delta ADC - [github][66] - ![crates.io](https://img.shields.io/crates/v/ade791x.svg)
 1. [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc. - [Intro blog post][23] - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 1. [ADXL313] - SPI - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl313.svg)
 1. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
@@ -840,9 +841,11 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
 [64]: https://github.com/Finomnis/st7565
 [65]: https://github.com/dlkj/usbd-human-interface-device
+[66]: https://github.com/GrepitAB/ade791x-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
+[ADE791x]: https://crates.io/crates/ade791x
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [ADXL313]: https://crates.io/crates/adxl313
 [ADXL343]: https://crates.io/crates/adxl343
