@@ -921,6 +921,7 @@ keyword on crates.io!
 Work in progress drivers. Help the authors make these crates awesome!
 
 1. [AFE4400] - SPI - Pulse oximeter
+1. [AFE4404] - I2C - Pulse oximeter - ![crates.io](https://img.shields.io/crates/v/afe4404.svg)
 1. [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 1. [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
 1. [AXP209] - I2C - Power management unit
@@ -1013,6 +1014,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 
 [AFE4400]: https://github.com/ReeceStevens/afe4400
+[AFE4404]: https://github.com/pulse-loop/afe4404
 [APDS9960]: https://crates.io/crates/apds9960
 [AS5048A]: https://github.com/uwearzt/as5048a
 [AXP209]: https://github.com/RandomInsano/axp209-rs
