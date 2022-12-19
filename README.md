@@ -37,6 +37,7 @@ This project is developed and maintained by the [Resources team][team].
     - [XMC](#xmc)
     - [Vorago](#vorago)
     - [Wiznet](#wiznet)
+    - [Renesas](#renesas)
   - [HAL implementation crates](#hal-implementation-crates)
     - [OS](#os)
     - [Microchip](#microchip-1)
@@ -52,6 +53,7 @@ This project is developed and maintained by the [Resources team][team].
     - [XMC](#xmc-1)
     - [GigaDevice](#gigadevice-1)
     - [Vorago](#vorago-1)
+    - [Renesas](#renesas-1)
   - [Architecture support crates](#architecture-support-crates)
     - [ARM](#arm)
     - [RISC-V](#risc-v)
@@ -338,6 +340,10 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 
 - [`w7500x-pac`](https://crates.io/crates/w7500x-pac) Peripheral Access Crate for Wiznet's W7500x microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/w7500x-pac.svg)
 
+### Renesas
+- [`da14531`](https://crates.io/crates/da14531) Peripheral Access Crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - ![crates.io](https://img.shields.io/crates/v/da14531.svg)
+
+
 ## HAL implementation crates
 
 Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
@@ -480,6 +486,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-hal) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+
+### Renesas
+- [`da14531-hal`](https://crates.io/crates/da14531-hal) HAL crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - ![crates.io](https://img.shields.io/crates/v/da14531-hal.svg)
 
 ## Architecture support crates
 
