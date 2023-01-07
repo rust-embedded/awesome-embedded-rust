@@ -788,6 +788,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [DW1000] - SPI - Radio transceiver (IEEE 802.15.4 and position tracking) - [Article][45] - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 1. [Adafruit-7segment] - I2C - Driver for Adafruit 7-segment LED Numeric Backpack based on the ht16k33 chip - [github][47] - ![crates.io](https://img.shields.io/crates/v/adafruit-7segment.svg)
 1. [ST7565] - SPI - An embedded-graphics compatible driver for LCD displays based on the ST7565 chip - [github][64] - ![crates.io](https://img.shields.io/crates/v/st7565.svg)
+1. [tb6612fng] - A `no_std` driver for the TB6612FNG motor driver - ![Crates.io](https://img.shields.io/crates/v/tb6612fng.svg)
+1. [vl53l1x-uld] - I2C - A pure-rust driver for the [ST VL53L1X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html) - ![crates.io](https://img.shields.io/crates/v/vl53l1x-uld.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -926,6 +928,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [DW1000]: https://crates.io/crates/dw1000
 [Adafruit-7segment]: https://crates.io/crates/adafruit-7segment
 [ST7565]: http://crates.io/crates/st7565
+[tb6612fng]: https://crates.io/crates/tb6612fng
+[vl53l1x-uld]: https://crates.io/crates/vl53l1x-uld
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -1191,6 +1195,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [tinybmp](https://crates.io/crates/tinybmp): No-std, no-alloc BMP parser for embedded systems. [Introductory blog post](https://wapl.es/rust/2019/03/04/embedded-graphics-0.4.7-bmp-support.html) - ![crates.io](https://img.shields.io/crates/v/tinybmp.svg)
 1. [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer. ![crates.io](https://img.shields.io/crates/v/vga-framebuffer.svg)
 1. [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - ![crates.io](https://img.shields.io/crates/v/wyhash.svg)
+1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - ![Crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
@@ -1208,6 +1213,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [Stepper]: https://crates.io/crates/stepper
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
 [wyhash]: https://crates.io/crates/wyhash
+[adafruit-bluefruit-protocol]: https://crates.io/crates/adafruit-bluefruit-protocol
+[Adafruit Bluefruit LE Connect controller protocol]: https://learn.adafruit.com/bluefruit-le-connect/controller
 
 ### WIP
 
