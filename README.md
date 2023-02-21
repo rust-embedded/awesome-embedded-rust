@@ -1012,6 +1012,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [SHT3x] - I2C - Temperature / humidity sensors
 1. [SI5351] - I2C - clock generator
 1. [SI7021] - I2C - Humidity and temperature sensor
+1. [SPL06-007] - I2C - Pressure and temerature sensor - ![crates.io](https://img.shields.io/crates/v/spl06-007.svg)
 1. [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 1. [SSD1320] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1320.svg)
 1. [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
@@ -1107,6 +1108,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SHT3x]: https://github.com/miek/sht3x-rs
 [SI5351]: https://github.com/ilya-epifanov/si5351
 [SI7021]: https://github.com/wose/si7021
+[SPL06-007]: https://github.com/roxgib/SPL06-007
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [SSD1320]: https://crates.io/crates/ssd1320
 [SSD1322]: https://crates.io/crates/ssd1322
