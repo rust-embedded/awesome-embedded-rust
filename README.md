@@ -36,6 +36,8 @@ This project is developed and maintained by the [Resources team][team].
     - [GigaDevice](#gigadevice)
     - [XMC](#xmc)
     - [Vorago](#vorago)
+    - [Wiznet](#wiznet)
+    - [Renesas](#renesas)
   - [HAL implementation crates](#hal-implementation-crates)
     - [OS](#os)
     - [Microchip](#microchip-1)
@@ -51,6 +53,7 @@ This project is developed and maintained by the [Resources team][team].
     - [XMC](#xmc-1)
     - [GigaDevice](#gigadevice-1)
     - [Vorago](#vorago-1)
+    - [Renesas](#renesas-1)
   - [Architecture support crates](#architecture-support-crates)
     - [ARM](#arm)
     - [RISC-V](#risc-v)
@@ -155,6 +158,9 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [cargo-flash](https://probe.rs/docs/tools/cargo-flash/) A small cargo subcommand to download your binary to your target chip. - ![crates.io](https://img.shields.io/crates/v/cargo-flash.svg)
 -   [cargo-embed](https://probe.rs/docs/tools/cargo-embed/) A superset of cargo-flash with additional useful features like configuration file support, a RTT terminal or a GDB server. - ![crates.io](https://img.shields.io/crates/v/cargo-embed.svg)
 -   [cargo-hf2](https://github.com/jacobrosenthal/hf2-rs)  A small cargo subcommand to download cargo builds to Microsoft UF2 bootloaders via HID USB . - ![crates.io](https://img.shields.io/crates/v/cargo-hf2.svg)
+-   [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) Find out what takes most of the space in your executable.
+-   [cargo-call-stack](https://crates.io/crates/cargo-call-stack) Static, whole program stack usage analyzer.
+-   [cargo-dfu](https://crates.io/crates/cargo-dfu) Cargo extension for flashing embedded rust programs via DFU.
 -   [uf2](https://github.com/sajattack/uf2conv-rs) Converts binary files to Microsoft's UF2 format for copying over to mass storage device uf2 bootloaders - ![crates.io](https://img.shields.io/crates/v/uf2.svg)
 -   [Knurling Tools](https://knurling.ferrous-systems.com/tools/) are developed by [Ferrous Systems] to ease the development process for building, debugging, and testing embedded Rust systems. These tools include:
     - [Probe Run](https://github.com/knurling-rs/probe-run): a cargo runner to flash and run embedded applications just like you would native applications, including backtraces and panicking behavior
@@ -330,6 +336,14 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 - [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx) - ![crates.io](https://img.shields.io/crates/v/va108xx.svg)
 - [`va416xx`](https://egit.irs.uni-stuttgart.de/rust/va416xx) - ![crates.io](https://img.shields.io/crates/v/va416xx.svg)
 
+### Wiznet
+
+- [`w7500x-pac`](https://crates.io/crates/w7500x-pac) Peripheral Access Crate for Wiznet's W7500x microcontrollers (generated using svd2rust) - ![crates.io](https://img.shields.io/crates/v/w7500x-pac.svg)
+
+### Renesas
+- [`da14531`](https://crates.io/crates/da14531) Peripheral Access Crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - ![crates.io](https://img.shields.io/crates/v/da14531.svg)
+
+
 ## HAL implementation crates
 
 Implementations of [`embedded-hal`] for microcontroller families and systems running some OS. - ![crates.io](https://img.shields.io/crates/v/embedded-hal.svg)
@@ -472,6 +486,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-hal) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+
+### Renesas
+- [`da14531-hal`](https://crates.io/crates/da14531-hal) HAL crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - ![crates.io](https://img.shields.io/crates/v/da14531-hal.svg)
 
 ## Architecture support crates
 
@@ -654,6 +671,7 @@ Crates tailored for specific boards.
 
 - [`monotron`](https://github.com/thejpster/monotron) - A 1980s home-computer style application for the Texas Instruments Stellaris Launchpad. PS/2 keyboard input, text output on a bit-bashed 800x600 VGA signal. Uses [menu], [vga-framebuffer] and [pc-keyboard].
 - [`stellaris-launchpad`](https://crates.io/crates/stellaris-launchpad) - For the Texas Instruments Stellaris Launchpad and Tiva-C Launchpad ![crates.io](https://img.shields.io/crates/v/stellaris-launchpad.svg)
+- [`tm4c129-launchpad`](https://github.com/jlogan03/tm4c129-launchpad) - For the Texas Instruments TM4C129-XL Launchpad board
 
 ### Special Purpose
 
@@ -682,6 +700,8 @@ devices which go beyond what is available in [`embedded-hal`]:
 - [`atat`](https://github.com/BlackbirdHQ/atat): Abstraction crate to ease writting AT based driver crates - ![crates.io](https://img.shields.io/crates/v/atat.svg)
 - [`embedded-nal`](https://github.com/rust-embedded-community/embedded-nal): An Embedded Network Abstraction Layer - ![crates.io](https://img.shields.io/crates/v/embedded-nal.svg)
 - [`embedded-storage`](https://github.com/rust-embedded-community/embedded-storage): An Embedded Storage Abstraction Layer
+- [`switch-hal`](https://github.com/rubberduck203/switch-hal): An "on"/"off" abstraction for input and output switches - ![crates.io](https://img.shields.io/crates/v/switch-hal.svg)
+
 
 ## Driver crates
 
@@ -699,6 +719,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 
 1. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
 1. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
+1. [ADE791x] - SPI - ADE7912/ADE7913 3-Channel, Isolated, Sigma-Delta ADC - [github][66] - ![crates.io](https://img.shields.io/crates/v/ade791x.svg)
 1. [ADS1x1x] - I2C - 12/16-bit ADCs like ADS1013, ADS1015, ADS1115, etc. - [Intro blog post][23] - ![crates.io](https://img.shields.io/crates/v/ads1x1x.svg)
 1. [ADXL313] - SPI - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl313.svg)
 1. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
@@ -713,6 +734,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
 1. [DRV8825] - DRV8825 Stepper Motor Driver (based on [Stepper]) - [Intro blog post][52] - ![crates.io](https://img.shields.io/crates/v/drv8825.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
+1. [ebyte-e32] - SERIAL - Ebyte E32 LoRa module driver - [Intro blog post][67] - ![crates.io](https://img.shields.io/crates/v/ebyte-e32.svg)
 1. [EEPROM24x] - I2C - 24x series serial EEPROM driver - [Intro blog post][12] - ![crates.io](https://img.shields.io/crates/v/eeprom24x.svg)
 1. [embedded-ccs811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality - [Intro blog post][49] - ![crates.io](https://img.shields.io/crates/v/embedded-ccs811.svg)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] ![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)
@@ -738,7 +760,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
-1. [sega-controller] - GPIO - Sega controller input - [github][66] - ![crates.io](https://img.shields.io/crates/v/sega-controller.svg)
+1. [sega-controller] - GPIO - Sega controller input - [github][68] - ![crates.io](https://img.shields.io/crates/v/sega-controller.svg)
 1. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
 1. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
 1. [shared-bus] - I2C - utility driver for sharing a bus between multiple devices - [Intro post][16] ![crates.io](https://img.shields.io/crates/v/shared-bus.svg)
@@ -769,6 +791,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [DW1000] - SPI - Radio transceiver (IEEE 802.15.4 and position tracking) - [Article][45] - ![crates.io](https://img.shields.io/crates/v/dw1000.svg)
 1. [Adafruit-7segment] - I2C - Driver for Adafruit 7-segment LED Numeric Backpack based on the ht16k33 chip - [github][47] - ![crates.io](https://img.shields.io/crates/v/adafruit-7segment.svg)
 1. [ST7565] - SPI - An embedded-graphics compatible driver for LCD displays based on the ST7565 chip - [github][64] - ![crates.io](https://img.shields.io/crates/v/st7565.svg)
+1. [tb6612fng] - A `no_std` driver for the TB6612FNG motor driver - ![Crates.io](https://img.shields.io/crates/v/tb6612fng.svg)
+1. [vl53l1x-uld] - I2C - A pure-rust driver for the [ST VL53L1X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html) - ![crates.io](https://img.shields.io/crates/v/vl53l1x-uld.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -833,10 +857,13 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
 [64]: https://github.com/Finomnis/st7565
 [65]: https://github.com/dlkj/usbd-human-interface-device
-[66]: https://github.com/UnderLogic/sega-controller
+[66]: https://github.com/GrepitAB/ade791x-rs
+[67]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-EBYTE-E32-LoRa-Modules/
+[68]: https://github.com/UnderLogic/sega-controller
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
+[ADE791x]: https://crates.io/crates/ade791x
 [ADS1x1x]: https://crates.io/crates/ads1x1x
 [ADXL313]: https://crates.io/crates/adxl313
 [ADXL343]: https://crates.io/crates/adxl343
@@ -850,6 +877,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [dht-sensor]: https://crates.io/crates/dht-sensor
 [DRV8825]: https://crates.io/crates/drv8825
 [DS1307]: https://crates.io/crates/ds1307
+[ebyte-e32]: https://crates.io/crates/ebyte-e32
 [EEPROM24x]: https://crates.io/crates/eeprom24x
 [embedded-ccs811]: https://crates.io/crates/embedded-ccs811
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
@@ -905,6 +933,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [DW1000]: https://crates.io/crates/dw1000
 [Adafruit-7segment]: https://crates.io/crates/adafruit-7segment
 [ST7565]: http://crates.io/crates/st7565
+[tb6612fng]: https://crates.io/crates/tb6612fng
+[vl53l1x-uld]: https://crates.io/crates/vl53l1x-uld
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
@@ -916,6 +946,7 @@ keyword on crates.io!
 Work in progress drivers. Help the authors make these crates awesome!
 
 1. [AFE4400] - SPI - Pulse oximeter
+1. [AFE4404] - I2C - Pulse oximeter - ![crates.io](https://img.shields.io/crates/v/afe4404.svg)
 1. [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 1. [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
 1. [AXP209] - I2C - Power management unit
@@ -984,6 +1015,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [SHT3x] - I2C - Temperature / humidity sensors
 1. [SI5351] - I2C - clock generator
 1. [SI7021] - I2C - Humidity and temperature sensor
+1. [SPL06-007] - I2C - Pressure and temerature sensor - ![crates.io](https://img.shields.io/crates/v/spl06-007.svg)
 1. [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 1. [SSD1320] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1320.svg)
 1. [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
@@ -1008,6 +1040,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 
 [AFE4400]: https://github.com/ReeceStevens/afe4400
+[AFE4404]: https://github.com/pulse-loop/afe4404
 [APDS9960]: https://crates.io/crates/apds9960
 [AS5048A]: https://github.com/uwearzt/as5048a
 [AXP209]: https://github.com/RandomInsano/axp209-rs
@@ -1078,6 +1111,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SHT3x]: https://github.com/miek/sht3x-rs
 [SI5351]: https://github.com/ilya-epifanov/si5351
 [SI7021]: https://github.com/wose/si7021
+[SPL06-007]: https://github.com/roxgib/SPL06-007
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [SSD1320]: https://crates.io/crates/ssd1320
 [SSD1322]: https://crates.io/crates/ssd1322
@@ -1168,6 +1202,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [tinybmp](https://crates.io/crates/tinybmp): No-std, no-alloc BMP parser for embedded systems. [Introductory blog post](https://wapl.es/rust/2019/03/04/embedded-graphics-0.4.7-bmp-support.html) - ![crates.io](https://img.shields.io/crates/v/tinybmp.svg)
 1. [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer. ![crates.io](https://img.shields.io/crates/v/vga-framebuffer.svg)
 1. [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - ![crates.io](https://img.shields.io/crates/v/wyhash.svg)
+1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - ![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
@@ -1185,6 +1220,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [Stepper]: https://crates.io/crates/stepper
 [vga-framebuffer]: https://github.com/thejpster/vga-framebuffer-rs
 [wyhash]: https://crates.io/crates/wyhash
+[adafruit-bluefruit-protocol]: https://crates.io/crates/adafruit-bluefruit-protocol
+[Adafruit Bluefruit LE Connect controller protocol]: https://learn.adafruit.com/bluefruit-le-connect/controller
 
 ### WIP
 
