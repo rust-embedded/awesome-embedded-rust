@@ -1108,6 +1108,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [SHT3x]: https://github.com/miek/sht3x-rs
 [SI5351]: https://github.com/ilya-epifanov/si5351
 [SI7021]: https://github.com/wose/si7021
+[SPL06-007]: https://github.com/roxgib/SPL06-007
 [spi-memory]: https://github.com/jonas-schievink/spi-memory/
 [SSD1320]: https://crates.io/crates/ssd1320
 [SSD1322]: https://crates.io/crates/ssd1322
