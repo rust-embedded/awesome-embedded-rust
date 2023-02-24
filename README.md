@@ -793,6 +793,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [ST7565] - SPI - An embedded-graphics compatible driver for LCD displays based on the ST7565 chip - [github][64] - ![crates.io](https://img.shields.io/crates/v/st7565.svg)
 1. [tb6612fng] - A `no_std` driver for the TB6612FNG motor driver - ![Crates.io](https://img.shields.io/crates/v/tb6612fng.svg)
 1. [vl53l1x-uld] - I2C - A pure-rust driver for the [ST VL53L1X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html) - ![crates.io](https://img.shields.io/crates/v/vl53l1x-uld.svg)
+1. [i2c-multiplexer] - I2C - An I2C Multiplexer library that supports the PCA9546 and TCA9546A chips - [github][69] - ![crates.io](https://img.shields.io/crates/v/i2c-multiplexer.svg)
+1. [SHT31-rs] - I2C - Fully supported SHT temperature / humidity sensors - [github][70] - ![crates.io](https://img.shields.io/crates/v/sht31.svg)
 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
@@ -860,6 +862,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [66]: https://github.com/GrepitAB/ade791x-rs
 [67]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-EBYTE-E32-LoRa-Modules/
 [68]: https://github.com/UnderLogic/sega-controller
+[69]: https://github.com/FloppyDisck/i2c-multiplexer
+[70]: https://github.com/FloppyDisck/SHT31-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -935,6 +939,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [ST7565]: http://crates.io/crates/st7565
 [tb6612fng]: https://crates.io/crates/tb6612fng
 [vl53l1x-uld]: https://crates.io/crates/vl53l1x-uld
+[i2c-multiplexer]: https://crates.io/crates/i2c-multiplexer
+[SHT31-rs]: https://crates.io/crates/sht31
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
