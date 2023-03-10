@@ -740,6 +740,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [ADXL313] - SPI - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl313.svg)
 1. [ADXL343] - I2C - 3-axis accelerometer - ![crates.io](https://img.shields.io/crates/v/adxl343.svg)
 1. [ADXL355] - SPI - 3-axis accelerometer - [Intro blog post][43] - ![crates.io](https://img.shields.io/crates/v/adxl355.svg)
+1. [AFE4404] - I2C - Pulse oximeter - ![crates.io](https://img.shields.io/crates/v/afe4404.svg)
 1. [AHT20] - I2C - Humidity and temperature sensor - [github](https://github.com/chocol4te/aht20) - ![crates.io](https://img.shields.io/crates/v/aht20.svg)
 1. [AHT20-driver] - I2C - Humidity and temperature sensor - [Intro blog post][61] - [github][62] - ![crates.io](https://img.shields.io/crates/v/aht20-driver.svg)
 1. [AnyLeaf] - I2C - pH sensor module - [github](https://github.com/AnyLeaf/ph-rust) - ![crates.io](https://img.shields.io/crates/v/anyleaf.svg)
@@ -884,6 +885,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [ADXL313]: https://crates.io/crates/adxl313
 [ADXL343]: https://crates.io/crates/adxl343
 [ADXL355]: https://crates.io/crates/adxl355
+[AFE4404]: https://github.com/pulse-loop/afe4404
 [AHT20]: https://crates.io/crates/aht20
 [AHT20-driver]: https://crates.io/crates/aht20-driver
 [AnyLeaf]: https://crates.io/crates/anyleaf
@@ -962,7 +964,6 @@ keyword on crates.io!
 Work in progress drivers. Help the authors make these crates awesome!
 
 1. [AFE4400] - SPI - Pulse oximeter
-1. [AFE4404] - I2C - Pulse oximeter - ![crates.io](https://img.shields.io/crates/v/afe4404.svg)
 1. [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 1. [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
 1. [AXP209] - I2C - Power management unit
@@ -1056,7 +1057,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 
 [AFE4400]: https://github.com/ReeceStevens/afe4400
-[AFE4404]: https://github.com/pulse-loop/afe4404
 [APDS9960]: https://crates.io/crates/apds9960
 [AS5048A]: https://github.com/uwearzt/as5048a
 [AXP209]: https://github.com/RandomInsano/axp209-rs
