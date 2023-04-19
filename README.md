@@ -1256,6 +1256,7 @@ Work in progress crates. Help the authors make these crates awesome!
 ## Firmware projects
 
 - [anne-key](https://github.com/ah-/anne-key): Alternate keyboard firmware for the Obins ANNE Pro
+- [μLA](https://github.com/dotcypress/ula): Micro Logic Analyzer for RP2040
 
 ## Old books, blogs and training materials
 
