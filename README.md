@@ -304,7 +304,9 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 ### Espressif
 
 - [`esp32`](https://github.com/esp-rs/esp-pacs/tree/main/esp32) - ![crates.io](https://img.shields.io/crates/v/esp32.svg)
+- [`esp32c2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c2) - ![crates.io](https://img.shields.io/crates/v/esp32c2.svg)
 - [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c3) - ![crates.io](https://img.shields.io/crates/v/esp32c3.svg)
+- [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c6) - ![crates.io](https://img.shields.io/crates/v/esp32c6.svg)
 - [`esp32s2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s2) - ![crates.io](https://img.shields.io/crates/v/esp32s2.svg)
 - [`esp32s3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s3) - ![crates.io](https://img.shields.io/crates/v/esp32s3.svg)
 - [`esp8266`](https://github.com/esp-rs/esp-pacs/tree/main/esp8266) - ![crates.io](https://img.shields.io/crates/v/esp8266.svg)
@@ -472,12 +474,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### Espressif
 
-- [`rust-xtensa`](https://github.com/MabezDev/rust-xtensa)
-  - rust fork enables projects to be built for the ESP32 and ESP8266. ([quick start repo](https://github.com/MabezDev/xtensa-rust-quickstart)).
 - [`esp-idf-hal`](https://github.com/esp-rs/esp-idf-hal)
-  - An embedded-hal implementation for ESP32[-XX] + ESP-IDF
+  - An embedded-hal implementation for Rust on ESP32 microcontrollers and ESP-IDF
 - [`esp-hal`](https://github.com/esp-rs/esp-hal)
-  - An _extremely experimental_ attempt at writing a HAL which targets the ESP32, ESP32-C3, ESP32-S2, and ESP32-S3.
+  - A `no_std` Hardware Abstraction Layers for ESP32 microcontrollers
 
 
 ### Silicon Labs
