@@ -1259,6 +1259,7 @@ Work in progress crates. Help the authors make these crates awesome!
 
 - [anne-key](https://github.com/ah-/anne-key): Alternate keyboard firmware for the Obins ANNE Pro
 - [μLA](https://github.com/dotcypress/ula): Micro Logic Analyzer for RP2040
+- [air-gradient-pro-rs](https://github.com/jonlamb-gh/air-gradient-pro-rs): Bootloader, firmware and CLI tools for the AirGradient PRO
 
 ## Old books, blogs and training materials
 
