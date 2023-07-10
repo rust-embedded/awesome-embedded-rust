@@ -306,7 +306,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 - [`esp32`](https://github.com/esp-rs/esp-pacs/tree/main/esp32) - ![crates.io](https://img.shields.io/crates/v/esp32.svg)
 - [`esp32c2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c2) - ![crates.io](https://img.shields.io/crates/v/esp32c2.svg)
 - [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c3) - ![crates.io](https://img.shields.io/crates/v/esp32c3.svg)
-- [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c6) - ![crates.io](https://img.shields.io/crates/v/esp32c6.svg)
+- [`esp32c6`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c6) - ![crates.io](https://img.shields.io/crates/v/esp32c6.svg)
 - [`esp32s2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s2) - ![crates.io](https://img.shields.io/crates/v/esp32s2.svg)
 - [`esp32s3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s3) - ![crates.io](https://img.shields.io/crates/v/esp32s3.svg)
 - [`esp8266`](https://github.com/esp-rs/esp-pacs/tree/main/esp8266) - ![crates.io](https://img.shields.io/crates/v/esp8266.svg)
