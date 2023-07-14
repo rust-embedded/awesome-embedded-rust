@@ -875,7 +875,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [60]: https://antonok.com/projects/ssd1309
 [61]: http://www.rawmeat.org/code/20220130-aht20_driver/
 [62]: https://github.com/anglerud/aht20-driver
-[63]: https://blog.kiranshila.com/blog/pac_rust_driver.md
+[63]: https://blog.kiranshila.com/post/pac_rust_driver
 [64]: https://github.com/Finomnis/st7565
 [65]: https://github.com/dlkj/usbd-human-interface-device
 [66]: https://github.com/GrepitAB/ade791x-rs
