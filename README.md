@@ -1277,6 +1277,7 @@ Work in progress crates. Help the authors make these crates awesome!
 - [Stabilizer](https://github.com/quartiq/stabilizer): Firmware for a DSP tool used in quantum physics experimentation, includes telemetry via MQTT and run-time configuration
 - [Booster](https://github.com/quartiq/booster): Firmware for an RF power amplifier, including telemetry via MQTT and run-time configuration
 - [Thermostat EEM](https://github.com/quartiq/thermostat-eem): Firmware for a multi-channel temperature controller used in physics experiments
+- [Card/IO ECG](https://github.com/card-io-ecg/card-io-fw): Firmware for a business-card sized ECG device with Wifi connectivity
 
 
 ## Old books, blogs and training materials
