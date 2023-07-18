@@ -750,6 +750,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [AnyLeaf] - I2C - pH sensor module - [github](https://github.com/AnyLeaf/ph-rust) - ![crates.io](https://img.shields.io/crates/v/anyleaf.svg)
 1. [AT86RF212] - SPI - Low power IEEE 802.15.4-2011 ISM RF Transceiver - [Intro blog post][36] - ![crates.io](https://img.shields.io/crates/v/radio-at86rf212.svg)
 1. [BlueNRG] - SPI - driver for BlueNRG-MS Bluetooth module - [Intro post][15] ![crates.io](https://img.shields.io/crates/v/bluenrg.svg)
+1. [BMA400] - I2C/SPI - Bosch 12-bit 3-axis accelerometer - [github][70] ![crates.io](https://img.shields.io/crates/v/bma400.svg)
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
 1. [CD74HC4067] - GPIO - 16-channel digital and analog multiplexer - [Intro blog post][55] - [github][54] - ![crates.io](https://img.shields.io/crates/v/cd74hc4067.svg)
 1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
@@ -883,6 +884,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [67]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-EBYTE-E32-LoRa-Modules/
 [68]: https://github.com/UnderLogic/sega-controller
 [69]: https://github.com/fmckeogh/usb-pd-rs
+[70]: https://github.com/cfrenette/bma400-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -896,6 +898,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [AnyLeaf]: https://crates.io/crates/anyleaf
 [at86rf212]: https://crates.io/crates/radio-at86rf212
 [BlueNRG]: https://crates.io/crates/bluenrg
+[BMA400]: https://crates.io/crates/bma400
 [BNO055]: https://crates.io/crates/bno055
 [dht-sensor]: https://crates.io/crates/dht-sensor
 [DRV8825]: https://crates.io/crates/drv8825
