@@ -933,7 +933,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [MCP3425]: https://crates.io/crates/mcp3425
 [MCP794xx]: https://crates.io/crates/mcp794xx
 [MMA7660FC]: https://crates.io/crates/mma7660fc
-[Moko-ML62BA]: https://crates.io/crates/moko-mkl62ba-at-commands
+[Moko-MKL62BA]: https://crates.io/crates/moko-mkl62ba-at-commands
 [OPT300x]: https://github.com/eldruin/opt300x-rs
 [PAC194X]: https://github.com/kiranshila/pac194x
 [port-expander]: https://crates.io/crates/port-expander
