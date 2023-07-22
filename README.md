@@ -778,6 +778,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [MCP3425] - I2C - 16-bit ADC - [Intro blog post][5] - ![crates.io](https://img.shields.io/crates/v/mcp3425.svg)
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - ![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)
 1. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
+1. [Moko-MKL62BA] - UART - Moko MKL62BA LoRaWAN driver - [github][73] - ![crates.io](https://img.shields.io/crates/v/moko-mkl62bda-at-commands.svg)
 1. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - ![crates.io](https://img.shields.io/crates/v/opt300x.svg)
 1. [PAC194X] - I2C - Single/multi channel power monitor - [Intro blog post][63] - ![crates.io](https://img.shields.io/crates/v/pac194x)
 1. [port-expander] - I2C - Driver for I2C port expanders (supports `PCA95xx`, `PCF85xx`) - [Intro blog post][58] - ![crates.io](https://img.shields.io/crates/v/port-expander.svg)
@@ -786,6 +787,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
 1. [sega-controller] - GPIO - Sega controller input - [github][68] - ![crates.io](https://img.shields.io/crates/v/sega-controller.svg)
 1. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
+1. [Seeed-LoRa-E5] - UART - Seeed LoRa-E5 LoRaWAN module - [github][74] - ![crates.io](https://img.shields.io/crates/v/seeed-lora-e5-at-commands.svg)
 1. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
 1. [shared-bus] - I2C - utility driver for sharing a bus between multiple devices - [Intro post][16] ![crates.io](https://img.shields.io/crates/v/shared-bus.svg)
 1. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
@@ -890,6 +892,8 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [70]: https://github.com/cfrenette/bma400-rs
 [71]: https://github.com/FloppyDisck/i2c-multiplexer
 [72]: https://github.com/FloppyDisck/SHT31-rs
+[73]: https://github.com/mvniekerk/moko-mkl62ba-at-commands-rs
+[74]: https://github.com/mvniekerk/seeed-lora-e5-at-commands
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -929,6 +933,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [MCP3425]: https://crates.io/crates/mcp3425
 [MCP794xx]: https://crates.io/crates/mcp794xx
 [MMA7660FC]: https://crates.io/crates/mma7660fc
+[Moko-ML62BA]: https://crates.io/crates/moko-mkl62ba-at-commands
 [OPT300x]: https://github.com/eldruin/opt300x-rs
 [PAC194X]: https://github.com/kiranshila/pac194x
 [port-expander]: https://crates.io/crates/port-expander
@@ -936,6 +941,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [rainbow-hat-rs]: https://crates.io/crates/rainbow-hat-rs
 [rotary-encoder-hal]: https://crates.io/crates/rotary-encoder-hal
 [sega-controller]: https://crates.io/crates/sega-controller
+[Seeed-LoRa-E5]: https://crates.io/crates/seeed-lora-e5-at-commands
 [SGP30]: https://crates.io/crates/sgp30
 [SH1106]: https://crates.io/crates/sh1106
 [shared-bus]: https://github.com/Rahix/shared-bus
