@@ -787,7 +787,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
 1. [sega-controller] - GPIO - Sega controller input - [github][68] - ![crates.io](https://img.shields.io/crates/v/sega-controller.svg)
 1. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
-1. [Seeed-LoRa-E5] - UART - Seeed LoRa-E5 LoRaWAN module - [github][74] - ![crates.io](https://img.shields.io/crates/v/seeed-lora-e5-at-commands.svg)
+1. [Seeed-LoRa-E5] - UART - SeeedStudio LoRa-E5 LoRaWAN module - [github][74] - ![crates.io](https://img.shields.io/crates/v/seeed-lora-e5-at-commands.svg)
 1. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
 1. [shared-bus] - I2C - utility driver for sharing a bus between multiple devices - [Intro post][16] ![crates.io](https://img.shields.io/crates/v/shared-bus.svg)
 1. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - ![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)
