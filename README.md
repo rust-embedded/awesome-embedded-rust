@@ -1089,6 +1089,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
 1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
+1. [HX711] - GPIO - An interrupt-based driver for the HX711 Load Cell Amplifer IC. no-std.
 
 [AD9850]: https://crates.io/crates/ad9850
 [AFE4400]: https://github.com/ReeceStevens/afe4400
@@ -1185,6 +1186,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [xCA9548A]: https://crates.io/crates/xca9548a
 [ublox-cellular-rs]: https://github.com/BlackbirdHQ/ublox-cellular-rs
 [atwinc1500-rs]: https://crates.io/crates/atwinc1500
+[HX711]: https://github.com/DaneSlattery/hx711
 
 ## no-std crates
 
