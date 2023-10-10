@@ -110,6 +110,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 - [#rust-embedded-graphics:matrix.org] - For discussion of the [`embedded-graphics`] crate and ecosystem
 - [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
 - [#atsamd-rs:gitter.im] - For discussions of using Embedded Rust on ATSAMD devices
+- [#ethercrab:matrix.org] - For discussion of general EtherCAT and the Rust implementation, EtherCrab
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
@@ -125,6 +126,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 [#avr-rust:gitter.im]: https://matrix.to/#/#avr-rust_Lobby:gitter.im
 [#rp-rs:matrix.org]: https://matrix.to/#/#rp-rs:matrix.org
 [#atsamd-rs:gitter.im]: https://matrix.to/#/#atsamd-rs_community:gitter.im
+[#ethercrab:matrix.org]: https://matrix.to/#/#ethercrab:matrix.org
 
 ## Books, blogs and training materials
 
@@ -1208,6 +1210,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [embedded-tls](https://github.com/drogue-iot/embedded-tls): A TLS 1.3 implementation that runs in a no-std environment.
 1. [embedded-websocket](https://crates.io/crates/embedded-websocket): A lightweight server and client websocket library for embedded systems. ![crates.io](https://img.shields.io/crates/v/embedded-websocket.svg)
 1. [endian_codec]: (En/De)code rust types as packed bytes with specific order (endian). Supports derive. - [![crates.io](https://img.shields.io/crates/v/endian_codec.svg)](https://crates.io/crates/endian_codec)
+1. [ethercrab](https://github.com/ethercrab-rs/ethercrab): A Rust implementation of the [EtherCAT](https://ethercat.org) industrial automation protocol - ![crates.io](https://img.shields.io/crates/v/ethercrab.svg)
 1. [fixed-fft](https://crates.io/crates/fixed-fft): Fixed-point Fast Fourier Transform - [![Crates.io](https://img.shields.io/crates/v/fixed-fft.svg)](https://crates.io/crates/fixed-fft)
 1. [gcode](https://github.com/Michael-F-Bryan/gcode-rs): A gcode parser for no-std applications - [![crates.io](https://img.shields.io/crates/v/gcode.svg)](https://crates.io/crates/gcode)
 1. [gdbstub](https://crates.io/crates/gdbstub): zero-allocation, pure Rust implementation of the GDB Remote Serial Protocol - [![crates.io](https://img.shields.io/crates/v/gdbstub.svg)](https://crates.io/crates/gdbstub)
