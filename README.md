@@ -992,6 +992,7 @@ keyword on crates.io!
 
 Work in progress drivers. Help the authors make these crates awesome!
 
+1. [AD9850] - Embedded driver for the AD9850 DDS synthesizer chip - ![crates.io](https://img.shields.io/crates/v/ad9850.svg)
 1. [AFE4400] - SPI - Pulse oximeter
 1. [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 1. [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
@@ -1085,6 +1086,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 
+[AD9850]: https://crates.io/crates/ad9850
 [AFE4400]: https://github.com/ReeceStevens/afe4400
 [APDS9960]: https://crates.io/crates/apds9960
 [AS5048A]: https://github.com/uwearzt/as5048a
