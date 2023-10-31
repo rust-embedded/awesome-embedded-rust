@@ -147,6 +147,8 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [STM32F4xx with Embedded Rust at the HAL](https://apollolabsblog.hashnode.dev/series/stm32f4-embedded-rust-hal) A blog containing a series of tutorials demonstrating the use of several peripherals through simple examples leveraging the stm32f4xx-hal crate.
 -   [Embedded Rust programming playlist](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU) Various livestreams with Embedded Rust live coding
 -   [ESP32-C3 Rust Tutorials](https://youtube.com/playlist?list=PLkch9g9DEE0Lkm1LqcD7pZNDmXEczOo-a) Short videos and [Github project](https://github.com/shanemmattner/ESP32-C3_Rust_Tutorials) implementing various peripherals of the ESP32-C3 with the end goal of creating a complete data logger application.
+-   [Tweede golf's workshop](https://workshop.tweede.golf) - A full workshop about Rust and embedded Rust. The embedded parts use the nRF52840-DK and a LIS3DH breakout board. ([github source](https://github.com/tweedegolf/rust-workshop))
+
 [Ferrous Systems]: https://ferrous-systems.com
 
 ## Tools
