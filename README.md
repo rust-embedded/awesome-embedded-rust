@@ -1298,6 +1298,7 @@ Work in progress crates. Help the authors make these crates awesome!
 - [Thermostat EEM](https://github.com/quartiq/thermostat-eem): Firmware for a multi-channel temperature controller used in physics experiments
 - [Card/IO ECG](https://github.com/card-io-ecg/card-io-fw): Firmware for a business-card sized ECG device with Wifi connectivity
 - [BillMcok](https://github.com/pmnxis/billmock-app-rs): Firmware for credit card terminal add-on hardware to install on Korean arcade machines
+- [LuLuu](https://github.com/fu5ha/luluu): Firmware for a custom RP2040-based display controller which streams animated images from a microSD card to a small LCD display. 
 
 ## Old books, blogs and training materials
 
