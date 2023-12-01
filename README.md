@@ -220,6 +220,7 @@ Peripheral Access Crates were also called Device Crates.
 - [`atsamd51`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAMD51 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsame53`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAME53 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`atsame54`](https://github.com/atsamd-rs/atsamd) Peripheral access API for Microchip (formerly Atmel) SAME54 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
+- [`atsamx7x-rust`](https://github.com/atsams-rs/atsamx7x-rust) Peripheral access API for Microchip (formerly Atmel) SAM S70/E70/V70/V71 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`avr-device`](https://github.com/Rahix/avr-device) Peripheral access API for Microchip (formerly Atmel) AVR microcontroller family.
 - [`sam3x8e`](https://crates.io/crates/sam3x8e) Peripheral access API for Atmel SAMD3X8E microcontrollers (generated using svd2rust)  - ![crates.io](https://img.shields.io/crates/v/sam3x8e.svg)
 - [`pic32-pac`](https://crates.io/crates/pic32mx2xx) Peripheral access API for PIC32MX1/2xx - ![crates.io](https://img.shields.io/crates/v/pic32mx2xx)
@@ -408,6 +409,7 @@ Implementations of [`embedded-hal`] for microcontroller families and systems run
 
 - [`atsam4-hal`](https://crates.io/crates/atsam4-hal) - HAL for SAM4E, SAM4N and SAM4S - ![crates.io](https://img.shields.io/crates/v/atsam4-hal.svg)
 - [`atsamd-hal`](https://crates.io/crates/atsamd-hal) - HAL for SAMD11, SAMD21, SAMD51 and SAME54 - ![crates.io](https://img.shields.io/crates/v/atsamd-hal.svg)
+- [`atsamx7x-hal`](https://crates.io/crates/atsamx7x-hal) - HAL for SAM S70/E70/V70/V71-based devices - ![crates.io](https://img.shields.io/crates/v/atsamx7x-hal.svg)
 - [`avr-hal`](https://github.com/Rahix/avr-hal) - HAL for AVR microcontroller family and AVR-based boards
 - [`pic32-hal`](https://crates.io/crates/pic32-hal) - HAL for PIC32MX - ![crates.io](https://img.shields.io/crates/v/pic32-hal.svg)
 
