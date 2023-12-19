@@ -1056,6 +1056,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [motor-driver] - Motor drivers: L298N, TB6612FNG, etc.
 1. [MPU6050] - I2C - no_std driver for the MPU6050 ![crates.io](https://img.shields.io/crates/v/mpu6050.svg)
 1. [MPU9250] - no_std driver for the MPU9250 (and other MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
+1. [MS5637] - no_std I2C driver for the MS5637 temperature and pressure sensor ![crates.io](https://img.shields.io/crates/v/ms5637.svg)
 1. [NRF24L01] - SPI - 2.4 GHz wireless communication
 1. [OneWire] - 1wire - OneWire protocol implementation with drivers for devices such as [DS18B20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf) - ![crates.io](https://img.shields.io/crates/v/onewire.svg)
 1. [PCD8544] - SPI - 48x84 pixels matrix LCD controller
@@ -1153,6 +1154,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [motor-driver]: https://github.com/japaric/motor-driver
 [MPU6050]: https://crates.io/crates/mpu6050
 [MPU9250]: https://crates.io/crates/mpu9250
+[MS5637]: https://crates.io/crates/ms5637
 [NRF24L01]: https://github.com/maikelwever/nrf24l01
 [OneWire]: https://crates.io/crates/onewire
 [PCD8544]: https://github.com/pcein/pcd8544
