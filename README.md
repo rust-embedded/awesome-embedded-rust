@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is a curated list of resources related to embedded and low-level programming in the programming language Rust, including a list of useful crates.
+This is a curated list of resources related to embedded and low-level programming in the Rust programming language, including a selection of useful crates.
 
 [<img src="https://rawgit.com/rust-embedded/awesome-embedded-rust/master/rust-embedded-logo-256x256.png" align="right" width="256">](http://www.rust-embedded.org)
 
@@ -16,7 +16,7 @@ This project is developed and maintained by the [Resources team][team].
   - [Table of contents](#table-of-contents)
   - [Community](#community)
     - [Community Chat Rooms](#community-chat-rooms)
-  - [Books, blogs and training materials](#books-blogs-and-training-materials)
+  - [Books, blogs, and training materials](#books-blogs-and-training-materials)
   - [Tools](#tools)
   - [Real-time](#real-time)
     - [Real-time Operating System (RTOS)](#real-time-operating-system-rtos)
@@ -91,7 +91,7 @@ This project is developed and maintained by the [Resources team][team].
 
 ## Community
 
-In 2018 the Rust community created an embedded working group to help drive adoption in the Rust ecosystem.
+In 2018, the Rust community created an embedded working group to help drive adoption in the Rust ecosystem.
 
 - [Embedded WG](https://github.com/rust-embedded/wg/), including newsletters with progress updates.
 
@@ -128,13 +128,13 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 [#atsamd-rs:gitter.im]: https://matrix.to/#/#atsamd-rs_community:gitter.im
 [#ethercrab:matrix.org]: https://matrix.to/#/#ethercrab:matrix.org
 
-## Books, blogs and training materials
+## Books, blogs, and training materials
 
 -   [The Embedded Rust Book](https://rust-embedded.github.io/book/) - An introductory book about using the Rust Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
--   [The Rust on ESP Book](https://esp-rs.github.io/book/) - The goal of this book is to provide a comprehensive guide on using the Rust programming language with Espressif SoCs and modules.
+-   [The Rust on ESP Book](https://esp-rs.github.io/book/) - This book aims to provide a comprehensive guide on using the Rust programming language with Espressif SoCs and modules.
 -   [Discovery](https://rust-embedded.github.io/discovery) by @rust-embedded — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language. Original author: @japaric
--   [Cortex-M Quickstart](https://docs.rs/cortex-m-quickstart/0.3.1/cortex_m_quickstart/) by @japaric – a template and introduction to embedded Rust, suitable for developers familiar to embedded development but new to embedded Rust.
-- [Writing an OS in rust](https://os.phil-opp.com/) A blog series creating a small operating system in Rust
+-   [Cortex-M Quickstart](https://docs.rs/cortex-m-quickstart/0.3.1/cortex_m_quickstart/) by @japaric – a template and introduction to embedded Rust, suitable for developers familiar with embedded development but new to embedded Rust.
+- [Writing an OS in Rust](https://os.phil-opp.com/) A blog series creating a small operating system in Rust
 -   [MicroRust](https://droogmic.github.io/microrust/) Introductory book for embedded development in Rust on the micro:bit.
 -   [Physical Computing With Rust](https://rahul-thakoor.github.io/physical-computing-rust/) A (WIP) guide to physical computing with Rust on the Raspberry Pi.
 -   [Writing an embedded OS in Rust on the Raspberry Pi](https://github.com/rust-embedded/rust-raspi3-OS-tutorials) A set of tutorials that give a guided, step-by-step tour of how to write a monolithic Operating System kernel for an embedded system from scratch. Runs on the Raspberry Pi 3 and the Raspberry Pi 4.
@@ -143,7 +143,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [Ferrous Systems' Knurling Sessions](https://knurling.ferrous-systems.com/sessions/) are hands-on embedded projects that explore specific concepts using generally available hardware, building full systems and components using microcontrollers, sensors, and actuators.
 -   [Ferrous Systems' Embedded Rust on Espressif](https://esp-rs.github.io/std-training) - Training Material for learning to use Embedded Rust with the Espressif ESP32-C3.
 -   [DSP on STM32F407G-DISC1](https://github.com/jacobrosenthal/dsp-discoveryf4-rust/) Unofficial oxidization of the [Digital Signal Processing using Arm Cortex-M based Microcontrollers: Theory and Practice](https://www.amazon.com/Digital-Signal-Processing-Cortex-M-Microcontrollers/dp/1911531166) book. The book isn't necessary to enjoy the examples and learn a functional DSP Rust coding style.
--   [Building a sailing starter board with Rust (RTIC)](https://gill.net.in/posts/stm32-pcb-sailing-and-rust/) A step by step story/guide to build STM32 based PCB and program it with rust for fun and games.
+-   [Building a sailing starter board with Rust (RTIC)](https://gill.net.in/posts/stm32-pcb-sailing-and-rust/) A step-by-step story/guide to build STM32-based PCB and program it with Rust for fun and games.
 -   [STM32F4xx with Embedded Rust at the HAL](https://apollolabsblog.hashnode.dev/series/stm32f4-embedded-rust-hal) A blog containing a series of tutorials demonstrating the use of several peripherals through simple examples leveraging the stm32f4xx-hal crate.
 -   [Embedded Rust programming playlist](https://www.youtube.com/playlist?list=PLP_X41VhYn5X6Wwjnm0bRwI3n2pdaszxU) Various livestreams with Embedded Rust live coding
 -   [ESP32-C3 Rust Tutorials](https://youtube.com/playlist?list=PLkch9g9DEE0Lkm1LqcD7pZNDmXEczOo-a) Short videos and [Github project](https://github.com/shanemmattner/ESP32-C3_Rust_Tutorials) implementing various peripherals of the ESP32-C3 with the end goal of creating a complete data logger application.
@@ -153,8 +153,8 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 
 ## Tools
 
--   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build rust runtime for your own embedded system.
-    - xargo is great but it's in maintenance mode, [cargo-xbuild](https://github.com/rust-osdev/cargo-xbuild) is catching up as intended replacement.
+-   [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build Rust runtime for your embedded system.
+    - xargo is great, but since it's in maintenance mode, [cargo-xbuild](https://github.com/rust-osdev/cargo-xbuild) is catching up as its intended replacement.
 -   [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
 -   [edc2svd](https://github.com/kiffie/edc2svd) Generate SVD files for PIC32 devices from EDC files. - ![crates.io](https://img.shields.io/crates/v/edc2svd.svg)
 -   [embedded-hal-mock] Mock implementation of `embedded-hal` traits for testing without accessing real hardware. - ![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)
@@ -163,7 +163,7 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [bobbin-cli](https://github.com/bobbin-rs/bobbin-cli) A Rust command line tool to simplify embedded development and deployment.
 -   [ferros](https://github.com/auxoncorp/ferros) A Rust-based userland which also adds compile-time assurances to seL4 development.
 -   [cargo-flash](https://probe.rs/docs/tools/cargo-flash/) A small cargo subcommand to download your binary to your target chip. - ![crates.io](https://img.shields.io/crates/v/cargo-flash.svg)
--   [cargo-embed](https://probe.rs/docs/tools/cargo-embed/) A superset of cargo-flash with additional useful features like configuration file support, a RTT terminal or a GDB server. - ![crates.io](https://img.shields.io/crates/v/cargo-embed.svg)
+-   [cargo-embed](https://probe.rs/docs/tools/cargo-embed/) A superset of cargo-flash with additional useful features like configuration file support, an RTT terminal, or a GDB server. - ![crates.io](https://img.shields.io/crates/v/cargo-embed.svg)
 -   [cargo-hf2](https://github.com/jacobrosenthal/hf2-rs)  A small cargo subcommand to download cargo builds to Microsoft UF2 bootloaders via HID USB . - ![crates.io](https://img.shields.io/crates/v/cargo-hf2.svg)
 -   [cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) Find out what takes most of the space in your executable.
 -   [cargo-call-stack](https://crates.io/crates/cargo-call-stack) Static, whole program stack usage analyzer.
@@ -192,11 +192,11 @@ In 2018 the Rust community created an embedded working group to help drive adopt
 -   [FreeRTOS-rust](https://github.com/lobaro/FreeRTOS-rust) Rust interface for FreeRTOS with Rust entry point and build support crate.
 -   [RIOT-OS](https://doc.riot-os.org/using-rust.html) directly supports applications written in Rust, both in terms of build system integration and by having safe and idiomatic wrappers.
 -   [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
--   [Hubris](https://github.com/oxidecomputer/hubris) A real-time operating systems built by Oxide Computer to run the Service Controller processor in the mainboards of their rack-mount servers.
+-   [Hubris](https://github.com/oxidecomputer/hubris) A real-time operating system built by Oxide Computer to run the Service Controller processor in the mainboards of their rack-mount servers.
 
 ### Real-time tools
 
--   [RTIC v1.0](https://rtic.rs/1/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real time systems:
+-   [RTIC v1.0](https://rtic.rs/1/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real-time systems:
     -   [cortex-m rtic](https://github.com/rtic-rs/cortex-m-rtic) RTIC framework for ARM Cortex-M microcontrollers
     -   [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
 
@@ -454,7 +454,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 [Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
 
 - [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - ![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)
-  - Can be run on boards like the [Blue pill], [Nucleo-F103RB] and similar boards
+  - Can be run on boards like the [Blue pill], [Nucleo-F103RB], and similar boards
 
 [Blue pill]: https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html
 [Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
@@ -499,7 +499,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Silicon Labs
 
 - [`tomu-hal`](https://github.com/fudanchii/imtomu-rs)
-   - HAL implementation targeted for [Tomu] USB board with EFM32HG309F64 ARMv6-M core. Has support to configure [tomu bootloader] directly from application via `toboot_config` macro.
+   - HAL implementation targeted for [Tomu] USB board with EFM32HG309F64 ARMv6-M core. Has support to configure [tomu bootloader] directly from an application via the `toboot_config` macro.
 
 [Tomu]: https://tomu.im/
 [tomu bootloader]: https://github.com/im-tomu/tomu-bootloader
@@ -532,17 +532,17 @@ Crates tailored for general CPU architectures.
 
 ### ARM
 
-- [`cortex-a`](https://github.com/andre-richter/cortex-a) Low level access to Cortex-A processors (early state) - ![crates.io](https://img.shields.io/crates/v/cortex-a.svg)
-- [`cortex-m`](https://github.com/japaric/cortex-m) Low level access to Cortex-M processors - ![crates.io](https://img.shields.io/crates/v/cortex-m.svg)
+- [`cortex-a`](https://github.com/andre-richter/cortex-a) Low-level access to Cortex-A processors (early state) - ![crates.io](https://img.shields.io/crates/v/cortex-a.svg)
+- [`cortex-m`](https://github.com/japaric/cortex-m) Low-level access to Cortex-M processors - ![crates.io](https://img.shields.io/crates/v/cortex-m.svg)
 
 ### RISC-V
 
-- [`riscv`](https://github.com/rust-embedded/riscv) Low level access to RISC-V processors - ![crates.io](https://img.shields.io/crates/v/riscv.svg)
+- [`riscv`](https://github.com/rust-embedded/riscv) Low-level access to RISC-V processors - ![crates.io](https://img.shields.io/crates/v/riscv.svg)
 
 ### MIPS
 
-- [`mips`](https://github.com/Harry-Chen/rust-mips) Low level access to MIPS32 processors - ![crates.io](https://img.shields.io/crates/v/mips.svg)
-- [`mips-mcu`](https://github.com/kiffie/pic32-rs/tree/master/mips-mcu) Low level access to MIPS MCU cores - ![crates.io](https://img.shields.io/crates/v/mips-mcu.svg)
+- [`mips`](https://github.com/Harry-Chen/rust-mips) Low-level access to MIPS32 processors - ![crates.io](https://img.shields.io/crates/v/mips.svg)
+- [`mips-mcu`](https://github.com/kiffie/pic32-rs/tree/master/mips-mcu) Low-level access to MIPS MCU cores - ![crates.io](https://img.shields.io/crates/v/mips-mcu.svg)
 
 ## Board support crates
 
@@ -649,7 +649,7 @@ Crates tailored for specific boards.
 
 ### Raspberry Pi
 
-- [`rp-pico`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040 based Raspberry Pi Pico.
+- [`rp-pico`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040-based Raspberry Pi Pico.
 
 ### Sparkfun
 
@@ -697,7 +697,7 @@ Crates tailored for specific boards.
 [Nucleo-F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
 
 ### Teensy
-- [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs) Board Support create for the [Teensy 4.0]
+- [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs) Board Support crate for the [Teensy 4.0]
 
 ### Vorago
 
@@ -727,14 +727,14 @@ Crates tailored for specific boards.
 ## Component abstraction crates
 
 The following crates provide HAL-like abstractions for subcomponents of embedded
-devices which go beyond what is available in [`embedded-hal`]:
+devices that go beyond what is available in [`embedded-hal`]:
 
 - [`accelerometer`](https://github.com/NeoBirth/accelerometer.rs) - Generic accelerometer support, including traits and types for taking readings from 2 or 3-axis accelerometers and tracking device orientations - ![crates.io](https://img.shields.io/crates/v/accelerometer.svg)
 - [`embedded-graphics`]: 2D drawing library for any size display - ![crates.io](https://img.shields.io/crates/v/embedded-graphics.svg)
 - [`radio`](https://github.com/ryankurte/rust-radio) - Generic radio transceiver traits, mocks, and helpers - ![crates.io](https://img.shields.io/crates/v/radio.svg)
 - [`smart-leds`](https://github.com/smart-leds-rs): Support for addressable LEDs including WS2812 and APA102
 - [`usb-device`](https://github.com/mvirkkunen/usb-device): Abstraction layer between USB peripheral crates & USB class crates - ![crates.io](https://img.shields.io/crates/v/usb-device.svg)
-- [`atat`](https://github.com/BlackbirdHQ/atat): Abstraction crate to ease writting AT based driver crates - ![crates.io](https://img.shields.io/crates/v/atat.svg)
+- [`atat`](https://github.com/BlackbirdHQ/atat): Abstraction crate to ease writing AT based driver crates - ![crates.io](https://img.shields.io/crates/v/atat.svg)
 - [`embedded-nal`](https://github.com/rust-embedded-community/embedded-nal): An Embedded Network Abstraction Layer - ![crates.io](https://img.shields.io/crates/v/embedded-nal.svg)
 - [`embedded-storage`](https://github.com/rust-embedded-community/embedded-storage): An Embedded Storage Abstraction Layer
 - [`switch-hal`](https://github.com/rubberduck203/switch-hal): An "on"/"off" abstraction for input and output switches - ![crates.io](https://img.shields.io/crates/v/switch-hal.svg)
@@ -748,11 +748,11 @@ traits][hal-impl].
 
 [hal-impl]: #hal-implementation-crates
 
-The list below contains drivers that have achieved the "released" status. In order to add a driver
-to this list, please ensure that your driver has a short blog post, article or sufficiently
-explanatory README showing an example of its use. Ideally this post would demonstrate using the
+The list below contains drivers that have achieved the "released" status. To add a driver
+to this list, please ensure that your driver has a short blog post, article, or sufficiently
+explanatory README showing an example of its use. Ideally, this post would demonstrate using the
 device in a small project so that a Rust and/or embedded newcomer can also understand it.
-Otherwise please add it to the [WIP section](#WIP) below.
+Otherwise, please add it to the [WIP section](#WIP) below.
 
 1. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - ![crates.io](https://img.shields.io/crates/v/ad983x.svg)
 1. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - ![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)
@@ -1001,7 +1001,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 1. [AD9850] - Embedded driver for the AD9850 DDS synthesizer chip - ![crates.io](https://img.shields.io/crates/v/ad9850.svg)
 1. [AFE4400] - SPI - Pulse oximeter
-1. [APDS9960] - I2C - Proximity, ambient light, RGB and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
+1. [APDS9960] - I2C - Proximity, ambient light, RGB, and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 1. [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
 1. [AXP209] - I2C - Power management unit
 1. [BH1750] - I2C - ambient light sensor (lux meter)
@@ -1010,8 +1010,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [BMI160] - I2C / SPI - Inertial Measurement Unit - ![crates.io](https://img.shields.io/crates/v/bmi160.svg)
 1. [BMP280] - A platform agnostic driver to interface with the BMP280 pressure sensor ![crates.io](https://img.shields.io/crates/v/bmp280-ehal.svg)
 1. [CC1101] - SPI - Sub-1GHz RF Transceiver - ![crates.io](https://img.shields.io/crates/v/cc1101.svg)
-1. [DS3231] - I2C - real time clock
-1. [DS3234] - SPI - Real time clock
+1. [DS3231] - I2C - real-time clock
+1. [DS3234] - SPI - Real-time clock
 1. [DS323x] - I2C/SPI - Real-time clocks (RTC): DS3231, DS3232 and DS3234 - ![crates.io](https://img.shields.io/crates/v/ds323x.svg)
 1. [epd-waveshare] - SPI - driver for E-Paper Modules from Waveshare ![crates.io](https://img.shields.io/crates/v/epd-waveshare.svg)
 1. [embedded-morse] - Output morse messages - ![crates.io](https://img.shields.io/crates/v/embedded-morse.svg)
@@ -1069,7 +1069,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [SHT3x] - I2C - Temperature / humidity sensors
 1. [SI5351] - I2C - clock generator
 1. [SI7021] - I2C - Humidity and temperature sensor
-1. [SPL06-007] - I2C - Pressure and temerature sensor - ![crates.io](https://img.shields.io/crates/v/spl06-007.svg)
+1. [SPL06-007] - I2C - Pressure and temperature sensor - ![crates.io](https://img.shields.io/crates/v/spl06-007.svg)
 1. [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 1. [SSD1320] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1320.svg)
 1. [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
@@ -1092,7 +1092,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [xCA9548A] - I2C - I2C switches/multiplexers: TCA9548A, PCA9548A - ![crates.io](https://img.shields.io/crates/v/xca9548a.svg)
 1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
-1. [HX711] - GPIO - An interrupt-based driver for the HX711 Load Cell Amplifer IC. no-std.
+1. [HX711] - GPIO - An interrupt-based driver for the HX711 Load Cell Amplifier IC. no-std.
 
 [AD9850]: https://crates.io/crates/ad9850
 [AFE4400]: https://github.com/ReeceStevens/afe4400
@@ -1193,13 +1193,13 @@ Work in progress drivers. Help the authors make these crates awesome!
 
 ## no-std crates
 
-[`#![no_std]` crates][no-std-category] designed to run on resource constrained devices.
+[`#![no_std]` crates][no-std-category] designed to run on resource-constrained devices.
 
 1. [adskalman](https://crates.io/crates/adskalman): Kalman filter and Rauch-Tung-Striebel smoothing implementation. ![crates.io](https://img.shields.io/crates/v/adskalman.svg)
 1. [atomic](https://crates.io/crates/atomic): Generic Atomic<T> wrapper type. ![crates.io](https://img.shields.io/crates/v/atomic.svg)
 1. [bbqueue](https://crates.io/crates/bbqueue): A SPSC, statically allocatable queue based on BipBuffers suitable for DMA transfers - ![crates.io](https://img.shields.io/crates/v/bbqueue.svg)
 1. [bitmatch]: A crate that allows you to match, bind, and pack the individual bits of integers. - ![crates.io](https://img.shields.io/crates/v/bitmatch.svg)
-1. [biquad]: A library for creating second order IIR filters for signal processing based on Biquads, where both a Direct Form 1 (DF1) and Direct Form 2 Transposed (DF2T) implementation is available. ![crates.io](https://img.shields.io/crates/v/biquad.svg)
+1. [biquad]: A library for creating second-order IIR filters for signal processing based on Biquads, where both a Direct Form 1 (DF1) and Direct Form 2 Transposed (DF2T) implementation is available. ![crates.io](https://img.shields.io/crates/v/biquad.svg)
 1. [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays - ![crates.io](https://img.shields.io/crates/v/bit_field.svg)
 1. [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation. ![crates.io](https://img.shields.io/crates/v/bluetooth-hci.svg)
 1. [bounded-registers](https://crates.io/crates/bounded-registers) A high-assurance memory-mapped register code generation and interaction library. `bounded-registers` provides a Tock-like API for MMIO registers with the addition of type-based bounds checking. - ![crates.io](https://img.shields.io/crates/v/bounded-registers.svg)
@@ -1233,7 +1233,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [inverted-pin](https://crates.io/crates/inverted-pin): Implementations of the input/output pin traits with inverted logic. ![crates.io](https://img.shields.io/crates/v/inverted-pin.svg)
 1. [irq](https://crates.io/crates/irq): utilities for writing interrupt handlers (allows moving data into interrupts, and sharing data between them) - ![crates.io](https://img.shields.io/crates/v/irq.svg)
 1. [lorawan-encoding](https://github.com/ivajloip/rust-lorawan/tree/master/encoding): A LoRaWAN packet codec.
-1. [lorawan-device](https://github.com/ivajloip/rust-lorawan/tree/master/device): A LoRaWAN MAC implementation supporting both event driven and async mode.
+1. [lorawan-device](https://github.com/ivajloip/rust-lorawan/tree/master/device): A LoRaWAN MAC implementation supporting both event-driven and async mode.
 1. [managed](https://crates.io/crates/managed): provides `ManagedSlice`, `ManagedMap` backed by either their std counterparts or fixed-size buffers for `#![no_std]`. - ![crates.io](https://img.shields.io/crates/v/managed.svg)
 1. [menu]: A basic command-line interface library. Has nested menus and basic help functionality. ![crates.io](https://img.shields.io/crates/v/menu.svg)
 1. [mqtt-sn](https://crates.io/crates/mqtt-sn): Implementation of the MQTT-SN protocol - ![crates.io](https://img.shields.io/crates/v/mqtt-sn.svg)
@@ -1247,7 +1247,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [num-format](https://crates.io/crates/num-format): Crate for producing string representations of numbers, formatted according to international standards, e.g. "1,000,000" for US English - ![crates.io](https://img.shields.io/crates/v/num-format.svg)
 1. [`panic-persist`]: A panic handler crate inspired by `panic-ramdump` that logs panic messages to a region of RAM defined by the user, allowing for discovery of panic messages post-mortem using normal program control flow. - ![crates.io](https://img.shields.io/crates/v/panic-persist.svg)
 1. [pc-keyboard]: A PS/2 keyboard protocol driver. Transport (bit-banging or SPI) agnostic, but can convert Set 2 Scancodes into Unicode. ![crates.io](https://img.shields.io/crates/v/pc-keyboard.svg)
-1. [qei](https://crates.io/crates/qei) : A qei wrapper that allows you to extend your qei timers from a 16 bit integer to a 64 bit integer. - ![crates.io](https://img.shields.io/crates/v/qei.svg)
+1. [qei](https://crates.io/crates/qei) : A qei wrapper that allows you to extend your qei timers from a 16-bit integer to a 64-bit integer. - ![crates.io](https://img.shields.io/crates/v/qei.svg)
 1. [qemu-exit]: Quit a running QEMU session with user-defined exit code. Useful for unit or integration tests using QEMU. - ![crates.io](https://img.shields.io/crates/v/qemu-exit.svg)
 1. [RampMaker](https://crates.io/crates/ramp-maker): Stepper Motor Acceleration Ramp Generator - ![crates.io](https://img.shields.io/crates/v/ramp-maker.svg)
 1. [register-rs](https://github.com/rust-embedded/register-rs): Unified interface for MMIO and CPU registers. Provides type-safe bitfield manipulation. `register-rs` is Tock registers with added support for CPU register definitions using the same API as for the MMIO registers. This enables homogeneous interfaces to registers of all kinds. - ![crates.io](https://img.shields.io/crates/v/register.svg)
@@ -1299,17 +1299,17 @@ Work in progress crates. Help the authors make these crates awesome!
 - [rmk](https://github.com/HaoboGu/rmk): Mechanical keyboard firmware for stm32/rp2040, supports vial/dynamic keymap/eeprom, written in Rust
 - [anne-key](https://github.com/ah-/anne-key): Alternate keyboard firmware for the Obins ANNE Pro
 - [μLA](https://github.com/dotcypress/ula): Micro Logic Analyzer for RP2040
-- [air-gradient-pro-rs](https://github.com/jonlamb-gh/air-gradient-pro-rs): Bootloader, firmware and CLI tools for the AirGradient PRO
+- [air-gradient-pro-rs](https://github.com/jonlamb-gh/air-gradient-pro-rs): Bootloader, firmware, and CLI tools for the AirGradient PRO
 - [Stabilizer](https://github.com/quartiq/stabilizer): Firmware for a DSP tool used in quantum physics experimentation, includes telemetry via MQTT and run-time configuration
 - [Booster](https://github.com/quartiq/booster): Firmware for an RF power amplifier, including telemetry via MQTT and run-time configuration
 - [Thermostat EEM](https://github.com/quartiq/thermostat-eem): Firmware for a multi-channel temperature controller used in physics experiments
-- [Card/IO ECG](https://github.com/card-io-ecg/card-io-fw): Firmware for a business-card sized ECG device with Wifi connectivity
+- [Card/IO ECG](https://github.com/card-io-ecg/card-io-fw): Firmware for a business-card-sized ECG device with Wifi connectivity
 - [BillMcok](https://github.com/pmnxis/billmock-app-rs): Firmware for credit card terminal add-on hardware to install on Korean arcade machines
-- [LuLuu](https://github.com/fu5ha/luluu): Firmware for a custom RP2040-based display controller which streams animated images from a microSD card to a small LCD display. 
+- [LuLuu](https://github.com/fu5ha/luluu): Firmware for a custom RP2040-based display controller that streams animated images from a microSD card to a small LCD display. 
 
-## Old books, blogs and training materials
+## Old books, blogs, and training materials
 
-These materials may be outdated and reflect earlier practices, but might still be useful for reference.
+These materials may be outdated and reflect earlier practices, but they might still be helpful for reference.
 
 -   [Exploring Rust on Teensy](https://branan.github.io/teensy/) by @branan — Beginner set of articles on getting into embedded dev in Rust.
 -   [Pragmatic Bare Metal Rust](http://www.hashmismatch.net/pragmatic-bare-metal-rust/) A starter article about starting Rust development on STM32 microcontrollers (cubeMX + FFI).
