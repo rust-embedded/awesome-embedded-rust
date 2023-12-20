@@ -787,6 +787,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 1. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - ![crates.io](https://img.shields.io/crates/v/kxcj9.svg)
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/l3gd20.svg)
 1. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - ![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)
+1. [MAX6675] - SPI - A driver for the MAX6675 digital thermocouple converter - [Intro blog post][73] - ![crates.io](https://img.shields.io/crates/v/max6675-hal.svg)
 1. [MAX6955] - I2C - Driver for Alphanumeric LED display driver - [Intro blog post][46] - ![crates.io](https://img.shields.io/crates/v/max6955.svg)
 1. [MAX116xx-10bit] - SPI - Driver for the MAX11619-MAX11621, MAX11624 and MAX11625 10-bit ADCs - [Intro blog post][59] - ![crates.io](https://img.shields.io/crates/v/max116xx-10bit.svg)
 1. [MCP25LCXX] - SPI - Driver for Microchip's 25LC series of EEPROMs - ![crates.io](https://img.shields.io/crates/v/microchip-eeprom-25lcxx.svg)
@@ -906,6 +907,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [70]: https://github.com/cfrenette/bma400-rs
 [71]: https://github.com/FloppyDisck/i2c-multiplexer
 [72]: https://github.com/FloppyDisck/SHT31-rs
+[73]: https://barretts.club/posts/max6675-hal/
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -938,6 +940,7 @@ Otherwise please add it to the [WIP section](#WIP) below.
 [KXCJ9]: https://crates.io/crates/kxcj9
 [L3GD20]: https://crates.io/crates/l3gd20
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
+[MAX6675]: https://crates.io/crates/max6675-hal
 [MAX6955]: https://crates.io/crates/max6955
 [MAX116xx-10bit]: https://crates.io/crates/max116xx-10bit
 [MCP25LCXX]: https://crates.io/crates/microchip-eeprom-25lcxx
