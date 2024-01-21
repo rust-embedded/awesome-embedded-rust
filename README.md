@@ -280,12 +280,7 @@ The [`efm32-rs`](https://github.com/efm32-rs) project has peripheral access APIs
 
 ### StarFive
 
-- [`j71xx-pac`](https://github.com/rmsyn/jh71xx-pac) - svd2rust generated interface to StarFive [JH71xx](https://www.starfivetech.com/en/site/soc) MCUs - ![crates.io](https://img.shields.io/crates/v/jh71xx-pac.svg)
-
-Currently, the two VisionFive2 board revisions (v1.2a and v1.3b) are supported:
-
-- [`jh7110-vf2-12a-pac`](https://crates.io/crates/jh7110-vf2-12a-pac) - ![crates.io](https://img.shields.io/crates/v/jh7110-vf2-12a-pac)
-- [`jh7110-vf2-13b-pac`](https://crates.io/crates/jh7110-vf2-13b-pac) - ![crates.io](https://img.shields.io/crates/v/jh7110-vf2-13b-pac)
+- [`j71xx-pac`](https://crates.io/crates/jh71xx-pac) - svd2rust generated interface to StarFive [JH71xx](https://www.starfivetech.com/en/site/soc) MCUs - ![crates.io](https://img.shields.io/crates/v/jh71xx-pac.svg)
 
 ### STMicroelectronics
 
