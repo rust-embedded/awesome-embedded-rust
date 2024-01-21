@@ -55,6 +55,7 @@ This project is developed and maintained by the [Resources team][team].
     - [GigaDevice](#gigadevice-1)
     - [Vorago](#vorago-1)
     - [Renesas](#renesas-1)
+    - [StarFive](#starfive-1)
   - [Architecture support crates](#architecture-support-crates)
     - [ARM](#arm)
     - [RISC-V](#risc-v)
@@ -520,6 +521,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### Renesas
 - [`da14531-hal`](https://crates.io/crates/da14531-hal) HAL crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - ![crates.io](https://img.shields.io/crates/v/da14531-hal.svg)
+
+### StarFive
+
+- [`j71xx-hal`](https://crates.io/crates/jh71xx-hal) - HAL crate for StarFive [JH71xx](https://www.starfivetech.com/en/site/soc) MCUs - ![crates.io](https://img.shields.io/crates/v/jh71xx-hal.svg)
 
 ## Architecture support crates
 
