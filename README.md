@@ -1005,6 +1005,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [APDS9960] - I2C - Proximity, ambient light, RGB, and gesture sensor - ![crates.io](https://img.shields.io/crates/v/apds9960.svg)
 1. [AS5048A] - SPI - AMS AS5048A Magnetic Rotary Encoder
 1. [AXP209] - I2C - Power management unit
+1. [ad57xx] - SPI - Quad and dual channel DAC - ![crates.io](https://img.shields.io/crates/v/ad57xx.svg)
 1. [BH1750] - I2C - ambient light sensor (lux meter)
 1. [BME280] - A rust device driver for the Bosch BME280 temperature, humidity, and atmospheric pressure sensor and the Bosch BMP280 temperature and atmospheric pressure sensor. ![crates.io](https://img.shields.io/crates/v/bme280.svg)
 1. [bme680] - I2C - Temperature / humidity / gas / pressure sensor - ![crates.io](https://img.shields.io/crates/v/bme680.svg)
@@ -1101,6 +1102,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [APDS9960]: https://crates.io/crates/apds9960
 [AS5048A]: https://github.com/uwearzt/as5048a
 [AXP209]: https://github.com/RandomInsano/axp209-rs
+[ad57xx]: https://github.com/deltronix/ad57xx
 [BH1750]: https://github.com/wose/bh1750
 [BME280]: https://crates.io/crates/bme280
 [bme680]: https://github.com/marcelbuesing/bme680
