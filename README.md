@@ -10,7 +10,7 @@ This project is developed and maintained by the [Resources team][team].
 
 **Don't see something you want or need here?** Add it to the [Not Yet Awesome Embedded Rust](https://github.com/rust-embedded/not-yet-awesome-embedded-rust) list!
 
-## Table of contents
+## Table of Contents
 
 - [Embedded Rust](#embedded-rust)
   - [Table of contents](#table-of-contents)
@@ -1034,7 +1034,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [INA260] - I2C - power monitor - ![crates.io](https://img.shields.io/crates/v/ina260.svg)
 1. [ISL29125] - I2C - RGB Color Light Sensor with IR Blocking Filter - ![crates.io](https://img.shields.io/crates/v/isl29125.svg)
 1. [IST7920] - SPI monochrome LCD display - ![crates.io](https://img.shields.io/crates/v/ist7920.svg)
-1. [LM75] - I2C - Temperature sensor and thermal watchdog - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
+1. [LM75] - I2C - Temperature sensor and thermal watchdog (also compatible with LM75A, LM75B, LM75C, AT30TS75A, DS1775, DS75, DS7505, G751, MAX7500/1/2/3/4, MAX6625, MCP9800/1/2/3, STDS75, TCN75, PCT2075) - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 1. [LS010B7DH01] - SPI - Memory LCD
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
