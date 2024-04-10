@@ -1035,6 +1035,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [ISL29125] - I2C - RGB Color Light Sensor with IR Blocking Filter - ![crates.io](https://img.shields.io/crates/v/isl29125.svg)
 1. [IST7920] - SPI monochrome LCD display - ![crates.io](https://img.shields.io/crates/v/ist7920.svg)
 1. [LM75] - I2C - Temperature sensor and thermal watchdog (also compatible with LM75A, LM75B, LM75C, AT30TS75A, DS1775, DS75, DS7505, G751, MAX7500/1/2/3/4, MAX6625, MCP9800/1/2/3, STDS75, TCN75, PCT2075) - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
+1. [lp586x] - I2C/SPI - LED matrix driver ![crates.io](https://img.shields.io/crates/v/lp586x.svg)
 1. [LS010B7DH01] - SPI - Memory LCD
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
@@ -1134,6 +1135,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ISL29125]: https://crates.io/crates/isl29125
 [IST7920]: https://crates.io/crates/ist7920
 [LM75]: https://crates.io/crates/lm75
+[lp586x]: https://crates.io/crates/lp586x
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
 [LSM303C]: https://crates.io/crates/lsm303c
 [LSM9DS1]: https://crates.io/crates/lsm9ds1
