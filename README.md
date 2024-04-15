@@ -112,6 +112,7 @@ In 2018, the Rust community created an embedded working group to help drive adop
 - [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
 - [#atsamd-rs:gitter.im] - For discussions of using Embedded Rust on ATSAMD devices
 - [#ethercrab:matrix.org] - For discussion of general EtherCAT and the Rust implementation, EtherCrab
+- [rust-embedded:QQ group] - Chinese community for Rust embedded
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
@@ -128,6 +129,7 @@ In 2018, the Rust community created an embedded working group to help drive adop
 [#rp-rs:matrix.org]: https://matrix.to/#/#rp-rs:matrix.org
 [#atsamd-rs:gitter.im]: https://matrix.to/#/#atsamd-rs_community:gitter.im
 [#ethercrab:matrix.org]: https://matrix.to/#/#ethercrab:matrix.org
+[Rust-embedded:QQ group]: https://qm.qq.com/q/A8Hl57xR1C
 
 ## Books, blogs, and training materials
 
