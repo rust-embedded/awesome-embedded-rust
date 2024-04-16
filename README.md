@@ -804,6 +804,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - ![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - ![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)
 1. [rotary-encoder-hal] - GPIO - A rotary encoder driver using `embedded-hal` - [Intro blog post][28] - ![crates.io](https://img.shields.io/crates/v/rotary-encoder-hal.svg)
+1. [Seeed-LoRa-E5] - UART - SeeedStudio LoRa-E5 LoRaWAN module - [github][74] - ![crates.io](https://img.shields.io/crates/v/seeed-lora-e5-at-commands.svg)
 1. [sega-controller] - GPIO - Sega controller input - [github][68] - ![crates.io](https://img.shields.io/crates/v/sega-controller.svg)
 1. [SGP30] - I2C - Gas sensor - [Intro blog post][6] - ![crates.io](https://img.shields.io/crates/v/sgp30.svg)
 1. [SH1106] - I2C - Monochrome OLED display controller - [Intro post][19] ![crates.io](https://img.shields.io/crates/v/sh1106.svg)
@@ -911,6 +912,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 [71]: https://github.com/FloppyDisck/i2c-multiplexer
 [72]: https://github.com/FloppyDisck/SHT31-rs
 [73]: https://barretts.club/posts/max6675-hal/
+[74]: https://github.com/mvniekerk/seeed-lora-e5-at-commands
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
