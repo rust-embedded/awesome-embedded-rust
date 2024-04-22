@@ -1250,6 +1250,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [mqtt-sn](https://crates.io/crates/mqtt-sn): Implementation of the MQTT-SN protocol - ![crates.io](https://img.shields.io/crates/v/mqtt-sn.svg)
 1. [microfft](https://crates.io/crates/microfft): Embedded-friendly (`no_std`, no-`alloc`) fast fourier transforms - ![crates.io](https://img.shields.io/crates/v/microfft.svg)
 1. [micromath](https://github.com/NeoBirth/micromath): Embedded Rust math library featuring fast, safe floating point approximations for common arithmetic operations, 2D and 3D vector types, and statistical analysis - ![crates.io](https://img.shields.io/crates/v/micromath.svg)
+1. [miniconf](https://crates.io/crates/miniconf): Serialize/deserialize nodes in nested heterogeneous structs/arrays by path/key - ![crates.io](https://img.shields.io/crates/v/miniconf.svg)
 1. [minimq](https://crates.io/crates/minimq): A minimal MQTT5 client designed for no_std platforms - ![crates.io](https://img.shields.io/crates/v/minimq.svg)
 1. [moonboot](https://github.com/jhbruhn/moonboot): OTA Bootloader Construction Framework for Rust no_std environments, especially embedded devices without an OS
 1. [nalgebra](https://crates.io/crates/nalgebra): general-purpose and low-dimensional linear algebra library - ![crates.io](https://img.shields.io/crates/v/nalgebra.svg)
