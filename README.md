@@ -1320,7 +1320,6 @@ Work in progress crates. Help the authors make these crates awesome!
 - [LuLuu](https://github.com/fu5ha/luluu): Firmware for a custom RP2040-based display controller that streams animated images from a microSD card to a small LCD display. 
 - [prinThor](https://github.com/cbruiz/printhor): 3DPrinter/CNC/Engraver firmware framework powered by rust embassy for stm32 families and rp2040.
 
-
 ## Old books, blogs, and training materials
 
 These materials may be outdated and reflect earlier practices, but they might still be helpful for reference.
