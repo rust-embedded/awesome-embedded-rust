@@ -1144,7 +1144,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LM75]: https://crates.io/crates/lm75
 [lp586x]: https://crates.io/crates/lp586x
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
-[Lsm303agr]: https://crates.io/crates/lsm303agr
+[LSM303AGR]: https://crates.io/crates/lsm303agr
 [LSM303C]: https://crates.io/crates/lsm303c
 [LSM9DS1]: https://crates.io/crates/lsm9ds1
 [ltr-559]: https://crates.io/crates/ltr-559
