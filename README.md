@@ -1041,6 +1041,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [LM75] - I2C - Temperature sensor and thermal watchdog (also compatible with LM75A, LM75B, LM75C, AT30TS75A, DS1775, DS75, DS7505, G751, MAX7500/1/2/3/4, MAX6625, MCP9800/1/2/3, STDS75, TCN75, PCT2075) - ![crates.io](https://img.shields.io/crates/v/lm75.svg)
 1. [lp586x] - I2C/SPI - LED matrix driver ![crates.io](https://img.shields.io/crates/v/lp586x.svg)
 1. [LS010B7DH01] - SPI - Memory LCD
+1. [LSM303AGR] - I2C/SPI - 3D accelerometer + 3D magnetometer. (Used in e.g. micro:bit boards) ![crates.io](https://img.shields.io/crates/v/lsm303agr.svg)
 1. [LSM303C] - A platform agnostic driver to interface with the LSM303C (accelerometer + compass) ![crates.io](https://img.shields.io/crates/v/lsm303c.svg)
 1. [LSM9DS1] - I2C/SPI - 9-axis motion sensor module ![crates.io](https://img.shields.io/crates/v/lsm9ds1.svg)
 1. [ltr-559] - I2C - Ambient Light Sensor and Proximity sensor ![crates.io](https://img.shields.io/crates/v/ltr-559.svg)
@@ -1048,8 +1049,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [M95320] - SPI - STMicroelectronics Serial flash EEPROM - ![crates.io](https://img.shields.io/crates/v/m95320.svg)
 1. [MAG3110] - I2C - Magnetometer
 1. [MAX17048/9] - I2C - LiPo Fuel gauge, battery monitoring IC - ![crates.io](https://img.shields.io/crates/v/max17048.svg)
-1. [MAX170xx] - I2C - LiPo Fuel gauge, battery monitoring ICs compatible with MAX17043/4, MAX17048/9, MAX17058/9.
-1. [MAX3010x] - I2C - Pulse oximeter and heart-rate sensor. ATM Compatible with MAX30102. -![crates.io](https://img.shields.io/crates/v/max3010x.svg)
+1. [MAX170xx] - I2C - LiPo Fuel gauge, battery monitoring ICs compatible with MAX17043/4, MAX17048/9, MAX17058/9. - ![crates.io](https://img.shields.io/crates/v/max170xx.svg)
+1. [MAX3010x] - I2C - Pulse oximeter and heart-rate sensor. ATM Compatible with MAX30102. - ![crates.io](https://img.shields.io/crates/v/max3010x.svg)
 1. [MAX31855] - SPI - Thermocouple digital converter -![crates.io](https://img.shields.io/crates/v/max31855.svg)
 1. [MAX31865] - SPI - RTD to Digital converter - ![crates.io](https://img.shields.io/crates/v/max31865.svg)
 1. [MAX44009] - I2C - Ambient light sensor - ![crates.io](https://img.shields.io/crates/v/max44009.svg)
@@ -1057,9 +1058,11 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [MCP4725] - I2C - 12-bit DAC - ![crates.io](https://img.shields.io/crates/v/mcp4725)
 1. [MCP49xx] - SPI - 8/10/12-bit DACs like MCP4921, MCP4922, MCP4801, etc. - ![crates.io](https://img.shields.io/crates/v/mcp49xx.svg)
 1. [MCP9808] - I2C - Temperature sensor - ![crates.io](https://img.shields.io/crates/v/mcp9808.svg)
+1. [MCP4x] - SPI - Digital potentiometers (digipot) like MCP41010, MCP41050, MCP41100, MCP42010, MCP42050 and MCP42100, etc. - ![crates.io](https://img.shields.io/crates/v/mcp4x.svg)
 1. [MFRC522] - SPI - RFID tag reader/writer
 1. [midi-port] - UART - MIDI input - ![crates.io](https://img.shields.io/crates/v/midi-port.svg)
 1. [MLX9061x] - I2C - MLX90614/MLX90615 Contact-less infrared (IR) temperature sensor driver. - ![crates.io](https://img.shields.io/crates/v/mlx9061x.svg)
+1. [MMA8x5x] - I2C - Tri-axis accelerometers like MMA8451Q, MMA8452Q, MMA8453Q, MMA8652FC and MMA8653FC. - ![crates.io](https://img.shields.io/crates/v/mma8x5x.svg)
 1. [motor-driver] - Motor drivers: L298N, TB6612FNG, etc.
 1. [MPU6050] - I2C - no_std driver for the MPU6050 ![crates.io](https://img.shields.io/crates/v/mpu6050.svg)
 1. [MPU9250] - no_std driver for the MPU9250 (and other MPU* devices) & onboard AK8963 (accelerometer + gyroscope +  magnetometer IMU) ![crates.io](https://img.shields.io/crates/v/mpu9250.svg)
@@ -1141,6 +1144,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [LM75]: https://crates.io/crates/lm75
 [lp586x]: https://crates.io/crates/lp586x
 [LS010B7DH01]: https://github.com/byronwasti/ls010b7dh01
+[LSM303AGR]: https://crates.io/crates/lsm303agr
 [LSM303C]: https://crates.io/crates/lsm303c
 [LSM9DS1]: https://crates.io/crates/lsm9ds1
 [ltr-559]: https://crates.io/crates/ltr-559
@@ -1156,10 +1160,12 @@ Work in progress drivers. Help the authors make these crates awesome!
 [MAX7219]: https://github.com/almindor/max7219
 [MCP4725]: https://crates.io/crates/mcp4725
 [MCP49xx]: https://crates.io/crates/mcp49xx
+[MCP4x]: https://crates.io/crates/mcp4x
 [MCP9808]: https://crates.io/crates/mcp9808
 [MFRC522]: https://github.com/japaric/mfrc522
 [midi-port]: https://crates.io/crates/midi-port
 [MLX9061x]: https://crates.io/crates/mlx9061x
+[MMA8x5x]: https://crates.io/crates/mma8x5x
 [motor-driver]: https://github.com/japaric/motor-driver
 [MPU6050]: https://crates.io/crates/mpu6050
 [MPU9250]: https://crates.io/crates/mpu9250
