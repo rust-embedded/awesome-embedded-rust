@@ -355,8 +355,8 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 
 ### Vorago
 
-- [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx) - ![crates.io](https://img.shields.io/crates/v/va108xx.svg)
-- [`va416xx`](https://egit.irs.uni-stuttgart.de/rust/va416xx) - ![crates.io](https://img.shields.io/crates/v/va416xx.svg)
+- [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - ![crates.io](https://img.shields.io/crates/v/va108xx.svg)
+- [`va416xx`](https://egit.irs.uni-stuttgart.de/rust/va416xx-rs) - ![crates.io](https://img.shields.io/crates/v/va416xx.svg)
 
 ### Wiznet
 
@@ -521,7 +521,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### Vorago
 
-- [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-hal) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
+- [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - ![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Renesas
@@ -706,7 +706,7 @@ Crates tailored for specific boards.
 
 ### Vorago
 
-- [`vorago-reb1`](https://egit.irs.uni-stuttgart.de/rust/vorago-reb1) - ![crates.io](https://img.shields.io/crates/v/vorago-reb1.svg)
+- [`vorago-reb1`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - ![crates.io](https://img.shields.io/crates/v/vorago-reb1.svg)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Texas Instruments
