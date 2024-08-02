@@ -1096,7 +1096,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [spi-memory] - SPI - A generic driver for various SPI Flash and EEPROM chips - ![crates.io](https://img.shields.io/crates/v/spi-memory.svg)
 1. [SSD1320] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1320.svg)
 1. [SSD1322] - SPI - Graphical OLED display controller - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
-1. [SSD1322_rs] - SPI - Async Gaphcis driver for SSD1322 screen - ![crates.io](https://img.shields.io/crates/v/ssd1322.svg)
+1. [SSD1322_rs] - SPI - Async Graphcis driver for SSD1322 screen - ![crates.io](https://img.shields.io/crates/v/ssd1322_rs.svg)
 1. [SSD1351] - SPI - 16bit colour OLED display driver - ![crates.io](https://img.shields.io/crates/v/ssd1351.svg)
 1. [SSD1675] - SPI - Tri-color ePaper display controller - ![crates.io](https://img.shields.io/crates/v/ssd1675.svg)
 1. [st7032i] - I2C - Dot Matrix LCD Controller driver (Sitronix ST7032i or similar). - ![crates.io](https://img.shields.io/crates/v/st7032i.svg)
