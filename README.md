@@ -1299,6 +1299,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [usb-pd](https://github.com/fmckeogh/usb-pd-rs): USB-PD library, supports using the FUSB302B as a Sink driver, with Source functionality planned.
 1. [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - ![crates.io](https://img.shields.io/crates/v/wyhash.svg)
 1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - ![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)
+1. [wtx](https://github.com/c410-f3r/wtx): Among other things, provides implementations to interact with HTTP, WebSockets and Databases.
 
 [`cmim`]: https://crates.io/crates/cmim
 [`panic-persist`]: https://crates.io/crates/panic-persist
