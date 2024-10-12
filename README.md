@@ -788,6 +788,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 1. [BNO055] - I2C - Bosch Sensortec BNO055 9-axis IMU driver - [Intro post][18] ![crates.io](https://img.shields.io/crates/v/bno055.svg)
 1. [CD74HC4067] - GPIO - 16-channel digital and analog multiplexer - [Intro blog post][55] - [github][54] - ![crates.io](https://img.shields.io/crates/v/cd74hc4067.svg)
 1. [dht-sensor] - 1-Wire - DHT11/DHT22 temperature/humidity sensor driver - [github][48] - ![crates.io](https://img.shields.io/crates/v/dht-sensor.svg)
+1. [embedded-dht-rs] - 1-Wire, I2C - DHT11/DHT20/DHT22 temperature/humidity sensor driver - [github][74] - ![crates.io](https://img.shields.io/crates/v/embedded-dht-rs.svg)
 1. [DRV8825] - DRV8825 Stepper Motor Driver (based on [Stepper]) - [Intro blog post][52] - ![crates.io](https://img.shields.io/crates/v/drv8825.svg)
 1. [DS1307] - I2C - Real-time clock driver - [Intro blog post][13] - ![crates.io](https://img.shields.io/crates/v/ds1307.svg)
 1. [ebyte-e32] - SERIAL - Ebyte E32 LoRa module driver - [Intro blog post][67] - ![crates.io](https://img.shields.io/crates/v/ebyte-e32.svg)
@@ -925,6 +926,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 [71]: https://github.com/FloppyDisck/i2c-multiplexer
 [72]: https://github.com/FloppyDisck/SHT31-rs
 [73]: https://barretts.club/posts/max6675-hal/
+[74]: https://github.com/rust-dd/embedded-dht-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
