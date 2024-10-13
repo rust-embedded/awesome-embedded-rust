@@ -948,6 +948,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 [DS1307]: https://crates.io/crates/ds1307
 [ebyte-e32]: https://crates.io/crates/ebyte-e32
 [EEPROM24x]: https://crates.io/crates/eeprom24x
+[embedded-dht-rs]: https://crates.io/crates/embedded-dht-rs
 [embedded-ccs811]: https://crates.io/crates/embedded-ccs811
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
 [ENC28J60]: https://crates.io/crates/enc28j60
