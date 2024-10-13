@@ -240,7 +240,7 @@ Peripheral Access Crates were also called Device Crates.
 - [`atsamx7x-rust`](https://github.com/atsams-rs/atsamx7x-rust) Peripheral access API for Microchip (formerly Atmel) SAM S70/E70/V70/V71 microcontrollers.  This git repo hosts both the peripheral access crate and the hal.
 - [`avr-device`](https://github.com/Rahix/avr-device) Peripheral access API for Microchip (formerly Atmel) AVR microcontroller family.
 - [`sam3x8e`](https://crates.io/crates/sam3x8e) Peripheral access API for Atmel SAMD3X8E microcontrollers (generated using svd2rust)  - [![crates.io](https://img.shields.io/crates/v/sam3x8e.svg)](https://crates.io/crates/sam3x8e)
-- [`pic32-pac`](https://crates.io/crates/pic32mx2xx) Peripheral access API for PIC32MX1/2xx - ![crates.io](https://img.shields.io/crates/v/pic32mx2xx)
+- [`pic32-pac`](https://crates.io/crates/pic32mx2xx) Peripheral access API for PIC32MX1/2xx - [![crates.io](https://img.shields.io/crates/v/pic32mx2xx)](https://crates.io/crates/pic32mx2xx)
 
 ### Nordic
 
@@ -275,25 +275,25 @@ Peripheral Access Crates were also called Device Crates.
 
 ### Silicon Labs
 
-- [`efm32pg12-pac`](https://crates.io/crates/efm32pg12-pac) - Peripheral access API for Silicon Labs EFM32PG12 microcontrollers - ![crates.io](https://img.shields.io/crates/v/efm32pg12-pac)
+- [`efm32pg12-pac`](https://crates.io/crates/efm32pg12-pac) - Peripheral access API for Silicon Labs EFM32PG12 microcontrollers - [![crates.io](https://img.shields.io/crates/v/efm32pg12-pac)](https://crates.io/crates/efm32pg12-pac)
 
 The [`efm32-rs`](https://github.com/efm32-rs) project has peripheral access APIs for most EFM32 microcontrollers (generated using svd2rust):
 
-- [`efm32g-pac`](https://crates.io/crates/efm32g-pac) - ![crates.io](https://img.shields.io/crates/v/efm32g-pac)
-- [`efm32gg-pac`](https://crates.io/crates/efm32gg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32gg-pac)
-- [`efm32gg11b-pac`](https://crates.io/crates/efm32gg11b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32gg11b-pac)
-- [`efm32gg12b-pac`](https://crates.io/crates/efm32gg12b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32gg12b-pac)
-- [`efm32hg-pac`](https://crates.io/crates/efm32hg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32hg-pac)
-- [`efm32jg1b-pac`](https://crates.io/crates/efm32jg1b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32jg1b-pac)
-- [`efm32jg12b-pac`](https://crates.io/crates/efm32jg12b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32jg12b-pac)
-- [`efm32lg-pac`](https://crates.io/crates/efm32lg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32lg-pac)
-- [`efm32pg-pac`](https://crates.io/crates/efm32pg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32pg-pac)
-- [`efm32pg22-pac`](https://crates.io/crates/efm32pg22-pac) - ![crates.io](https://img.shields.io/crates/v/efm32pg22-pac)
-- [`efm32pg23-pac`](https://crates.io/crates/efm32pg23-pac) - ![crates.io](https://img.shields.io/crates/v/efm32pg23-pac)
-- [`efm32tg-pac`](https://crates.io/crates/efm32tg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32tg-pac)
-- [`efm32tg11b-pac`](https://crates.io/crates/efm32tg11b-pac) - ![crates.io](https://img.shields.io/crates/v/efm32tg11b-pac)
-- [`efm32wg-pac`](https://crates.io/crates/efm32wg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32wg-pac)
-- [`efm32zg-pac`](https://crates.io/crates/efm32zg-pac) - ![crates.io](https://img.shields.io/crates/v/efm32zg-pac)
+- [`efm32g-pac`](https://crates.io/crates/efm32g-pac) - [![crates.io](https://img.shields.io/crates/v/efm32g-pac)](https://crates.io/crates/efm32g-pac)
+- [`efm32gg-pac`](https://crates.io/crates/efm32gg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32gg-pac)](https://crates.io/crates/efm32gg-pac)
+- [`efm32gg11b-pac`](https://crates.io/crates/efm32gg11b-pac) - [![crates.io](https://img.shields.io/crates/v/efm32gg11b-pac)](https://crates.io/crates/efm32gg11b-pac)
+- [`efm32gg12b-pac`](https://crates.io/crates/efm32gg12b-pac) - [![crates.io](https://img.shields.io/crates/v/efm32gg12b-pac)](https://crates.io/crates/efm32gg12b-pac)
+- [`efm32hg-pac`](https://crates.io/crates/efm32hg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32hg-pac)](https://crates.io/crates/efm32hg-pac)
+- [`efm32jg1b-pac`](https://crates.io/crates/efm32jg1b-pac) - [![crates.io](https://img.shields.io/crates/v/efm32jg1b-pac)](https://crates.io/crates/efm32jg1b-pac)
+- [`efm32jg12b-pac`](https://crates.io/crates/efm32jg12b-pac) - [![crates.io](https://img.shields.io/crates/v/efm32jg12b-pac)](https://crates.io/crates/efm32jg12b-pac)
+- [`efm32lg-pac`](https://crates.io/crates/efm32lg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32lg-pac)](https://crates.io/crates/efm32lg-pac)
+- [`efm32pg-pac`](https://crates.io/crates/efm32pg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32pg-pac)](https://crates.io/crates/efm32pg-pac)
+- [`efm32pg22-pac`](https://crates.io/crates/efm32pg22-pac) - [![crates.io](https://img.shields.io/crates/v/efm32pg22-pac)](https://crates.io/crates/efm32pg22-pac)
+- [`efm32pg23-pac`](https://crates.io/crates/efm32pg23-pac) - [![crates.io](https://img.shields.io/crates/v/efm32pg23-pac)](https://crates.io/crates/efm32pg23-pac)
+- [`efm32tg-pac`](https://crates.io/crates/efm32tg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32tg-pac)](https://crates.io/crates/efm32tg-pac)
+- [`efm32tg11b-pac`](https://crates.io/crates/efm32tg11b-pac) - [![crates.io](https://img.shields.io/crates/v/efm32tg11b-pac)](https://crates.io/crates/efm32tg11b-pac)
+- [`efm32wg-pac`](https://crates.io/crates/efm32wg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32wg-pac)](https://crates.io/crates/efm32wg-pac)
+- [`efm32zg-pac`](https://crates.io/crates/efm32zg-pac) - [![crates.io](https://img.shields.io/crates/v/efm32zg-pac)](https://crates.io/crates/efm32zg-pac)
 
 ### StarFive
 
@@ -326,7 +326,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 - [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
     - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 - [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
-- [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - ![Crates.io](https://img.shields.io/crates/v/msp430fr6972)
+- [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - [![crates.io](https://img.shields.io/crates/v/msp430fr6972)](https://crates.io/crates/msp430fr6972)
 
 ### Espressif
 
@@ -679,9 +679,9 @@ Crates tailored for specific boards.
   [![crates.io](https://img.shields.io/crates/v/seedstudio-gd32v.svg)](https://crates.io/crates/seedstudio-gd32v)
   - Contains runnable examples for this board
 - [`xiao_m0`](https://crates.io/crates/xiao_m0) - Board support for the [Seeed Studio Seeeduino XIAO](http://wiki.seeedstudio.com/Seeeduino-XIAO/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/xiao_m0.svg)](https://crates.io/crates/xiao_m0)
-- [`wio_lite_mg126`](https://crates.io/crates/wio_lite_mg126) - Board support for the [Seeed Studio wio_lite_mg126](https://wiki.seeedstudio.com/Wio-Lite-MG126) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io.crates/v/wio_lite_mg126.svg)
-- [`wio_lite_w600`](https://crates.io/crates/wio_lite_w600) - Board support for the [Seeed Studio wio_lite_w600](https://wiki.seeedstudio.com/Wio-Lite-W600/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. ![crates.io](https://img.shields.io.crates/v/wio_lite_w600.svg)
-- [`wio_terminal`](https://crates.io/crates/wio_terminal) - Board support for the [Seeed Studio wio_terminal](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board ![crates.io](https://img.shields.io.crates/v/wio_terminal.svg)
+- [`wio_lite_mg126`](https://crates.io/crates/wio_lite_mg126) - Board support for the [Seeed Studio wio_lite_mg126](https://wiki.seeedstudio.com/Wio-Lite-MG126) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/wio_lite_mg126.svg)](https://crates.io/crates/wio_lite_mg126)
+- [`wio_lite_w600`](https://crates.io/crates/wio_lite_w600) - Board support for the [Seeed Studio wio_lite_w600](https://wiki.seeedstudio.com/Wio-Lite-W600/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/wio_lite_w600.svg)](https://crates.io/crates/wio_lite_w600)
+- [`wio_terminal`](https://crates.io/crates/wio_terminal) - Board support for the [Seeed Studio wio_terminal](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 1 support] board [![crates.io](https://img.shields.io/crates/v/wio_terminal.svg)](https://crates.io/crates/wio_terminal)
 
 ### SiFive
 
@@ -708,7 +708,7 @@ Crates tailored for specific boards.
 - [`solo-bsp`](https://crates.io/crates/solo-bsp) Board Support Crate for [Solo], an open source security token (WIP) - [![crates.io](https://img.shields.io/crates/v/solo-bsp.svg)](https://crates.io/crates/solo-bsp)
 - [`stm32f407g-disc`](https://crates.io/crates/stm32f407g-disc) Board Support Crate for the [STM32F4DISCOVERY] (WIP) - [![crates.io](https://img.shields.io/crates/v/stm32f407g-disc.svg)](https://crates.io/crates/stm32f407g-disc)
 - [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - [![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)](https://crates.io/crates/stm32f429i-disc)
-- [`stm32f3-discovery`](https://crates.io/crates/stm32f3-discovery) Board Support Crate for the [STM32F3DISCOVERY] used in [Rust Embedded Discovery book](https://rust-embedded.github.io/discovery/index.html) - ![crates.io](https://img.shields.io/crates/v/stm32f3-discovery)
+- [`stm32f3-discovery`](https://crates.io/crates/stm32f3-discovery) Board Support Crate for the [STM32F3DISCOVERY] used in [Rust Embedded Discovery book](https://rust-embedded.github.io/discovery/index.html) - [![crates.io](https://img.shields.io/crates/v/stm32f3-discovery)](https://crates.io/crates/stm32f3-discovery)
 
 
 [Nucleo-F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
@@ -814,7 +814,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 1. [MCP794xx] - I2C - Real-time clock / calendar driver - [Intro blog post][26] - [![crates.io](https://img.shields.io/crates/v/mcp794xx.svg)](https://crates.io/crates/mcp794xx)
 1. [MMA7660FC] - I2C - 3-axis accelerometer - [Intro blog post][9]
 1. [OPT300x] - I2C - Ambient light sensor family driver  - [Intro blog post][30] - [![crates.io](https://img.shields.io/crates/v/opt300x.svg)](https://crates.io/crates/opt300x)
-1. [PAC194X] - I2C - Single/multi channel power monitor - [Intro blog post][63] - ![crates.io](https://img.shields.io/crates/v/pac194x)
+1. [PAC194X] - I2C - Single/multi channel power monitor - [Intro blog post][63] - [![crates.io](https://img.shields.io/crates/v/pac194x)](https://crates.io/crates/pac194x)
 1. [port-expander] - I2C - Driver for I2C port expanders (supports `PCA95xx`, `PCF85xx`) - [Intro blog post][58] - [![crates.io](https://img.shields.io/crates/v/port-expander.svg)](https://crates.io/crates/port-expander)
 1. [pwm-pca9685] - I2C - 16-channel, 12-bit PWM/Servo/LED controller - [Intro blog post][32] - [![crates.io](https://img.shields.io/crates/v/pwm-pca9685.svg)](https://crates.io/crates/pwm-pca9685)
 1. [rainbow-hat-rs] - I2C/SPI/GPIO - Pimoroni Rainbow HAT driver for Raspberry Pi - [github][57] - [![crates.io](https://img.shields.io/crates/v/rainbow-hat-rs.svg)](https://crates.io/crates/rainbow-hat-rs)
@@ -850,7 +850,7 @@ Otherwise, please add it to the [WIP section](#WIP) below.
 1. [DW1000] - SPI - Radio transceiver (IEEE 802.15.4 and position tracking) - [Article][45] - [![crates.io](https://img.shields.io/crates/v/dw1000.svg)](https://crates.io/crates/dw1000)
 1. [Adafruit-7segment] - I2C - Driver for Adafruit 7-segment LED Numeric Backpack based on the ht16k33 chip - [github][47] - [![crates.io](https://img.shields.io/crates/v/adafruit-7segment.svg)](https://crates.io/crates/adafruit-7segment)
 1. [ST7565] - SPI - An embedded-graphics compatible driver for LCD displays based on the ST7565 chip - [github][64] - [![crates.io](https://img.shields.io/crates/v/st7565.svg)](https://crates.io/crates/st7565)
-1. [tb6612fng] - A `no_std` driver for the TB6612FNG motor driver - ![Crates.io](https://img.shields.io/crates/v/tb6612fng.svg)
+1. [tb6612fng] - A `no_std` driver for the TB6612FNG motor driver - [![crates.io](https://img.shields.io/crates/v/tb6612fng.svg)](https://crates.io/crates/tb6612fng)
 1. [vl53l1x-uld] - I2C - A pure-rust driver for the [ST VL53L1X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html) - [![crates.io](https://img.shields.io/crates/v/vl53l1x-uld.svg)](https://crates.io/crates/vl53l1x-uld)
 1. [i2c-multiplexer] - I2C - An I2C Multiplexer library that supports the PCA9546 and TCA9546A chips - [github][71] - [![crates.io](https://img.shields.io/crates/v/i2c-multiplexer.svg)](https://crates.io/crates/i2c-multiplexer)
 1. [SHT31-rs] - I2C - Fully supported SHT temperature / humidity sensors - [github][72] - [![crates.io](https://img.shields.io/crates/v/sht31.svg)](https://crates.io/crates/sht31)
@@ -1070,7 +1070,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [MAX31865] - SPI - RTD to Digital converter - [![crates.io](https://img.shields.io/crates/v/max31865.svg)](https://crates.io/crates/max31865)
 1. [MAX44009] - I2C - Ambient light sensor - [![crates.io](https://img.shields.io/crates/v/max44009.svg)](https://crates.io/crates/max44009)
 1. [MAX7219] - SPI - LED display driver - [![crates.io](https://img.shields.io/crates/v/max7219.svg)](https://crates.io/crates/max7219)
-1. [MCP4725] - I2C - 12-bit DAC - ![crates.io](https://img.shields.io/crates/v/mcp4725)
+1. [MCP4725] - I2C - 12-bit DAC - [![crates.io](https://img.shields.io/crates/v/mcp4725)](https://crates.io/crates/mcp4725)
 1. [MCP49xx] - SPI - 8/10/12-bit DACs like MCP4921, MCP4922, MCP4801, etc. - [![crates.io](https://img.shields.io/crates/v/mcp49xx.svg)](https://crates.io/crates/mcp49xx)
 1. [MCP9808] - I2C - Temperature sensor - [![crates.io](https://img.shields.io/crates/v/mcp9808.svg)](https://crates.io/crates/mcp9808)
 1. [MCP4x] - SPI - Digital potentiometers (digipot) like MCP41010, MCP41050, MCP41100, MCP42010, MCP42050 and MCP42100, etc. - [![crates.io](https://img.shields.io/crates/v/mcp4x.svg)](https://crates.io/crates/mcp4x)
@@ -1295,14 +1295,14 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [Slint](https://crates.io/crates/slint): Declarative GUI framework that works on microcontrollers. [![crates.io](https://img.shields.io/crates/v/slint.svg)](https://crates.io/crates/slint)
 1. [smbus-pec](https://crates.io/crates/smbus-pec): Minimal portable System Management Bus Packet Error Code calculation algorithm. [![crates.io](https://img.shields.io/crates/v/smbus-pec.svg)](https://crates.io/crates/smbus-pec)
 1. [smoltcp](https://github.com/m-labs/smoltcp): a small TCP/IP stack that runs without `alloc`. [![crates.io](https://img.shields.io/crates/v/smoltcp.svg)](https://crates.io/crates/smoltcp)
-1. [sntpc]: Rust SNTP client to get a timestamp from NTP servers. - ![crates.io](https://img.shields.io/crates/v/sntpc)
+1. [sntpc]: Rust SNTP client to get a timestamp from NTP servers. - [![crates.io](https://img.shields.io/crates/v/sntpc)](https://crates.io/crates/sntpc)
 1. [static-bytes](https://github.com/xoac/static-bytes): Help work with buffers without dynamic allocation. Implement traits from bytes crate. [![crate.io](https://img.shields.io/crates/v/static-bytes.svg)](https://crates.io/crates/static-bytes)
 1. [Stepper]: Universal Stepper Motor Interface - [![crates.io](https://img.shields.io/crates/v/stepper.svg)](https://crates.io/crates/stepper)
 1. [tinybmp](https://crates.io/crates/tinybmp): No-std, no-alloc BMP parser for embedded systems. [Introductory blog post](https://wapl.es/rust/2019/03/04/embedded-graphics-0.4.7-bmp-support.html) - [![crates.io](https://img.shields.io/crates/v/tinybmp.svg)](https://crates.io/crates/tinybmp)
 1. [vga-framebuffer]: A VGA signal generator and font renderer for VGA-less microcontrollers. Used by [Monotron](https://github.com/thejpster/monotron) to generate 48 by 36 character display using 3 SPI peripherals and a timer. [![crates.io](https://img.shields.io/crates/v/vga-framebuffer.svg)](https://crates.io/crates/vga-framebuffer)
 1. [usb-pd](https://github.com/fmckeogh/usb-pd-rs): USB-PD library, supports using the FUSB302B as a Sink driver, with Source functionality planned.
 1. [wyhash]: A fast, simple and portable hashing algorithm and random number generator. - [![crates.io](https://img.shields.io/crates/v/wyhash.svg)](https://crates.io/crates/wyhash)
-1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - ![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)
+1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - [![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)](https://crates.io/crates/adafruit-bluefruit-protocol)
 1. [wtx](https://github.com/c410-f3r/wtx): Among other things, provides implementations to interact with HTTP, WebSockets and Databases.
 
 [`cmim`]: https://crates.io/crates/cmim
