@@ -759,6 +759,8 @@ devices that go beyond what is available in [`embedded-hal`]:
 
 ## Driver crates
 
+You can also find many of these drivers [on drive-rs](https://tweedegolf.github.io/drive-rs/); please consider adding your driver there ([in the GitHub repo](https://github.com/tweedegolf/drive-rs)) while we work to port everything across.
+
 Platform agnostic crates to interface external components. These crates use the [`embedded-hal`]
 interface to support [all the devices and systems that implement the `embedded-hal`
 traits][hal-impl].
