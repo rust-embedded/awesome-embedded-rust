@@ -29,6 +29,7 @@
               # Linters
               VALIDATE_MARKDOWN: true
               VALIDATE_YAML: true
-              MARKDOWN_CONFIG_FILE: ./.markdownlint.yml
+              LINTER_RULES_PATH: ./
+              MARKDOWN_CONFIG_FILE: .markdownlint.yml
               ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
