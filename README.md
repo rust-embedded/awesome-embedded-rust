@@ -171,7 +171,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 ## Tools
 
 - [xargo](https://github.com/japaric/xargo) Rust package manager with support for non-default std libraries — build Rust runtime for your embedded system.
-    - xargo is great, but since it's in maintenance mode, [cargo-xbuild](https://github.com/rust-osdev/cargo-xbuild) is catching up as its intended replacement.
+  - xargo is great, but since it's in maintenance mode, [cargo-xbuild](https://github.com/rust-osdev/cargo-xbuild) is catching up as its intended replacement.
 - [svd2rust](https://github.com/japaric/svd2rust) Generate Rust structs with register mappings from SVD files.
 - [edc2svd](https://github.com/kiffie/edc2svd) Generate SVD files for PIC32 devices from EDC files. - [![crates.io](https://img.shields.io/crates/v/edc2svd.svg)](https://crates.io/crates/edc2svd)
 - [embedded-hal-mock] Mock implementation of `embedded-hal` traits for testing without accessing real hardware. - [![crates.io](https://img.shields.io/crates/v/embedded-hal-mock.svg)](https://crates.io/crates/embedded-hal-mock)
@@ -190,14 +190,13 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [uf2](https://github.com/sajattack/uf2conv-rs) Converts binary files to Microsoft's UF2 format for copying over to mass storage device uf2 bootloaders - [![crates.io](https://img.shields.io/crates/v/uf2.svg)](https://crates.io/crates/uf2)
 - [probe-rs](https://github.com/probe-rs/probe-rs): a modern, embedded debugging toolkit, written in Rust
 - [Knurling Tools](https://knurling.ferrous-systems.com/tools/) are developed by [Ferrous Systems] to ease the development process for building, debugging, and testing embedded Rust systems. These tools include:
-    - [defmt](https://github.com/knurling-rs/defmt): a highly efficient logging framework that targets resource-constrained devices, like microcontrollers.
-    - [flip-link](https://github.com/knurling-rs/flip-link), a linker wrapper that provides stack overflow protection without an MMU by flipping the standard memory layout of ARM Cortex-M programs
-    - [app-template](https://github.com/knurling-rs/app-template), a `cargo-generate` powered project template for quickly setting up new projects using the Knurling Tools.
-    - [defmt-test](https://github.com/knurling-rs/defmt-test), an embedded test harness that lets you write and run unit tests as if you were using the built-in `#[test]` attribute, but will run on an embedded target
+  - [defmt](https://github.com/knurling-rs/defmt): a highly efficient logging framework that targets resource-constrained devices, like microcontrollers.
+  - [flip-link](https://github.com/knurling-rs/flip-link), a linker wrapper that provides stack overflow protection without an MMU by flipping the standard memory layout of ARM Cortex-M programs
+  - [app-template](https://github.com/knurling-rs/app-template), a `cargo-generate` powered project template for quickly setting up new projects using the Knurling Tools.
+  - [defmt-test](https://github.com/knurling-rs/defmt-test), an embedded test harness that lets you write and run unit tests as if you were using the built-in `#[test]` attribute, but will run on an embedded target
 - [embedded-hal-compat](https://github.com/ryankurte/embedded-hal-compat), a compatibility layer to provide interoperability between `v0.2.x` and `v1.x.x` hal implementations and drivers
 - [Embassy start](https://github.com/titanclass/embassy-start) is a GitHub repo template for setting up async embedded Rust projects that use [Embassy](https://github.com/embassy-rs/embassy). This particular template targets nRF hardware and networking using the Uarte for the purposes of illustration only.
 - [svd-generator](https://codeberg.org/weathered-steel/svd-generator) CLI tool to parse flattened device tree files, and create a SVD file. - [![crates.io](https://img.shields.io/crates/v/svd-generator.svg)](https://crates.io/crates/svd-generator)
-
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
@@ -215,8 +214,8 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 ### Real-time tools
 
 - [RTIC v1.0](https://rtic.rs/1/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real-time systems:
-    - [cortex-m rtic](https://github.com/rtic-rs/cortex-m-rtic) RTIC framework for ARM Cortex-M microcontrollers
-    - [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
+  - [cortex-m rtic](https://github.com/rtic-rs/cortex-m-rtic) RTIC framework for ARM Cortex-M microcontrollers
+  - [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
 
 ## Peripheral Access Crates
 
@@ -325,7 +324,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 ### MSP430
 
 - [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
-    - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
+  - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 - [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 - [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - [![crates.io](https://img.shields.io/crates/v/msp430fr6972)](https://crates.io/crates/msp430fr6972)
 
@@ -376,6 +375,7 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 - [`w7500x-pac`](https://crates.io/crates/w7500x-pac) Peripheral Access Crate for Wiznet's W7500x microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/w7500x-pac.svg)](https://crates.io/crates/w7500x-pac)
 
 ### Renesas
+
 - [`ra2a1`](https://github.com/ra-rs/ra/tree/main/pac/ra2a1) Peripheral Access Crate for ra2a1 microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/ra2a1.svg)](https://crates.io/crates/ra2a1)
 - [`ra2e1`](https://github.com/ra-rs/ra/tree/main/pac/ra2e1) Peripheral Access Crate for ra2e1 microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/ra2e1.svg)](https://crates.io/crates/ra2e1)
 - [`ra2e2`](https://github.com/ra-rs/ra/tree/main/pac/ra2e2) Peripheral Access Crate for ra2e2 microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/ra2e2.svg)](https://crates.io/crates/ra2e2)
@@ -393,7 +393,6 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 - [`ra6t1`](https://github.com/ra-rs/ra/tree/main/pac/ra6t1) Peripheral Access Crate for ra6t1 microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/ra6t1.svg)](https://crates.io/crates/ra6t1)
 - [`ra6t2`](https://github.com/ra-rs/ra/tree/main/pac/ra6t2) Peripheral Access Crate for ra6t2 microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/ra6t2.svg)](https://crates.io/crates/ra6t2)
 - [`da14531`](https://crates.io/crates/da14531) Peripheral Access Crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - [![crates.io](https://img.shields.io/crates/v/da14531.svg)](https://crates.io/crates/da14531)
-
 
 ## HAL implementation crates
 
@@ -464,31 +463,27 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`stm32f0xx-hal`](https://crates.io/crates/stm32f0xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f0xx-hal.svg)](https://crates.io/crates/stm32f0xx-hal)
   - Has examples that can run on boards like the [Nucleo-F042K6] and similar boards
-
-[Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
-
+[Nucleo-F042K6]: <http://www.st.com/en/evaluation-tools/nucleo-f042k6.html>
 - [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)](https://crates.io/crates/stm32f1xx-hal)
   - Can be run on boards like the [Blue pill], [Nucleo-F103RB], and similar boards
-
-[Blue pill]: https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html
-[Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
-
+[Blue pill]: <https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html>
+[Nucleo-F103RB]: <http://www.st.com/en/evaluation-tools/nucleo-f103rb.html>
 - [`stm32f3xx-hal`](https://crates.io/crates/stm32f3xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f3xx-hal.svg)](https://crates.io/crates/stm32f3xx-hal)
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)](https://crates.io/crates/stm32f4xx-hal)
-   - Generic HAL implementation for all MCUs of the stm32f4 series
+  - Generic HAL implementation for all MCUs of the stm32f4 series
 - [`stm32f7xx-hal`](https://crates.io/crates/stm32f7xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f7xx-hal.svg)](https://crates.io/crates/stm32f7xx-hal)
-   - Generic HAL implementation for all MCUs of the stm32f7 series
+  - Generic HAL implementation for all MCUs of the stm32f7 series
 - [`stm32g0xx-hal`](https://crates.io/crates/stm32g0xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32g0xx-hal.svg)](https://crates.io/crates/stm32g0xx-hal)
 - [`stm32h7xx-hal`](https://crates.io/crates/stm32h7xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32h7xx-hal.svg)](https://crates.io/crates/stm32h7xx-hal)
-    - HAL implementation for the STMicro STM32H7xx family of microcontrollers
+  - HAL implementation for the STMicro STM32H7xx family of microcontrollers
 - [`stm32l0xx-hal`](https://crates.io/crates/stm32l0xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32l0xx-hal.svg)](https://crates.io/crates/stm32l0xx-hal)
-   - HAL implementation for the the STMicro STM32L0xx family of microcontrollers
+  - HAL implementation for the the STMicro STM32L0xx family of microcontrollers
 - [`stm32l1xx-hal`](https://crates.io/crates/stm32l1xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32l1xx-hal.svg)](https://crates.io/crates/stm32l1xx-hal)
 - [`stm32l151-hal`](https://crates.io/crates/stm32l151-hal) - [![crates.io](https://img.shields.io/crates/v/stm32l151-hal.svg)](https://crates.io/crates/stm32l151-hal)
 - [`stm32l4xx-hal`](https://crates.io/crates/stm32l4xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32l4xx-hal.svg)](https://crates.io/crates/stm32l4xx-hal)
-   - Generic hal support for stm32l4 devices, has examples that can run on boards like the [Nucleo-L432KC], [Solo], and similar boards
+  - Generic hal support for stm32l4 devices, has examples that can run on boards like the [Nucleo-L432KC], [Solo], and similar boards
 - [`stm32-hal`](https://crates.io/crates/stm32-hal2) - [![crates.io](https://img.shields.io/crates/v/stm32-hal2.svg)](https://crates.io/crates/stm32-hal2)
-   - HAL implementation for STM32 devices across multiple families, with a focus on newer ones like L4, L5, and H7.
+  - HAL implementation for STM32 devices across multiple families, with a focus on newer ones like L4, L5, and H7.
 
 [Nucleo-L432KC]: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-l432kc.html
 [Solo]: https://solokeys.com/
@@ -500,7 +495,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### MSP430
 
 - [`msp430fr2x5x-hal`](https://crates.io/crates/msp430fr2x5x-hal)
-    - HAL implementation for the MSP430FR2x5x family of microcontrollers
+  - HAL implementation for the MSP430FR2x5x family of microcontrollers
 
 ### Espressif
 
@@ -509,11 +504,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 - [`esp-hal`](https://github.com/esp-rs/esp-hal)
   - A `no_std` Hardware Abstraction Layers for ESP32 microcontrollers
 
-
 ### Silicon Labs
 
 - [`tomu-hal`](https://github.com/fudanchii/imtomu-rs)
-   - HAL implementation targeted for [Tomu] USB board with EFM32HG309F64 ARMv6-M core. Has support to configure [tomu bootloader] directly from an application via the `toboot_config` macro.
+  - HAL implementation targeted for [Tomu] USB board with EFM32HG309F64 ARMv6-M core. Has support to configure [tomu bootloader] directly from an application via the `toboot_config` macro.
 
 [Tomu]: https://tomu.im/
 [tomu bootloader]: https://github.com/im-tomu/tomu-bootloader
@@ -538,6 +532,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
 
 ### Renesas
+
 - [`da14531-hal`](https://crates.io/crates/da14531-hal) HAL crate for DA14531 Ultra-Low Power BT 5.1 System-on-Chip - [![crates.io](https://img.shields.io/crates/v/da14531-hal.svg)](https://crates.io/crates/da14531-hal)
 
 ### StarFive
@@ -660,9 +655,7 @@ Crates tailored for specific boards.
 - [`pimoroni-pico-explorer`](https://github.com/rp-rs/rp-hal) - Board Support for the [Pimoroni Pico Explorer]
 - [`pimoroni-pico-lipo-16mb`](https://github.com/rp-rs/rp-hal) - Board Support for the [Pimoroni Pico Lipo 16MB]
 
-[pimoroni-pico-explorer]: https://github.com/rp-rs/rp-hal/tree/main/boards/pimoroni-pico-explorer
 [Pimoroni Pico Explorer]: https://shop.pimoroni.com/products/pico-explorer-base
-[pimoroni-pico-lipo-16mb]: https://github.com/rp-rs/rp-hal/tree/main/boards/pimoroni_pico_lipo_16mb
 [Pimoroni Pico Lipo 16MB]: https://shop.pimoroni.com/products/pimoroni-pico-lipo?variant=39335427080275
 
 ### Raspberry Pi
@@ -711,10 +704,10 @@ Crates tailored for specific boards.
 - [`stm32f429i-disc`](https://crates.io/crates/stm32f429i-disc) Board Support Crate for the [STM32F429DISCOVERY] (WIP) - [![crates.io](https://img.shields.io/crates/v/stm32f429i-disc.svg)](https://crates.io/crates/stm32f429i-disc)
 - [`stm32f3-discovery`](https://crates.io/crates/stm32f3-discovery) Board Support Crate for the [STM32F3DISCOVERY] used in [Rust Embedded Discovery book](https://rust-embedded.github.io/discovery/index.html) - [![crates.io](https://img.shields.io/crates/v/stm32f3-discovery)](https://crates.io/crates/stm32f3-discovery)
 
-
 [Nucleo-F401RE]: https://www.st.com/en/evaluation-tools/nucleo-f401re.html
 
 ### Teensy
+
 - [`teensy4-rs`](https://github.com/mciantyre/teensy4-rs) Board Support crate for the [Teensy 4.0]
 
 ### Vorago
@@ -757,7 +750,6 @@ devices that go beyond what is available in [`embedded-hal`]:
 - [`embedded-storage`](https://github.com/rust-embedded-community/embedded-storage): An Embedded Storage Abstraction Layer
 - [`switch-hal`](https://github.com/rubberduck203/switch-hal): An "on"/"off" abstraction for input and output switches - [![crates.io](https://img.shields.io/crates/v/switch-hal.svg)](https://crates.io/crates/switch-hal)
 
-
 ## Driver crates
 
 You can also find many of these drivers [on drive-rs](https://tweedegolf.github.io/drive-rs/); please consider adding your driver there ([in the GitHub repo](https://github.com/tweedegolf/drive-rs)) while we work to port everything across.
@@ -772,7 +764,7 @@ The list below contains drivers that have achieved the "released" status. To add
 to this list, please ensure that your driver has a short blog post, article, or sufficiently
 explanatory README showing an example of its use. Ideally, this post would demonstrate using the
 device in a small project so that a Rust and/or embedded newcomer can also understand it.
-Otherwise, please add it to the [WIP section](#WIP) below.
+Otherwise, please add it to the [WIP section](#wip) below.
 
 1. [AD983x] - SPI - AD9833/AD9837 waveform generators / DDS - [Intro blog post][25] - [![crates.io](https://img.shields.io/crates/v/ad983x.svg)](https://crates.io/crates/ad983x)
 1. [adafruit-alphanum4] - I2C - Driver for [Adafruit 14-segment LED Alphanumeric Backpack][29] based on the ht16k33 chip - [![crates.io](https://img.shields.io/crates/v/adafruit-alphanum4.svg)](https://crates.io/crates/adafruit-alphanum4)
@@ -1370,8 +1362,8 @@ These materials may be outdated and reflect earlier practices, but they might st
 
 This list is licensed under
 
-- CC0 1.0 Universal License ([LICENSE-CC0](LICENSE-CC0) or
-  https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+- CC0 1.0 Universal License ([LICENSE-CC0](./LICENSE-CC0) or
+  [license](https://creativecommons.org/publicdomain/zero/1.0/legalcode))
 
 ## Code of Conduct
 
