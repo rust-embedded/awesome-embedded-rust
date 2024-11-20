@@ -2,7 +2,7 @@
     name: Linting
 
     on: # yamllint disable-line rule:truthy
-      # push: null
+      push: null
       pull_request: null
 
     permissions: {}
