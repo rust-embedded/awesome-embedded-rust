@@ -1,6 +1,6 @@
 ---
 name: Static Analysis
-on: [push]
+on: [push, pull_request]
 jobs:
   Markdown_Lint_Check:
     name: Markdown Lint Check
