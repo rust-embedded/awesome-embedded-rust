@@ -1,6 +1,7 @@
 # Embedded Rust
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Static Analysis](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Static%20Analysis.yml/badge.svg?branch=master)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Static%20Analysis.yml)
 
 This is a curated list of resources related to embedded and low-level programming in the Rust programming language, including a selection of useful crates.
 
