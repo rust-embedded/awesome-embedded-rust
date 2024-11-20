@@ -29,6 +29,5 @@
               # Linters
               VALIDATE_MARKDOWN: true
               VALIDATE_YAML: true
-              FIX_MARKDOWN: true
               ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
