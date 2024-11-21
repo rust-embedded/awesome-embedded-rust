@@ -1,0 +1,35 @@
+---
+    name: Linting
+
+    on: # yamllint disable-line rule:truthy
+      push: null
+      pull_request: null
+
+    permissions: {}
+
+    jobs:
+      Super_Linter:
+        name: Super Linter
+        runs-on: ubuntu-latest
+
+        permissions:
+          contents: read
+          packages: read
+          # To report GitHub Actions status checks
+          statuses: write
+
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v4
+            with:
+              fetch-depth: 0
+          - name: Super-linter
+            uses: super-linter/super-linter@v7.2.0 # x-release-please-version
+            env:
+              # Linters
+              VALIDATE_MARKDOWN: true
+              VALIDATE_YAML: true
+              LINTER_RULES_PATH: ./
+              MARKDOWN_CONFIG_FILE: .markdownlint.yml
+              ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
