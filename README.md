@@ -1361,8 +1361,7 @@ These materials may be outdated and reflect earlier practices, but they might st
 
 This list is licensed under
 
-- CC0 1.0 Universal License ([LICENSE-CC0](LICENSE-CC0) or
-  https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+- [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/legalcode) aka [LICENSE-CC0](LICENSE-CC0)
 
 ## Code of Conduct
 
