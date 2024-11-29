@@ -85,6 +85,7 @@ This project is developed and maintained by the [Resources team][team].
     - [WIP](#wip)
   - [no-std crates](#no-std-crates)
     - [WIP](#wip-1)
+  - [Panic handling](#panic-handling)
   - [Firmware projects](#firmware-projects)
   - [Old books, blogs, and training materials](#old-books-blogs-and-training-materials)
   - [License](#license)
@@ -1277,7 +1278,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [nom](https://crates.io/crates/nom): parser combinator framework - [![crates.io](https://img.shields.io/crates/v/nom.svg)](https://crates.io/crates/nom)
 1. [null-terminated](https://crates.io/crates/null-terminated): generic null-terminated arrays - [![crates.io](https://img.shields.io/crates/v/null-terminated.svg)](https://crates.io/crates/null-terminated)
 1. [num-format](https://crates.io/crates/num-format): Crate for producing string representations of numbers, formatted according to international standards, e.g. "1,000,000" for US English - [![crates.io](https://img.shields.io/crates/v/num-format.svg)](https://crates.io/crates/num-format)
-1. [`panic-persist`]: A panic handler crate inspired by `panic-ramdump` that logs panic messages to a region of RAM defined by the user, allowing for discovery of panic messages post-mortem using normal program control flow. - [![crates.io](https://img.shields.io/crates/v/panic-persist.svg)](https://crates.io/crates/panic-persist)
 1. [pc-keyboard]: A PS/2 keyboard protocol driver. Transport (bit-banging or SPI) agnostic, but can convert Set 2 Scancodes into Unicode. [![crates.io](https://img.shields.io/crates/v/pc-keyboard.svg)](https://crates.io/crates/pc-keyboard)
 1. [qei](https://crates.io/crates/qei) : A qei wrapper that allows you to extend your qei timers from a 16-bit integer to a 64-bit integer. - [![crates.io](https://img.shields.io/crates/v/qei.svg)](https://crates.io/crates/qei)
 1. [qemu-exit]: Quit a running QEMU session with user-defined exit code. Useful for unit or integration tests using QEMU. - [![crates.io](https://img.shields.io/crates/v/qemu-exit.svg)](https://crates.io/crates/qemu-exit)
@@ -1299,8 +1299,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - [![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)](https://crates.io/crates/adafruit-bluefruit-protocol)
 1. [wtx](https://github.com/c410-f3r/wtx): Among other things, provides implementations to interact with HTTP, WebSockets and Databases.
 
+[no-std-category]: https://crates.io/categories/no-std
 [`cmim`]: https://crates.io/crates/cmim
-[`panic-persist`]: https://crates.io/crates/panic-persist
 [bitmatch]: https://crates.io/crates/bitmatch
 [biquad]: https://crates.io/crates/biquad
 [embassy]: https://github.com/akiles/embassy
@@ -1326,7 +1326,36 @@ Work in progress crates. Help the authors make these crates awesome!
 - [OxCC](https://github.com/jonlamb-gh/oxcc): A port of Open Source Car Control written in Rust
 - [Rubble](https://github.com/jonas-schievink/rubble): A pure-Rust embedded BLE stack [![crates.io](https://img.shields.io/crates/v/rubble.svg)](https://crates.io/crates/rubble)
 
-[no-std-category]: https://crates.io/categories/no-std
+## Panic handling
+
+There are many ways to handle panics in embedded devices, these crates provide helpful variants.
+
+1. [`dont_panic`] + [`dont_panic_slice`]: panic!()-like macro that causes linking error instead of panicking. May be used to statically ensure some code won't panic. [![crates.io](https://img.shields.io/crates/v/dont_panic.svg)](https://crates.io/crates/dont_panic) + [![crates.io](https://img.shields.io/crates/v/dont_panic_slice.svg)](https://crates.io/crates/dont_panic_slice)
+1. [`no-panic`]: Attribute macro to require that the compiler prove a function can't ever panic. [![crates.io](https://img.shields.io/crates/v/no-panic.svg)](https://crates.io/crates/no-panic)
+1. [`panic-abort`]: Causes an abort on panics (nightly-only) [![crates.io](https://img.shields.io/crates/v/panic-abort.svg)](https://crates.io/crates/panic-abort)
+1. [`panic-halt`]: Halts the processor on panics [![crates.io](https://img.shields.io/crates/v/panic-halt.svg)](https://crates.io/crates/panic-halt)
+1. [`panic-itm`]: Prints the panic through the chip's ITM to a debugger attached to the SWO pin (Cortex-M with ITM only)
+1. [`panic-never`]: This crate guarantees that your application is free of panicking branches. [![crates.io](https://img.shields.io/crates/v/panic-never.svg)](https://crates.io/crates/panic-never)
+1. [`panic-persist`]: A panic handler crate inspired by `panic-ramdump` that logs panic messages to a region of RAM defined by the user, allowing for discovery of panic messages post-mortem using normal program control flow. - [![crates.io](https://img.shields.io/crates/v/panic-persist.svg)](https://crates.io/crates/panic-persist)
+1. [`panic-probe`]: A panic handler that exits `probe-run` with an error code. [![crates.io](https://img.shields.io/crates/v/panic-probe.svg)](https://crates.io/crates/panic-probe)
+1. [`panic-ramdump`]: Writes the panic message into the beginning of RAM and enters an infinite loop; the message can be extracted by attaching a debugger (Cortex-M only) [![crates.io](https://img.shields.io/crates/v/panic-ramdump.svg)](https://crates.io/crates/panic-ramdump)
+1. [`panic-rtt`]: Set the panicking behavior to log to a JLINK debugger and loop. [![crates.io](https://img.shields.io/crates/v/panic_rtt.svg)](https://crates.io/crates/panic_rtt)
+1. [`panic-rtt-target`]: Logs panic messages over RTT. Uses `rtt-target`. [![crates.io](https://img.shields.io/crates/v/panic-rtt-target.svg)](https://crates.io/crates/panic-rtt-target)
+1. [`panic-semihosting`]: Prints the panic message via semihosting to an attached debugger (Cortex-M only)
+
+[`dont_panic_slice`]: https://crates.io/crates/dont_panic_slice
+[`dont_panic`]: https://crates.io/crates/dont_panic
+[`no-panic`]: https://crates.io/crates/no-panic
+[`panic-abort`]: https://crates.io/crates/panic-abort
+[`panic-halt`]: https://crates.io/crates/panic-halt
+[`panic-itm`]: https://github.com/rust-embedded/cortex-m/tree/master/panic-itm
+[`panic-never`]: https://crates.io/crates/panic-never
+[`panic-persist`]: https://crates.io/crates/panic-persist
+[`panic-probe`]: https://crates.io/crates/panic-probe
+[`panic-ramdump`]: https://crates.io/crates/panic-ramdump
+[`panic-rtt`]: https://crates.io/crates/panic_rtt
+[`panic-rtt-target`]: https://crates.io/crates/panic-rtt-target
+[`panic-semihosting`]: https://github.com/rust-embedded/panic-semihosting
 
 ## Firmware projects
 
