@@ -792,6 +792,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 1. [embedded-ccs811] - I2C - Gas and VOC sensor driver for monitoring indoor air quality - [Intro blog post][49] - [![crates.io](https://img.shields.io/crates/v/embedded-ccs811.svg)](https://crates.io/crates/embedded-ccs811)
 1. [embedded-sdmmc] - SPI - SD/MMC Card Driver with MS-DOS Partition and FAT16/FAT32 support - [Intro post][20] [![crates.io](https://img.shields.io/crates/v/embedded-sdmmc.svg)](https://crates.io/crates/embedded-sdmmc)
 1. [ENC28J60] - SPI - Ethernet controller - [Intro blog post][4] - [![crates.io](https://img.shields.io/crates/v/enc28j60.svg)](https://crates.io/crates/enc28j60)
+1. [FH101RF] - SPI - Wake-Up Radio - [github](https://github.com/trembel/fh101rf) - [![crates.io](https://img.shields.io/crates/v/fh101rf.svg)](https://crates.io/crates/fh101rf)
 1. [FUSB302B] - I2C - Programmable USB Type‐C Controller with USB Power Delivery - [github][69]
 1. [HC-12] - SERIAL - Wireless serial transceiver module - [Intro blog post][56] - [github][53] - [![crates.io](https://img.shields.io/crates/v/hc12-at.svg)](https://crates.io/crates/hc12-at)
 1. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - [![crates.io](https://img.shields.io/crates/v/hts221.svg)](https://crates.io/crates/hts221)
@@ -949,6 +950,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [embedded-ccs811]: https://crates.io/crates/embedded-ccs811
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
 [ENC28J60]: https://crates.io/crates/enc28j60
+[FH101RF]: https://crates.io/crates/fh101rf
 [FUSB302B]: https://github.com/fmckeogh/usb-pd-rs
 [HTS221]: https://crates.io/crates/hts221
 [IIS2MDC]: https://crates.io/crates/iis2mdc
