@@ -773,6 +773,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 1. [ADXL313] - SPI - 3-axis accelerometer - [![crates.io](https://img.shields.io/crates/v/adxl313.svg)](https://crates.io/crates/adxl313)
 1. [ADXL343] - I2C - 3-axis accelerometer - [![crates.io](https://img.shields.io/crates/v/adxl343.svg)](https://crates.io/crates/adxl343)
 1. [ADXL355] - SPI - 3-axis accelerometer - [Intro blog post][43] - [![crates.io](https://img.shields.io/crates/v/adxl355.svg)](https://crates.io/crates/adxl355)
+1. [AEM10900] - I2C - Energy Harvester - [github](https://github.com/trembel/aem10900) - [![crates.io](https://img.shields.io/crates/v/aem10900.svg)](https://crates.io/crates/aem10900)
 1. [AFE4404] - I2C - Pulse oximeter - [![crates.io](https://img.shields.io/crates/v/afe4404.svg)](https://crates.io/crates/afe4404)
 1. [AHT20] - I2C - Humidity and temperature sensor - [github](https://github.com/chocol4te/aht20) - [![crates.io](https://img.shields.io/crates/v/aht20.svg)](https://crates.io/crates/aht20)
 1. [AHT20-driver] - I2C - Humidity and temperature sensor - [Intro blog post][61] - [github][62] - [![crates.io](https://img.shields.io/crates/v/aht20-driver.svg)](https://crates.io/crates/aht20-driver)
@@ -930,6 +931,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [ADXL313]: https://crates.io/crates/adxl313
 [ADXL343]: https://crates.io/crates/adxl343
 [ADXL355]: https://crates.io/crates/adxl355
+[AEM10900]: https://crates.io/crates/aem10900
 [AFE4404]: https://github.com/pulse-loop/afe4404
 [AHT20]: https://crates.io/crates/aht20
 [AHT20-driver]: https://crates.io/crates/aht20-driver
