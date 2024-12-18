@@ -1346,6 +1346,7 @@ There are many ways to handle panics in embedded devices, these crates provide h
 1. [`panic-rtt`]: Set the panicking behavior to log to a JLINK debugger and loop. [![crates.io](https://img.shields.io/crates/v/panic_rtt.svg)](https://crates.io/crates/panic_rtt)
 1. [`panic-rtt-target`]: Logs panic messages over RTT. Uses `rtt-target`. [![crates.io](https://img.shields.io/crates/v/panic-rtt-target.svg)](https://crates.io/crates/panic-rtt-target)
 1. [`panic-semihosting`]: Prints the panic message via semihosting to an attached debugger (Cortex-M only)
+1. [`rp2040-panic-usb-boot`]: Save panic message in XIP RAM and reboot RP2040 to USB mode [![crates.io](https://img.shields.io/crates/v/rp2040-panic-usb-boot.svg)](https://crates.io/crates/rp2040-panic-usb-boot)
 
 [`dont_panic_slice`]: https://crates.io/crates/dont_panic_slice
 [`dont_panic`]: https://crates.io/crates/dont_panic
@@ -1360,6 +1361,7 @@ There are many ways to handle panics in embedded devices, these crates provide h
 [`panic-rtt`]: https://crates.io/crates/panic_rtt
 [`panic-rtt-target`]: https://crates.io/crates/panic-rtt-target
 [`panic-semihosting`]: https://github.com/rust-embedded/panic-semihosting
+[`rp2040-panic-usb-boot`]: https://crates.io/crates/rp2040-panic-usb-boot
 
 ## Firmware projects
 
