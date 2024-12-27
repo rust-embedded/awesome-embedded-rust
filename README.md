@@ -264,6 +264,7 @@ Peripheral Access Crates were also called Device Crates.
 - [`mkw41z`](https://crates.io/crates/mkw41z) - [![crates.io](https://img.shields.io/crates/v/mkw41z.svg)](https://crates.io/crates/mkw41z)
 - [`imxrt-ral`](https://github.com/imxrt-rs/imxrt-rs) Register access layer for i.MX RT series. -  [![crates.io](https://img.shields.io/crates/v/imxrt-ral.svg)](https://crates.io/crates/imxrt-ral)
 - [`SKEAZN642`](https://crates.io/crates/SKEAZN642) Peripheral access API for KEA64 family microcontrollers (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/SKEAZN642.svg)](https://crates.io/crates/SKEAZN642)
+- [`mcx-pac`](https://github.com/mcx-rs/mcx-pac) Peripheral Access Crate for NXP MCX Series MCUs - [![crates.io](https://img.shields.io/crates/v/mcx-pac.svg)](https://crates.io/crates/mcx-pac)
 
 ### Raspberry Pi Silicon
 
