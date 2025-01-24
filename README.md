@@ -271,6 +271,7 @@ Peripheral Access Crates were also called Device Crates.
 ### Raspberry Pi Silicon
 
 - [`rp2040-pac`](https://crates.io/crates/rp2040-pac) - Peripheral access API for the RP2040 dual-core system-on-chip (generated using svd2rust) - [![crates.io](https://img.shields.io/crates/v/rp2040-pac.svg)](https://crates.io/crates/rp2040-pac)
+- [`rp235x-pac`](https://crates.io/crates/rp235x-pac) - Peripheral access API for the RP2350 family of dual-core microcontrollers - [![crates.io](https://img.shields.io/crates/v/rp235x-pac.svg)](https://crates.io/crates/rp235x-pac)
 
 ### SiFive
 
@@ -453,6 +454,7 @@ Also check the list of [NXP board support crates][nxp-bsc]!
 ### Raspberry Pi Silicon
 
 - [`rp2040-hal`](https://crates.io/crates/rp2040-hal) - HAL for the RP2040 dual-core system-on-chip - [![crates.io](https://img.shields.io/crates/v/rp2040-hal.svg)](https://crates.io/crates/rp2040-hal)
+- [`rp235x-hal`](https://crates.io/crates/rp235x-hal) - HAL for the RP2350 family of dual-core microcontrollers (used in the Raspberry Pi Pico 2 etc.) - [![crates.io](https://img.shields.io/crates/v/rp235x-hal.svg)](https://crates.io/crates/rp235x-hal)
 
 ### SiFive
 
