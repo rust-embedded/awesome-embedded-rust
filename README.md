@@ -663,6 +663,8 @@ Crates tailored for specific boards.
 [Pimoroni Pico Explorer]: https://shop.pimoroni.com/products/pico-explorer-base
 [Pimoroni Pico Lipo 16MB]: https://shop.pimoroni.com/products/pimoroni-pico-lipo?variant=39335427080275
 
+For unlisted Pimoroni microcontroller boards, check [this up-to-date list](https://github.com/rp-rs/rp-hal-boards/blob/main/README.md#packages).
+
 ### Raspberry Pi
 
 - [`rp-pico`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the RP2040-based Raspberry Pi Pico.
