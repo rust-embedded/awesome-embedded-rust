@@ -599,11 +599,11 @@ Crates tailored for specific boards.
 - [`neokey_trinkey`](https://crates.io/crates/neokey_trinkey) - Board support for the [neokey trinkey board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/neokey_trinkey.svg)](https://crates.io/crates/neokey_trinkey)
 - [`grand_central_m4`](https://crates.io/crates/grand_central_m4) - Board support for the [grand central m4 board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/grand_central_m4.svg)](https://crates.io/crates/grand_central_m4)
 - [`qt_py_m0`](https://crates.io/crates/qt_py_m0) - Board support for the [QT Py board] in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/qt_py_m0.svg)](https://crates.io/crates/qt_py_m0)
-- [`adafruit-feather-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit Feather RP2040] [![crates.io](https://img.shields.io/crates/v/adafruit-feather-rp2040.svg)](https://crates.io/crates/adafruit-feather-rp2040)
-- [`adafruit-itsy-bitsy-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit ItsyBitsy RP2040] [![crates.io](https://img.shields.io/crates/v/adafruit-itsy-bitsy-rp2040.svg)](https://crates.io/crates/adafruit-itsy-bitsy-rp2040)
-- [`adafruit-kb2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit KB2040] [![crates.io](https://img.shields.io/crates/v/adafruit-kb2040.svg)](https://crates.io/crates/adafruit-kb2040)
-- [`adafruit-macropad`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit Macropad] [![crates.io](https://img.shields.io/crates/v/adafruit-macropad.svg)](https://crates.io/crates/adafruit-macropad)
-- [`adafruit-qt-py-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the [Adafruit QT Py RP2040] [![crates.io](https://img.shields.io/crates/v/adafruit-qt-py-rp2040.svg)](https://crates.io/crates/adafruit-qt-py-rp2040)
+- [`adafruit-feather-rp2040`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the [Adafruit Feather RP2040] [![crates.io](https://img.shields.io/crates/v/adafruit-feather-rp2040.svg)](https://crates.io/crates/adafruit-feather-rp2040)
+- [`adafruit-itsy-bitsy-rp2040`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the [Adafruit ItsyBitsy RP2040] [![crates.io](https://img.shields.io/crates/v/adafruit-itsy-bitsy-rp2040.svg)](https://crates.io/crates/adafruit-itsy-bitsy-rp2040)
+- [`adafruit-kb2040`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the [Adafruit KB2040] [![crates.io](https://img.shields.io/crates/v/adafruit-kb2040.svg)](https://crates.io/crates/adafruit-kb2040)
+- [`adafruit-macropad`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the [Adafruit Macropad] [![crates.io](https://img.shields.io/crates/v/adafruit-macropad.svg)](https://crates.io/crates/adafruit-macropad)
+- [`adafruit-qt-py-rp2040`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the [Adafruit QT Py RP2040] [![crates.io](https://img.shields.io/crates/v/adafruit-qt-py-rp2040.svg)](https://crates.io/crates/adafruit-qt-py-rp2040)
 
 [Metro M0 board]: https://www.adafruit.com/product/3505
 [Metro M4 board]: https://www.adafruit.com/product/3382
@@ -657,20 +657,20 @@ Crates tailored for specific boards.
 
 ### Pimoroni
 
-- [`pimoroni-pico-explorer`](https://github.com/rp-rs/rp-hal) - Board Support for the [Pimoroni Pico Explorer]
-- [`pimoroni-pico-lipo-16mb`](https://github.com/rp-rs/rp-hal) - Board Support for the [Pimoroni Pico Lipo 16MB]
+- [`pimoroni-pico-explorer`](https://github.com/rp-rs/rp-hal-boards) - Board Support for the [Pimoroni Pico Explorer]
+- [`pimoroni-pico-lipo-16mb`](https://github.com/rp-rs/rp-hal-boards) - Board Support for the [Pimoroni Pico Lipo 16MB]
 
 [Pimoroni Pico Explorer]: https://shop.pimoroni.com/products/pico-explorer-base
 [Pimoroni Pico Lipo 16MB]: https://shop.pimoroni.com/products/pimoroni-pico-lipo?variant=39335427080275
 
 ### Raspberry Pi
 
-- [`rp-pico`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040-based Raspberry Pi Pico.
+- [`rp-pico`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the RP2040-based Raspberry Pi Pico.
 
 ### Sparkfun
 
 - [`samd21_mini`](https://crates.io/crates/samd21_mini) - Board support for the [SAMD21 Mini Breakout](https://www.sparkfun.com/products/13664) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/samd21_mini.svg)](https://crates.io/crates/samd21_mini)
-- [`sparkfun-pro-micro-rp2040`](https://github.com/rp-rs/rp-hal) - Board Support Crate for the RP2040 based Sparkfun Pro Micro.
+- [`sparkfun-pro-micro-rp2040`](https://github.com/rp-rs/rp-hal-boards) - Board Support Crate for the RP2040 based Sparkfun Pro Micro.
 
 ### SeeedStudio
 
