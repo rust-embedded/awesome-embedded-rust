@@ -810,6 +810,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 1. [keypad] - GPIO - Keypad matrix circuits - [Intro post][14] - [![crates.io](https://img.shields.io/crates/v/keypad.svg)](https://crates.io/crates/keypad)
 1. [KXCJ9] - I2C - KXCJ9/KXCJB 3-axis accelerometers - [Intro blog post][24] - [![crates.io](https://img.shields.io/crates/v/kxcj9.svg)](https://crates.io/crates/kxcj9)
 1. [L3GD20] - SPI - Gyroscope - [Intro blog post][1&2] - [![crates.io](https://img.shields.io/crates/v/l3gd20.svg)](https://crates.io/crates/l3gd20)
+1. [lcd_parallel_bus] - GPIO - Async and blocking driver for LCDs based on HD44780 parallel bus - [![crates.io](https://img.shields.io/crates/v/lcd_parallel_bus)](https://crates.io/crates/lcd_parallel_bus)
 1. [LSM303DLHC] - I2C - Accelerometer + compass (magnetometer) - [Intro blog post][1&2] - [![crates.io](https://img.shields.io/crates/v/lsm303dlhc.svg)](https://crates.io/crates/lsm303dlhc)
 1. [MAX6675] - SPI - A driver for the MAX6675 digital thermocouple converter - [Intro blog post][73] - [![crates.io](https://img.shields.io/crates/v/max6675-hal.svg)](https://crates.io/crates/max6675-hal)
 1. [MAX6955] - I2C - Driver for Alphanumeric LED display driver - [Intro blog post][46] - [![crates.io](https://img.shields.io/crates/v/max6955.svg)](https://crates.io/crates/max6955)
@@ -967,6 +968,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [keypad]: https://crates.io/crates/keypad
 [KXCJ9]: https://crates.io/crates/kxcj9
 [L3GD20]: https://crates.io/crates/l3gd20
+[lcd_parallel_bus]: https://crates.io/crates/lcd_parallel_bus
 [LSM303DLHC]: https://crates.io/crates/lsm303dlhc
 [MAX6675]: https://crates.io/crates/max6675-hal
 [MAX6955]: https://crates.io/crates/max6955
