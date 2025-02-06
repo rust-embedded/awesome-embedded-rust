@@ -964,6 +964,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [FUSB302B]: https://github.com/fmckeogh/usb-pd-rs
 [HTS221]: https://crates.io/crates/hts221
 [IIS2MDC]: https://crates.io/crates/iis2mdc
+[IS31FL3728]: https://github.com/leonidv/is31fl3728-rs
 [ISM330DHCX]: https://crates.io/crates/ism330dhcx
 [keypad]: https://crates.io/crates/keypad
 [KXCJ9]: https://crates.io/crates/kxcj9
