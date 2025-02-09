@@ -807,7 +807,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 1. [FUSB302B] - I2C - Programmable USB Type‐C Controller with USB Power Delivery - [github][69]
 1. [HC-12] - SERIAL - Wireless serial transceiver module - [Intro blog post][56] - [github][53] - [![crates.io](https://img.shields.io/crates/v/hc12-at.svg)](https://crates.io/crates/hc12-at)
 1. [HTS221] - I2C - Humidity and temperature sensor - [Intro blog post][7] - [![crates.io](https://img.shields.io/crates/v/hts221.svg)](https://crates.io/crates/hts221)
-1. [is31fl3728-rs] - I2C - a platform-agnostic driver for the IS31FL3728 LED Matrix - [gihub](https://github.com/leonidv/is31fl3728-rs) -![Crates.io Version](https://img.shields.io/crates/v/is31fl3728-rs)
+1. [IS31FL3728-rs] - I2C - a platform-agnostic driver for the IS31FL3728 LED Matrix - [gihub](https://github.com/leonidv/is31fl3728-rs) -![Crates.io Version](https://img.shields.io/crates/v/is31fl3728-rs)
 1. [IIS2MDC] - I2C - ST's High accuracy, ultra-low-power, 3-axis digital output magnetometer - [![crates.io](https://img.shields.io/crates/v/iis2mdc.svg)](https://crates.io/crates/iis2mdc)
 1. [ISM330DHCX] - I2C - ST's IMU with 3D accelerometer, 3D gyroscope, ML core and more - [![crates.io](https://img.shields.io/crates/v/ism330dhcx.svg)](https://crates.io/crates/ism330dhcx)
 1. [keypad] - GPIO - Keypad matrix circuits - [Intro post][14] - [![crates.io](https://img.shields.io/crates/v/keypad.svg)](https://crates.io/crates/keypad)
