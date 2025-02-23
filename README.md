@@ -470,11 +470,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`stm32f0xx-hal`](https://crates.io/crates/stm32f0xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f0xx-hal.svg)](https://crates.io/crates/stm32f0xx-hal)
   - Has examples that can run on boards like the [Nucleo-F042K6] and similar boards
-[Nucleo-F042K6]: <http://www.st.com/en/evaluation-tools/nucleo-f042k6.html>
 - [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)](https://crates.io/crates/stm32f1xx-hal)
-  - Can be run on boards like the [Blue pill], [Nucleo-F103RB], and similar boards
-[Blue pill]: <https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html>
-[Nucleo-F103RB]: <http://www.st.com/en/evaluation-tools/nucleo-f103rb.html>
+  - Can be run on boards like the [Blue-pill], [Nucleo-F103RB], and similar boards
 - [`stm32f3xx-hal`](https://crates.io/crates/stm32f3xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f3xx-hal.svg)](https://crates.io/crates/stm32f3xx-hal)
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)](https://crates.io/crates/stm32f4xx-hal)
   - Generic HAL implementation for all MCUs of the stm32f4 series
@@ -494,6 +491,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [Nucleo-L432KC]: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-l432kc.html
 [Solo]: https://solokeys.com/
+[Blue-pill]: http://web.archive.org/web/20230317010201/https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html
+[Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
+[Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
 
 ### Texas Instruments
 
