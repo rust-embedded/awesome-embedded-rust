@@ -897,9 +897,9 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [31]: https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/
 [32]: https://blog.eldruin.com/pca9685-pwm-led-servo-controller-driver-in-rust/
 [33]: https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/
-[34]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
-[35]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
-[36]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[34]: http://web.archive.org/web/20230328083333/https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[35]: http://web.archive.org/web/20230328083333/https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[36]: http://web.archive.org/web/20230328083333/https://ryan.kurte.nz/notes/2020-01-05-rust-radio
 [37]: https://github.com/mvirkkunen/usbd-serial
 [38]: https://github.com/twitchyliquid64/usbd-hid
 [39]: https://github.com/redpfire/usbd-webusb
@@ -915,7 +915,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [49]: https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/
 [50]: https://nitschinger.at/Rusty-PID-Porting-the-TSic-sensor-from-C-to-Rust/
 [51]: https://blog.a1w.ca/p/rust-embedded-driver-microchip-23x-sram
-[52]: https://flott-motion.org/news/announcing-step-dir/
+[52]: http://web.archive.org/web/20210129151911/https://flott-motion.org/news/announcing-step-dir/
 [53]: https://github.com/barafael/hc12-at-rs
 [54]: https://github.com/barafael/cd74hc4067-rs
 [55]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-CD74HC4067
