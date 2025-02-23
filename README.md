@@ -329,7 +329,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 ### MSP430
 
-- [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
+- [`msp430g2553`](https://github.com/pftbest/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
   - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 - [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 - [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - [![crates.io](https://img.shields.io/crates/v/msp430fr6972)](https://crates.io/crates/msp430fr6972)
