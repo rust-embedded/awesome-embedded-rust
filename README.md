@@ -329,7 +329,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 ### MSP430
 
-- [`msp430g2553`](https://github.com/japaric/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
+- [`msp430g2553`](https://github.com/pftbest/msp430g2553) Peripheral access API for MSP430G2553 microcontrollers (generated using svd2rust)
   - [msp430 quickstart](https://github.com/rust-embedded/msp430-quickstart) some examples for msp430
 - [`msp430fr2355`](https://crates.io/crates/msp430fr2355) Peripheral access API for MSP430FR2355 microcontrollers (generated using svd2rust)
 - [`msp430fr6972`](https://crates.io/crates/msp430fr6972) - [![crates.io](https://img.shields.io/crates/v/msp430fr6972)](https://crates.io/crates/msp430fr6972)
@@ -343,7 +343,7 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 - [`esp32h2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32h2) - [![crates.io](https://img.shields.io/crates/v/esp32h2.svg)](https://crates.io/crates/esp32h2)
 - [`esp32s2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s2) - [![crates.io](https://img.shields.io/crates/v/esp32s2.svg)](https://crates.io/crates/esp32s2)
 - [`esp32s3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s3) - [![crates.io](https://img.shields.io/crates/v/esp32s3.svg)](https://crates.io/crates/esp32s3)
-- [`esp8266`](https://github.com/esp-rs/esp-pacs/tree/main/esp8266) - [![crates.io](https://img.shields.io/crates/v/esp8266.svg)](https://crates.io/crates/esp8266)
+- [`esp8266`](https://github.com/esp-rs/esp8266) - [![crates.io](https://img.shields.io/crates/v/esp8266.svg)](https://crates.io/crates/esp8266) *note: esp8266 is archived, no further development planned*
 
 ### Ambiq Micro
 
@@ -470,11 +470,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`stm32f0xx-hal`](https://crates.io/crates/stm32f0xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f0xx-hal.svg)](https://crates.io/crates/stm32f0xx-hal)
   - Has examples that can run on boards like the [Nucleo-F042K6] and similar boards
-[Nucleo-F042K6]: <http://www.st.com/en/evaluation-tools/nucleo-f042k6.html>
 - [`stm32f1xx-hal`](https://github.com/stm32-rs/stm32f1xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f1xx-hal.svg)](https://crates.io/crates/stm32f1xx-hal)
-  - Can be run on boards like the [Blue pill], [Nucleo-F103RB], and similar boards
-[Blue pill]: <https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html>
-[Nucleo-F103RB]: <http://www.st.com/en/evaluation-tools/nucleo-f103rb.html>
+  - Can be run on boards like the [Blue-pill], [Nucleo-F103RB], and similar boards
 - [`stm32f3xx-hal`](https://crates.io/crates/stm32f3xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f3xx-hal.svg)](https://crates.io/crates/stm32f3xx-hal)
 - [`stm32f4xx-hal`](https://crates.io/crates/stm32f4xx-hal) - [![crates.io](https://img.shields.io/crates/v/stm32f4xx-hal.svg)](https://crates.io/crates/stm32f4xx-hal)
   - Generic HAL implementation for all MCUs of the stm32f4 series
@@ -494,6 +491,9 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 [Nucleo-L432KC]: https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-nucleo/nucleo-l432kc.html
 [Solo]: https://solokeys.com/
+[Blue-pill]: http://web.archive.org/web/20230317010201/https://stm32duinoforum.com/forum/wiki_subdomain/index_title_Blue_Pill.html
+[Nucleo-F103RB]: http://www.st.com/en/evaluation-tools/nucleo-f103rb.html
+[Nucleo-F042K6]: http://www.st.com/en/evaluation-tools/nucleo-f042k6.html
 
 ### Texas Instruments
 
@@ -738,7 +738,7 @@ The same repository includes support for numerous other development boards which
 
 ### Sodaq
 
-- [`sodaq_one`](https://crates.io/crates/sodaq_one) - Board support for the [Sodaq one board](https://shop.sodaq.com/sodaq-one-eu-rn2483-v3.html) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/sodaq_one.svg)](https://crates.io/crates/sodaq_one)
+- [`sodaq_one`](https://crates.io/crates/sodaq_one) - Board support for the [Sodaq one board](https://support.sodaq.com/Boards/One/) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/sodaq_one.svg)](https://crates.io/crates/sodaq_one)
 - [`sodaq_sara_aff`](https://crates.io/crates/sodaq_sara_aff) - Board support for the [Sodaq sara aff board](https://shop.sodaq.com/sodaq-sara-sff-r410m.html) in the [atsamd-rs] repo. It is an [atsamd-rs tier 2 support] board. [![crates.io](https://img.shields.io/crates/v/sodaq_sara_aff.svg)](https://crates.io/crates/sodaq_sara_aff)
 
 ### Other
@@ -897,9 +897,9 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [31]: https://blog.eldruin.com/si4703-fm-radio-receiver-driver-in-rust/
 [32]: https://blog.eldruin.com/pca9685-pwm-led-servo-controller-driver-in-rust/
 [33]: https://blog.eldruin.com/veml6030-ambient-light-sensor-driver-in-rust/
-[34]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
-[35]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
-[36]: https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[34]: http://web.archive.org/web/20230328083333/https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[35]: http://web.archive.org/web/20230328083333/https://ryan.kurte.nz/notes/2020-01-05-rust-radio
+[36]: http://web.archive.org/web/20230328083333/https://ryan.kurte.nz/notes/2020-01-05-rust-radio
 [37]: https://github.com/mvirkkunen/usbd-serial
 [38]: https://github.com/twitchyliquid64/usbd-hid
 [39]: https://github.com/redpfire/usbd-webusb
@@ -915,7 +915,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [49]: https://blog.eldruin.com/ccs811-indoor-air-quality-sensor-driver-in-rust/
 [50]: https://nitschinger.at/Rusty-PID-Porting-the-TSic-sensor-from-C-to-Rust/
 [51]: https://blog.a1w.ca/p/rust-embedded-driver-microchip-23x-sram
-[52]: https://flott-motion.org/news/announcing-step-dir/
+[52]: http://web.archive.org/web/20210129151911/https://flott-motion.org/news/announcing-step-dir/
 [53]: https://github.com/barafael/hc12-at-rs
 [54]: https://github.com/barafael/cd74hc4067-rs
 [55]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-CD74HC4067
