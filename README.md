@@ -215,6 +215,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [Tock](https://www.tockos.org) An embedded operating system designed for running multiple concurrent, mutually distrustful applications on low-memory and low-power microcontrollers
 - [Hubris](https://github.com/oxidecomputer/hubris) A real-time operating system built by Oxide Computer to run the Service Controller processor in the mainboards of their rack-mount servers.
 - [Zephyr](https://docs.zephyrproject.org/latest/develop/languages/rust/index.html) An embedded RTOS, written in C, with support for writing applications in Rust.
+- [Ariel OS](https://ariel-os.org/) A modular operating system written in Rust, providing multicore preemptive scheduling and application portability on top of Embassy.
 
 ### Real-time tools
 
