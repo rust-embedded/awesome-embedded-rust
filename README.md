@@ -1249,11 +1249,14 @@ Work in progress drivers. Help the authors make these crates awesome!
 [`#![no_std]` crates][no-std-category] designed to run on resource-constrained devices.
 
 1. [adskalman](https://crates.io/crates/adskalman): Kalman filter and Rauch-Tung-Striebel smoothing implementation. [![crates.io](https://img.shields.io/crates/v/adskalman.svg)](https://crates.io/crates/adskalman)
+1. [arbitrary-int](https://crates.io/crates/arbitrary-int): This crate implements arbitrary numbers for Rust. Once included, you can use types like `u5` or `u120`
 1. [atomic](https://crates.io/crates/atomic): Generic Atomic<T> wrapper type. [![crates.io](https://img.shields.io/crates/v/atomic.svg)](https://crates.io/crates/atomic)
 1. [bbqueue](https://crates.io/crates/bbqueue): A SPSC, statically allocatable queue based on BipBuffers suitable for DMA transfers - [![crates.io](https://img.shields.io/crates/v/bbqueue.svg)](https://crates.io/crates/bbqueue)
 1. [bitmatch]: A crate that allows you to match, bind, and pack the individual bits of integers. - [![crates.io](https://img.shields.io/crates/v/bitmatch.svg)](https://crates.io/crates/bitmatch)
 1. [biquad]: A library for creating second-order IIR filters for signal processing based on Biquads, where both a Direct Form 1 (DF1) and Direct Form 2 Transposed (DF2T) implementation is available. [![crates.io](https://img.shields.io/crates/v/biquad.svg)](https://crates.io/crates/biquad)
 1. [bit_field](https://crates.io/crates/bit_field): manipulating bitfields and bitarrays - [![crates.io](https://img.shields.io/crates/v/bit_field.svg)](https://crates.io/crates/bit_field)
+1. [bitbybit](https://crates.io/crates/bitbybit): macros that create bit fields and bit enums, which are useful in bit packing code (e.g. in drivers or networking code)
+1. [bitfield-struct](https://crates.io/crates/bitfield-struct): Procedural macro for bitfields that allows specifying bitfields as structs
 1. [bluetooth-hci](https://crates.io/crates/bluetooth-hci): device-independent Bluetooth Host-Controller Interface implementation. [![crates.io](https://img.shields.io/crates/v/bluetooth-hci.svg)](https://crates.io/crates/bluetooth-hci)
 1. [bounded-registers](https://crates.io/crates/bounded-registers) A high-assurance memory-mapped register code generation and interaction library. `bounded-registers` provides a Tock-like API for MMIO registers with the addition of type-based bounds checking. - [![crates.io](https://img.shields.io/crates/v/bounded-registers.svg)](https://crates.io/crates/bounded-registers)
 1. [cam-geom](https://crates.io/crates/cam-geom): Geometric models of cameras for photogrammetry. [![crates.io](https://img.shields.io/crates/v/cam-geom.svg)](https://crates.io/crates/cam-geom)
