@@ -202,6 +202,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [Embassy start](https://github.com/titanclass/embassy-start) is a GitHub repo template for setting up async embedded Rust projects that use [Embassy](https://github.com/embassy-rs/embassy). This particular template targets nRF hardware and networking using the Uarte for the purposes of illustration only.
 - [svd-generator](https://codeberg.org/weathered-steel/svd-generator) CLI tool to parse flattened device tree files, and create a SVD file. - [![crates.io](https://img.shields.io/crates/v/svd-generator.svg)](https://crates.io/crates/svd-generator)
 - [rumbac](https://github.com/akavel/rumbac) is a simple CLI flasher for *Arduino Nano 33 BLE Rev2 / Sense Rev2* boards, using the SAM-BA protocol to talk with the Arduino-provided bootloader, porting just enough of the `bossac` tool to Rust
+- [commitment-issues](https://github.com/dysonltd/commitment-issues) Compile git metadata into your binary.
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
@@ -1140,6 +1141,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 1. [HX711] - GPIO - An interrupt-based driver for the HX711 Load Cell Amplifier IC. no-std.
+1. [tmag5273] - Cross-platform no_std compatible i2c library for 3-axis Hall Effect sensor.
+1. [paa5100je-pwm3901] - Cross platform no-std compatible spi async library for an Optical Flow Sensor.
 
 [AD9850]: https://crates.io/crates/ad9850
 [AFE4400]: https://github.com/ReeceStevens/afe4400
@@ -1244,7 +1247,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ublox-cellular-rs]: https://github.com/BlackbirdHQ/ublox-cellular-rs
 [atwinc1500-rs]: https://crates.io/crates/atwinc1500
 [HX711]: https://github.com/DaneSlattery/hx711
-
+[tmag5273]: https://github.com/dysonltd/tmag5273
+[paa5100je-pwm3901]: https://github.com/dysonltd/paa5100je-pwm3901
 ## no-std crates
 
 [`#![no_std]` crates][no-std-category] designed to run on resource-constrained devices.
