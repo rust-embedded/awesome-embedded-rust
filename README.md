@@ -1148,6 +1148,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [ublox-cellular-rs] - Serial - Cellular driver for the full Ublox cellular serial based family
 1. [atwinc1500-rs] - SPI - A host driver for the Atwinc1500 network controller
 1. [HX711] - GPIO - An interrupt-based driver for the HX711 Load Cell Amplifier IC. no-std.
+1. [tmag5273] - Cross-platform no_std compatible i2c library for 3-axis Hall Effect sensor.
+1. [paa5100je-pwm3901] - Cross platform no-std compatible spi async library for an Optical Flow Sensor.
 
 [AD9850]: https://crates.io/crates/ad9850
 [AFE4400]: https://github.com/ReeceStevens/afe4400
@@ -1252,7 +1254,8 @@ Work in progress drivers. Help the authors make these crates awesome!
 [ublox-cellular-rs]: https://github.com/BlackbirdHQ/ublox-cellular-rs
 [atwinc1500-rs]: https://crates.io/crates/atwinc1500
 [HX711]: https://github.com/DaneSlattery/hx711
-
+[tmag5273]: https://github.com/dysonltd/tmag5273
+[paa5100je-pwm3901]: https://github.com/dysonltd/paa5100je-pwm3901
 ## no-std crates
 
 [`#![no_std]` crates][no-std-category] designed to run on resource-constrained devices.
