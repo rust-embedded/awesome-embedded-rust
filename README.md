@@ -115,6 +115,7 @@ In 2018, the Rust community created an embedded working group to help drive adop
 - [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
 - [#atsamd-rs:gitter.im] - For discussions of using Embedded Rust on ATSAMD devices
 - [#ethercrab:matrix.org] - For discussion of general EtherCAT and the Rust implementation, EtherCrab
+- [#mspm0-rs:matrix.org] - For discussion of using Embedded Rust on Texas Instruments MSPM0 (and MSPS003) devices.
 - [rust-embedded:QQ group] - Chinese community for Rust embedded
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
@@ -132,6 +133,7 @@ In 2018, the Rust community created an embedded working group to help drive adop
 [#rp-rs:matrix.org]: https://matrix.to/#/#rp-rs:matrix.org
 [#atsamd-rs:gitter.im]: https://matrix.to/#/#atsamd-rs_community:gitter.im
 [#ethercrab:matrix.org]: https://matrix.to/#/#ethercrab:matrix.org
+[#mspm0-rs:matrix.org]: https://matrix.to/#/#mspm0-rs:matrix.org
 [Rust-embedded:QQ group]: https://qm.qq.com/q/A8Hl57xR1C
 
 ## Books, blogs, and training materials
@@ -330,6 +332,8 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 
 - [`tm4c123x`](https://crates.io/crates/tm4c123x) Peripheral access API for TM4C123x microcontrollers (generated using svd2rust)
 - [`tm4c129x`](https://crates.io/crates/tm4c129x) Peripheral access API for TM4C129x microcontrollers (generated using svd2rust)
+- [`mspm0-metapac`](https://github.com/mspm0-rs/mspm0-data)
+  - PAC for all MSPM0 (and MSPS003) microcontrollers. (generated using chiptool)
 
 ### MSP430
 
@@ -502,6 +506,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Texas Instruments
 
 - [`tm4c123x-hal`](https://github.com/rust-embedded-community/tm4c-hal/)
+- [`embassy-mspm0`](https://github.com/embassy-rs/embassy/tree/main/embassy-mspm0)
+  - Embassy HAL implementation for all MSPM0 (and MSPS003) microcontrollers.
 
 ### MSP430
 
