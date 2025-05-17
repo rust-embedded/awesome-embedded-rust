@@ -1257,6 +1257,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [HX711]: https://github.com/DaneSlattery/hx711
 [tmag5273]: https://github.com/dysonltd/tmag5273
 [paa5100je-pwm3901]: https://github.com/dysonltd/paa5100je-pwm3901
+
 ## no-std crates
 
 [`#![no_std]` crates][no-std-category] designed to run on resource-constrained devices.
