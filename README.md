@@ -23,6 +23,7 @@ This project is developed and maintained by the [Resources team][team].
   - [Real-time](#real-time)
     - [Real-time Operating System (RTOS)](#real-time-operating-system-rtos)
     - [Real-time tools](#real-time-tools)
+  - [Runtime Crates](#runtime-crates)
   - [Peripheral Access Crates](#peripheral-access-crates)
     - [Microchip](#microchip)
     - [Nordic](#nordic)
@@ -227,6 +228,19 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [RTIC v1.0](https://rtic.rs/1/book/en/) Real-Time Interrupt-driven Concurrency — A concurrency framework for building real-time systems:
   - [cortex-m rtic](https://github.com/rtic-rs/cortex-m-rtic) RTIC framework for ARM Cortex-M microcontrollers
   - [msp430 rtfm](https://github.com/japaric/msp430-rtfm) RTFM framework for MSP430 MCUs
+
+## Runtime Crates
+
+Basic runtimes for CPUs & MCUs which are needed to run software on them.
+
+- [`cortex-m-rt`](https://crates.io/crates/cortex-m-rt) Support for Cortex-M
+- [`cortex-a-rt`](https://crates.io/crates/cortex-a-rt) Support for Cortex-A
+- [`cortex-r-rt`](https://crates.io/crates/cortex-r-rt) Support for Cortex-R
+- [`riscv-rt`](https://crates.io/crates/riscv-rt) Support for RISC-V
+- [`esp-riscv-rt`](https://crates.io/crates/esp-riscv-rt) Support for RISC-V devices from Espressif (ESP32)
+- [`xtensa-lx-rt`](https://crates.io/crates/xtensa-lx-rt) Support for Xtensa LX (ESP32)
+- [`mips-rt`](https://crates.io/crates/mips-rt) Support for MIPS
+- [`msp430-rt`](https://crates.io/crates/msp430-rt) Support for MSP430
 
 ## Peripheral Access Crates
 
