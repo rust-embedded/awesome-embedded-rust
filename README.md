@@ -102,10 +102,10 @@ In 2018, the Rust community created an embedded working group to help drive adop
 
 ### Community Chat Rooms
 
-- You can usually find community members (including embedded WG members) in the official [`#rust-embedded:matrix.org` Matrix room].
+- You can usually find community members (including embedded WG members) in the official [`#rust-embedded:matrix.org` Matrix room]
 - [#rust-embedded-space:matrix.org] Most Embedded Rust related Matrix rooms are in the Rust Embedded Space
 - [embedded.rs-wasm-iot] - English Telegram chat about Rust and WASM for microcontrollers and IoT
-- [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language.
+- [embedded.rs] - Telegram chat about Rust for microcontrollers in the Russian language
 - [#avr-rust:gitter.im] - For discussion of using Embedded Rust on AVR devices
 - [#esp-rs:matrix.org] - For discussion of using Embedded Rust on Espressif devices
 - [#nrf-rs:matrix.org] - For discussion of using Embedded Rust on Nordic Semiconductor devices
@@ -116,8 +116,9 @@ In 2018, the Rust community created an embedded working group to help drive adop
 - [#stm32-rs:matrix.org] - For discussion of using Embedded Rust on STM32 based devices
 - [#atsamd-rs:gitter.im] - For discussions of using Embedded Rust on ATSAMD devices
 - [#ethercrab:matrix.org] - For discussion of general EtherCAT and the Rust implementation, EtherCrab
-- [#mspm0-rs:matrix.org] - For discussion of using Embedded Rust on Texas Instruments MSPM0 (and MSPS003) devices.
+- [#mspm0-rs:matrix.org] - For discussion of using Embedded Rust on Texas Instruments MSPM0 (and MSPS003) devices
 - [rust-embedded:QQ group] - Chinese community for Rust embedded
+- [#embassy-rs:matrix.org] - For discussion of using async on Embedded Rust using the Embassy ecosystem of crates
 
 [#rust-embedded-graphics:matrix.org]: https://matrix.to/#/#rust-embedded-graphics:matrix.org
 [#esp-rs:matrix.org]: https://matrix.to/#/#esp-rs:matrix.org
@@ -136,6 +137,7 @@ In 2018, the Rust community created an embedded working group to help drive adop
 [#ethercrab:matrix.org]: https://matrix.to/#/#ethercrab:matrix.org
 [#mspm0-rs:matrix.org]: https://matrix.to/#/#mspm0-rs:matrix.org
 [Rust-embedded:QQ group]: https://qm.qq.com/q/A8Hl57xR1C
+[#embassy-rs:matrix.org]: https://matrix.to/#/#embassy-rs:matrix.org
 
 ## Books, blogs, and training materials
 
