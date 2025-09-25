@@ -893,7 +893,8 @@ Otherwise, please add it to the [WIP section](#wip) below.
 1. [vl53l1x-uld] - I2C - A pure-rust driver for the [ST VL53L1X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html) - [![crates.io](https://img.shields.io/crates/v/vl53l1x-uld.svg)](https://crates.io/crates/vl53l1x-uld)
 1. [i2c-multiplexer] - I2C - An I2C Multiplexer library that supports the PCA9546 and TCA9546A chips - [github][71] - [![crates.io](https://img.shields.io/crates/v/i2c-multiplexer.svg)](https://crates.io/crates/i2c-multiplexer)
 1. [SHT31-rs] - I2C - Fully supported SHT temperature / humidity sensors - [github][72] - [![crates.io](https://img.shields.io/crates/v/sht31.svg)](https://crates.io/crates/sht31)
-
+1. [AP33772S-rs] - I2C - no-std sync and async compatible rust driver for the AP33772S USB C Power Delivery with Extended Power Range I2C chip - [github][76] - [![crates.io](https://img.shields.io/crates/v/sht31.svg)](https://crates.io/crates/ap33772s-rs)
+ 
 [1&2]: http://blog.japaric.io/wd-1-2-l3gd20-lsm303dlhc-madgwick/
 [3]: http://pramode.in/2018/02/24/an-introduction-to-writing-embedded-hal-based-drivers-in-rust/
 [4]: http://blog.japaric.io/wd-4-enc28j60/
@@ -967,6 +968,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [73]: https://barretts.club/posts/max6675-hal/
 [74]: https://github.com/rust-dd/embedded-dht-rs
 [75]: https://learn.adafruit.com/adafruit-seesaw-atsamd09-breakout/overview
+[76]: https://github.com/ScottGibb/AP33772S-rs
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -1054,6 +1056,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [vl53l1x-uld]: https://crates.io/crates/vl53l1x-uld
 [i2c-multiplexer]: https://crates.io/crates/i2c-multiplexer
 [SHT31-rs]: https://crates.io/crates/sht31
+[AP33772S-rs]: https://crates.io/crates/ap33772s-rs
 
 *NOTE* You may be able to find even more driver crates by searching for the [`embedded-hal-driver`]
 keyword on crates.io!
