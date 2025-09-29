@@ -1385,7 +1385,8 @@ Work in progress crates. Help the authors make these crates awesome!
 - [light-cli](https://github.com/rudihorn/light-cli): a lightweight heapless cli interface [![crates.io](https://img.shields.io/crates/v/light_cli.svg)](https://crates.io/crates/light_cli)
 - [OxCC](https://github.com/jonlamb-gh/oxcc): A port of Open Source Car Control written in Rust
 - [Rubble](https://github.com/jonas-schievink/rubble): A pure-Rust embedded BLE stack [![crates.io](https://img.shields.io/crates/v/rubble.svg)](https://crates.io/crates/rubble)
-
+- [post-haste](https://github.com/petekubiak/post-haste): A no_std, alloc-free async Rust library for creating modular projects.
+- 
 ## Panic handling
 
 There are many ways to handle panics in embedded devices, these crates provide helpful variants.
