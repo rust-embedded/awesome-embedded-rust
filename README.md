@@ -8,8 +8,6 @@ This is a curated list of resources related to embedded and low-level programmin
 
 This project is developed and maintained by the [Resources team][team].
 
-**Don't see something you want or need here?** Add it to the [Not Yet Awesome Embedded Rust](https://github.com/rust-embedded/not-yet-awesome-embedded-rust) list!
-
 ## Table of Contents
 
 - [Embedded Rust](#embedded-rust)
