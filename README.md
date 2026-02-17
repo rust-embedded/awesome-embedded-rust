@@ -1302,7 +1302,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [drogue-device](https://github.com/drogue-iot/drogue-device): A distribution of tools and examples for building embedded applications in Rust.
 1. [dummy-pin](https://crates.io/crates/dummy-pin): Dummy implementations of the input/output pin traits. [![crates.io](https://img.shields.io/crates/v/dummy-pin.svg)](https://crates.io/crates/dummy-pin)
 1. [crossbus](https://github.com/hominee/crossbus): A Platform-Less, Runtime-Less Actor Computing Model.
-1. [crispy-bootloader](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs): Minimal dual-bank bootloader for RP2040 with USB firmware upload, A/B bank switching, and CRC verification.
+1. [🤖 crispy-bootloader](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs): Minimal dual-bank bootloader for RP2040 with USB firmware upload, A/B bank switching, and CRC verification.
 1. [ector](https://github.com/drogue-iot/ector): An async actor framework for embedded, based on embassy.
 1. [embassy]: A set of embedded async tools to make async/await a first-class option for embedded development
 1. [embedded-cli](https://crates.io/crates/embedded-cli): CLI library with autocompletion, subcommands, options, help and history support. [![crates.io](https://img.shields.io/crates/v/embedded-cli.svg)](https://crates.io/crates/embedded-cli)
