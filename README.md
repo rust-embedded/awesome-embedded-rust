@@ -8,6 +8,8 @@ This is a curated list of resources related to embedded and low-level programmin
 
 This project is developed and maintained by the [Resources team][team].
 
+Projects marked with a robot emoji 🤖 are developed with the assistance of AI/LLM tools.
+
 ## Table of Contents
 
 - [Embedded Rust](#embedded-rust)
