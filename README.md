@@ -764,6 +764,7 @@ The same repository includes support for numerous other development boards which
 ### Special Purpose
 
 - [`betafpv-f3`](https://github.com/JoshMcguigan/betafpv-f3) - For the BetaFPV F3 drone flight controller
+- [`tildagon`](https://github.com/DanNixon/tildagon-rs) - Board support for the EMF Camp [Tildagon badge](https://tildagon.badge.emfcamp.org/)
 
 ### Sodaq
 
