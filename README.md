@@ -10,6 +10,7 @@ This project is developed and maintained by the [Resources team][team].
 
 Projects marked with a robot emoji 🤖 are developed with the assistance of AI/LLM tools.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for embedded Rust development workflow orchestration, automated code review, and multi-agent coordination. MIT licensed.
 ## Table of Contents
 
 - [Embedded Rust](#embedded-rust)
