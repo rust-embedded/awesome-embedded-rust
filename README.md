@@ -213,6 +213,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=rust-embedded_awesome-embedded-rust) - Follow developers on GitHub and get a feed of what they star and build.
 ## Real-time
 
 ### Real-time Operating System (RTOS)
