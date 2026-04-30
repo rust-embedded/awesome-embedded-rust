@@ -866,6 +866,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 1. [shared-bus] - I2C - utility driver for sharing a bus between multiple devices - [Intro post][16] [![crates.io](https://img.shields.io/crates/v/shared-bus.svg)](https://crates.io/crates/shared-bus)
 1. [shift-register-driver] - GPIO - Shift register - [Intro blog post][10] - [![crates.io](https://img.shields.io/crates/v/shift-register-driver.svg)](https://crates.io/crates/shift-register-driver)
 1. [Si4703] - I2C - FM radio turner (receiver) driver  - [Intro blog post][31] - [![crates.io](https://img.shields.io/crates/v/si4703.svg)](https://crates.io/crates/si4703)
+1. [simx00x] - UART - `no_std`, `no_alloc` driver for the SIM800L GSM module (and probably similar modules) - [github][77] - [![crates.io](https://img.shields.io/crates/v/simx00x)](https://crates.io/crates/simx00x)
 1. [SRAM23x] - SPI - Microchip 23x series serial SRAM/NVSRAM driver - [Intro blog post][51] - [![crates.io](https://img.shields.io/crates/v/sram23x.svg)](https://crates.io/crates/sram23x)
 1. [SSD1306] - I2C/SPI - OLED display controller - [Intro blog post][8] - [![crates.io](https://img.shields.io/crates/v/ssd1306.svg)](https://crates.io/crates/ssd1306)
 1. [SSD1309] - I2C/SPI - OLED display controller - [Intro blog post][60] - [![crates.io](https://img.shields.io/crates/v/ssd1309.svg)](https://crates.io/crates/ssd1309)
@@ -971,6 +972,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [74]: https://github.com/rust-dd/embedded-dht-rs
 [75]: https://learn.adafruit.com/adafruit-seesaw-atsamd09-breakout/overview
 [76]: https://github.com/ScottGibb/AP33772S-rs
+[77]: https://github.com/skilvingr/rust-simx00x
 
 [AD983x]: https://crates.io/crates/ad983x
 [adafruit-alphanum4]: https://crates.io/crates/adafruit-alphanum4
@@ -1029,6 +1031,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [shared-bus]: https://github.com/Rahix/shared-bus
 [shift-register-driver]: https://crates.io/crates/shift-register-driver
 [Si4703]: https://crates.io/crates/si4703
+[simx00x]: https://crates.io/crates/simx00x
 [SRAM23x]: https://crates.io/crates/sram23x
 [SSD1306]: https://crates.io/crates/ssd1306
 [SSD1309]: https://crates.io/crates/ssd1309
