@@ -146,9 +146,9 @@ In 2018, the Rust community created an embedded working group to help drive adop
 These materials are available publicly, typically under permissive licenses.
 
 - [The Embedded Rust Book](https://rust-embedded.github.io/book/) - An introductory book about using the Rust Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
-- [The Rust on ESP Book](https://esp-rs.github.io/book/) - This book aims to provide a comprehensive guide on using the Rust programming language with Espressif SoCs and modules.
-- [Embedded Rust (no_std) on Espressif](https://docs.esp-rs.org/no_std-training/) - Training for Rust using no_std approach development on ESP32-C3.
-- [Embedded Rust (std) on Espressif](https://docs.esp-rs.org/std-training/) - Training for Rust using std approach development on ESP32-C3 by Ferrous Systems.
+- [The Rust on ESP Book](https://docs.espressif.com/projects/rust/book/) - This book aims to provide a comprehensive guide on using the Rust programming language with Espressif SoCs and modules.
+- [Embedded Rust (no_std) on Espressif](https://docs.espressif.com/projects/rust/no_std-training/) - Training for Rust using no_std (bare metal) approach on ESP32-C3, officially supported by Espressif.
+- [Embedded Rust (std) on Espressif](https://esp-rs.github.io/std-training/) - Training for Rust using std approach development on ESP32-C3 by Ferrous Systems. Uses the community-maintained `esp-idf-hal` ecosystem.
 - [Discovery](https://rust-embedded.github.io/discovery) by @rust-embedded — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language. Original author: @japaric
 - [Cortex-M Quickstart](https://docs.rs/cortex-m-quickstart/0.3.1/cortex_m_quickstart/) by @japaric – a template and introduction to embedded Rust, suitable for developers familiar with embedded development but new to embedded Rust.
 - [Writing an OS in Rust](https://os.phil-opp.com/) A blog series creating a small operating system in Rust
@@ -366,8 +366,11 @@ The [`stm32-rs`](https://github.com/stm32-rs/stm32-rs) project has peripheral ac
 - [`esp32`](https://github.com/esp-rs/esp-pacs/tree/main/esp32) - [![crates.io](https://img.shields.io/crates/v/esp32.svg)](https://crates.io/crates/esp32)
 - [`esp32c2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c2) - [![crates.io](https://img.shields.io/crates/v/esp32c2.svg)](https://crates.io/crates/esp32c2)
 - [`esp32c3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c3) - [![crates.io](https://img.shields.io/crates/v/esp32c3.svg)](https://crates.io/crates/esp32c3)
+- [`esp32c5`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c5) - [![crates.io](https://img.shields.io/crates/v/esp32c5.svg)](https://crates.io/crates/esp32c5)
 - [`esp32c6`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c6) - [![crates.io](https://img.shields.io/crates/v/esp32c6.svg)](https://crates.io/crates/esp32c6)
+- [`esp32c61`](https://github.com/esp-rs/esp-pacs/tree/main/esp32c61) - [![crates.io](https://img.shields.io/crates/v/esp32c61.svg)](https://crates.io/crates/esp32c61)
 - [`esp32h2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32h2) - [![crates.io](https://img.shields.io/crates/v/esp32h2.svg)](https://crates.io/crates/esp32h2)
+- [`esp32p4`](https://github.com/esp-rs/esp-pacs/tree/main/esp32p4) - [![crates.io](https://img.shields.io/crates/v/esp32p4.svg)](https://crates.io/crates/esp32p4)
 - [`esp32s2`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s2) - [![crates.io](https://img.shields.io/crates/v/esp32s2.svg)](https://crates.io/crates/esp32s2)
 - [`esp32s3`](https://github.com/esp-rs/esp-pacs/tree/main/esp32s3) - [![crates.io](https://img.shields.io/crates/v/esp32s3.svg)](https://crates.io/crates/esp32s3)
 - [`esp8266`](https://github.com/esp-rs/esp8266) - [![crates.io](https://img.shields.io/crates/v/esp8266.svg)](https://crates.io/crates/esp8266) *note: esp8266 is archived, no further development planned*
@@ -535,10 +538,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### Espressif
 
-- [`esp-idf-hal`](https://github.com/esp-rs/esp-idf-hal)
-  - An embedded-hal implementation for Rust on ESP32 microcontrollers and ESP-IDF
-- [`esp-hal`](https://github.com/esp-rs/esp-hal)
-  - A `no_std` Hardware Abstraction Layers for ESP32 microcontrollers
+- [`esp-hal`](https://github.com/esp-rs/esp-hal) - [![crates.io](https://img.shields.io/crates/v/esp-hal.svg)](https://crates.io/crates/esp-hal)
+  - A `no_std` Hardware Abstraction Layer for Espressif microcontrollers, officially supported by Espressif
+- [`esp-idf-hal`](https://github.com/esp-rs/esp-idf-hal) - [![crates.io](https://img.shields.io/crates/v/esp-idf-hal.svg)](https://crates.io/crates/esp-idf-hal)
+  - A `std` embedded-hal implementation for Espressif microcontrollers built on top of ESP-IDF, fully supported by the community
 
 ### Silicon Labs
 
