@@ -1311,8 +1311,10 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [🤖 crispy-bootloader](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs): Minimal dual-bank bootloader for RP2040 with USB firmware upload, A/B bank switching, and CRC verification.
 1. [ector](https://github.com/drogue-iot/ector): An async actor framework for embedded, based on embassy.
 1. [embassy]: A set of embedded async tools to make async/await a first-class option for embedded development
+1. [embedded-3dgfx](https://crates.io/crates/embedded-3dgfx): 3D engine based on `embedded-graphics` with optional physics effects. [![crates.io](https://img.shields.io/crates/v/embedded-3dgfx.svg)](https://crates.io/crates/embedded-3dgfx)
 1. [embedded-cli](https://crates.io/crates/embedded-cli): CLI library with autocompletion, subcommands, options, help and history support. [![crates.io](https://img.shields.io/crates/v/embedded-cli.svg)](https://crates.io/crates/embedded-cli)
 1. [embedded-crc-macros](https://crates.io/crates/embedded-crc-macros): Macros implementing portable CRC algorithms and build-time lookup table generation. [![crates.io](https://img.shields.io/crates/v/embedded-crc-macros.svg)](https://crates.io/crates/embedded-crc-macros)
+1. [embedded-gui](https://crates.io/crates/embedded-gui): GUI library taking inspiration from the Pebble smartwatches and LVGL. [![crates.io](https://img.shields.io/crates/v/embedded-gui.svg)](https://crates.io/crates/embedded-gui)
 1. [embedded-update](https://github.com/drogue-iot/embedded-update): Pluggable firmware update protocol for embedded devices.
 1. [embedded-tls](https://github.com/drogue-iot/embedded-tls): A TLS 1.3 implementation that runs in a no-std environment.
 1. [embedded-websocket](https://crates.io/crates/embedded-websocket): A lightweight server and client websocket library for embedded systems. [![crates.io](https://img.shields.io/crates/v/embedded-websocket.svg)](https://crates.io/crates/embedded-websocket)
@@ -1372,10 +1374,12 @@ Work in progress drivers. Help the authors make these crates awesome!
 [`cmim`]: https://crates.io/crates/cmim
 [bitmatch]: https://crates.io/crates/bitmatch
 [biquad]: https://crates.io/crates/biquad
-[embassy]: https://github.com/akiles/embassy
+[embassy]: https://github.com/embassy-rs/embassy
 [dcmimu]: https://crates.io/crates/dcmimu
 [debouncr]: https://crates.io/crates/debouncr
 [device-driver]: https://crates.io/crates/device-driver
+[embedded-3dgfx]: https://crates.io/crates/embedded-3dgfx
+[embedded-gui]: https://crates.io/crates/embedded-gui
 [endian_codec]: https://crates.io/crates/endian_codec
 [menu]: https://github.com/thejpster/menu
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
