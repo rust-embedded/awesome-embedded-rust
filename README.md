@@ -152,6 +152,7 @@ These materials are available publicly, typically under permissive licenses.
 - [Embedded Rust (no_std) on Espressif](https://docs.espressif.com/projects/rust/no_std-training/) - Training for Rust using no_std (bare metal) approach on ESP32-C3, officially supported by Espressif.
 - [Embedded Rust (std) on Espressif](https://esp-rs.github.io/std-training/) - Training for Rust using std approach development on ESP32-C3 by Ferrous Systems. Uses the community-maintained `esp-idf-hal` ecosystem.
 - [Discovery](https://rust-embedded.github.io/discovery) by @rust-embedded — this book is an introductory course on microcontroller-based embedded systems that uses Rust as the teaching language. Original author: @japaric
+- [Embedded Rust Workshop on the micro:bit v2](https://robamu.github.io/embedded-workshop/book/introduction.html) - This book has a strong focus on teaching the practical application of embassy-rs on the micro:bit v2.
 - [Cortex-M Quickstart](https://docs.rs/cortex-m-quickstart/0.3.1/cortex_m_quickstart/) by @japaric – a template and introduction to embedded Rust, suitable for developers familiar with embedded development but new to embedded Rust.
 - [Writing an OS in Rust](https://os.phil-opp.com/) A blog series creating a small operating system in Rust
 - [MicroRust](https://droogmic.github.io/microrust/) Introductory book for embedded development in Rust on the micro:bit.
