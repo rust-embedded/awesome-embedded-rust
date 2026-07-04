@@ -40,6 +40,7 @@ Projects marked with a robot emoji 🤖 are developed with the assistance of AI/
     - [GigaDevice](#gigadevice)
     - [XMC](#xmc)
     - [Vorago](#vorago)
+    - [AMD](#amd)
     - [Wiznet](#wiznet)
     - [Renesas](#renesas)
   - [HAL implementation crates](#hal-implementation-crates)
@@ -55,6 +56,7 @@ Projects marked with a robot emoji 🤖 are developed with the assistance of AI/
     - [Espressif](#espressif-1)
     - [Silicon Labs](#silicon-labs-1)
     - [XMC](#xmc-1)
+    - [AMD](#amd-1)
     - [GigaDevice](#gigadevice-1)
     - [Vorago](#vorago-1)
     - [Renesas](#renesas-1)
@@ -401,6 +403,10 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 - [`xmc4700`](https://github.com/xmc-rs/xmc4700) - [![crates.io](https://img.shields.io/crates/v/xmc4700.svg)](https://crates.io/crates/xmc4700)
 - [`xmc4800`](https://github.com/xmc-rs/xmc4800) - [![crates.io](https://img.shields.io/crates/v/xmc4800.svg)](https://crates.io/crates/xmc4800)
 
+### AMD
+
+- [`zynq7000`](https://github.com/us-irs/zynq7000-rs/tree/main/firmware/zynq7000) - [![crates.io](https://img.shields.io/crates/v/zynq7000.svg)](https://crates.io/crates/zynq7000)
+
 ### Vorago
 
 - [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - [![crates.io](https://img.shields.io/crates/v/va108xx.svg)](https://crates.io/crates/va108xx)
@@ -569,6 +575,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 - [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - [![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)](https://crates.io/crates/va108xx-hal)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+
+### AMD
+
+- [`zynq7000-hal`](https://github.com/us-irs/zynq7000-rs/tree/main/firmware/zynq7000-hal) - [![crates.io](https://img.shields.io/crates/v/zynq7000-hal.svg)](https://crates.io/crates/zynq7000-hal)
 
 ### Renesas
 
