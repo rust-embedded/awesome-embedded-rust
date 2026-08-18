@@ -215,6 +215,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [rumbac](https://github.com/akavel/rumbac) is a simple CLI flasher for *Arduino Nano 33 BLE Rev2 / Sense Rev2* boards, using the SAM-BA protocol to talk with the Arduino-provided bootloader, porting just enough of the `bossac` tool to Rust
 - [commitment-issues](https://github.com/dysonltd/commitment-issues) Compile git metadata into your binary.
 - [scope](https://github.com/matheuswhite/scope-rs) Cross-platform serial-monitor TUI with an RTT interface (via `probe-rs`), hex/`@tag` input macros, search, session recording, and Lua plugins. - [![crates.io](https://img.shields.io/crates/v/scope-monitor.svg)](https://crates.io/crates/scope-monitor)
+- [mint](https://github.com/tomrford/mint) A CLI tool for firmware parametrisation. Combines data (xlsx/json) and layouts (toml) to generate static binary files (hex/mot) with support for multiple ABIs, schema fingerprinting, checksums, header generation and more.
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
