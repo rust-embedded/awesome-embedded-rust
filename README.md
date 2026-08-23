@@ -1019,7 +1019,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [embedded-ccs811]: https://crates.io/crates/embedded-ccs811
 [embedded-sdmmc]: https://crates.io/crates/embedded-sdmmc
 [ENC28J60]: https://crates.io/crates/enc28j60
-[epdsi]: https://crates.io/crates/epdsi    
+[epdsi]: https://crates.io/crates/epdsi
 [FH101RF]: https://crates.io/crates/fh101rf
 [FUSB302B]: https://github.com/fmckeogh/usb-pd-rs
 [HTS221]: https://crates.io/crates/hts221
