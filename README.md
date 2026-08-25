@@ -412,8 +412,8 @@ Peripheral access crates for the different XMC4xxx families of microcontrollers
 
 ### Vorago
 
-- [`va108xx`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - [![crates.io](https://img.shields.io/crates/v/va108xx.svg)](https://crates.io/crates/va108xx)
-- [`va416xx`](https://egit.irs.uni-stuttgart.de/rust/va416xx-rs) - [![crates.io](https://img.shields.io/crates/v/va416xx.svg)](https://crates.io/crates/va416xx)
+- [`va108xx`](https://github.com/us-irs/vorago-rs/tree/main/va108xx/va108xx) - [![crates.io](https://img.shields.io/crates/v/va108xx.svg)](https://crates.io/crates/va108xx)
+- [`va416xx`](https://github.com/us-irs/vorago-rs/tree/main/va416xx/va416xx) - [![crates.io](https://img.shields.io/crates/v/va416xx.svg)](https://crates.io/crates/va416xx)
 
 ### Wiznet
 
@@ -576,8 +576,10 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### Vorago
 
-- [`va108xx-hal`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - [![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)](https://crates.io/crates/va108xx-hal)
+- [`va108xx-hal`](https://github.com/us-irs/vorago-rs/tree/main/va108xx/va108xx-hal) - [![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)](https://crates.io/crates/va108xx-hal)
   - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+- [`va416xx-hal`](https://github.com/us-irs/vorago-rs/tree/main/va416xx/va416xx-hal) - [![crates.io](https://img.shields.io/crates/v/va416xx-hal.svg)](https://crates.io/crates/va416xx-hal)
+  - HAL implementation for VA416XX microcontrollers
 
 ### AMD
 
