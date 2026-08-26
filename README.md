@@ -1455,6 +1455,7 @@ There are many ways to handle panics in embedded devices, these crates provide h
 ## Firmware projects
 
 - [rmk](https://github.com/HaoboGu/rmk): Mechanical keyboard firmware for stm32/rp2040, supports vial/dynamic keymap/eeprom, written in Rust
+- [YBLINK](https://github.com/ref42/YBLINK): Pure Rust CMSIS-DAP v2 debugger firmware and product for the HPM5301, with USB HS SWD/JTAG and a CDC ACM UART bridge.
 - [anne-key](https://github.com/ah-/anne-key): Alternate keyboard firmware for the Obins ANNE Pro
 - [μLA](https://github.com/dotcypress/ula): Micro Logic Analyzer for RP2040
 - [air-gradient-pro-rs](https://github.com/jonlamb-gh/air-gradient-pro-rs): Bootloader, firmware, and CLI tools for the AirGradient PRO
