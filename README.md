@@ -216,6 +216,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [commitment-issues](https://github.com/dysonltd/commitment-issues) Compile git metadata into your binary.
 - [scope](https://github.com/matheuswhite/scope-rs) Cross-platform serial-monitor TUI with an RTT interface (via `probe-rs`), hex/`@tag` input macros, search, session recording, and Lua plugins. - [![crates.io](https://img.shields.io/crates/v/scope-monitor.svg)](https://crates.io/crates/scope-monitor)
 - [mint](https://github.com/tomrford/mint) A CLI tool for firmware parametrisation. Combines data (xlsx/json) and layouts (toml) to generate static binary files (hex/mot) with support for multiple ABIs, schema fingerprinting, checksums, header generation and more.
+- [npnp](https://github.com/ref42/npnp) CLI tool for batch-exporting LCSC/EasyEDA components to KiCad and Altium Designer libraries.
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
@@ -1358,7 +1359,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [managed](https://crates.io/crates/managed): provides `ManagedSlice`, `ManagedMap` backed by either their std counterparts or fixed-size buffers for `#![no_std]`. - [![crates.io](https://img.shields.io/crates/v/managed.svg)](https://crates.io/crates/managed)
 1. [menu]: A basic command-line interface library. Has nested menus and basic help functionality. [![crates.io](https://img.shields.io/crates/v/menu.svg)](https://crates.io/crates/menu)
 1. [micropb](https://crates.io/crates/micropb): Rust Protobuf library targetting embedded systems and no_std environments without an allocator. - [![crates.io](https://img.shields.io/crates/v/micropb.svg)](https://crates.io/crates/micropb)
-1. [metrology_insight](https://crates.io/crates/metrology_insight): Embedded-first electrical metrology & power quality DSP library (IEC 61000-4-30 Class S, IEC 62053-21) - [![crates.io](https://img.shields.io/crates/v/metrology_insight.svg)](https://crates.io/crates/metrology_insight) 
+1. [metrology_insight](https://crates.io/crates/metrology_insight): Embedded-first electrical metrology & power quality DSP library (IEC 61000-4-30 Class S, IEC 62053-21) - [![crates.io](https://img.shields.io/crates/v/metrology_insight.svg)](https://crates.io/crates/metrology_insight)
 1. [mqtt-sn](https://crates.io/crates/mqtt-sn): Implementation of the MQTT-SN protocol - [![crates.io](https://img.shields.io/crates/v/mqtt-sn.svg)](https://crates.io/crates/mqtt-sn)
 1. [microfft](https://crates.io/crates/microfft): Embedded-friendly (`no_std`, no-`alloc`) fast fourier transforms - [![crates.io](https://img.shields.io/crates/v/microfft.svg)](https://crates.io/crates/microfft)
 1. [micromath](https://github.com/NeoBirth/micromath): Embedded Rust math library featuring fast, safe floating point approximations for common arithmetic operations, 2D and 3D vector types, and statistical analysis - [![crates.io](https://img.shields.io/crates/v/micromath.svg)](https://crates.io/crates/micromath)
@@ -1399,8 +1400,6 @@ Work in progress drivers. Help the authors make these crates awesome!
 [dcmimu]: https://crates.io/crates/dcmimu
 [debouncr]: https://crates.io/crates/debouncr
 [device-driver]: https://crates.io/crates/device-driver
-[embedded-3dgfx]: https://crates.io/crates/embedded-3dgfx
-[embedded-gui]: https://crates.io/crates/embedded-gui
 [endian_codec]: https://crates.io/crates/endian_codec
 [menu]: https://github.com/thejpster/menu
 [pc-keyboard]: https://github.com/thejpster/pc-keyboard
