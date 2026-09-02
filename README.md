@@ -177,8 +177,8 @@ These materials are available publicly, typically under permissive licenses.
 These materials are available for purchase. They have been reviewed for relevancy, but are not
 specifically endorsed or reviewed for accuracy or quality by the Embedded Working Group.
 
-- [Simplified Embedded Rust: Standard Library Edition](https://www.theembeddedrustacean.com/c/ser-std) - This book provides a quick path to start learning embedded Rust with minimal setup. Book is based on ESP devices and the Wokwi Simulator. This edition uses the standard library development approach which is based on the ESP-IDF framework.
-- [Simplified Embedded Rust: Core Library Edition](https://www.theembeddedrustacean.com/c/ser-no-std) - This book provides a quick path to start learning embedded Rust with minimal setup. Book is based on ESP devices and the Wokwi Simulator. This edition uses the core library development approach for bare metal development.
+- [Simplified Embedded Rust: Standard Library Edition](https://www.theembeddedrustacean.com/ser-esp-std) - This book provides a quick path to start learning embedded Rust with minimal setup. Book is based on ESP devices and the Wokwi Simulator. This edition uses the standard library development approach which is based on the ESP-IDF framework.
+- [Simplified Embedded Rust: Core Library Edition](https://www.theembeddedrustacean.com/ser-esp-no-std) - This book provides a quick path to start learning embedded Rust with minimal setup. Book is based on ESP devices and the Wokwi Simulator. This edition uses the core library development approach for bare metal development.
 - [Embedded Software with Rust](https://www.manning.com/books/embedded-software-with-rust) - A practical introduction to building firmware that is fast, efficient, and far safer than traditional embedded software written in C or C++.
 
 ## Tools
@@ -333,7 +333,7 @@ The [`efm32-rs`](https://github.com/efm32-rs) project has peripheral access APIs
 
 ### StarFive
 
-- [`j71xx-pac`](https://crates.io/crates/jh71xx-pac) - svd2rust generated interface to StarFive [JH71xx](https://www.starfivetech.com/en/site/soc) MCUs - [![crates.io](https://img.shields.io/crates/v/jh71xx-pac.svg)](https://crates.io/crates/jh71xx-pac)
+- [`j71xx-pac`](https://crates.io/crates/jh71xx-pac) - svd2rust generated interface to StarFive [JH71xx](https://www.starfivetech.com/en/index.php?s=computing&c=show&id=1) MCUs - [![crates.io](https://img.shields.io/crates/v/jh71xx-pac.svg)](https://crates.io/crates/jh71xx-pac)
 
 ### STMicroelectronics
 
@@ -578,7 +578,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 ### Vorago
 
 - [`va108xx-hal`](https://github.com/us-irs/vorago-rs/tree/main/va108xx/va108xx-hal) - [![crates.io](https://img.shields.io/crates/v/va108xx-hal.svg)](https://crates.io/crates/va108xx-hal)
-  - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+  - [Blogpost](https://robamu.github.io/blog/rust-ecosystem/)
 - [`va416xx-hal`](https://github.com/us-irs/vorago-rs/tree/main/va416xx/va416xx-hal) - [![crates.io](https://img.shields.io/crates/v/va416xx-hal.svg)](https://crates.io/crates/va416xx-hal)
   - HAL implementation for VA416XX microcontrollers
 
@@ -592,7 +592,7 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
 
 ### StarFive
 
-- [`j71xx-hal`](https://crates.io/crates/jh71xx-hal) - HAL crate for StarFive [JH71xx](https://www.starfivetech.com/en/site/soc) MCUs - [![crates.io](https://img.shields.io/crates/v/jh71xx-hal.svg)](https://crates.io/crates/jh71xx-hal)
+- [`j71xx-hal`](https://crates.io/crates/jh71xx-hal) - HAL crate for StarFive [JH71xx](https://www.starfivetech.com/en/index.php?s=computing&c=show&id=1) MCUs - [![crates.io](https://img.shields.io/crates/v/jh71xx-hal.svg)](https://crates.io/crates/jh71xx-hal)
 
 ## Architecture support crates
 
@@ -773,7 +773,7 @@ The same repository includes support for numerous other development boards which
 ### Vorago
 
 - [`vorago-reb1`](https://egit.irs.uni-stuttgart.de/rust/va108xx-rs) - [![crates.io](https://img.shields.io/crates/v/vorago-reb1.svg)](https://crates.io/crates/vorago-reb1)
-  - [Blogpost](https://robamu.github.io/post/rust-ecosystem/)
+  - [Blogpost](https://robamu.github.io/blog/rust-ecosystem/)
 
 ### Texas Instruments
 
@@ -970,11 +970,11 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [52]: http://web.archive.org/web/20210129151911/https://flott-motion.org/news/announcing-step-dir/
 [53]: https://github.com/barafael/hc12-at-rs
 [54]: https://github.com/barafael/cd74hc4067-rs
-[55]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-CD74HC4067
-[56]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-the-HC12-serial-radio-module/
+[55]: https://barafael.github.io/posts/a-platform-agnostic-driver-for-the-cd74hc4067/
+[56]: https://barafael.github.io/posts/a-platform-agnostic-driver-for-the-hc12-serial-radio-module/
 [57]: https://github.com/yannart/rainbow-hat-rs
 [58]: https://blog.rahix.de/port-expander/
-[59]: https://robamu.github.io/post/max11619-driver-rust/
+[59]: https://robamu.github.io/blog/max11619-driver-rust/
 [60]: https://antonok.com/projects/ssd1309
 [61]: http://www.rawmeat.org/code/20220130-aht20_driver/
 [62]: https://github.com/anglerud/aht20-driver
@@ -982,7 +982,7 @@ Otherwise, please add it to the [WIP section](#wip) below.
 [64]: https://github.com/Finomnis/st7565
 [65]: https://github.com/dlkj/usbd-human-interface-device
 [66]: https://github.com/GrepitAB/ade791x-rs
-[67]: https://barafael.github.io/A-Platform-Agnostic-Driver-for-EBYTE-E32-LoRa-Modules/
+[67]: https://barafael.github.io/posts/a-platform-agnostic-driver-for-ebyte-e32-lora-modules/
 [68]: https://github.com/UnderLogic/sega-controller
 [69]: https://github.com/fmckeogh/usb-pd-rs
 [70]: https://github.com/cfrenette/bma400-rs
