@@ -1471,6 +1471,7 @@ There are many ways to handle panics in embedded devices, these crates provide h
 - [prinThor](https://github.com/cbruiz/printhor): 3DPrinter/CNC/Engraver firmware framework powered by rust embassy for stm32 families and rp2040.
 - [🤖 hypervisor](https://github.com/willamhou/hypervisor): Bare-metal ARM64 Type-1 hypervisor in `no_std` Rust (single dependency: `fdt`). Runs at EL2, boots Linux with 4 vCPUs, virtio-blk/net, FF-A v1.1 SPMC at S-EL2. Targets QEMU virt machine (no real hardware tested yet).
 - [🤖 RS-Key](https://github.com/TheMaxMur/RS-Key): no_std FIDO2/WebAuthn + U2F security-key firmware for the RP2350, built on embassy; also implements OpenPGP, PIV and OATH.
+- [🤖 vkey](https://github.com/vaulttec-dev/vaulttec-key): `no_std` USB hardware-key firmware for the ESP32-C6 (esp-hal, no ESP-IDF, no allocator, `unsafe_code = "forbid"`) storing TOTP secrets, passwords and project `.env` files under AES-256-GCM, keyed by Argon2id over a PIN and bound to an eFuse HMAC key, with Secure Boot v2 and a button press for every secret. No HID on this chip, so no FIDO/WebAuthn. Ships with a host CLI that flashes the board and speaks the same `wire.rs` compiled into both ends.
 
 ## Old books, blogs, and training materials
 
