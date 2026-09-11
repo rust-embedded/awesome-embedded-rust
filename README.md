@@ -574,6 +574,8 @@ Also check the list of [STMicroelectronics board support crates][stm-bsc]!
   - (WIP) Hardware abstract layer (HAL) for the GD32VF103 RISC-V microcontroller
 - [`gd32f1x0-hal`](https://crates.io/crates/gd32f1x0-hal) - [![crates.io](https://img.shields.io/crates/v/gd32f1x0-hal.svg)](https://crates.io/crates/gd32f1x0-hal)
   - HAL implementation for GD32F1x0 microcontrollers
+- [`gd32e2-hal`](https://github.com/Szizoid/gd32e2-hal) - [![crates.io](https://img.shields.io/crates/v/gd32e2-hal.svg)](https://crates.io/crates/gd32e2-hal)
+  - HAL for GD32E230 Cortex-M23 microcontrollers
 
 ### Vorago
 
