@@ -1309,6 +1309,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 [`#![no_std]` crates][no-std-category] designed to run on resource-constrained devices.
 
 1. [adskalman](https://crates.io/crates/adskalman): Kalman filter and Rauch-Tung-Striebel smoothing implementation. [![crates.io](https://img.shields.io/crates/v/adskalman.svg)](https://crates.io/crates/adskalman)
+1. [aimdb-core](https://crates.io/crates/aimdb-core): Typed, versioned data contracts that run unchanged from `no_std` microcontrollers (Embassy) to the cloud (Tokio), with in-place schema migrations and MQTT, KNX and serial connectors. [![crates.io](https://img.shields.io/crates/v/aimdb-core.svg)](https://crates.io/crates/aimdb-core)
 1. [arbitrary-int](https://crates.io/crates/arbitrary-int): This crate implements arbitrary numbers for Rust. Once included, you can use types like `u5` or `u120`
 1. [atomic](https://crates.io/crates/atomic): Generic Atomic<T> wrapper type. [![crates.io](https://img.shields.io/crates/v/atomic.svg)](https://crates.io/crates/atomic)
 1. [bbqueue](https://crates.io/crates/bbqueue): A SPSC, statically allocatable queue based on BipBuffers suitable for DMA transfers - [![crates.io](https://img.shields.io/crates/v/bbqueue.svg)](https://crates.io/crates/bbqueue)
