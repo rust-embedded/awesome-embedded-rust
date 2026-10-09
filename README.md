@@ -169,6 +169,7 @@ These materials are available publicly, typically under permissive licenses.
 - [Tweede golf's workshop](https://workshop.tweede.golf) - A full workshop about Rust and embedded Rust. The embedded parts use the nRF52840-DK and a LIS3DH breakout board. ([github source](https://github.com/tweedegolf/rust-workshop))
 - [impl Rust on ESP32 Book](https://esp32.implrust.com/) - A hands-on guide that uses the ESP32 DevKit V1 to demonstrate how to work with various modules and sensors. ([github source](https://github.com/ImplFerris/esp32-book))
 - [Pico Pico Book](https://pico.implrust.com/) - A hands-on guide that uses the Pico 2 (RP2350) to demonstrate how to work with various modules and sensors. ([github source](https://github.com/ImplFerris/pico-pico))
+- [A Chip-Agnostic Architecture for Bare-Metal Embedded Rust](https://aaronqian.com/log/2026-08-01-chip-agnostic-architecture-bare-metal-rust/) - A complete architecture for structuring bare-metal firmware without a framework, from the layer map down to the trait seams that keep the logic chip-agnostic and host-testable, with a discrete-event simulation for integration tests.
 
 [Ferrous Systems]: https://ferrous-systems.com
 
