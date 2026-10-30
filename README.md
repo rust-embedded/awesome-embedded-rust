@@ -217,6 +217,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [scope](https://github.com/matheuswhite/scope-rs) Cross-platform serial-monitor TUI with an RTT interface (via `probe-rs`), hex/`@tag` input macros, search, session recording, and Lua plugins. - [![crates.io](https://img.shields.io/crates/v/scope-monitor.svg)](https://crates.io/crates/scope-monitor)
 - [mint](https://github.com/tomrford/mint) A CLI tool for firmware parametrisation. Combines data (xlsx/json) and layouts (toml) to generate static binary files (hex/mot) with support for multiple ABIs, schema fingerprinting, checksums, header generation and more.
 - [npnp](https://github.com/ref42/npnp) CLI tool for batch-exporting LCSC/EasyEDA components to KiCad and Altium Designer libraries.
+- [rp-unprobe](https://github.com/hardhus/rp-unprobe) Probe-less development for RP2040/RP2350 with Embassy: USB serial logging, panic, HardFault and stack overflow capture, and button-free flashing as a cargo runner, all compiled out of release builds. - [![crates.io](https://img.shields.io/crates/v/rp-unprobe.svg)](https://crates.io/crates/rp-unprobe)
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
