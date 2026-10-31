@@ -217,6 +217,7 @@ specifically endorsed or reviewed for accuracy or quality by the Embedded Workin
 - [scope](https://github.com/matheuswhite/scope-rs) Cross-platform serial-monitor TUI with an RTT interface (via `probe-rs`), hex/`@tag` input macros, search, session recording, and Lua plugins. - [![crates.io](https://img.shields.io/crates/v/scope-monitor.svg)](https://crates.io/crates/scope-monitor)
 - [mint](https://github.com/tomrford/mint) A CLI tool for firmware parametrisation. Combines data (xlsx/json) and layouts (toml) to generate static binary files (hex/mot) with support for multiple ABIs, schema fingerprinting, checksums, header generation and more.
 - [npnp](https://github.com/ref42/npnp) CLI tool for batch-exporting LCSC/EasyEDA components to KiCad and Altium Designer libraries.
+- [🤖 LabWired](https://github.com/w1ne/labwired-core) Deterministic firmware simulator written in Rust. Runs an ELF on modeled ARM Cortex-M, RISC-V and selected ESP32/Xtensa boards, with UART, GPIO and bus traces, YAML test scripts for CI, and GDB debugging without a probe.
 
 [embedded-hal-mock]: https://crates.io/crates/embedded-hal-mock
 
