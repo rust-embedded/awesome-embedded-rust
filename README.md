@@ -1369,6 +1369,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [minimq](https://crates.io/crates/minimq): A minimal MQTT5 client designed for no_std platforms - [![crates.io](https://img.shields.io/crates/v/minimq.svg)](https://crates.io/crates/minimq)
 1. [moonboot](https://github.com/jhbruhn/moonboot): OTA Bootloader Construction Framework for Rust no_std environments, especially embedded devices without an OS
 1. [nalgebra](https://crates.io/crates/nalgebra): general-purpose and low-dimensional linear algebra library - [![crates.io](https://img.shields.io/crates/v/nalgebra.svg)](https://crates.io/crates/nalgebra)
+1. [netip](https://github.com/yanet-platform/netip): Fast IPv4/IPv6 set operations with arbitrary masks, plus MAC address types. Uses only `core`, without dependencies or an allocator. - [![crates.io](https://img.shields.io/crates/v/netip.svg)](https://crates.io/crates/netip)
 1. [nom](https://crates.io/crates/nom): parser combinator framework - [![crates.io](https://img.shields.io/crates/v/nom.svg)](https://crates.io/crates/nom)
 1. [null-terminated](https://crates.io/crates/null-terminated): generic null-terminated arrays - [![crates.io](https://img.shields.io/crates/v/null-terminated.svg)](https://crates.io/crates/null-terminated)
 1. [num-format](https://crates.io/crates/num-format): Crate for producing string representations of numbers, formatted according to international standards, e.g. "1,000,000" for US English - [![crates.io](https://img.shields.io/crates/v/num-format.svg)](https://crates.io/crates/num-format)
