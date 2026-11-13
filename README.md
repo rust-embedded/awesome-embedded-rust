@@ -1474,6 +1474,7 @@ There are many ways to handle panics in embedded devices, these crates provide h
 - [🤖 RS-Key](https://github.com/TheMaxMur/RS-Key): no_std FIDO2/WebAuthn + U2F security-key firmware for the RP2350, built on embassy; also implements OpenPGP, PIV and OATH.
 - [🤖 vkey](https://github.com/vaulttec-dev/vaulttec-key): `no_std` USB hardware-key firmware for the ESP32-C6 (esp-hal, no ESP-IDF, no allocator, `unsafe_code = "forbid"`) storing TOTP secrets, passwords and project `.env` files under AES-256-GCM, keyed by Argon2id over a PIN and bound to an eFuse HMAC key, with Secure Boot v2 and a button press for every secret. No HID on this chip, so no FIDO/WebAuthn. Ships with a host CLI that flashes the board and speaks the same `wire.rs` compiled into both ends.
 - [oreboot](https://github.com/oreboot/oreboot): platform initialization firmware (first code to run) to bring up application processors, a fork of coreboot with no C, all written in Rust, leveraging Rust Embedded traits and crates
+- [🤖 IPMIRustFRU](https://github.com/ironkernel01/IPMIRustFRU): VITA 46.11 (VPX) IPMC firmware in `no_std` Rust for the STM32F401: IPMI commands, FRU inventory, sensors and redundant IPMB-A/B, with a bootloader, serial firmware update and a host emulator. Source-available license (free for evaluation and open products).
 
 ## Old books, blogs, and training materials
 
