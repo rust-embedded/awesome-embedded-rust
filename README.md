@@ -1393,6 +1393,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - [![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)](https://crates.io/crates/adafruit-bluefruit-protocol)
 1. [wtx](https://github.com/c410-f3r/wtx): Among other things, provides implementations to interact with HTTP, WebSockets and Databases.
 1. [uf-ahrs](https://crates.io/crates/uf-ahrs): AHRS sensor fusion library for embedded and `no_std` environments, implementing `Mahony`, `Madgwick`, and `VQF` filters. - [![crates.io](https://img.shields.io/crates/v/uf-ahrs.svg)](https://crates.io/crates/uf-ahrs)
+1. [🤖 tinymind](https://crates.io/crates/tinymind): Neural networks for microcontrollers with no `alloc` and no `unsafe`: fixed-point (Q16.16, Q8.8) and float MLPs and LSTMs with on-device training, int8 inference (dense, convolution, LSTM/GRU cells, softmax), quantized decision trees and Q-learning, plus importers for PyTorch and TFLite models. Every ported path is checked bit for bit against the C++ library it ports. - [![crates.io](https://img.shields.io/crates/v/tinymind.svg)](https://crates.io/crates/tinymind)
 
 [no-std-category]: https://crates.io/categories/no-std
 [`cmim`]: https://crates.io/crates/cmim
