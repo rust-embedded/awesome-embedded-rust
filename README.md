@@ -1393,6 +1393,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [adafruit-bluefruit-protocol]: A `no_std` parser for the [Adafruit Bluefruit LE Connect controller protocol]. - [![crates.io](https://img.shields.io/crates/v/adafruit-bluefruit-protocol)](https://crates.io/crates/adafruit-bluefruit-protocol)
 1. [wtx](https://github.com/c410-f3r/wtx): Among other things, provides implementations to interact with HTTP, WebSockets and Databases.
 1. [uf-ahrs](https://crates.io/crates/uf-ahrs): AHRS sensor fusion library for embedded and `no_std` environments, implementing `Mahony`, `Madgwick`, and `VQF` filters. - [![crates.io](https://img.shields.io/crates/v/uf-ahrs.svg)](https://crates.io/crates/uf-ahrs)
+1. [xtce-pus](https://github.com/RustSpaceLab/xtce-rs): Zero-allocation `no_std` ECSS-E-ST-70-41C (PUS-C) spacecraft telemetry and telecommand packet parser/encoder over CCSDS 133.0-B Space Packets, with CRC-16-CCITT, SipHash-2-4 command authentication, and a deterministic On-Board Computer responder. - [![crates.io](https://img.shields.io/crates/v/xtce-pus.svg)](https://crates.io/crates/xtce-pus)
 
 [no-std-category]: https://crates.io/categories/no-std
 [`cmim`]: https://crates.io/crates/cmim
