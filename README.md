@@ -1328,6 +1328,7 @@ Work in progress drivers. Help the authors make these crates awesome!
 1. [debouncr]: A simple no-std input debouncer to detect rising/falling edges with minimal RAM requirements. [![crates.io](https://img.shields.io/crates/v/debouncr.svg)](https://crates.io/crates/debouncr)
 1. [device-driver]: A toolkit to write better device drivers, faster. [![crates.io](https://img.shields.io/crates/v/device-driver.svg)](https://crates.io/crates/device-driver)
 1. [drogue-device](https://github.com/drogue-iot/drogue-device): A distribution of tools and examples for building embedded applications in Rust.
+1. [dtoolkit](https://github.com/google/dtoolkit): Pure-Rust Flattened Devicetree (FDT/DTB) parser, in-place editor, and overlay engine. [![crates.io](https://img.shields.io/crates/v/dtoolkit.svg)](https://crates.io/crates/dtoolkit)
 1. [dummy-pin](https://crates.io/crates/dummy-pin): Dummy implementations of the input/output pin traits. [![crates.io](https://img.shields.io/crates/v/dummy-pin.svg)](https://crates.io/crates/dummy-pin)
 1. [crossbus](https://github.com/hominee/crossbus): A Platform-Less, Runtime-Less Actor Computing Model.
 1. [🤖 crispy-bootloader](https://github.com/ADNTIO/crispy-bootloader-rp2040-rs): Minimal dual-bank bootloader for RP2040 with USB firmware upload, A/B bank switching, and CRC verification.
